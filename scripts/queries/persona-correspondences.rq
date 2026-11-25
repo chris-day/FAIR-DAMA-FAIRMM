@@ -1,0 +1,9 @@
+PREFIX align: <urn:fair-dama-fairmm:alignment:>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?personaLabel ?confidence ?counterpartLabel ?relationship
+WHERE {
+  ?mapping a align:PersonaCorrespondence ; align:fairmmPersona/rdfs:label ?personaLabel ;
+    align:confidence ?confidence ; align:hasCounterpart ?candidate .
+  ?candidate rdfs:label ?counterpartLabel ; align:relationshipKind ?relationship .
+}
+ORDER BY ?personaLabel ?counterpartLabel

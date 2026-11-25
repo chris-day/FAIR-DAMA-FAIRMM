@@ -1,0 +1,3939 @@
+{
+  "status": "passed",
+  "check_count": 970,
+  "checks": [
+    {
+      "check": "Closed structural checks",
+      "passed": true
+    },
+    {
+      "check": "Count Dimension",
+      "passed": true
+    },
+    {
+      "check": "Count MaturityLevel",
+      "passed": true
+    },
+    {
+      "check": "Count Descriptor",
+      "passed": true
+    },
+    {
+      "check": "Count Persona",
+      "passed": true
+    },
+    {
+      "check": "Count DataRole",
+      "passed": true
+    },
+    {
+      "check": "Framework has exactly the thirteen flat vocabulary members",
+      "passed": true
+    },
+    {
+      "check": "Descriptor cells complete",
+      "passed": true
+    },
+    {
+      "check": "No individual hierarchy urn:fair-dama-fairmm:alignment:L5",
+      "passed": true
+    },
+    {
+      "check": "No individual hierarchy urn:fair-dama-fairmm:alignment:L0",
+      "passed": true
+    },
+    {
+      "check": "No individual hierarchy urn:fair-dama-fairmm:alignment:L1",
+      "passed": true
+    },
+    {
+      "check": "No individual hierarchy urn:fair-dama-fairmm:alignment:D1",
+      "passed": true
+    },
+    {
+      "check": "No individual hierarchy urn:fair-dama-fairmm:alignment:D2",
+      "passed": true
+    },
+    {
+      "check": "No individual hierarchy urn:fair-dama-fairmm:alignment:D7",
+      "passed": true
+    },
+    {
+      "check": "No individual hierarchy urn:fair-dama-fairmm:alignment:D3",
+      "passed": true
+    },
+    {
+      "check": "No individual hierarchy urn:fair-dama-fairmm:alignment:L4",
+      "passed": true
+    },
+    {
+      "check": "No individual hierarchy urn:fair-dama-fairmm:alignment:L2",
+      "passed": true
+    },
+    {
+      "check": "No individual hierarchy urn:fair-dama-fairmm:alignment:D4",
+      "passed": true
+    },
+    {
+      "check": "No individual hierarchy urn:fair-dama-fairmm:alignment:D6",
+      "passed": true
+    },
+    {
+      "check": "No individual hierarchy urn:fair-dama-fairmm:alignment:D5",
+      "passed": true
+    },
+    {
+      "check": "No individual hierarchy urn:fair-dama-fairmm:alignment:L3",
+      "passed": true
+    },
+    {
+      "check": "Level ordinals exactly 0 through 5",
+      "passed": true
+    },
+    {
+      "check": "Immediate ordering exact",
+      "passed": true
+    },
+    {
+      "check": "Transitive ordering exact",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D1-L0",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D1-L0",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D2-L0",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D2-L0",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D3-L0",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D3-L0",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D4-L0",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D4-L0",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D5-L0",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D5-L0",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D6-L0",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D6-L0",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D7-L0",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D7-L0",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D1-L1",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D1-L1",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D2-L1",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D2-L1",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D3-L1",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D3-L1",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D4-L1",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D4-L1",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D5-L1",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D5-L1",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D6-L1",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D6-L1",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D7-L1",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D7-L1",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D1-L2",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D1-L2",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D2-L2",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D2-L2",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D3-L2",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D3-L2",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D4-L2",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D4-L2",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D5-L2",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D5-L2",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D6-L2",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D6-L2",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D7-L2",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D7-L2",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D1-L3",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D1-L3",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D2-L3",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D2-L3",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D3-L3",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D3-L3",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D4-L3",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D4-L3",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D5-L3",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D5-L3",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D6-L3",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D6-L3",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D7-L3",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D7-L3",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D1-L4",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D1-L4",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D2-L4",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D2-L4",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D3-L4",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D3-L4",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D4-L4",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D4-L4",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D5-L4",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D5-L4",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D6-L4",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D6-L4",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D7-L4",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D7-L4",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D1-L5",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D1-L5",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D2-L5",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D2-L5",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D3-L5",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D3-L5",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D4-L5",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D4-L5",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D5-L5",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D5-L5",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D6-L5",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D6-L5",
+      "passed": true
+    },
+    {
+      "check": "Descriptor explanatory comment D7-L5",
+      "passed": true
+    },
+    {
+      "check": "Descriptor source fidelity D7-L5",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity Business_Analyst",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity Business_Leader",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity Business_Owner",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity Citizen_Data_Scientist",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity Clinical_Data_Manager",
+      "passed": true
+    },
+    {
+      "check": "Gap is not equivalence PM-clinical-data-manager",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity Curator",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity Data_Analyst",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity Data_Engineer",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity Data_Integration_Specialist",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity Data_Owner",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity Data_Protection_Officer",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity Data_Quality_Manager",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity Data_Scientist",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity Data_Standards_and_Governance_Expert",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity Data_Steward",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity Data_Strategy_Owner",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity FAIR_Community_Manager",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity FAIR_Data_Architect",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity FAIR_Trainer",
+      "passed": true
+    },
+    {
+      "check": "Gap is not equivalence PM-fair-trainer",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity Knowledge-Enabled_Citizen",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity Lab_Manager",
+      "passed": true
+    },
+    {
+      "check": "Gap is not equivalence PM-lab-manager",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity Legal_Data_Expert",
+      "passed": true
+    },
+    {
+      "check": "Gap is not equivalence PM-legal-data-expert",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity Master_Data_Manager",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity Ontologist",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity Project_Manager",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity Reference_Data_Manager",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity Researcher",
+      "passed": true
+    },
+    {
+      "check": "Gap is not equivalence PM-researcher",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity Subject_Matter_Expert",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity Technology_Leader",
+      "passed": true
+    },
+    {
+      "check": "Persona source fidelity Autonomous_AI_Agent",
+      "passed": true
+    },
+    {
+      "check": "Gap is not equivalence PM-autonomous-ai-agent",
+      "passed": true
+    },
+    {
+      "check": "No identity or exact-match assertions",
+      "passed": true
+    },
+    {
+      "check": "Data roles are not attached globally to personas",
+      "passed": true
+    },
+    {
+      "check": "Area role occurrences preserved",
+      "passed": true
+    },
+    {
+      "check": "Source activity roles are separate objects",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-01-001",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-01-002",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-01-003",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-01-004",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-01-005",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-01-006",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-01-007",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-01-008",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-01-009",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-01-010",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-01-011",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-01-012",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-01-013",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-01-014",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-01-015",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-01-016",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-02-001",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-02-002",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-02-003",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-02-004",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-02-005",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-02-006",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-02-007",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-02-008",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-03-001",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-03-002",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-03-003",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-03-004",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-03-005",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-03-006",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-03-007",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-03-008",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-03-009",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-03-010",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-03-011",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-03-012",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-03-013",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-03-014",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-03-015",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-03-016",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-03-017",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-03-018",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-03-019",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-04-001",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-04-002",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-04-003",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-04-004",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-04-005",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-04-006",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-04-007",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-04-008",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-04-009",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-04-010",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-04-011",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-04-012",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-04-013",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-04-014",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-04-015",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-05-001",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-05-002",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-05-003",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-05-004",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-05-005",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-05-006",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-05-007",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-05-008",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-05-009",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-06-001",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-06-002",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-06-003",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-06-004",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-06-005",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-06-006",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-06-007",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-06-008",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-06-009",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-06-010",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-07-001",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-07-002",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-07-003",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-07-004",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-07-005",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-07-006",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-07-007",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-08-001",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-08-002",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-08-003",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-08-004",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-08-005",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-08-006",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-08-007",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-08-008",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-08-009",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-09-001",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-09-002",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-09-003",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-09-004",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-09-005",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-09-006",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-09-007",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-09-008",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-09-009",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-10-001",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-10-002",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-10-003",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-10-004",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-10-005",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-10-006",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-10-007",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-10-008",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-10-009",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-10-010",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-10-011",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-10-012",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-11-001",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-11-002",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-11-003",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-11-004",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-11-005",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-11-006",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-11-007",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-11-008",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-11-009",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-11-010",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-11-011",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-11-012",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-11-013",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-11-014",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-11-015",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-12-001",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-12-002",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-12-003",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-12-004",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-12-005",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-12-006",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-12-007",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-12-008",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-12-009",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-12-010",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-12-011",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-13-001",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-13-002",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-13-003",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-13-004",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-13-005",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-13-006",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-13-007",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-13-008",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-13-009",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-14-001",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-14-002",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-14-003",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-14-004",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-14-005",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-14-006",
+      "passed": true
+    },
+    {
+      "check": "All original activity fields ACT-14-007",
+      "passed": true
+    },
+    {
+      "check": "All source assertions retained",
+      "passed": true
+    },
+    {
+      "check": "Source layers remain distinct",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-00-direct-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-00-direct-F4",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-00-direct-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-00-direct-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-00-direct-I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-00-direct-I2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-00-direct-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-00-direct-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-00-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-00-direct-R1.3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-00-indirect-F1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-00-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-00-indirect-F3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-00-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-00-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-00-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-00-indirect-R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-00-indirect-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-02-direct-I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-02-direct-I2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-02-direct-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-02-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-02-direct-R1.3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-02-indirect-F1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-02-002-direct-I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-02-002-direct-I2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-02-002-direct-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-02-002-direct-I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-02-002-direct-I2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-02-002-direct-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-02-005-direct-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-02-005-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-02-005-direct-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-02-005-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-02-007-direct-I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-02-007-direct-I2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-02-007-direct-R1.3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-02-007-indirect-F1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-02-007-direct-I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-02-007-direct-I2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-02-007-direct-R1.3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-02-007-indirect-F1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-02-008-direct-I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-02-008-direct-I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-03-direct-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-03-direct-I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-03-direct-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-03-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-03-005-direct-I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-03-005-direct-I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-03-007-direct-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-03-007-direct-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-03-008-direct-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-03-008-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-03-008-direct-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-03-008-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-03-011-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-03-011-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-03-016-direct-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-03-016-direct-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-04-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-04-indirect-R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-04-indirect-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-04-002-indirect-R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-04-002-indirect-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-04-002-indirect-R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-04-002-indirect-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-04-003-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-04-003-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-04-004-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-04-004-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-04-007-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-04-007-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-04-008-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-04-008-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-04-014-indirect-R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-04-014-indirect-R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-05-direct-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-05-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-05-001-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-05-001-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-05-002-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-05-002-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-05-003-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-05-003-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-05-004-direct-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-05-004-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-05-004-direct-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-05-004-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-05-005-direct-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-05-005-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-05-005-direct-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-05-005-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-05-006-direct-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-05-006-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-05-006-direct-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-05-006-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-05-007-direct-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-05-007-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-05-007-direct-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-05-007-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-05-008-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-05-008-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-05-009-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-05-009-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-06-direct-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-06-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-06-002-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-06-002-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-06-006-direct-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-06-006-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-06-006-direct-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-06-006-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-06-007-direct-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-06-007-direct-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-07-direct-F4",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-07-direct-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-07-004-direct-F4",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-07-004-direct-F4",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-07-005-direct-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-07-005-direct-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-08-direct-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-08-direct-F4",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-08-direct-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-08-direct-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-08-direct-I2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-08-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-08-002-direct-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-08-002-direct-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-08-002-direct-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-08-002-direct-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-08-003-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-08-003-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-08-004-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-08-004-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-08-006-direct-I2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-08-006-direct-I2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-08-007-direct-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-08-007-direct-F4",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-08-007-direct-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-08-007-direct-F4",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-08-008-direct-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-08-008-direct-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-09-direct-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-09-direct-F4",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-09-direct-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-09-direct-I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-09-direct-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-09-direct-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-09-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-09-direct-R1.3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-09-indirect-F3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-09-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-001-direct-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-001-direct-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-001-indirect-F3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-001-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-001-direct-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-001-direct-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-001-indirect-F3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-001-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-002-direct-I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-002-indirect-F3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-002-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-002-direct-I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-002-indirect-F3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-002-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-003-direct-R1.3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-003-indirect-F3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-003-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-003-direct-R1.3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-003-indirect-F3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-003-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-004-indirect-F3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-004-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-004-indirect-F3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-004-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-005-direct-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-005-direct-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-005-indirect-F3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-005-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-005-direct-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-005-direct-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-005-indirect-F3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-005-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-006-direct-I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-006-direct-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-006-indirect-F3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-006-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-006-direct-I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-006-direct-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-006-indirect-F3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-006-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-007-direct-F4",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-007-indirect-F3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-007-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-007-direct-F4",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-007-indirect-F3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-007-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-008-direct-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-008-indirect-F3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-008-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-008-direct-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-008-indirect-F3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-008-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-009-direct-F4",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-009-direct-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-009-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-009-indirect-F3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-09-009-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-009-direct-F4",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-009-direct-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-009-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-009-indirect-F3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-09-009-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-10-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-10-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-10-001-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-10-001-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-10-001-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-10-001-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-10-002-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-10-002-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-10-002-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-10-002-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-10-003-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-10-003-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-10-003-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-10-003-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-10-004-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-10-004-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-10-004-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-10-004-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-10-005-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-10-005-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-10-005-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-10-005-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-10-006-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-10-006-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-10-006-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-10-006-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-10-007-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-10-007-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-10-007-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-10-007-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-10-008-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-10-008-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-10-008-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-10-008-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-10-009-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-10-009-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-10-009-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-10-009-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-10-010-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-10-010-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-10-010-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-10-010-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-10-011-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-10-011-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-10-011-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-10-011-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-10-012-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-10-012-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-10-012-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-10-012-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-11-direct-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-11-direct-F4",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-11-direct-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-11-direct-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-11-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-11-indirect-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-11-indirect-A1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-11-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-11-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-11-indirect-I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-11-indirect-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-11-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-11-indirect-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-11-indirect-R1.3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-001-direct-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-001-direct-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-001-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-001-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-001-direct-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-001-direct-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-001-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-001-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-002-direct-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-002-direct-F4",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-002-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-002-direct-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-002-direct-F4",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-002-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-003-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-003-indirect-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-003-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-003-indirect-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-004-direct-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-004-direct-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-004-direct-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-004-direct-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-005-direct-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-005-indirect-R1.3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-005-direct-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-005-indirect-R1.3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-006-indirect-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-006-indirect-A1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-006-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-006-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-006-indirect-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-006-indirect-A1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-006-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-006-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-007-indirect-I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-007-indirect-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-007-indirect-I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-007-indirect-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-008-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-008-indirect-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-008-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-008-indirect-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-009-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-009-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-010-indirect-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-010-indirect-A1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-010-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-010-indirect-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-010-indirect-A1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-010-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-011-indirect-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-011-indirect-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-011-indirect-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-011-indirect-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-012-indirect-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-012-indirect-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-012-indirect-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-012-indirect-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-013-direct-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-013-indirect-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-013-indirect-I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-013-direct-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-013-indirect-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-013-indirect-I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-014-indirect-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-014-indirect-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-015-direct-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-015-direct-F4",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-015-direct-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-11-015-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-015-direct-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-015-direct-F4",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-015-direct-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-11-015-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-13-direct-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-13-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-13-indirect-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-13-indirect-A1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-13-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-13-indirect-I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-13-indirect-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-13-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-13-indirect-R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-13-indirect-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-13-indirect-R1.3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-13-001-indirect-R1.3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-13-001-indirect-R1.3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-13-002-indirect-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-13-002-indirect-A1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-13-002-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-13-002-indirect-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-13-002-indirect-A1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-13-002-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-13-003-indirect-R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-13-003-indirect-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-13-003-indirect-R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-13-003-indirect-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-13-004-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-13-004-indirect-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-13-004-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-13-004-indirect-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-13-005-direct-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-13-005-indirect-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-13-005-direct-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-13-005-indirect-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-13-006-indirect-I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-13-006-indirect-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-13-006-indirect-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-13-006-indirect-I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-13-006-indirect-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-13-006-indirect-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-13-007-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-13-007-indirect-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-13-007-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-13-007-indirect-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-13-008-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-13-008-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-13-008-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-13-008-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-13-009-indirect-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-13-009-indirect-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-13-009-indirect-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-13-009-indirect-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-14-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification S-14-indirect-R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-14-001-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-14-001-indirect-R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-14-001-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-14-001-indirect-R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-14-002-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-14-002-indirect-R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-14-002-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-14-002-indirect-R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-14-003-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-14-003-indirect-R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-14-003-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-14-003-indirect-R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-14-004-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-14-004-indirect-R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-14-004-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-14-004-indirect-R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-14-006-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-14-006-indirect-R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-14-006-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-14-006-indirect-R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-14-007-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification WB-ACT-14-007-indirect-R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-14-007-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ACT-14-007-indirect-R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-02-direct-I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-02-direct-I2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-02-direct-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-02-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-02-direct-R1.3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-02-indirect-F1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-03-direct-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-03-direct-I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-03-direct-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-03-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-04-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-04-indirect-R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-04-indirect-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-05-direct-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-05-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-06-direct-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-06-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-07-direct-F4",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-07-direct-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-08-direct-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-08-direct-F4",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-08-direct-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-08-direct-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-08-direct-I2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-08-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-09-direct-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-09-direct-F4",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-09-direct-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-09-direct-I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-09-direct-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-09-direct-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-09-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-09-direct-R1.3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-09-indirect-F3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-09-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-10-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-10-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-11-direct-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-11-direct-F4",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-11-direct-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-11-direct-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-11-direct-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-11-indirect-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-11-indirect-A1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-11-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-11-indirect-A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-11-indirect-I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-11-indirect-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-11-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-11-indirect-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-11-indirect-R1.3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-13-direct-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-13-indirect-F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-13-indirect-A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-13-indirect-A1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-13-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-13-indirect-I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-13-indirect-I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-13-indirect-R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-13-indirect-R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-13-indirect-R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-13-indirect-R1.3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-14-indirect-A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification OVERVIEW-14-indirect-R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AttachUsageLicenseToR1_1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-ConfigureRetrievalAuthorizationToA1_2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-IncludeDatasetIdentifierToF3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-IndexInSearchableCatalogToF4",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-PublishProvenanceToR1_2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-PublishSharedRepresentationToI1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/BigDataDataScience/row-6/direct/R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AssignProvenanceResponsibilityToR1_2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-SetDataSecurityPolicyToA1_2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-SetLicensingPolicyToR1_1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/BigDataDataScience/row-10/indirect/A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/BigDataDataScience/row-10/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/BigDataDataScience/row-2/indirect/R1.3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/BigDataDataScience/row-3/indirect/A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/BigDataDataScience/row-3/indirect/A1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/BigDataDataScience/row-3/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/BigDataDataScience/row-4/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/BigDataDataScience/row-4/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/BigDataDataScience/row-5/indirect/F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/BigDataDataScience/row-5/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/BigDataDataScience/row-6/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/BigDataDataScience/row-7/indirect/I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/BigDataDataScience/row-7/indirect/I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/BigDataDataScience/row-7/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/BigDataDataScience/row-8/indirect/R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/BigDataDataScience/row-8/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/BigDataDataScience/row-9/indirect/F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/BigDataDataScience/row-9/indirect/R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/DataHandlingEthics/row-2/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/DataHandlingEthics/row-2/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/DataHandlingEthics/row-3/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/DataHandlingEthics/row-3/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/DataHandlingEthics/row-4/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/DataHandlingEthics/row-4/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/DataHandlingEthics/row-5/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/DataHandlingEthics/row-5/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/DataHandlingEthics/row-7/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/DataHandlingEthics/row-7/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/DataHandlingEthics/row-8/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-contribution/DataHandlingEthics/row-8/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/big-data-data-science/direct/R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/big-data-data-science/indirect/A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/big-data-data-science/indirect/A1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/big-data-data-science/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/big-data-data-science/indirect/F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/big-data-data-science/indirect/I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/big-data-data-science/indirect/I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/big-data-data-science/indirect/R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/big-data-data-science/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/big-data-data-science/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/big-data-data-science/indirect/R1.3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-architecture/enabling/A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-architecture/enabling/A1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-architecture/enabling/I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-governance/enabling/A1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-governance/enabling/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-governance/enabling/A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-governance/enabling/F1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-governance/enabling/I2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-governance/enabling/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-governance/enabling/R1.3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-handling-ethics/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-handling-ethics/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-integration-interoperability/direct/A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-integration-interoperability/direct/A1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-integration-interoperability/direct/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-integration-interoperability/direct/F3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-integration-interoperability/direct/F4",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-integration-interoperability/direct/I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-integration-interoperability/direct/I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-integration-interoperability/direct/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-integration-interoperability/direct/R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-integration-interoperability/direct/R1.3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-modeling-design/direct/F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-modeling-design/direct/F3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-modeling-design/direct/I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-modeling-design/direct/I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-modeling-design/direct/R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-modeling-design/direct/R1.3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-quality-management/direct/F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-quality-management/direct/F3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-quality-management/direct/I2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-quality-management/direct/R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-quality-management/direct/R1.3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-security/direct/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-storage-operations/direct/A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-storage-operations/direct/A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-storage-operations/direct/F1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-storage-operations/direct/R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-warehousing-business-intelligence/direct/F4",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-warehousing-business-intelligence/direct/R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/data-warehousing-business-intelligence/direct/R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/documents-content-management/direct/A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/documents-content-management/direct/F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/documents-content-management/direct/F4",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/documents-content-management/direct/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/metadata-management/direct/A1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/metadata-management/direct/A1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/metadata-management/direct/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/metadata-management/direct/A2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/metadata-management/direct/F1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/metadata-management/direct/F2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/metadata-management/direct/F3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/metadata-management/direct/F4",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/metadata-management/direct/I1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/metadata-management/direct/I2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/metadata-management/direct/I3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/metadata-management/direct/R1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/metadata-management/direct/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/metadata-management/direct/R1.2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/metadata-management/direct/R1.3",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/reference-master-data-management/direct/F1",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/reference-master-data-management/direct/I2",
+      "passed": true
+    },
+    {
+      "check": "Original source classification ONT-AREA-area-alignment/reference-master-data-management/direct/I3",
+      "passed": true
+    },
+    {
+      "check": "All dimension assertions retained",
+      "passed": true
+    },
+    {
+      "check": "Dimension graph matches approved Sankey",
+      "passed": true
+    },
+    {
+      "check": "Onset source-release baseline count",
+      "passed": true
+    },
+    {
+      "check": "Cumulative source-release baseline count",
+      "passed": true
+    },
+    {
+      "check": "Cumulative graph matches approved Sankey",
+      "passed": true
+    },
+    {
+      "check": "Complete cumulative closure urn:fair-dama-fairmm:alignment:ONSET-01-direct",
+      "passed": true
+    },
+    {
+      "check": "Complete cumulative closure urn:fair-dama-fairmm:alignment:ONSET-08-direct",
+      "passed": true
+    },
+    {
+      "check": "Complete cumulative closure urn:fair-dama-fairmm:alignment:ONSET-11-direct",
+      "passed": true
+    },
+    {
+      "check": "Complete cumulative closure urn:fair-dama-fairmm:alignment:ONSET-10-direct",
+      "passed": true
+    },
+    {
+      "check": "Complete cumulative closure urn:fair-dama-fairmm:alignment:ONSET-06-direct",
+      "passed": true
+    },
+    {
+      "check": "Complete cumulative closure urn:fair-dama-fairmm:alignment:ONSET-06-indirect",
+      "passed": true
+    },
+    {
+      "check": "Complete cumulative closure urn:fair-dama-fairmm:alignment:ONSET-02-indirect",
+      "passed": true
+    },
+    {
+      "check": "Complete cumulative closure urn:fair-dama-fairmm:alignment:ONSET-04-direct",
+      "passed": true
+    },
+    {
+      "check": "Complete cumulative closure urn:fair-dama-fairmm:alignment:ONSET-11-indirect",
+      "passed": true
+    },
+    {
+      "check": "Complete cumulative closure urn:fair-dama-fairmm:alignment:ONSET-04-indirect",
+      "passed": true
+    },
+    {
+      "check": "Complete cumulative closure urn:fair-dama-fairmm:alignment:ONSET-02-direct",
+      "passed": true
+    },
+    {
+      "check": "Complete cumulative closure urn:fair-dama-fairmm:alignment:ONSET-14-direct",
+      "passed": true
+    },
+    {
+      "check": "Complete cumulative closure urn:fair-dama-fairmm:alignment:ONSET-08-indirect",
+      "passed": true
+    },
+    {
+      "check": "Complete cumulative closure urn:fair-dama-fairmm:alignment:ONSET-07-direct",
+      "passed": true
+    },
+    {
+      "check": "Complete cumulative closure urn:fair-dama-fairmm:alignment:ONSET-13-direct",
+      "passed": true
+    },
+    {
+      "check": "Complete cumulative closure urn:fair-dama-fairmm:alignment:ONSET-09-direct",
+      "passed": true
+    },
+    {
+      "check": "Complete cumulative closure urn:fair-dama-fairmm:alignment:ONSET-03-indirect",
+      "passed": true
+    },
+    {
+      "check": "Complete cumulative closure urn:fair-dama-fairmm:alignment:ONSET-10-indirect",
+      "passed": true
+    },
+    {
+      "check": "Complete cumulative closure urn:fair-dama-fairmm:alignment:ONSET-05-indirect",
+      "passed": true
+    },
+    {
+      "check": "Complete cumulative closure urn:fair-dama-fairmm:alignment:ONSET-14-indirect",
+      "passed": true
+    },
+    {
+      "check": "Complete cumulative closure urn:fair-dama-fairmm:alignment:ONSET-03-direct",
+      "passed": true
+    },
+    {
+      "check": "Complete cumulative closure urn:fair-dama-fairmm:alignment:ONSET-09-indirect",
+      "passed": true
+    },
+    {
+      "check": "Complete cumulative closure urn:fair-dama-fairmm:alignment:ONSET-01-indirect",
+      "passed": true
+    },
+    {
+      "check": "Complete cumulative closure urn:fair-dama-fairmm:alignment:ONSET-13-indirect",
+      "passed": true
+    },
+    {
+      "check": "Complete cumulative closure urn:fair-dama-fairmm:alignment:ONSET-05-direct",
+      "passed": true
+    },
+    {
+      "check": "Complete cumulative closure urn:fair-dama-fairmm:alignment:ONSET-07-indirect",
+      "passed": true
+    },
+    {
+      "check": "Independent SPARQL CONSTRUCT agrees with materializer",
+      "passed": true
+    },
+    {
+      "check": "SPARQL query executes contextual-roles.rq",
+      "passed": true
+    },
+    {
+      "check": "SPARQL query executes descriptor-comments.rq",
+      "passed": true
+    },
+    {
+      "check": "SPARQL query executes dimension-links.rq",
+      "passed": true
+    },
+    {
+      "check": "SPARQL query executes earliest-levels.rq",
+      "passed": true
+    },
+    {
+      "check": "SPARQL query executes indirect-pathways.rq",
+      "passed": true
+    },
+    {
+      "check": "SPARQL query executes level-links.rq",
+      "passed": true
+    },
+    {
+      "check": "SPARQL query executes persona-correspondences.rq",
+      "passed": true
+    },
+    {
+      "check": "SPARQL query executes source-layers.rq",
+      "passed": true
+    },
+    {
+      "check": "No structured relationships serialized as JSON literals",
+      "passed": true
+    },
+    {
+      "check": "Source text remains textual",
+      "passed": true
+    },
+    {
+      "check": "Every project predicate declared",
+      "passed": true
+    },
+    {
+      "check": "Both source checkouts unchanged",
+      "passed": true
+    },
+    {
+      "check": "Source Git revisions match pinned baselines",
+      "passed": true
+    },
+    {
+      "check": "Approved upstream input digests match",
+      "passed": true
+    },
+    {
+      "check": "Baseline input unchanged artefacts/fairmm-crosswalk.json",
+      "passed": true
+    },
+    {
+      "check": "Baseline input unchanged results/ontology/baselines/levels-approved.json",
+      "passed": true
+    },
+    {
+      "check": "Baseline input unchanged results/ontology/baselines/dimensions-approved.json",
+      "passed": true
+    },
+    {
+      "check": "Download copy identical fairmm-core.ttl",
+      "passed": true
+    },
+    {
+      "check": "Download copy identical fairmm-v1.2.5.ttl",
+      "passed": true
+    },
+    {
+      "check": "Download copy identical fairmm-personas.ttl",
+      "passed": true
+    },
+    {
+      "check": "Download copy identical fairmm-dama-alignment.ttl",
+      "passed": true
+    },
+    {
+      "check": "Download copy identical fairmm-dama-derived.ttl",
+      "passed": true
+    },
+    {
+      "check": "Negative case rejected: two descriptor levels",
+      "passed": true
+    },
+    {
+      "check": "Negative case rejected: missing indirect pathway",
+      "passed": true
+    },
+    {
+      "check": "Negative case rejected: changed inherited type",
+      "passed": true
+    },
+    {
+      "check": "Negative case rejected: positive L0",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "counts": {
+    "Dimension": 7,
+    "MaturityLevel": 6,
+    "Descriptor": 42,
+    "Persona": 30,
+    "DataRole": 3,
+    "DimensionAlignment": 472,
+    "OnsetAlignment": 26,
+    "CumulativeAssociation": 127,
+    "RoleAssignmentCandidate": 1445,
+    "AreaRoleOccurrence": 278,
+    "ActivityRoleOccurrence": 356,
+    "SourceAssertion": 606
+  },
+  "source_layers": {
+    "activity_table": 173,
+    "workbook_activity_table": 173,
+    "catalogue_overview_summary": 64,
+    "ontology_contribution": 40,
+    "ontology_area_assessment": 74,
+    "segment_summary": 82
+  },
+  "query_rows": {
+    "contextual-roles.rq": 1432,
+    "descriptor-comments.rq": 42,
+    "dimension-links.rq": 54,
+    "earliest-levels.rq": 26,
+    "indirect-pathways.rq": 318,
+    "level-links.rq": 127,
+    "persona-correspondences.rq": 82,
+    "source-layers.rq": 13
+  },
+  "negative_cases": [
+    {
+      "case": "two descriptor levels",
+      "rejected": true
+    },
+    {
+      "case": "missing indirect pathway",
+      "rejected": true
+    },
+    {
+      "case": "changed inherited type",
+      "rejected": true
+    },
+    {
+      "case": "positive L0",
+      "rejected": true
+    }
+  ],
+  "triples": 78582,
+  "validation_method": "RDFLib structural checks, source comparisons and SPARQL; no SHACL"
+}

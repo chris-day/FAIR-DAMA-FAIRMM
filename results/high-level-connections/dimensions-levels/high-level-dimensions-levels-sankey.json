@@ -1,0 +1,3784 @@
+{
+  "title": "Dimensions × Levels",
+  "key": "dimensions-levels",
+  "question": "How do the seven dimensions and six ordered levels connect through the 42 contextual descriptors?",
+  "basis": "Dimension → Descriptor → Level. Each descriptor contributes one unit on each adjacent leg: 42 descriptors, 84 graphical links. These are matrix membership relationships, not Direct/Indirect contributions or assessed maturity. Hover or focus a descriptor to read its explanatory RDF comment; select it for the summary and source.",
+  "width": 2400,
+  "height": 4066,
+  "nodes": [
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D1",
+      "label": "FAIR Data",
+      "column": 0,
+      "side": "source",
+      "comment": "",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/fmm-d1.md",
+      "x": 435,
+      "y": 1340.0,
+      "height": 153.14285714285717,
+      "lines": [
+        "FAIR Data"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D1-L0",
+      "label": "D1-L0",
+      "column": 1,
+      "side": "target",
+      "comment": "Data is fragmented across silos, inconsistent formats and local systems, with ad hoc access and usage arrangements. Finding and using it often requires specialist knowledge; a coordinated FAIR data approach is absent.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L62",
+      "x": 1120,
+      "y": 220.0,
+      "height": 25.523809523809526,
+      "lines": [
+        "D1-L0"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:L0",
+      "label": "L0 Life is unFAIR",
+      "column": 2,
+      "side": "target",
+      "comment": "",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FMMlevels.md",
+      "x": 1900,
+      "y": 1372.0,
+      "height": 178.66666666666669,
+      "lines": [
+        "L0 Life is unFAIR"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D1-L1",
+      "label": "D1-L1",
+      "column": 1,
+      "side": "target",
+      "comment": "Initial cataloguing, data-lake hosting and access governance are emerging, alongside early metadata and identifier use. Data remains heterogeneous and generally unconformed to a domain model, so reuse still depends on technical and subject expertise.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L57",
+      "x": 1120,
+      "y": 309.5238095238095,
+      "height": 25.523809523809526,
+      "lines": [
+        "D1-L1"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:L1",
+      "label": "L1 Started the FAIR journey",
+      "column": 2,
+      "side": "target",
+      "comment": "",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FMMlevels.md",
+      "x": 1900,
+      "y": 1614.6666666666667,
+      "height": 178.66666666666669,
+      "lines": [
+        "L1 Started the FAIR journey"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D1-L2",
+      "label": "D1-L2",
+      "column": 1,
+      "side": "target",
+      "comment": "Data is catalogued and conforms to local or system-specific models, with system-level access controls. It may reside in a data lake, but alignment to shared domain models is incomplete and technical and subject expertise are still needed.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L65",
+      "x": 1120,
+      "y": 399.04761904761904,
+      "height": 25.523809523809526,
+      "lines": [
+        "D1-L2"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:L2",
+      "label": "L2 Getting FAIR",
+      "column": 2,
+      "side": "target",
+      "comment": "",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FMMlevels.md",
+      "x": 1900,
+      "y": 1857.3333333333335,
+      "height": 178.66666666666669,
+      "lines": [
+        "L2 Getting FAIR"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D1-L3",
+      "label": "D1-L3",
+      "column": 1,
+      "side": "target",
+      "comment": "FAIR data is working within departments or domains: local reference data, resolvable metadata, domain models and data-level access controls support integration, reuse and emerging self-service analytics. Broader organisational interoperability and reuse remain challenging.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L66",
+      "x": 1120,
+      "y": 488.57142857142856,
+      "height": 25.523809523809526,
+      "lines": [
+        "D1-L3"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:L3",
+      "label": "L3 Pretty FAIR",
+      "column": 2,
+      "side": "target",
+      "comment": "",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FMMlevels.md",
+      "x": 1900,
+      "y": 2100.0,
+      "height": 178.66666666666669,
+      "lines": [
+        "L3 Pretty FAIR"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D1-L4",
+      "label": "D1-L4",
+      "column": 1,
+      "side": "target",
+      "comment": "FAIR data can be found and used across the organisation through consistent identifiers, controlled vocabularies, enterprise metadata and reference data, and cross-domain models. Cross-domain analytics and machine interpretation are supported, and generating data FAIR is becoming normal practice.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L68",
+      "x": 1120,
+      "y": 578.0952380952381,
+      "height": 25.523809523809526,
+      "lines": [
+        "D1-L4"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:L4",
+      "label": "L4 Really FAIR",
+      "column": 2,
+      "side": "target",
+      "comment": "",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FMMlevels.md",
+      "x": 1900,
+      "y": 2342.6666666666665,
+      "height": 178.66666666666669,
+      "lines": [
+        "L4 Really FAIR"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D1-L5",
+      "label": "D1-L5",
+      "column": 1,
+      "side": "target",
+      "comment": "FAIR-by-design data remains FAIR throughout its lifecycle and supports relevant internal and external use. Shared semantic descriptions, machine-actionable resources and interoperable ecosystem practices enable automated operations and reuse across organisational boundaries.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L67",
+      "x": 1120,
+      "y": 667.6190476190476,
+      "height": 25.523809523809526,
+      "lines": [
+        "D1-L5"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:L5",
+      "label": "L5 FAIRest of them all",
+      "column": 2,
+      "side": "target",
+      "comment": "",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FMMlevels.md",
+      "x": 1900,
+      "y": 2585.333333333333,
+      "height": 178.66666666666669,
+      "lines": [
+        "L5 FAIRest of them all"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D2",
+      "label": "FAIR Leadership",
+      "column": 0,
+      "side": "source",
+      "comment": "",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/fmm-d2.md",
+      "x": 435,
+      "y": 1557.142857142857,
+      "height": 153.14285714285717,
+      "lines": [
+        "FAIR Leadership"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D2-L0",
+      "label": "D2-L0",
+      "column": 1,
+      "side": "target",
+      "comment": "Leadership engagement, FAIR understanding and ownership are lacking or insufficient. FAIR data is not an organisational priority, and staff and processes receive little support for adopting it.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L70",
+      "x": 1120,
+      "y": 757.1428571428571,
+      "height": 25.523809523809526,
+      "lines": [
+        "D2-L0"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D2-L1",
+      "label": "D2-L1",
+      "column": 1,
+      "side": "target",
+      "comment": "Leadership awareness and early champions are emerging from business, technology or data roles. Top-down or bottom-up support begins, but implementation strategy and resources may still be unclear, with initial interest in training.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L68",
+      "x": 1120,
+      "y": 846.6666666666666,
+      "height": 25.523809523809526,
+      "lines": [
+        "D2-L1"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D2-L2",
+      "label": "D2-L2",
+      "column": 1,
+      "side": "target",
+      "comment": "Leadership workshops, internal champions and initial teams are building understanding of FAIR value. Early projects receive increasing sponsorship, funding and commitment to enabling services and organisations.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L79",
+      "x": 1120,
+      "y": 936.1904761904761,
+      "height": 25.523809523809526,
+      "lines": [
+        "D2-L2"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D2-L3",
+      "label": "D2-L3",
+      "column": 1,
+      "side": "target",
+      "comment": "Leadership expects FAIR implementation to be included in project budgets and sets objectives, accountability, metrics and training. A supported organisational vision is backed by people and funding, with some engagement in external standards convergence.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L88",
+      "x": 1120,
+      "y": 1025.7142857142858,
+      "height": 25.523809523809526,
+      "lines": [
+        "D2-L3"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D2-L4",
+      "label": "D2-L4",
+      "column": 1,
+      "side": "target",
+      "comment": "An enterprise FAIR mandate is embedded in budget approvals, governance and risk management, with clear leadership accountability. Internal implementation is funded, while procurement requirements and participation in the wider FAIR community extend its influence.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L95",
+      "x": 1120,
+      "y": 1115.2380952380954,
+      "height": 25.523809523809526,
+      "lines": [
+        "D2-L4"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D2-L5",
+      "label": "D2-L5",
+      "column": 1,
+      "side": "target",
+      "comment": "Senior leadership is fully committed and accountable for FAIR strategy, with support across business and IT. Demonstrated value, sustained resources, operational metrics and recognised external leadership support FAIR practice within and beyond the organisation.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L86",
+      "x": 1120,
+      "y": 1204.761904761905,
+      "height": 25.523809523809526,
+      "lines": [
+        "D2-L5"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D3",
+      "label": "FAIR Strategy",
+      "column": 0,
+      "side": "source",
+      "comment": "",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/fmm-d3.md",
+      "x": 435,
+      "y": 1774.2857142857142,
+      "height": 153.14285714285717,
+      "lines": [
+        "FAIR Strategy"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D3-L0",
+      "label": "D3-L0",
+      "column": 1,
+      "side": "target",
+      "comment": "There is no explicit FAIR strategy or coordinated implementation pathway. Any use of FAIR principles is reactive or ad hoc, with little strategic recognition of their value.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L81",
+      "x": 1120,
+      "y": 1294.2857142857147,
+      "height": 25.523809523809526,
+      "lines": [
+        "D3-L0"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D3-L1",
+      "label": "D3-L1",
+      "column": 1,
+      "side": "target",
+      "comment": "An initial FAIR vision and plan are emerging as leaders recognise its strategic value. The organisation reviews existing practice, considers collaboration and explores technical and open-resource choices, but execution remains embryonic.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L85",
+      "x": 1120,
+      "y": 1383.8095238095243,
+      "height": 25.523809523809526,
+      "lines": [
+        "D3-L1"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D3-L2",
+      "label": "D3-L2",
+      "column": 1,
+      "side": "target",
+      "comment": "A first FAIR vision, strategy and plan has approval at organisational or local level. Champions and tactical initiatives are learning from early implementation, while FAIR begins to align with the broader data strategy, models and architectural choices.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L97",
+      "x": 1120,
+      "y": 1473.333333333334,
+      "height": 25.523809523809526,
+      "lines": [
+        "D3-L2"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D3-L3",
+      "label": "D3-L3",
+      "column": 1,
+      "side": "target",
+      "comment": "A refined FAIR strategy and implementation guidance have leadership support, budget and capacity. Value is beginning to be tracked, enterprise architecture and federated domain models are considered, and implementation plans may still operate at departmental scale.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L110",
+      "x": 1120,
+      "y": 1562.8571428571436,
+      "height": 25.523809523809526,
+      "lines": [
+        "D3-L3"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D3-L4",
+      "label": "D3-L4",
+      "column": 1,
+      "side": "target",
+      "comment": "A sustained enterprise FAIR strategy connects central and federated domain data through operating models, standards and procedures. FAIR metrics, risk management and allocated people and budgets support implementation, with strategic awareness embedded across the organisation.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L109",
+      "x": 1120,
+      "y": 1652.3809523809532,
+      "height": 25.523809523809526,
+      "lines": [
+        "D3-L4"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D3-L5",
+      "label": "D3-L5",
+      "column": 1,
+      "side": "target",
+      "comment": "FAIR is a widely understood organisational norm with a durable, transparent strategy. Measurable business outcomes, cost-benefit evidence, cross-functional integration and feedback guide investment, while relevant external stakeholders can see the strategy in practice.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L103",
+      "x": 1120,
+      "y": 1741.9047619047628,
+      "height": 25.523809523809526,
+      "lines": [
+        "D3-L5"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D4",
+      "label": "FAIR Personas",
+      "column": 0,
+      "side": "source",
+      "comment": "",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/fmm-d4.md",
+      "x": 435,
+      "y": 1991.4285714285713,
+      "height": 153.14285714285717,
+      "lines": [
+        "FAIR Personas"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D4-L0",
+      "label": "D4-L0",
+      "column": 1,
+      "side": "target",
+      "comment": "FAIR competence and designated roles are absent or poorly recognised. Resource resistance, reluctance to share data and cultural barriers impede the adoption of FAIR responsibilities.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L90",
+      "x": 1120,
+      "y": 1831.4285714285725,
+      "height": 25.523809523809526,
+      "lines": [
+        "D4-L0"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D4-L1",
+      "label": "D4-L1",
+      "column": 1,
+      "side": "target",
+      "comment": "Early curators, semantic experts, coordinators and data strategists begin supporting FAIR work. External experts and workshops help staff develop initial skills and lead the first internal projects.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L101",
+      "x": 1120,
+      "y": 1920.952380952382,
+      "height": 25.523809523809526,
+      "lines": [
+        "D4-L1"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D4-L2",
+      "label": "D4-L2",
+      "column": 1,
+      "side": "target",
+      "comment": "Designated FAIR-related roles are beginning to take shape, including scientists, stewards, curators, governance and integration specialists, owners and community roles. Individuals may hold several roles, while early teams demonstrate value through prototypes and gain recognition.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L123",
+      "x": 1120,
+      "y": 2010.4761904761917,
+      "height": 25.523809523809526,
+      "lines": [
+        "D4-L2"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D4-L3",
+      "label": "D4-L3",
+      "column": 1,
+      "side": "target",
+      "comment": "A framework of complementary FAIR roles and their interactions is emerging, supported by experienced staff and developing formal training. Business, subject and technical roles collaborate in implementation, and the source also discusses emerging opportunities for autonomous agents.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L135",
+      "x": 1120,
+      "y": 2100.0000000000014,
+      "height": 25.523809523809526,
+      "lines": [
+        "D4-L3"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D4-L4",
+      "label": "D4-L4",
+      "column": 1,
+      "side": "target",
+      "comment": "A resourced framework of FAIR roles is established across technical, business, ownership and governance functions. Institutional training and change-management support develop proficiency, while leadership and financial roles help sustain implementation and monitor value.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L124",
+      "x": 1120,
+      "y": 2189.523809523811,
+      "height": 25.523809523809526,
+      "lines": [
+        "D4-L4"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D4-L5",
+      "label": "D4-L5",
+      "column": 1,
+      "side": "target",
+      "comment": "FAIR competence is normal across the workforce, recognised roles are empowered and new staff receive training. Cross-organisational collaboration, knowledge-enabled citizens and strategic role frameworks sustain FAIR practice and support emerging automated actors.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L120",
+      "x": 1120,
+      "y": 2279.0476190476206,
+      "height": 25.523809523809526,
+      "lines": [
+        "D4-L5"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D5",
+      "label": "FAIR Processes",
+      "column": 0,
+      "side": "source",
+      "comment": "",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/fmm-d5.md",
+      "x": 435,
+      "y": 2208.5714285714284,
+      "height": 153.14285714285717,
+      "lines": [
+        "FAIR Processes"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D5-L0",
+      "label": "D5-L0",
+      "column": 1,
+      "side": "target",
+      "comment": "Coordinated FAIR processes are absent. Existing implicit data-management practices may divert effort from FAIR implementation rather than supporting it.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L101",
+      "x": 1120,
+      "y": 2368.5714285714303,
+      "height": 25.523809523809526,
+      "lines": [
+        "D5-L0"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D5-L1",
+      "label": "D5-L1",
+      "column": 1,
+      "side": "target",
+      "comment": "Early FAIR guidelines, identifier policies, targeted integration initiatives and retrospective FAIRification decisions are emerging. Discussions on metadata, content and reference data accompany discovery, profiling, training and initial culture-change efforts.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L120",
+      "x": 1120,
+      "y": 2458.09523809524,
+      "height": 25.523809523809526,
+      "lines": [
+        "D5-L1"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D5-L2",
+      "label": "D5-L2",
+      "column": 1,
+      "side": "target",
+      "comment": "Pilot projects demonstrate FAIR value while processes, training and governance begin to align. Retrospectives inform improvement, and curation, metadata guidance, procurement requirements and knowledge of licensing and lineage support emerging repeatable practice.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L140",
+      "x": 1120,
+      "y": 2547.6190476190495,
+      "height": 25.523809523809526,
+      "lines": [
+        "D5-L2"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D5-L3",
+      "label": "D5-L3",
+      "column": 1,
+      "side": "target",
+      "comment": "At least one business unit uses documented FAIR processes in production, supported by trained staff and coordinated initiatives. FAIR is being integrated into onboarding, continuing education, standard IT workflows, procurement and implementation planning.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L158",
+      "x": 1120,
+      "y": 2637.142857142859,
+      "height": 25.523809523809526,
+      "lines": [
+        "D5-L3"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D5-L4",
+      "label": "D5-L4",
+      "column": 1,
+      "side": "target",
+      "comment": "FAIR processes and role-specific training are established across the data ecosystem and increasingly normalised in organisational work. Automated tools, feedback mechanisms, metadata maintenance and emerging organisation-wide standards support continuous improvement and business-impact evaluation.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L150",
+      "x": 1120,
+      "y": 2726.666666666669,
+      "height": 25.523809523809526,
+      "lines": [
+        "D5-L4"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D5-L5",
+      "label": "D5-L5",
+      "column": 1,
+      "side": "target",
+      "comment": "FAIR practices are integrated throughout the data lifecycle and sustained across ecosystem partners. Shared standards, training, APIs, metadata feedback and community learning support exchange beyond organisational boundaries and continued maintenance of FAIR processes and tools.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L138",
+      "x": 1120,
+      "y": 2816.1904761904784,
+      "height": 25.523809523809526,
+      "lines": [
+        "D5-L5"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D6",
+      "label": "FAIR Knowledge",
+      "column": 0,
+      "side": "source",
+      "comment": "",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/fmm-d6.md",
+      "x": 435,
+      "y": 2425.714285714286,
+      "height": 153.14285714285717,
+      "lines": [
+        "FAIR Knowledge"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D6-L0",
+      "label": "D6-L0",
+      "column": 1,
+      "side": "target",
+      "comment": "FAIR-related knowledge and awareness are absent or insufficient within the organisation, including at leadership level.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L109",
+      "x": 1120,
+      "y": 2905.714285714288,
+      "height": 25.523809523809526,
+      "lines": [
+        "D6-L0"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D6-L1",
+      "label": "D6-L1",
+      "column": 1,
+      "side": "target",
+      "comment": "Initial FAIR knowledge develops through external experts, workshops and training. Understanding remains concentrated in individuals rather than shared organisational knowledge, while some staff connect with external communities.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L138",
+      "x": 1120,
+      "y": 2995.2380952380977,
+      "height": 25.523809523809526,
+      "lines": [
+        "D6-L1"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D6-L2",
+      "label": "D6-L2",
+      "column": 1,
+      "side": "target",
+      "comment": "Early roles, champions and prototype teams can explain and demonstrate FAIR value, but knowledge remains largely informal and held by individuals. Internal communities and external support begin to develop shared practices and organisation-specific training.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L164",
+      "x": 1120,
+      "y": 3084.7619047619073,
+      "height": 25.523809523809526,
+      "lines": [
+        "D6-L2"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D6-L3",
+      "label": "D6-L3",
+      "column": 1,
+      "side": "target",
+      "comment": "FAIR enters the training curriculum and business units begin formal knowledge sharing. Practitioners and communities build a common domain understanding and exchange implementation experience, at least within departments.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L171",
+      "x": 1120,
+      "y": 3174.285714285717,
+      "height": 25.523809523809526,
+      "lines": [
+        "D6-L3"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D6-L4",
+      "label": "D6-L4",
+      "column": 1,
+      "side": "target",
+      "comment": "Training and support are available across the organisation, including onboarding, metadata validation knowledge and cross-domain communities of practice. Strategic knowledge begins to be made explicit in knowledge graphs, with growing participation and recognition in external FAIR communities.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L170",
+      "x": 1120,
+      "y": 3263.8095238095266,
+      "height": 25.523809523809526,
+      "lines": [
+        "D6-L4"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D6-L5",
+      "label": "D6-L5",
+      "column": 1,
+      "side": "target",
+      "comment": "A mature FAIR education programme and shared organisational understanding sustain competence. Cross-organisational communities, data contracts and machine-actionable standards bring together technical, business, regulatory and governance expertise to maintain a wider FAIR learning ecosystem.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L158",
+      "x": 1120,
+      "y": 3353.333333333336,
+      "height": 25.523809523809526,
+      "lines": [
+        "D6-L5"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D7",
+      "label": "FAIR Tools and Infrastructures",
+      "column": 0,
+      "side": "source",
+      "comment": "",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/fmm-d7.md",
+      "x": 435,
+      "y": 2642.857142857143,
+      "height": 153.14285714285717,
+      "lines": [
+        "FAIR Tools and Infrastructures"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D7-L0",
+      "label": "D7-L0",
+      "column": 1,
+      "side": "target",
+      "comment": "FAIR tooling, requirements and infrastructure roadmaps are lacking or poorly understood. Fragmented capture tools and ad hoc systems can impede FAIR implementation, with gaps in coordinated access and licensing arrangements.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L117",
+      "x": 1120,
+      "y": 3442.857142857146,
+      "height": 25.523809523809526,
+      "lines": [
+        "D7-L0"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D7-L1",
+      "label": "D7-L1",
+      "column": 1,
+      "side": "target",
+      "comment": "Initial tooling plans and inventories identify FAIR gaps and requirements, while pragmatic templates and existing systems improve capture and curation. Early metadata centralisation, catalogues, identifier policies and reference-data or vocabulary tools begin to support findability.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L149",
+      "x": 1120,
+      "y": 3532.3809523809555,
+      "height": 25.523809523809526,
+      "lines": [
+        "D7-L1"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D7-L2",
+      "label": "D7-L2",
+      "column": 1,
+      "side": "target",
+      "comment": "In practical terms, D7-L2 describes early working FAIR infrastructure, potentially within individual departments. It covers tools for metadata publication, controlled vocabularies and persistent identifiers; configuring existing systems; working proofs of concept; and planning wider infrastructure, staffing and budgets.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L183",
+      "x": 1120,
+      "y": 3621.904761904765,
+      "height": 25.523809523809526,
+      "lines": [
+        "D7-L2"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D7-L3",
+      "label": "D7-L3",
+      "column": 1,
+      "side": "target",
+      "comment": "Tools support established FAIR production and metadata management, with a shift towards making data FAIR from creation. Internal capacity, training, reference models and defined interaction mechanisms develop alongside approved resources and vendor selection for wider rollout.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L186",
+      "x": 1120,
+      "y": 3711.4285714285747,
+      "height": 25.523809523809526,
+      "lines": [
+        "D7-L3"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D7-L4",
+      "label": "D7-L4",
+      "column": 1,
+      "side": "target",
+      "comment": "An organisational tooling framework supports automated exploration, consistent FAIR-data interactions and clear human- and machine-readable usage licences. Ontology, taxonomy, governance and API tools, a FAIRification-tool registry and periodic evaluation support current and legacy data.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L188",
+      "x": 1120,
+      "y": 3800.9523809523844,
+      "height": 25.523809523809526,
+      "lines": [
+        "D7-L4"
+      ]
+    },
+    {
+      "id": "urn:fair-dama-fairmm:alignment:D7-L5",
+      "label": "D7-L5",
+      "column": 1,
+      "side": "target",
+      "comment": "Integrated platforms support automated FAIR data creation, provenance and lifecycle validation through community-agreed interfaces and metadata profiles. Identifier, metadata publication, access-control, semantic-model and exploration services support ecosystem interoperability, with leadership in shared practices and further automation described aspirationally.",
+      "documentation_url": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L173",
+      "x": 1120,
+      "y": 3890.476190476194,
+      "height": 25.523809523809526,
+      "lines": [
+        "D7-L5"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "id": "edge-962540b2bb0cebb8",
+      "source": "urn:fair-dama-fairmm:alignment:D1",
+      "target": "urn:fair-dama-fairmm:alignment:D1-L0",
+      "source_label": "FAIR Data",
+      "target_label": "D1-L0",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D1",
+          "dimensionLabel": "FAIR Data",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D1-L0",
+          "descriptorID": "D1-L0",
+          "descriptorComment": "Data is fragmented across silos, inconsistent formats and local systems, with ad hoc access and usage arrangements. Finding and using it often requires specialist knowledge; a coordinated FAIR data approach is absent.",
+          "level": "urn:fair-dama-fairmm:alignment:L0",
+          "levelLabel": "L0 Life is unFAIR",
+          "ordinal": "0",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L62"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 1340.0,
+        "y1": 220.0,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-095bdf8db4738cf6",
+      "source": "urn:fair-dama-fairmm:alignment:D1",
+      "target": "urn:fair-dama-fairmm:alignment:D1-L1",
+      "source_label": "FAIR Data",
+      "target_label": "D1-L1",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D1",
+          "dimensionLabel": "FAIR Data",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D1-L1",
+          "descriptorID": "D1-L1",
+          "descriptorComment": "Initial cataloguing, data-lake hosting and access governance are emerging, alongside early metadata and identifier use. Data remains heterogeneous and generally unconformed to a domain model, so reuse still depends on technical and subject expertise.",
+          "level": "urn:fair-dama-fairmm:alignment:L1",
+          "levelLabel": "L1 Started the FAIR journey",
+          "ordinal": "1",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L57"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 1365.5238095238096,
+        "y1": 309.5238095238095,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-8ce98a382bbf2f8e",
+      "source": "urn:fair-dama-fairmm:alignment:D1",
+      "target": "urn:fair-dama-fairmm:alignment:D1-L2",
+      "source_label": "FAIR Data",
+      "target_label": "D1-L2",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D1",
+          "dimensionLabel": "FAIR Data",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D1-L2",
+          "descriptorID": "D1-L2",
+          "descriptorComment": "Data is catalogued and conforms to local or system-specific models, with system-level access controls. It may reside in a data lake, but alignment to shared domain models is incomplete and technical and subject expertise are still needed.",
+          "level": "urn:fair-dama-fairmm:alignment:L2",
+          "levelLabel": "L2 Getting FAIR",
+          "ordinal": "2",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L65"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 1391.047619047619,
+        "y1": 399.04761904761904,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-1fe11fb3a3f06ae4",
+      "source": "urn:fair-dama-fairmm:alignment:D1",
+      "target": "urn:fair-dama-fairmm:alignment:D1-L3",
+      "source_label": "FAIR Data",
+      "target_label": "D1-L3",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D1",
+          "dimensionLabel": "FAIR Data",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D1-L3",
+          "descriptorID": "D1-L3",
+          "descriptorComment": "FAIR data is working within departments or domains: local reference data, resolvable metadata, domain models and data-level access controls support integration, reuse and emerging self-service analytics. Broader organisational interoperability and reuse remain challenging.",
+          "level": "urn:fair-dama-fairmm:alignment:L3",
+          "levelLabel": "L3 Pretty FAIR",
+          "ordinal": "3",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L66"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 1416.5714285714287,
+        "y1": 488.57142857142856,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-e34630966791f10a",
+      "source": "urn:fair-dama-fairmm:alignment:D1",
+      "target": "urn:fair-dama-fairmm:alignment:D1-L4",
+      "source_label": "FAIR Data",
+      "target_label": "D1-L4",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D1",
+          "dimensionLabel": "FAIR Data",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D1-L4",
+          "descriptorID": "D1-L4",
+          "descriptorComment": "FAIR data can be found and used across the organisation through consistent identifiers, controlled vocabularies, enterprise metadata and reference data, and cross-domain models. Cross-domain analytics and machine interpretation are supported, and generating data FAIR is becoming normal practice.",
+          "level": "urn:fair-dama-fairmm:alignment:L4",
+          "levelLabel": "L4 Really FAIR",
+          "ordinal": "4",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L68"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 1442.095238095238,
+        "y1": 578.0952380952381,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-11b79a9cc1d5dd88",
+      "source": "urn:fair-dama-fairmm:alignment:D1",
+      "target": "urn:fair-dama-fairmm:alignment:D1-L5",
+      "source_label": "FAIR Data",
+      "target_label": "D1-L5",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D1",
+          "dimensionLabel": "FAIR Data",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D1-L5",
+          "descriptorID": "D1-L5",
+          "descriptorComment": "FAIR-by-design data remains FAIR throughout its lifecycle and supports relevant internal and external use. Shared semantic descriptions, machine-actionable resources and interoperable ecosystem practices enable automated operations and reuse across organisational boundaries.",
+          "level": "urn:fair-dama-fairmm:alignment:L5",
+          "levelLabel": "L5 FAIRest of them all",
+          "ordinal": "5",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L67"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 1467.6190476190477,
+        "y1": 667.6190476190476,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-04f9453358f5f343",
+      "source": "urn:fair-dama-fairmm:alignment:D1-L0",
+      "target": "urn:fair-dama-fairmm:alignment:L0",
+      "source_label": "D1-L0",
+      "target_label": "L0 Life is unFAIR",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D1",
+          "dimensionLabel": "FAIR Data",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D1-L0",
+          "descriptorID": "D1-L0",
+          "descriptorComment": "Data is fragmented across silos, inconsistent formats and local systems, with ad hoc access and usage arrangements. Finding and using it often requires specialist knowledge; a coordinated FAIR data approach is absent.",
+          "level": "urn:fair-dama-fairmm:alignment:L0",
+          "levelLabel": "L0 Life is unFAIR",
+          "ordinal": "0",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L62"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 220.0,
+        "y1": 1372.0,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-bea57f2fa71b811e",
+      "source": "urn:fair-dama-fairmm:alignment:D1-L1",
+      "target": "urn:fair-dama-fairmm:alignment:L1",
+      "source_label": "D1-L1",
+      "target_label": "L1 Started the FAIR journey",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D1",
+          "dimensionLabel": "FAIR Data",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D1-L1",
+          "descriptorID": "D1-L1",
+          "descriptorComment": "Initial cataloguing, data-lake hosting and access governance are emerging, alongside early metadata and identifier use. Data remains heterogeneous and generally unconformed to a domain model, so reuse still depends on technical and subject expertise.",
+          "level": "urn:fair-dama-fairmm:alignment:L1",
+          "levelLabel": "L1 Started the FAIR journey",
+          "ordinal": "1",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L57"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 309.5238095238095,
+        "y1": 1614.6666666666667,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-98c476882e1e0c43",
+      "source": "urn:fair-dama-fairmm:alignment:D1-L2",
+      "target": "urn:fair-dama-fairmm:alignment:L2",
+      "source_label": "D1-L2",
+      "target_label": "L2 Getting FAIR",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D1",
+          "dimensionLabel": "FAIR Data",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D1-L2",
+          "descriptorID": "D1-L2",
+          "descriptorComment": "Data is catalogued and conforms to local or system-specific models, with system-level access controls. It may reside in a data lake, but alignment to shared domain models is incomplete and technical and subject expertise are still needed.",
+          "level": "urn:fair-dama-fairmm:alignment:L2",
+          "levelLabel": "L2 Getting FAIR",
+          "ordinal": "2",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L65"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 399.04761904761904,
+        "y1": 1857.3333333333335,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-5de1f2e14209de23",
+      "source": "urn:fair-dama-fairmm:alignment:D1-L3",
+      "target": "urn:fair-dama-fairmm:alignment:L3",
+      "source_label": "D1-L3",
+      "target_label": "L3 Pretty FAIR",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D1",
+          "dimensionLabel": "FAIR Data",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D1-L3",
+          "descriptorID": "D1-L3",
+          "descriptorComment": "FAIR data is working within departments or domains: local reference data, resolvable metadata, domain models and data-level access controls support integration, reuse and emerging self-service analytics. Broader organisational interoperability and reuse remain challenging.",
+          "level": "urn:fair-dama-fairmm:alignment:L3",
+          "levelLabel": "L3 Pretty FAIR",
+          "ordinal": "3",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L66"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 488.57142857142856,
+        "y1": 2100.0,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-c068672ee45912c0",
+      "source": "urn:fair-dama-fairmm:alignment:D1-L4",
+      "target": "urn:fair-dama-fairmm:alignment:L4",
+      "source_label": "D1-L4",
+      "target_label": "L4 Really FAIR",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D1",
+          "dimensionLabel": "FAIR Data",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D1-L4",
+          "descriptorID": "D1-L4",
+          "descriptorComment": "FAIR data can be found and used across the organisation through consistent identifiers, controlled vocabularies, enterprise metadata and reference data, and cross-domain models. Cross-domain analytics and machine interpretation are supported, and generating data FAIR is becoming normal practice.",
+          "level": "urn:fair-dama-fairmm:alignment:L4",
+          "levelLabel": "L4 Really FAIR",
+          "ordinal": "4",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L68"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 578.0952380952381,
+        "y1": 2342.6666666666665,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-488bd738eb5f94b8",
+      "source": "urn:fair-dama-fairmm:alignment:D1-L5",
+      "target": "urn:fair-dama-fairmm:alignment:L5",
+      "source_label": "D1-L5",
+      "target_label": "L5 FAIRest of them all",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D1",
+          "dimensionLabel": "FAIR Data",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D1-L5",
+          "descriptorID": "D1-L5",
+          "descriptorComment": "FAIR-by-design data remains FAIR throughout its lifecycle and supports relevant internal and external use. Shared semantic descriptions, machine-actionable resources and interoperable ecosystem practices enable automated operations and reuse across organisational boundaries.",
+          "level": "urn:fair-dama-fairmm:alignment:L5",
+          "levelLabel": "L5 FAIRest of them all",
+          "ordinal": "5",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L67"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 667.6190476190476,
+        "y1": 2585.333333333333,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-25bcceb013c61779",
+      "source": "urn:fair-dama-fairmm:alignment:D2",
+      "target": "urn:fair-dama-fairmm:alignment:D2-L0",
+      "source_label": "FAIR Leadership",
+      "target_label": "D2-L0",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D2",
+          "dimensionLabel": "FAIR Leadership",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D2-L0",
+          "descriptorID": "D2-L0",
+          "descriptorComment": "Leadership engagement, FAIR understanding and ownership are lacking or insufficient. FAIR data is not an organisational priority, and staff and processes receive little support for adopting it.",
+          "level": "urn:fair-dama-fairmm:alignment:L0",
+          "levelLabel": "L0 Life is unFAIR",
+          "ordinal": "0",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L70"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 1557.142857142857,
+        "y1": 757.1428571428571,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-cf4511c552ae770d",
+      "source": "urn:fair-dama-fairmm:alignment:D2",
+      "target": "urn:fair-dama-fairmm:alignment:D2-L1",
+      "source_label": "FAIR Leadership",
+      "target_label": "D2-L1",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D2",
+          "dimensionLabel": "FAIR Leadership",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D2-L1",
+          "descriptorID": "D2-L1",
+          "descriptorComment": "Leadership awareness and early champions are emerging from business, technology or data roles. Top-down or bottom-up support begins, but implementation strategy and resources may still be unclear, with initial interest in training.",
+          "level": "urn:fair-dama-fairmm:alignment:L1",
+          "levelLabel": "L1 Started the FAIR journey",
+          "ordinal": "1",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L68"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 1582.6666666666667,
+        "y1": 846.6666666666666,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-92f5450b75b2dad7",
+      "source": "urn:fair-dama-fairmm:alignment:D2",
+      "target": "urn:fair-dama-fairmm:alignment:D2-L2",
+      "source_label": "FAIR Leadership",
+      "target_label": "D2-L2",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D2",
+          "dimensionLabel": "FAIR Leadership",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D2-L2",
+          "descriptorID": "D2-L2",
+          "descriptorComment": "Leadership workshops, internal champions and initial teams are building understanding of FAIR value. Early projects receive increasing sponsorship, funding and commitment to enabling services and organisations.",
+          "level": "urn:fair-dama-fairmm:alignment:L2",
+          "levelLabel": "L2 Getting FAIR",
+          "ordinal": "2",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L79"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 1608.1904761904761,
+        "y1": 936.1904761904761,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-ad71c9ef4c17e329",
+      "source": "urn:fair-dama-fairmm:alignment:D2",
+      "target": "urn:fair-dama-fairmm:alignment:D2-L3",
+      "source_label": "FAIR Leadership",
+      "target_label": "D2-L3",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D2",
+          "dimensionLabel": "FAIR Leadership",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D2-L3",
+          "descriptorID": "D2-L3",
+          "descriptorComment": "Leadership expects FAIR implementation to be included in project budgets and sets objectives, accountability, metrics and training. A supported organisational vision is backed by people and funding, with some engagement in external standards convergence.",
+          "level": "urn:fair-dama-fairmm:alignment:L3",
+          "levelLabel": "L3 Pretty FAIR",
+          "ordinal": "3",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L88"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 1633.7142857142858,
+        "y1": 1025.7142857142858,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-111f51c22877e517",
+      "source": "urn:fair-dama-fairmm:alignment:D2",
+      "target": "urn:fair-dama-fairmm:alignment:D2-L4",
+      "source_label": "FAIR Leadership",
+      "target_label": "D2-L4",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D2",
+          "dimensionLabel": "FAIR Leadership",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D2-L4",
+          "descriptorID": "D2-L4",
+          "descriptorComment": "An enterprise FAIR mandate is embedded in budget approvals, governance and risk management, with clear leadership accountability. Internal implementation is funded, while procurement requirements and participation in the wider FAIR community extend its influence.",
+          "level": "urn:fair-dama-fairmm:alignment:L4",
+          "levelLabel": "L4 Really FAIR",
+          "ordinal": "4",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L95"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 1659.2380952380952,
+        "y1": 1115.2380952380954,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-7ad0ecac52b4e80b",
+      "source": "urn:fair-dama-fairmm:alignment:D2",
+      "target": "urn:fair-dama-fairmm:alignment:D2-L5",
+      "source_label": "FAIR Leadership",
+      "target_label": "D2-L5",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D2",
+          "dimensionLabel": "FAIR Leadership",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D2-L5",
+          "descriptorID": "D2-L5",
+          "descriptorComment": "Senior leadership is fully committed and accountable for FAIR strategy, with support across business and IT. Demonstrated value, sustained resources, operational metrics and recognised external leadership support FAIR practice within and beyond the organisation.",
+          "level": "urn:fair-dama-fairmm:alignment:L5",
+          "levelLabel": "L5 FAIRest of them all",
+          "ordinal": "5",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L86"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 1684.7619047619048,
+        "y1": 1204.761904761905,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-8b91380157cebd2b",
+      "source": "urn:fair-dama-fairmm:alignment:D2-L0",
+      "target": "urn:fair-dama-fairmm:alignment:L0",
+      "source_label": "D2-L0",
+      "target_label": "L0 Life is unFAIR",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D2",
+          "dimensionLabel": "FAIR Leadership",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D2-L0",
+          "descriptorID": "D2-L0",
+          "descriptorComment": "Leadership engagement, FAIR understanding and ownership are lacking or insufficient. FAIR data is not an organisational priority, and staff and processes receive little support for adopting it.",
+          "level": "urn:fair-dama-fairmm:alignment:L0",
+          "levelLabel": "L0 Life is unFAIR",
+          "ordinal": "0",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L70"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 757.1428571428571,
+        "y1": 1397.5238095238096,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-f7f986f8d6ed9b13",
+      "source": "urn:fair-dama-fairmm:alignment:D2-L1",
+      "target": "urn:fair-dama-fairmm:alignment:L1",
+      "source_label": "D2-L1",
+      "target_label": "L1 Started the FAIR journey",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D2",
+          "dimensionLabel": "FAIR Leadership",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D2-L1",
+          "descriptorID": "D2-L1",
+          "descriptorComment": "Leadership awareness and early champions are emerging from business, technology or data roles. Top-down or bottom-up support begins, but implementation strategy and resources may still be unclear, with initial interest in training.",
+          "level": "urn:fair-dama-fairmm:alignment:L1",
+          "levelLabel": "L1 Started the FAIR journey",
+          "ordinal": "1",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L68"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 846.6666666666666,
+        "y1": 1640.1904761904764,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-b1ee711fa68dd9ab",
+      "source": "urn:fair-dama-fairmm:alignment:D2-L2",
+      "target": "urn:fair-dama-fairmm:alignment:L2",
+      "source_label": "D2-L2",
+      "target_label": "L2 Getting FAIR",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D2",
+          "dimensionLabel": "FAIR Leadership",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D2-L2",
+          "descriptorID": "D2-L2",
+          "descriptorComment": "Leadership workshops, internal champions and initial teams are building understanding of FAIR value. Early projects receive increasing sponsorship, funding and commitment to enabling services and organisations.",
+          "level": "urn:fair-dama-fairmm:alignment:L2",
+          "levelLabel": "L2 Getting FAIR",
+          "ordinal": "2",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L79"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 936.1904761904761,
+        "y1": 1882.8571428571431,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-c518ac046e552447",
+      "source": "urn:fair-dama-fairmm:alignment:D2-L3",
+      "target": "urn:fair-dama-fairmm:alignment:L3",
+      "source_label": "D2-L3",
+      "target_label": "L3 Pretty FAIR",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D2",
+          "dimensionLabel": "FAIR Leadership",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D2-L3",
+          "descriptorID": "D2-L3",
+          "descriptorComment": "Leadership expects FAIR implementation to be included in project budgets and sets objectives, accountability, metrics and training. A supported organisational vision is backed by people and funding, with some engagement in external standards convergence.",
+          "level": "urn:fair-dama-fairmm:alignment:L3",
+          "levelLabel": "L3 Pretty FAIR",
+          "ordinal": "3",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L88"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 1025.7142857142858,
+        "y1": 2125.5238095238096,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-c96623b4c3f1540d",
+      "source": "urn:fair-dama-fairmm:alignment:D2-L4",
+      "target": "urn:fair-dama-fairmm:alignment:L4",
+      "source_label": "D2-L4",
+      "target_label": "L4 Really FAIR",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D2",
+          "dimensionLabel": "FAIR Leadership",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D2-L4",
+          "descriptorID": "D2-L4",
+          "descriptorComment": "An enterprise FAIR mandate is embedded in budget approvals, governance and risk management, with clear leadership accountability. Internal implementation is funded, while procurement requirements and participation in the wider FAIR community extend its influence.",
+          "level": "urn:fair-dama-fairmm:alignment:L4",
+          "levelLabel": "L4 Really FAIR",
+          "ordinal": "4",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L95"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 1115.2380952380954,
+        "y1": 2368.190476190476,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-d691e57546b1dc6c",
+      "source": "urn:fair-dama-fairmm:alignment:D2-L5",
+      "target": "urn:fair-dama-fairmm:alignment:L5",
+      "source_label": "D2-L5",
+      "target_label": "L5 FAIRest of them all",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D2",
+          "dimensionLabel": "FAIR Leadership",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D2-L5",
+          "descriptorID": "D2-L5",
+          "descriptorComment": "Senior leadership is fully committed and accountable for FAIR strategy, with support across business and IT. Demonstrated value, sustained resources, operational metrics and recognised external leadership support FAIR practice within and beyond the organisation.",
+          "level": "urn:fair-dama-fairmm:alignment:L5",
+          "levelLabel": "L5 FAIRest of them all",
+          "ordinal": "5",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L86"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 1204.761904761905,
+        "y1": 2610.8571428571427,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-9bcb1f848dacfd6a",
+      "source": "urn:fair-dama-fairmm:alignment:D3",
+      "target": "urn:fair-dama-fairmm:alignment:D3-L0",
+      "source_label": "FAIR Strategy",
+      "target_label": "D3-L0",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D3",
+          "dimensionLabel": "FAIR Strategy",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D3-L0",
+          "descriptorID": "D3-L0",
+          "descriptorComment": "There is no explicit FAIR strategy or coordinated implementation pathway. Any use of FAIR principles is reactive or ad hoc, with little strategic recognition of their value.",
+          "level": "urn:fair-dama-fairmm:alignment:L0",
+          "levelLabel": "L0 Life is unFAIR",
+          "ordinal": "0",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L81"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 1774.2857142857142,
+        "y1": 1294.2857142857147,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-677ddee60a897974",
+      "source": "urn:fair-dama-fairmm:alignment:D3",
+      "target": "urn:fair-dama-fairmm:alignment:D3-L1",
+      "source_label": "FAIR Strategy",
+      "target_label": "D3-L1",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D3",
+          "dimensionLabel": "FAIR Strategy",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D3-L1",
+          "descriptorID": "D3-L1",
+          "descriptorComment": "An initial FAIR vision and plan are emerging as leaders recognise its strategic value. The organisation reviews existing practice, considers collaboration and explores technical and open-resource choices, but execution remains embryonic.",
+          "level": "urn:fair-dama-fairmm:alignment:L1",
+          "levelLabel": "L1 Started the FAIR journey",
+          "ordinal": "1",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L85"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 1799.8095238095239,
+        "y1": 1383.8095238095243,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-71c4a6ebe3f24eb5",
+      "source": "urn:fair-dama-fairmm:alignment:D3",
+      "target": "urn:fair-dama-fairmm:alignment:D3-L2",
+      "source_label": "FAIR Strategy",
+      "target_label": "D3-L2",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D3",
+          "dimensionLabel": "FAIR Strategy",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D3-L2",
+          "descriptorID": "D3-L2",
+          "descriptorComment": "A first FAIR vision, strategy and plan has approval at organisational or local level. Champions and tactical initiatives are learning from early implementation, while FAIR begins to align with the broader data strategy, models and architectural choices.",
+          "level": "urn:fair-dama-fairmm:alignment:L2",
+          "levelLabel": "L2 Getting FAIR",
+          "ordinal": "2",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L97"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 1825.3333333333333,
+        "y1": 1473.333333333334,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-5687ebcd2a8e3904",
+      "source": "urn:fair-dama-fairmm:alignment:D3",
+      "target": "urn:fair-dama-fairmm:alignment:D3-L3",
+      "source_label": "FAIR Strategy",
+      "target_label": "D3-L3",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D3",
+          "dimensionLabel": "FAIR Strategy",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D3-L3",
+          "descriptorID": "D3-L3",
+          "descriptorComment": "A refined FAIR strategy and implementation guidance have leadership support, budget and capacity. Value is beginning to be tracked, enterprise architecture and federated domain models are considered, and implementation plans may still operate at departmental scale.",
+          "level": "urn:fair-dama-fairmm:alignment:L3",
+          "levelLabel": "L3 Pretty FAIR",
+          "ordinal": "3",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L110"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 1850.857142857143,
+        "y1": 1562.8571428571436,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-4577cef4cbffccb3",
+      "source": "urn:fair-dama-fairmm:alignment:D3",
+      "target": "urn:fair-dama-fairmm:alignment:D3-L4",
+      "source_label": "FAIR Strategy",
+      "target_label": "D3-L4",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D3",
+          "dimensionLabel": "FAIR Strategy",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D3-L4",
+          "descriptorID": "D3-L4",
+          "descriptorComment": "A sustained enterprise FAIR strategy connects central and federated domain data through operating models, standards and procedures. FAIR metrics, risk management and allocated people and budgets support implementation, with strategic awareness embedded across the organisation.",
+          "level": "urn:fair-dama-fairmm:alignment:L4",
+          "levelLabel": "L4 Really FAIR",
+          "ordinal": "4",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L109"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 1876.3809523809523,
+        "y1": 1652.3809523809532,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-92ca88e1d09dc495",
+      "source": "urn:fair-dama-fairmm:alignment:D3",
+      "target": "urn:fair-dama-fairmm:alignment:D3-L5",
+      "source_label": "FAIR Strategy",
+      "target_label": "D3-L5",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D3",
+          "dimensionLabel": "FAIR Strategy",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D3-L5",
+          "descriptorID": "D3-L5",
+          "descriptorComment": "FAIR is a widely understood organisational norm with a durable, transparent strategy. Measurable business outcomes, cost-benefit evidence, cross-functional integration and feedback guide investment, while relevant external stakeholders can see the strategy in practice.",
+          "level": "urn:fair-dama-fairmm:alignment:L5",
+          "levelLabel": "L5 FAIRest of them all",
+          "ordinal": "5",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L103"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 1901.904761904762,
+        "y1": 1741.9047619047628,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-d88b880437c64536",
+      "source": "urn:fair-dama-fairmm:alignment:D3-L0",
+      "target": "urn:fair-dama-fairmm:alignment:L0",
+      "source_label": "D3-L0",
+      "target_label": "L0 Life is unFAIR",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D3",
+          "dimensionLabel": "FAIR Strategy",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D3-L0",
+          "descriptorID": "D3-L0",
+          "descriptorComment": "There is no explicit FAIR strategy or coordinated implementation pathway. Any use of FAIR principles is reactive or ad hoc, with little strategic recognition of their value.",
+          "level": "urn:fair-dama-fairmm:alignment:L0",
+          "levelLabel": "L0 Life is unFAIR",
+          "ordinal": "0",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L81"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 1294.2857142857147,
+        "y1": 1423.047619047619,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-61fff4e14234e193",
+      "source": "urn:fair-dama-fairmm:alignment:D3-L1",
+      "target": "urn:fair-dama-fairmm:alignment:L1",
+      "source_label": "D3-L1",
+      "target_label": "L1 Started the FAIR journey",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D3",
+          "dimensionLabel": "FAIR Strategy",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D3-L1",
+          "descriptorID": "D3-L1",
+          "descriptorComment": "An initial FAIR vision and plan are emerging as leaders recognise its strategic value. The organisation reviews existing practice, considers collaboration and explores technical and open-resource choices, but execution remains embryonic.",
+          "level": "urn:fair-dama-fairmm:alignment:L1",
+          "levelLabel": "L1 Started the FAIR journey",
+          "ordinal": "1",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L85"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 1383.8095238095243,
+        "y1": 1665.7142857142858,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-94564695f8836a90",
+      "source": "urn:fair-dama-fairmm:alignment:D3-L2",
+      "target": "urn:fair-dama-fairmm:alignment:L2",
+      "source_label": "D3-L2",
+      "target_label": "L2 Getting FAIR",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D3",
+          "dimensionLabel": "FAIR Strategy",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D3-L2",
+          "descriptorID": "D3-L2",
+          "descriptorComment": "A first FAIR vision, strategy and plan has approval at organisational or local level. Champions and tactical initiatives are learning from early implementation, while FAIR begins to align with the broader data strategy, models and architectural choices.",
+          "level": "urn:fair-dama-fairmm:alignment:L2",
+          "levelLabel": "L2 Getting FAIR",
+          "ordinal": "2",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L97"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 1473.333333333334,
+        "y1": 1908.3809523809525,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-b20c94ab7045787e",
+      "source": "urn:fair-dama-fairmm:alignment:D3-L3",
+      "target": "urn:fair-dama-fairmm:alignment:L3",
+      "source_label": "D3-L3",
+      "target_label": "L3 Pretty FAIR",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D3",
+          "dimensionLabel": "FAIR Strategy",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D3-L3",
+          "descriptorID": "D3-L3",
+          "descriptorComment": "A refined FAIR strategy and implementation guidance have leadership support, budget and capacity. Value is beginning to be tracked, enterprise architecture and federated domain models are considered, and implementation plans may still operate at departmental scale.",
+          "level": "urn:fair-dama-fairmm:alignment:L3",
+          "levelLabel": "L3 Pretty FAIR",
+          "ordinal": "3",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L110"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 1562.8571428571436,
+        "y1": 2151.0476190476193,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-10cdd18623077603",
+      "source": "urn:fair-dama-fairmm:alignment:D3-L4",
+      "target": "urn:fair-dama-fairmm:alignment:L4",
+      "source_label": "D3-L4",
+      "target_label": "L4 Really FAIR",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D3",
+          "dimensionLabel": "FAIR Strategy",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D3-L4",
+          "descriptorID": "D3-L4",
+          "descriptorComment": "A sustained enterprise FAIR strategy connects central and federated domain data through operating models, standards and procedures. FAIR metrics, risk management and allocated people and budgets support implementation, with strategic awareness embedded across the organisation.",
+          "level": "urn:fair-dama-fairmm:alignment:L4",
+          "levelLabel": "L4 Really FAIR",
+          "ordinal": "4",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L109"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 1652.3809523809532,
+        "y1": 2393.714285714286,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-ec5af62c40808663",
+      "source": "urn:fair-dama-fairmm:alignment:D3-L5",
+      "target": "urn:fair-dama-fairmm:alignment:L5",
+      "source_label": "D3-L5",
+      "target_label": "L5 FAIRest of them all",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D3",
+          "dimensionLabel": "FAIR Strategy",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D3-L5",
+          "descriptorID": "D3-L5",
+          "descriptorComment": "FAIR is a widely understood organisational norm with a durable, transparent strategy. Measurable business outcomes, cost-benefit evidence, cross-functional integration and feedback guide investment, while relevant external stakeholders can see the strategy in practice.",
+          "level": "urn:fair-dama-fairmm:alignment:L5",
+          "levelLabel": "L5 FAIRest of them all",
+          "ordinal": "5",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L103"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 1741.9047619047628,
+        "y1": 2636.3809523809523,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-b01aab5c17e7333d",
+      "source": "urn:fair-dama-fairmm:alignment:D4",
+      "target": "urn:fair-dama-fairmm:alignment:D4-L0",
+      "source_label": "FAIR Personas",
+      "target_label": "D4-L0",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D4",
+          "dimensionLabel": "FAIR Personas",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D4-L0",
+          "descriptorID": "D4-L0",
+          "descriptorComment": "FAIR competence and designated roles are absent or poorly recognised. Resource resistance, reluctance to share data and cultural barriers impede the adoption of FAIR responsibilities.",
+          "level": "urn:fair-dama-fairmm:alignment:L0",
+          "levelLabel": "L0 Life is unFAIR",
+          "ordinal": "0",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L90"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 1991.4285714285713,
+        "y1": 1831.4285714285725,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-7d69711531cf2db3",
+      "source": "urn:fair-dama-fairmm:alignment:D4",
+      "target": "urn:fair-dama-fairmm:alignment:D4-L1",
+      "source_label": "FAIR Personas",
+      "target_label": "D4-L1",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D4",
+          "dimensionLabel": "FAIR Personas",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D4-L1",
+          "descriptorID": "D4-L1",
+          "descriptorComment": "Early curators, semantic experts, coordinators and data strategists begin supporting FAIR work. External experts and workshops help staff develop initial skills and lead the first internal projects.",
+          "level": "urn:fair-dama-fairmm:alignment:L1",
+          "levelLabel": "L1 Started the FAIR journey",
+          "ordinal": "1",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L101"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 2016.952380952381,
+        "y1": 1920.952380952382,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-33f55ed77158cf9c",
+      "source": "urn:fair-dama-fairmm:alignment:D4",
+      "target": "urn:fair-dama-fairmm:alignment:D4-L2",
+      "source_label": "FAIR Personas",
+      "target_label": "D4-L2",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D4",
+          "dimensionLabel": "FAIR Personas",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D4-L2",
+          "descriptorID": "D4-L2",
+          "descriptorComment": "Designated FAIR-related roles are beginning to take shape, including scientists, stewards, curators, governance and integration specialists, owners and community roles. Individuals may hold several roles, while early teams demonstrate value through prototypes and gain recognition.",
+          "level": "urn:fair-dama-fairmm:alignment:L2",
+          "levelLabel": "L2 Getting FAIR",
+          "ordinal": "2",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L123"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 2042.4761904761904,
+        "y1": 2010.4761904761917,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-fdca3c811e427fbb",
+      "source": "urn:fair-dama-fairmm:alignment:D4",
+      "target": "urn:fair-dama-fairmm:alignment:D4-L3",
+      "source_label": "FAIR Personas",
+      "target_label": "D4-L3",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D4",
+          "dimensionLabel": "FAIR Personas",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D4-L3",
+          "descriptorID": "D4-L3",
+          "descriptorComment": "A framework of complementary FAIR roles and their interactions is emerging, supported by experienced staff and developing formal training. Business, subject and technical roles collaborate in implementation, and the source also discusses emerging opportunities for autonomous agents.",
+          "level": "urn:fair-dama-fairmm:alignment:L3",
+          "levelLabel": "L3 Pretty FAIR",
+          "ordinal": "3",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L135"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 2068.0,
+        "y1": 2100.0000000000014,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-e7d7b0ca464afe23",
+      "source": "urn:fair-dama-fairmm:alignment:D4",
+      "target": "urn:fair-dama-fairmm:alignment:D4-L4",
+      "source_label": "FAIR Personas",
+      "target_label": "D4-L4",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D4",
+          "dimensionLabel": "FAIR Personas",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D4-L4",
+          "descriptorID": "D4-L4",
+          "descriptorComment": "A resourced framework of FAIR roles is established across technical, business, ownership and governance functions. Institutional training and change-management support develop proficiency, while leadership and financial roles help sustain implementation and monitor value.",
+          "level": "urn:fair-dama-fairmm:alignment:L4",
+          "levelLabel": "L4 Really FAIR",
+          "ordinal": "4",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L124"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 2093.5238095238096,
+        "y1": 2189.523809523811,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-d45e2745bf170fe1",
+      "source": "urn:fair-dama-fairmm:alignment:D4",
+      "target": "urn:fair-dama-fairmm:alignment:D4-L5",
+      "source_label": "FAIR Personas",
+      "target_label": "D4-L5",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D4",
+          "dimensionLabel": "FAIR Personas",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D4-L5",
+          "descriptorID": "D4-L5",
+          "descriptorComment": "FAIR competence is normal across the workforce, recognised roles are empowered and new staff receive training. Cross-organisational collaboration, knowledge-enabled citizens and strategic role frameworks sustain FAIR practice and support emerging automated actors.",
+          "level": "urn:fair-dama-fairmm:alignment:L5",
+          "levelLabel": "L5 FAIRest of them all",
+          "ordinal": "5",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L120"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 2119.047619047619,
+        "y1": 2279.0476190476206,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-29f48622cd065ad3",
+      "source": "urn:fair-dama-fairmm:alignment:D4-L0",
+      "target": "urn:fair-dama-fairmm:alignment:L0",
+      "source_label": "D4-L0",
+      "target_label": "L0 Life is unFAIR",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D4",
+          "dimensionLabel": "FAIR Personas",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D4-L0",
+          "descriptorID": "D4-L0",
+          "descriptorComment": "FAIR competence and designated roles are absent or poorly recognised. Resource resistance, reluctance to share data and cultural barriers impede the adoption of FAIR responsibilities.",
+          "level": "urn:fair-dama-fairmm:alignment:L0",
+          "levelLabel": "L0 Life is unFAIR",
+          "ordinal": "0",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L90"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 1831.4285714285725,
+        "y1": 1448.5714285714287,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-fdfe52354d0e7dc1",
+      "source": "urn:fair-dama-fairmm:alignment:D4-L1",
+      "target": "urn:fair-dama-fairmm:alignment:L1",
+      "source_label": "D4-L1",
+      "target_label": "L1 Started the FAIR journey",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D4",
+          "dimensionLabel": "FAIR Personas",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D4-L1",
+          "descriptorID": "D4-L1",
+          "descriptorComment": "Early curators, semantic experts, coordinators and data strategists begin supporting FAIR work. External experts and workshops help staff develop initial skills and lead the first internal projects.",
+          "level": "urn:fair-dama-fairmm:alignment:L1",
+          "levelLabel": "L1 Started the FAIR journey",
+          "ordinal": "1",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L101"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 1920.952380952382,
+        "y1": 1691.2380952380954,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-a9584e556d6a292a",
+      "source": "urn:fair-dama-fairmm:alignment:D4-L2",
+      "target": "urn:fair-dama-fairmm:alignment:L2",
+      "source_label": "D4-L2",
+      "target_label": "L2 Getting FAIR",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D4",
+          "dimensionLabel": "FAIR Personas",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D4-L2",
+          "descriptorID": "D4-L2",
+          "descriptorComment": "Designated FAIR-related roles are beginning to take shape, including scientists, stewards, curators, governance and integration specialists, owners and community roles. Individuals may hold several roles, while early teams demonstrate value through prototypes and gain recognition.",
+          "level": "urn:fair-dama-fairmm:alignment:L2",
+          "levelLabel": "L2 Getting FAIR",
+          "ordinal": "2",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L123"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 2010.4761904761917,
+        "y1": 1933.9047619047622,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-2b2f06079a90263b",
+      "source": "urn:fair-dama-fairmm:alignment:D4-L3",
+      "target": "urn:fair-dama-fairmm:alignment:L3",
+      "source_label": "D4-L3",
+      "target_label": "L3 Pretty FAIR",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D4",
+          "dimensionLabel": "FAIR Personas",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D4-L3",
+          "descriptorID": "D4-L3",
+          "descriptorComment": "A framework of complementary FAIR roles and their interactions is emerging, supported by experienced staff and developing formal training. Business, subject and technical roles collaborate in implementation, and the source also discusses emerging opportunities for autonomous agents.",
+          "level": "urn:fair-dama-fairmm:alignment:L3",
+          "levelLabel": "L3 Pretty FAIR",
+          "ordinal": "3",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L135"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 2100.0000000000014,
+        "y1": 2176.5714285714284,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-916590bb3d78284d",
+      "source": "urn:fair-dama-fairmm:alignment:D4-L4",
+      "target": "urn:fair-dama-fairmm:alignment:L4",
+      "source_label": "D4-L4",
+      "target_label": "L4 Really FAIR",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D4",
+          "dimensionLabel": "FAIR Personas",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D4-L4",
+          "descriptorID": "D4-L4",
+          "descriptorComment": "A resourced framework of FAIR roles is established across technical, business, ownership and governance functions. Institutional training and change-management support develop proficiency, while leadership and financial roles help sustain implementation and monitor value.",
+          "level": "urn:fair-dama-fairmm:alignment:L4",
+          "levelLabel": "L4 Really FAIR",
+          "ordinal": "4",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L124"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 2189.523809523811,
+        "y1": 2419.238095238095,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-958ade0a3b7aa38a",
+      "source": "urn:fair-dama-fairmm:alignment:D4-L5",
+      "target": "urn:fair-dama-fairmm:alignment:L5",
+      "source_label": "D4-L5",
+      "target_label": "L5 FAIRest of them all",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D4",
+          "dimensionLabel": "FAIR Personas",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D4-L5",
+          "descriptorID": "D4-L5",
+          "descriptorComment": "FAIR competence is normal across the workforce, recognised roles are empowered and new staff receive training. Cross-organisational collaboration, knowledge-enabled citizens and strategic role frameworks sustain FAIR practice and support emerging automated actors.",
+          "level": "urn:fair-dama-fairmm:alignment:L5",
+          "levelLabel": "L5 FAIRest of them all",
+          "ordinal": "5",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L120"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 2279.0476190476206,
+        "y1": 2661.9047619047615,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-050b432de2344d48",
+      "source": "urn:fair-dama-fairmm:alignment:D5",
+      "target": "urn:fair-dama-fairmm:alignment:D5-L0",
+      "source_label": "FAIR Processes",
+      "target_label": "D5-L0",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D5",
+          "dimensionLabel": "FAIR Processes",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D5-L0",
+          "descriptorID": "D5-L0",
+          "descriptorComment": "Coordinated FAIR processes are absent. Existing implicit data-management practices may divert effort from FAIR implementation rather than supporting it.",
+          "level": "urn:fair-dama-fairmm:alignment:L0",
+          "levelLabel": "L0 Life is unFAIR",
+          "ordinal": "0",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L101"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 2208.5714285714284,
+        "y1": 2368.5714285714303,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-5f08836169b02ce4",
+      "source": "urn:fair-dama-fairmm:alignment:D5",
+      "target": "urn:fair-dama-fairmm:alignment:D5-L1",
+      "source_label": "FAIR Processes",
+      "target_label": "D5-L1",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D5",
+          "dimensionLabel": "FAIR Processes",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D5-L1",
+          "descriptorID": "D5-L1",
+          "descriptorComment": "Early FAIR guidelines, identifier policies, targeted integration initiatives and retrospective FAIRification decisions are emerging. Discussions on metadata, content and reference data accompany discovery, profiling, training and initial culture-change efforts.",
+          "level": "urn:fair-dama-fairmm:alignment:L1",
+          "levelLabel": "L1 Started the FAIR journey",
+          "ordinal": "1",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L120"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 2234.095238095238,
+        "y1": 2458.09523809524,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-f6b3fcce1d6766bf",
+      "source": "urn:fair-dama-fairmm:alignment:D5",
+      "target": "urn:fair-dama-fairmm:alignment:D5-L2",
+      "source_label": "FAIR Processes",
+      "target_label": "D5-L2",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D5",
+          "dimensionLabel": "FAIR Processes",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D5-L2",
+          "descriptorID": "D5-L2",
+          "descriptorComment": "Pilot projects demonstrate FAIR value while processes, training and governance begin to align. Retrospectives inform improvement, and curation, metadata guidance, procurement requirements and knowledge of licensing and lineage support emerging repeatable practice.",
+          "level": "urn:fair-dama-fairmm:alignment:L2",
+          "levelLabel": "L2 Getting FAIR",
+          "ordinal": "2",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L140"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 2259.6190476190477,
+        "y1": 2547.6190476190495,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-1b32cdf354d9879c",
+      "source": "urn:fair-dama-fairmm:alignment:D5",
+      "target": "urn:fair-dama-fairmm:alignment:D5-L3",
+      "source_label": "FAIR Processes",
+      "target_label": "D5-L3",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D5",
+          "dimensionLabel": "FAIR Processes",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D5-L3",
+          "descriptorID": "D5-L3",
+          "descriptorComment": "At least one business unit uses documented FAIR processes in production, supported by trained staff and coordinated initiatives. FAIR is being integrated into onboarding, continuing education, standard IT workflows, procurement and implementation planning.",
+          "level": "urn:fair-dama-fairmm:alignment:L3",
+          "levelLabel": "L3 Pretty FAIR",
+          "ordinal": "3",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L158"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 2285.142857142857,
+        "y1": 2637.142857142859,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-9be4444d03a8e4f5",
+      "source": "urn:fair-dama-fairmm:alignment:D5",
+      "target": "urn:fair-dama-fairmm:alignment:D5-L4",
+      "source_label": "FAIR Processes",
+      "target_label": "D5-L4",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D5",
+          "dimensionLabel": "FAIR Processes",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D5-L4",
+          "descriptorID": "D5-L4",
+          "descriptorComment": "FAIR processes and role-specific training are established across the data ecosystem and increasingly normalised in organisational work. Automated tools, feedback mechanisms, metadata maintenance and emerging organisation-wide standards support continuous improvement and business-impact evaluation.",
+          "level": "urn:fair-dama-fairmm:alignment:L4",
+          "levelLabel": "L4 Really FAIR",
+          "ordinal": "4",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L150"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 2310.6666666666665,
+        "y1": 2726.666666666669,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-57ed64396ce2e322",
+      "source": "urn:fair-dama-fairmm:alignment:D5",
+      "target": "urn:fair-dama-fairmm:alignment:D5-L5",
+      "source_label": "FAIR Processes",
+      "target_label": "D5-L5",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D5",
+          "dimensionLabel": "FAIR Processes",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D5-L5",
+          "descriptorID": "D5-L5",
+          "descriptorComment": "FAIR practices are integrated throughout the data lifecycle and sustained across ecosystem partners. Shared standards, training, APIs, metadata feedback and community learning support exchange beyond organisational boundaries and continued maintenance of FAIR processes and tools.",
+          "level": "urn:fair-dama-fairmm:alignment:L5",
+          "levelLabel": "L5 FAIRest of them all",
+          "ordinal": "5",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L138"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 2336.190476190476,
+        "y1": 2816.1904761904784,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-487ccd83e2ed5647",
+      "source": "urn:fair-dama-fairmm:alignment:D5-L0",
+      "target": "urn:fair-dama-fairmm:alignment:L0",
+      "source_label": "D5-L0",
+      "target_label": "L0 Life is unFAIR",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D5",
+          "dimensionLabel": "FAIR Processes",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D5-L0",
+          "descriptorID": "D5-L0",
+          "descriptorComment": "Coordinated FAIR processes are absent. Existing implicit data-management practices may divert effort from FAIR implementation rather than supporting it.",
+          "level": "urn:fair-dama-fairmm:alignment:L0",
+          "levelLabel": "L0 Life is unFAIR",
+          "ordinal": "0",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L101"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 2368.5714285714303,
+        "y1": 1474.095238095238,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-5cf7d6a69adfe827",
+      "source": "urn:fair-dama-fairmm:alignment:D5-L1",
+      "target": "urn:fair-dama-fairmm:alignment:L1",
+      "source_label": "D5-L1",
+      "target_label": "L1 Started the FAIR journey",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D5",
+          "dimensionLabel": "FAIR Processes",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D5-L1",
+          "descriptorID": "D5-L1",
+          "descriptorComment": "Early FAIR guidelines, identifier policies, targeted integration initiatives and retrospective FAIRification decisions are emerging. Discussions on metadata, content and reference data accompany discovery, profiling, training and initial culture-change efforts.",
+          "level": "urn:fair-dama-fairmm:alignment:L1",
+          "levelLabel": "L1 Started the FAIR journey",
+          "ordinal": "1",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L120"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 2458.09523809524,
+        "y1": 1716.7619047619048,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-3262d815969f74f9",
+      "source": "urn:fair-dama-fairmm:alignment:D5-L2",
+      "target": "urn:fair-dama-fairmm:alignment:L2",
+      "source_label": "D5-L2",
+      "target_label": "L2 Getting FAIR",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D5",
+          "dimensionLabel": "FAIR Processes",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D5-L2",
+          "descriptorID": "D5-L2",
+          "descriptorComment": "Pilot projects demonstrate FAIR value while processes, training and governance begin to align. Retrospectives inform improvement, and curation, metadata guidance, procurement requirements and knowledge of licensing and lineage support emerging repeatable practice.",
+          "level": "urn:fair-dama-fairmm:alignment:L2",
+          "levelLabel": "L2 Getting FAIR",
+          "ordinal": "2",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L140"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 2547.6190476190495,
+        "y1": 1959.4285714285716,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-2af5fb7b30c4feb7",
+      "source": "urn:fair-dama-fairmm:alignment:D5-L3",
+      "target": "urn:fair-dama-fairmm:alignment:L3",
+      "source_label": "D5-L3",
+      "target_label": "L3 Pretty FAIR",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D5",
+          "dimensionLabel": "FAIR Processes",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D5-L3",
+          "descriptorID": "D5-L3",
+          "descriptorComment": "At least one business unit uses documented FAIR processes in production, supported by trained staff and coordinated initiatives. FAIR is being integrated into onboarding, continuing education, standard IT workflows, procurement and implementation planning.",
+          "level": "urn:fair-dama-fairmm:alignment:L3",
+          "levelLabel": "L3 Pretty FAIR",
+          "ordinal": "3",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L158"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 2637.142857142859,
+        "y1": 2202.095238095238,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-53708e928e799198",
+      "source": "urn:fair-dama-fairmm:alignment:D5-L4",
+      "target": "urn:fair-dama-fairmm:alignment:L4",
+      "source_label": "D5-L4",
+      "target_label": "L4 Really FAIR",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D5",
+          "dimensionLabel": "FAIR Processes",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D5-L4",
+          "descriptorID": "D5-L4",
+          "descriptorComment": "FAIR processes and role-specific training are established across the data ecosystem and increasingly normalised in organisational work. Automated tools, feedback mechanisms, metadata maintenance and emerging organisation-wide standards support continuous improvement and business-impact evaluation.",
+          "level": "urn:fair-dama-fairmm:alignment:L4",
+          "levelLabel": "L4 Really FAIR",
+          "ordinal": "4",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L150"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 2726.666666666669,
+        "y1": 2444.7619047619046,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-011ad6bf9bf59ca3",
+      "source": "urn:fair-dama-fairmm:alignment:D5-L5",
+      "target": "urn:fair-dama-fairmm:alignment:L5",
+      "source_label": "D5-L5",
+      "target_label": "L5 FAIRest of them all",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D5",
+          "dimensionLabel": "FAIR Processes",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D5-L5",
+          "descriptorID": "D5-L5",
+          "descriptorComment": "FAIR practices are integrated throughout the data lifecycle and sustained across ecosystem partners. Shared standards, training, APIs, metadata feedback and community learning support exchange beyond organisational boundaries and continued maintenance of FAIR processes and tools.",
+          "level": "urn:fair-dama-fairmm:alignment:L5",
+          "levelLabel": "L5 FAIRest of them all",
+          "ordinal": "5",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L138"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 2816.1904761904784,
+        "y1": 2687.428571428571,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-c7d8b9df284ebfd6",
+      "source": "urn:fair-dama-fairmm:alignment:D6",
+      "target": "urn:fair-dama-fairmm:alignment:D6-L0",
+      "source_label": "FAIR Knowledge",
+      "target_label": "D6-L0",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D6",
+          "dimensionLabel": "FAIR Knowledge",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D6-L0",
+          "descriptorID": "D6-L0",
+          "descriptorComment": "FAIR-related knowledge and awareness are absent or insufficient within the organisation, including at leadership level.",
+          "level": "urn:fair-dama-fairmm:alignment:L0",
+          "levelLabel": "L0 Life is unFAIR",
+          "ordinal": "0",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L109"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 2425.714285714286,
+        "y1": 2905.714285714288,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-ca4070595991c690",
+      "source": "urn:fair-dama-fairmm:alignment:D6",
+      "target": "urn:fair-dama-fairmm:alignment:D6-L1",
+      "source_label": "FAIR Knowledge",
+      "target_label": "D6-L1",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D6",
+          "dimensionLabel": "FAIR Knowledge",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D6-L1",
+          "descriptorID": "D6-L1",
+          "descriptorComment": "Initial FAIR knowledge develops through external experts, workshops and training. Understanding remains concentrated in individuals rather than shared organisational knowledge, while some staff connect with external communities.",
+          "level": "urn:fair-dama-fairmm:alignment:L1",
+          "levelLabel": "L1 Started the FAIR journey",
+          "ordinal": "1",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L138"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 2451.2380952380954,
+        "y1": 2995.2380952380977,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-bb6cd459feae226a",
+      "source": "urn:fair-dama-fairmm:alignment:D6",
+      "target": "urn:fair-dama-fairmm:alignment:D6-L2",
+      "source_label": "FAIR Knowledge",
+      "target_label": "D6-L2",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D6",
+          "dimensionLabel": "FAIR Knowledge",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D6-L2",
+          "descriptorID": "D6-L2",
+          "descriptorComment": "Early roles, champions and prototype teams can explain and demonstrate FAIR value, but knowledge remains largely informal and held by individuals. Internal communities and external support begin to develop shared practices and organisation-specific training.",
+          "level": "urn:fair-dama-fairmm:alignment:L2",
+          "levelLabel": "L2 Getting FAIR",
+          "ordinal": "2",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L164"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 2476.761904761905,
+        "y1": 3084.7619047619073,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-eb39cde9dc6f6448",
+      "source": "urn:fair-dama-fairmm:alignment:D6",
+      "target": "urn:fair-dama-fairmm:alignment:D6-L3",
+      "source_label": "FAIR Knowledge",
+      "target_label": "D6-L3",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D6",
+          "dimensionLabel": "FAIR Knowledge",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D6-L3",
+          "descriptorID": "D6-L3",
+          "descriptorComment": "FAIR enters the training curriculum and business units begin formal knowledge sharing. Practitioners and communities build a common domain understanding and exchange implementation experience, at least within departments.",
+          "level": "urn:fair-dama-fairmm:alignment:L3",
+          "levelLabel": "L3 Pretty FAIR",
+          "ordinal": "3",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L171"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 2502.285714285714,
+        "y1": 3174.285714285717,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-89fbe3b90b3a9f05",
+      "source": "urn:fair-dama-fairmm:alignment:D6",
+      "target": "urn:fair-dama-fairmm:alignment:D6-L4",
+      "source_label": "FAIR Knowledge",
+      "target_label": "D6-L4",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D6",
+          "dimensionLabel": "FAIR Knowledge",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D6-L4",
+          "descriptorID": "D6-L4",
+          "descriptorComment": "Training and support are available across the organisation, including onboarding, metadata validation knowledge and cross-domain communities of practice. Strategic knowledge begins to be made explicit in knowledge graphs, with growing participation and recognition in external FAIR communities.",
+          "level": "urn:fair-dama-fairmm:alignment:L4",
+          "levelLabel": "L4 Really FAIR",
+          "ordinal": "4",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L170"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 2527.809523809524,
+        "y1": 3263.8095238095266,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-fa1a30b3c7c06663",
+      "source": "urn:fair-dama-fairmm:alignment:D6",
+      "target": "urn:fair-dama-fairmm:alignment:D6-L5",
+      "source_label": "FAIR Knowledge",
+      "target_label": "D6-L5",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D6",
+          "dimensionLabel": "FAIR Knowledge",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D6-L5",
+          "descriptorID": "D6-L5",
+          "descriptorComment": "A mature FAIR education programme and shared organisational understanding sustain competence. Cross-organisational communities, data contracts and machine-actionable standards bring together technical, business, regulatory and governance expertise to maintain a wider FAIR learning ecosystem.",
+          "level": "urn:fair-dama-fairmm:alignment:L5",
+          "levelLabel": "L5 FAIRest of them all",
+          "ordinal": "5",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L158"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 2553.3333333333335,
+        "y1": 3353.333333333336,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-e774ef60baef65f7",
+      "source": "urn:fair-dama-fairmm:alignment:D6-L0",
+      "target": "urn:fair-dama-fairmm:alignment:L0",
+      "source_label": "D6-L0",
+      "target_label": "L0 Life is unFAIR",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D6",
+          "dimensionLabel": "FAIR Knowledge",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D6-L0",
+          "descriptorID": "D6-L0",
+          "descriptorComment": "FAIR-related knowledge and awareness are absent or insufficient within the organisation, including at leadership level.",
+          "level": "urn:fair-dama-fairmm:alignment:L0",
+          "levelLabel": "L0 Life is unFAIR",
+          "ordinal": "0",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L109"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 2905.714285714288,
+        "y1": 1499.6190476190477,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-db370d5eb8e6f58f",
+      "source": "urn:fair-dama-fairmm:alignment:D6-L1",
+      "target": "urn:fair-dama-fairmm:alignment:L1",
+      "source_label": "D6-L1",
+      "target_label": "L1 Started the FAIR journey",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D6",
+          "dimensionLabel": "FAIR Knowledge",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D6-L1",
+          "descriptorID": "D6-L1",
+          "descriptorComment": "Initial FAIR knowledge develops through external experts, workshops and training. Understanding remains concentrated in individuals rather than shared organisational knowledge, while some staff connect with external communities.",
+          "level": "urn:fair-dama-fairmm:alignment:L1",
+          "levelLabel": "L1 Started the FAIR journey",
+          "ordinal": "1",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L138"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 2995.2380952380977,
+        "y1": 1742.2857142857144,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-68dd382d6f38a3ee",
+      "source": "urn:fair-dama-fairmm:alignment:D6-L2",
+      "target": "urn:fair-dama-fairmm:alignment:L2",
+      "source_label": "D6-L2",
+      "target_label": "L2 Getting FAIR",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D6",
+          "dimensionLabel": "FAIR Knowledge",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D6-L2",
+          "descriptorID": "D6-L2",
+          "descriptorComment": "Early roles, champions and prototype teams can explain and demonstrate FAIR value, but knowledge remains largely informal and held by individuals. Internal communities and external support begin to develop shared practices and organisation-specific training.",
+          "level": "urn:fair-dama-fairmm:alignment:L2",
+          "levelLabel": "L2 Getting FAIR",
+          "ordinal": "2",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L164"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 3084.7619047619073,
+        "y1": 1984.9523809523812,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-5ee5a4b3394ae1fd",
+      "source": "urn:fair-dama-fairmm:alignment:D6-L3",
+      "target": "urn:fair-dama-fairmm:alignment:L3",
+      "source_label": "D6-L3",
+      "target_label": "L3 Pretty FAIR",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D6",
+          "dimensionLabel": "FAIR Knowledge",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D6-L3",
+          "descriptorID": "D6-L3",
+          "descriptorComment": "FAIR enters the training curriculum and business units begin formal knowledge sharing. Practitioners and communities build a common domain understanding and exchange implementation experience, at least within departments.",
+          "level": "urn:fair-dama-fairmm:alignment:L3",
+          "levelLabel": "L3 Pretty FAIR",
+          "ordinal": "3",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L171"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 3174.285714285717,
+        "y1": 2227.6190476190477,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-59806c21817e9fe8",
+      "source": "urn:fair-dama-fairmm:alignment:D6-L4",
+      "target": "urn:fair-dama-fairmm:alignment:L4",
+      "source_label": "D6-L4",
+      "target_label": "L4 Really FAIR",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D6",
+          "dimensionLabel": "FAIR Knowledge",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D6-L4",
+          "descriptorID": "D6-L4",
+          "descriptorComment": "Training and support are available across the organisation, including onboarding, metadata validation knowledge and cross-domain communities of practice. Strategic knowledge begins to be made explicit in knowledge graphs, with growing participation and recognition in external FAIR communities.",
+          "level": "urn:fair-dama-fairmm:alignment:L4",
+          "levelLabel": "L4 Really FAIR",
+          "ordinal": "4",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L170"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 3263.8095238095266,
+        "y1": 2470.285714285714,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-5bdaf6cf9dd83d44",
+      "source": "urn:fair-dama-fairmm:alignment:D6-L5",
+      "target": "urn:fair-dama-fairmm:alignment:L5",
+      "source_label": "D6-L5",
+      "target_label": "L5 FAIRest of them all",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D6",
+          "dimensionLabel": "FAIR Knowledge",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D6-L5",
+          "descriptorID": "D6-L5",
+          "descriptorComment": "A mature FAIR education programme and shared organisational understanding sustain competence. Cross-organisational communities, data contracts and machine-actionable standards bring together technical, business, regulatory and governance expertise to maintain a wider FAIR learning ecosystem.",
+          "level": "urn:fair-dama-fairmm:alignment:L5",
+          "levelLabel": "L5 FAIRest of them all",
+          "ordinal": "5",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L158"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 3353.333333333336,
+        "y1": 2712.9523809523807,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-3782a88d12bdb98e",
+      "source": "urn:fair-dama-fairmm:alignment:D7",
+      "target": "urn:fair-dama-fairmm:alignment:D7-L0",
+      "source_label": "FAIR Tools and Infrastructures",
+      "target_label": "D7-L0",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D7",
+          "dimensionLabel": "FAIR Tools and Infrastructures",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D7-L0",
+          "descriptorID": "D7-L0",
+          "descriptorComment": "FAIR tooling, requirements and infrastructure roadmaps are lacking or poorly understood. Fragmented capture tools and ad hoc systems can impede FAIR implementation, with gaps in coordinated access and licensing arrangements.",
+          "level": "urn:fair-dama-fairmm:alignment:L0",
+          "levelLabel": "L0 Life is unFAIR",
+          "ordinal": "0",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L117"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 2642.857142857143,
+        "y1": 3442.857142857146,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-0bec9910c094420a",
+      "source": "urn:fair-dama-fairmm:alignment:D7",
+      "target": "urn:fair-dama-fairmm:alignment:D7-L1",
+      "source_label": "FAIR Tools and Infrastructures",
+      "target_label": "D7-L1",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D7",
+          "dimensionLabel": "FAIR Tools and Infrastructures",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D7-L1",
+          "descriptorID": "D7-L1",
+          "descriptorComment": "Initial tooling plans and inventories identify FAIR gaps and requirements, while pragmatic templates and existing systems improve capture and curation. Early metadata centralisation, catalogues, identifier policies and reference-data or vocabulary tools begin to support findability.",
+          "level": "urn:fair-dama-fairmm:alignment:L1",
+          "levelLabel": "L1 Started the FAIR journey",
+          "ordinal": "1",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L149"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 2668.3809523809527,
+        "y1": 3532.3809523809555,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-f09b8a7322037af7",
+      "source": "urn:fair-dama-fairmm:alignment:D7",
+      "target": "urn:fair-dama-fairmm:alignment:D7-L2",
+      "source_label": "FAIR Tools and Infrastructures",
+      "target_label": "D7-L2",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D7",
+          "dimensionLabel": "FAIR Tools and Infrastructures",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D7-L2",
+          "descriptorID": "D7-L2",
+          "descriptorComment": "In practical terms, D7-L2 describes early working FAIR infrastructure, potentially within individual departments. It covers tools for metadata publication, controlled vocabularies and persistent identifiers; configuring existing systems; working proofs of concept; and planning wider infrastructure, staffing and budgets.",
+          "level": "urn:fair-dama-fairmm:alignment:L2",
+          "levelLabel": "L2 Getting FAIR",
+          "ordinal": "2",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L183"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 2693.9047619047624,
+        "y1": 3621.904761904765,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-0a0603f44c6d2529",
+      "source": "urn:fair-dama-fairmm:alignment:D7",
+      "target": "urn:fair-dama-fairmm:alignment:D7-L3",
+      "source_label": "FAIR Tools and Infrastructures",
+      "target_label": "D7-L3",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D7",
+          "dimensionLabel": "FAIR Tools and Infrastructures",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D7-L3",
+          "descriptorID": "D7-L3",
+          "descriptorComment": "Tools support established FAIR production and metadata management, with a shift towards making data FAIR from creation. Internal capacity, training, reference models and defined interaction mechanisms develop alongside approved resources and vendor selection for wider rollout.",
+          "level": "urn:fair-dama-fairmm:alignment:L3",
+          "levelLabel": "L3 Pretty FAIR",
+          "ordinal": "3",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L186"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 2719.4285714285716,
+        "y1": 3711.4285714285747,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-00d2cc52086bb0da",
+      "source": "urn:fair-dama-fairmm:alignment:D7",
+      "target": "urn:fair-dama-fairmm:alignment:D7-L4",
+      "source_label": "FAIR Tools and Infrastructures",
+      "target_label": "D7-L4",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D7",
+          "dimensionLabel": "FAIR Tools and Infrastructures",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D7-L4",
+          "descriptorID": "D7-L4",
+          "descriptorComment": "An organisational tooling framework supports automated exploration, consistent FAIR-data interactions and clear human- and machine-readable usage licences. Ontology, taxonomy, governance and API tools, a FAIRification-tool registry and periodic evaluation support current and legacy data.",
+          "level": "urn:fair-dama-fairmm:alignment:L4",
+          "levelLabel": "L4 Really FAIR",
+          "ordinal": "4",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L188"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 2744.952380952381,
+        "y1": 3800.9523809523844,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-b5bf99b97666d675",
+      "source": "urn:fair-dama-fairmm:alignment:D7",
+      "target": "urn:fair-dama-fairmm:alignment:D7-L5",
+      "source_label": "FAIR Tools and Infrastructures",
+      "target_label": "D7-L5",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D7",
+          "dimensionLabel": "FAIR Tools and Infrastructures",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D7-L5",
+          "descriptorID": "D7-L5",
+          "descriptorComment": "Integrated platforms support automated FAIR data creation, provenance and lifecycle validation through community-agreed interfaces and metadata profiles. Identifier, metadata publication, access-control, semantic-model and exploration services support ecosystem interoperability, with leadership in shared practices and further automation described aspirationally.",
+          "level": "urn:fair-dama-fairmm:alignment:L5",
+          "levelLabel": "L5 FAIRest of them all",
+          "ordinal": "5",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L173"
+        }
+      ],
+      "geometry": {
+        "x0": 451,
+        "x1": 1120,
+        "y0": 2770.476190476191,
+        "y1": 3890.476190476194,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-03cdc41d7af484d6",
+      "source": "urn:fair-dama-fairmm:alignment:D7-L0",
+      "target": "urn:fair-dama-fairmm:alignment:L0",
+      "source_label": "D7-L0",
+      "target_label": "L0 Life is unFAIR",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D7",
+          "dimensionLabel": "FAIR Tools and Infrastructures",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D7-L0",
+          "descriptorID": "D7-L0",
+          "descriptorComment": "FAIR tooling, requirements and infrastructure roadmaps are lacking or poorly understood. Fragmented capture tools and ad hoc systems can impede FAIR implementation, with gaps in coordinated access and licensing arrangements.",
+          "level": "urn:fair-dama-fairmm:alignment:L0",
+          "levelLabel": "L0 Life is unFAIR",
+          "ordinal": "0",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L117"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 3442.857142857146,
+        "y1": 1525.142857142857,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-beccf771bc35ff2a",
+      "source": "urn:fair-dama-fairmm:alignment:D7-L1",
+      "target": "urn:fair-dama-fairmm:alignment:L1",
+      "source_label": "D7-L1",
+      "target_label": "L1 Started the FAIR journey",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D7",
+          "dimensionLabel": "FAIR Tools and Infrastructures",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D7-L1",
+          "descriptorID": "D7-L1",
+          "descriptorComment": "Initial tooling plans and inventories identify FAIR gaps and requirements, while pragmatic templates and existing systems improve capture and curation. Early metadata centralisation, catalogues, identifier policies and reference-data or vocabulary tools begin to support findability.",
+          "level": "urn:fair-dama-fairmm:alignment:L1",
+          "levelLabel": "L1 Started the FAIR journey",
+          "ordinal": "1",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L149"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 3532.3809523809555,
+        "y1": 1767.8095238095239,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-ebf551b16a6757ba",
+      "source": "urn:fair-dama-fairmm:alignment:D7-L2",
+      "target": "urn:fair-dama-fairmm:alignment:L2",
+      "source_label": "D7-L2",
+      "target_label": "L2 Getting FAIR",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D7",
+          "dimensionLabel": "FAIR Tools and Infrastructures",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D7-L2",
+          "descriptorID": "D7-L2",
+          "descriptorComment": "In practical terms, D7-L2 describes early working FAIR infrastructure, potentially within individual departments. It covers tools for metadata publication, controlled vocabularies and persistent identifiers; configuring existing systems; working proofs of concept; and planning wider infrastructure, staffing and budgets.",
+          "level": "urn:fair-dama-fairmm:alignment:L2",
+          "levelLabel": "L2 Getting FAIR",
+          "ordinal": "2",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L183"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 3621.904761904765,
+        "y1": 2010.4761904761906,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-7eabee98d5f2d5e3",
+      "source": "urn:fair-dama-fairmm:alignment:D7-L3",
+      "target": "urn:fair-dama-fairmm:alignment:L3",
+      "source_label": "D7-L3",
+      "target_label": "L3 Pretty FAIR",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D7",
+          "dimensionLabel": "FAIR Tools and Infrastructures",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D7-L3",
+          "descriptorID": "D7-L3",
+          "descriptorComment": "Tools support established FAIR production and metadata management, with a shift towards making data FAIR from creation. Internal capacity, training, reference models and defined interaction mechanisms develop alongside approved resources and vendor selection for wider rollout.",
+          "level": "urn:fair-dama-fairmm:alignment:L3",
+          "levelLabel": "L3 Pretty FAIR",
+          "ordinal": "3",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L186"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 3711.4285714285747,
+        "y1": 2253.1428571428573,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-0e08621b81d040b3",
+      "source": "urn:fair-dama-fairmm:alignment:D7-L4",
+      "target": "urn:fair-dama-fairmm:alignment:L4",
+      "source_label": "D7-L4",
+      "target_label": "L4 Really FAIR",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D7",
+          "dimensionLabel": "FAIR Tools and Infrastructures",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D7-L4",
+          "descriptorID": "D7-L4",
+          "descriptorComment": "An organisational tooling framework supports automated exploration, consistent FAIR-data interactions and clear human- and machine-readable usage licences. Ontology, taxonomy, governance and API tools, a FAIRification-tool registry and periodic evaluation support current and legacy data.",
+          "level": "urn:fair-dama-fairmm:alignment:L4",
+          "levelLabel": "L4 Really FAIR",
+          "ordinal": "4",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L188"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 3800.9523809523844,
+        "y1": 2495.809523809524,
+        "thickness": 25.523809523809526
+      }
+    },
+    {
+      "id": "edge-89f024997e93909d",
+      "source": "urn:fair-dama-fairmm:alignment:D7-L5",
+      "target": "urn:fair-dama-fairmm:alignment:L5",
+      "source_label": "D7-L5",
+      "target_label": "L5 FAIRest of them all",
+      "kind": "Descriptor",
+      "value": 1,
+      "record_count": 1,
+      "records": [
+        {
+          "dimension": "urn:fair-dama-fairmm:alignment:D7",
+          "dimensionLabel": "FAIR Tools and Infrastructures",
+          "descriptor": "urn:fair-dama-fairmm:alignment:D7-L5",
+          "descriptorID": "D7-L5",
+          "descriptorComment": "Integrated platforms support automated FAIR data creation, provenance and lifecycle validation through community-agreed interfaces and metadata profiles. Identifier, metadata publication, access-control, semantic-model and exploration services support ecosystem interoperability, with leadership in shared practices and further automation described aspirationally.",
+          "level": "urn:fair-dama-fairmm:alignment:L5",
+          "levelLabel": "L5 FAIRest of them all",
+          "ordinal": "5",
+          "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L173"
+        }
+      ],
+      "geometry": {
+        "x0": 1136,
+        "x1": 1900,
+        "y0": 3890.476190476194,
+        "y1": 2738.4761904761904,
+        "thickness": 25.523809523809526
+      }
+    }
+  ],
+  "columns": 3,
+  "counts": {
+    "Descriptor": 84
+  },
+  "query_rows": 42,
+  "input": "SPARQL over nine local Turtle modules; no crosswalk or diagram JSON inputs",
+  "extracted_rows": [
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D1",
+      "dimensionLabel": "FAIR Data",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D1-L0",
+      "descriptorID": "D1-L0",
+      "descriptorComment": "Data is fragmented across silos, inconsistent formats and local systems, with ad hoc access and usage arrangements. Finding and using it often requires specialist knowledge; a coordinated FAIR data approach is absent.",
+      "level": "urn:fair-dama-fairmm:alignment:L0",
+      "levelLabel": "L0 Life is unFAIR",
+      "ordinal": "0",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L62"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D1",
+      "dimensionLabel": "FAIR Data",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D1-L1",
+      "descriptorID": "D1-L1",
+      "descriptorComment": "Initial cataloguing, data-lake hosting and access governance are emerging, alongside early metadata and identifier use. Data remains heterogeneous and generally unconformed to a domain model, so reuse still depends on technical and subject expertise.",
+      "level": "urn:fair-dama-fairmm:alignment:L1",
+      "levelLabel": "L1 Started the FAIR journey",
+      "ordinal": "1",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L57"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D1",
+      "dimensionLabel": "FAIR Data",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D1-L2",
+      "descriptorID": "D1-L2",
+      "descriptorComment": "Data is catalogued and conforms to local or system-specific models, with system-level access controls. It may reside in a data lake, but alignment to shared domain models is incomplete and technical and subject expertise are still needed.",
+      "level": "urn:fair-dama-fairmm:alignment:L2",
+      "levelLabel": "L2 Getting FAIR",
+      "ordinal": "2",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L65"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D1",
+      "dimensionLabel": "FAIR Data",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D1-L3",
+      "descriptorID": "D1-L3",
+      "descriptorComment": "FAIR data is working within departments or domains: local reference data, resolvable metadata, domain models and data-level access controls support integration, reuse and emerging self-service analytics. Broader organisational interoperability and reuse remain challenging.",
+      "level": "urn:fair-dama-fairmm:alignment:L3",
+      "levelLabel": "L3 Pretty FAIR",
+      "ordinal": "3",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L66"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D1",
+      "dimensionLabel": "FAIR Data",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D1-L4",
+      "descriptorID": "D1-L4",
+      "descriptorComment": "FAIR data can be found and used across the organisation through consistent identifiers, controlled vocabularies, enterprise metadata and reference data, and cross-domain models. Cross-domain analytics and machine interpretation are supported, and generating data FAIR is becoming normal practice.",
+      "level": "urn:fair-dama-fairmm:alignment:L4",
+      "levelLabel": "L4 Really FAIR",
+      "ordinal": "4",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L68"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D1",
+      "dimensionLabel": "FAIR Data",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D1-L5",
+      "descriptorID": "D1-L5",
+      "descriptorComment": "FAIR-by-design data remains FAIR throughout its lifecycle and supports relevant internal and external use. Shared semantic descriptions, machine-actionable resources and interoperable ecosystem practices enable automated operations and reuse across organisational boundaries.",
+      "level": "urn:fair-dama-fairmm:alignment:L5",
+      "levelLabel": "L5 FAIRest of them all",
+      "ordinal": "5",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L67"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D2",
+      "dimensionLabel": "FAIR Leadership",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D2-L0",
+      "descriptorID": "D2-L0",
+      "descriptorComment": "Leadership engagement, FAIR understanding and ownership are lacking or insufficient. FAIR data is not an organisational priority, and staff and processes receive little support for adopting it.",
+      "level": "urn:fair-dama-fairmm:alignment:L0",
+      "levelLabel": "L0 Life is unFAIR",
+      "ordinal": "0",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L70"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D2",
+      "dimensionLabel": "FAIR Leadership",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D2-L1",
+      "descriptorID": "D2-L1",
+      "descriptorComment": "Leadership awareness and early champions are emerging from business, technology or data roles. Top-down or bottom-up support begins, but implementation strategy and resources may still be unclear, with initial interest in training.",
+      "level": "urn:fair-dama-fairmm:alignment:L1",
+      "levelLabel": "L1 Started the FAIR journey",
+      "ordinal": "1",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L68"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D2",
+      "dimensionLabel": "FAIR Leadership",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D2-L2",
+      "descriptorID": "D2-L2",
+      "descriptorComment": "Leadership workshops, internal champions and initial teams are building understanding of FAIR value. Early projects receive increasing sponsorship, funding and commitment to enabling services and organisations.",
+      "level": "urn:fair-dama-fairmm:alignment:L2",
+      "levelLabel": "L2 Getting FAIR",
+      "ordinal": "2",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L79"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D2",
+      "dimensionLabel": "FAIR Leadership",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D2-L3",
+      "descriptorID": "D2-L3",
+      "descriptorComment": "Leadership expects FAIR implementation to be included in project budgets and sets objectives, accountability, metrics and training. A supported organisational vision is backed by people and funding, with some engagement in external standards convergence.",
+      "level": "urn:fair-dama-fairmm:alignment:L3",
+      "levelLabel": "L3 Pretty FAIR",
+      "ordinal": "3",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L88"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D2",
+      "dimensionLabel": "FAIR Leadership",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D2-L4",
+      "descriptorID": "D2-L4",
+      "descriptorComment": "An enterprise FAIR mandate is embedded in budget approvals, governance and risk management, with clear leadership accountability. Internal implementation is funded, while procurement requirements and participation in the wider FAIR community extend its influence.",
+      "level": "urn:fair-dama-fairmm:alignment:L4",
+      "levelLabel": "L4 Really FAIR",
+      "ordinal": "4",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L95"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D2",
+      "dimensionLabel": "FAIR Leadership",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D2-L5",
+      "descriptorID": "D2-L5",
+      "descriptorComment": "Senior leadership is fully committed and accountable for FAIR strategy, with support across business and IT. Demonstrated value, sustained resources, operational metrics and recognised external leadership support FAIR practice within and beyond the organisation.",
+      "level": "urn:fair-dama-fairmm:alignment:L5",
+      "levelLabel": "L5 FAIRest of them all",
+      "ordinal": "5",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L86"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D3",
+      "dimensionLabel": "FAIR Strategy",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D3-L0",
+      "descriptorID": "D3-L0",
+      "descriptorComment": "There is no explicit FAIR strategy or coordinated implementation pathway. Any use of FAIR principles is reactive or ad hoc, with little strategic recognition of their value.",
+      "level": "urn:fair-dama-fairmm:alignment:L0",
+      "levelLabel": "L0 Life is unFAIR",
+      "ordinal": "0",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L81"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D3",
+      "dimensionLabel": "FAIR Strategy",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D3-L1",
+      "descriptorID": "D3-L1",
+      "descriptorComment": "An initial FAIR vision and plan are emerging as leaders recognise its strategic value. The organisation reviews existing practice, considers collaboration and explores technical and open-resource choices, but execution remains embryonic.",
+      "level": "urn:fair-dama-fairmm:alignment:L1",
+      "levelLabel": "L1 Started the FAIR journey",
+      "ordinal": "1",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L85"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D3",
+      "dimensionLabel": "FAIR Strategy",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D3-L2",
+      "descriptorID": "D3-L2",
+      "descriptorComment": "A first FAIR vision, strategy and plan has approval at organisational or local level. Champions and tactical initiatives are learning from early implementation, while FAIR begins to align with the broader data strategy, models and architectural choices.",
+      "level": "urn:fair-dama-fairmm:alignment:L2",
+      "levelLabel": "L2 Getting FAIR",
+      "ordinal": "2",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L97"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D3",
+      "dimensionLabel": "FAIR Strategy",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D3-L3",
+      "descriptorID": "D3-L3",
+      "descriptorComment": "A refined FAIR strategy and implementation guidance have leadership support, budget and capacity. Value is beginning to be tracked, enterprise architecture and federated domain models are considered, and implementation plans may still operate at departmental scale.",
+      "level": "urn:fair-dama-fairmm:alignment:L3",
+      "levelLabel": "L3 Pretty FAIR",
+      "ordinal": "3",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L110"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D3",
+      "dimensionLabel": "FAIR Strategy",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D3-L4",
+      "descriptorID": "D3-L4",
+      "descriptorComment": "A sustained enterprise FAIR strategy connects central and federated domain data through operating models, standards and procedures. FAIR metrics, risk management and allocated people and budgets support implementation, with strategic awareness embedded across the organisation.",
+      "level": "urn:fair-dama-fairmm:alignment:L4",
+      "levelLabel": "L4 Really FAIR",
+      "ordinal": "4",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L109"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D3",
+      "dimensionLabel": "FAIR Strategy",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D3-L5",
+      "descriptorID": "D3-L5",
+      "descriptorComment": "FAIR is a widely understood organisational norm with a durable, transparent strategy. Measurable business outcomes, cost-benefit evidence, cross-functional integration and feedback guide investment, while relevant external stakeholders can see the strategy in practice.",
+      "level": "urn:fair-dama-fairmm:alignment:L5",
+      "levelLabel": "L5 FAIRest of them all",
+      "ordinal": "5",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L103"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D4",
+      "dimensionLabel": "FAIR Personas",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D4-L0",
+      "descriptorID": "D4-L0",
+      "descriptorComment": "FAIR competence and designated roles are absent or poorly recognised. Resource resistance, reluctance to share data and cultural barriers impede the adoption of FAIR responsibilities.",
+      "level": "urn:fair-dama-fairmm:alignment:L0",
+      "levelLabel": "L0 Life is unFAIR",
+      "ordinal": "0",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L90"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D4",
+      "dimensionLabel": "FAIR Personas",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D4-L1",
+      "descriptorID": "D4-L1",
+      "descriptorComment": "Early curators, semantic experts, coordinators and data strategists begin supporting FAIR work. External experts and workshops help staff develop initial skills and lead the first internal projects.",
+      "level": "urn:fair-dama-fairmm:alignment:L1",
+      "levelLabel": "L1 Started the FAIR journey",
+      "ordinal": "1",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L101"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D4",
+      "dimensionLabel": "FAIR Personas",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D4-L2",
+      "descriptorID": "D4-L2",
+      "descriptorComment": "Designated FAIR-related roles are beginning to take shape, including scientists, stewards, curators, governance and integration specialists, owners and community roles. Individuals may hold several roles, while early teams demonstrate value through prototypes and gain recognition.",
+      "level": "urn:fair-dama-fairmm:alignment:L2",
+      "levelLabel": "L2 Getting FAIR",
+      "ordinal": "2",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L123"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D4",
+      "dimensionLabel": "FAIR Personas",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D4-L3",
+      "descriptorID": "D4-L3",
+      "descriptorComment": "A framework of complementary FAIR roles and their interactions is emerging, supported by experienced staff and developing formal training. Business, subject and technical roles collaborate in implementation, and the source also discusses emerging opportunities for autonomous agents.",
+      "level": "urn:fair-dama-fairmm:alignment:L3",
+      "levelLabel": "L3 Pretty FAIR",
+      "ordinal": "3",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L135"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D4",
+      "dimensionLabel": "FAIR Personas",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D4-L4",
+      "descriptorID": "D4-L4",
+      "descriptorComment": "A resourced framework of FAIR roles is established across technical, business, ownership and governance functions. Institutional training and change-management support develop proficiency, while leadership and financial roles help sustain implementation and monitor value.",
+      "level": "urn:fair-dama-fairmm:alignment:L4",
+      "levelLabel": "L4 Really FAIR",
+      "ordinal": "4",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L124"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D4",
+      "dimensionLabel": "FAIR Personas",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D4-L5",
+      "descriptorID": "D4-L5",
+      "descriptorComment": "FAIR competence is normal across the workforce, recognised roles are empowered and new staff receive training. Cross-organisational collaboration, knowledge-enabled citizens and strategic role frameworks sustain FAIR practice and support emerging automated actors.",
+      "level": "urn:fair-dama-fairmm:alignment:L5",
+      "levelLabel": "L5 FAIRest of them all",
+      "ordinal": "5",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L120"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D5",
+      "dimensionLabel": "FAIR Processes",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D5-L0",
+      "descriptorID": "D5-L0",
+      "descriptorComment": "Coordinated FAIR processes are absent. Existing implicit data-management practices may divert effort from FAIR implementation rather than supporting it.",
+      "level": "urn:fair-dama-fairmm:alignment:L0",
+      "levelLabel": "L0 Life is unFAIR",
+      "ordinal": "0",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L101"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D5",
+      "dimensionLabel": "FAIR Processes",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D5-L1",
+      "descriptorID": "D5-L1",
+      "descriptorComment": "Early FAIR guidelines, identifier policies, targeted integration initiatives and retrospective FAIRification decisions are emerging. Discussions on metadata, content and reference data accompany discovery, profiling, training and initial culture-change efforts.",
+      "level": "urn:fair-dama-fairmm:alignment:L1",
+      "levelLabel": "L1 Started the FAIR journey",
+      "ordinal": "1",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L120"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D5",
+      "dimensionLabel": "FAIR Processes",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D5-L2",
+      "descriptorID": "D5-L2",
+      "descriptorComment": "Pilot projects demonstrate FAIR value while processes, training and governance begin to align. Retrospectives inform improvement, and curation, metadata guidance, procurement requirements and knowledge of licensing and lineage support emerging repeatable practice.",
+      "level": "urn:fair-dama-fairmm:alignment:L2",
+      "levelLabel": "L2 Getting FAIR",
+      "ordinal": "2",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L140"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D5",
+      "dimensionLabel": "FAIR Processes",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D5-L3",
+      "descriptorID": "D5-L3",
+      "descriptorComment": "At least one business unit uses documented FAIR processes in production, supported by trained staff and coordinated initiatives. FAIR is being integrated into onboarding, continuing education, standard IT workflows, procurement and implementation planning.",
+      "level": "urn:fair-dama-fairmm:alignment:L3",
+      "levelLabel": "L3 Pretty FAIR",
+      "ordinal": "3",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L158"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D5",
+      "dimensionLabel": "FAIR Processes",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D5-L4",
+      "descriptorID": "D5-L4",
+      "descriptorComment": "FAIR processes and role-specific training are established across the data ecosystem and increasingly normalised in organisational work. Automated tools, feedback mechanisms, metadata maintenance and emerging organisation-wide standards support continuous improvement and business-impact evaluation.",
+      "level": "urn:fair-dama-fairmm:alignment:L4",
+      "levelLabel": "L4 Really FAIR",
+      "ordinal": "4",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L150"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D5",
+      "dimensionLabel": "FAIR Processes",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D5-L5",
+      "descriptorID": "D5-L5",
+      "descriptorComment": "FAIR practices are integrated throughout the data lifecycle and sustained across ecosystem partners. Shared standards, training, APIs, metadata feedback and community learning support exchange beyond organisational boundaries and continued maintenance of FAIR processes and tools.",
+      "level": "urn:fair-dama-fairmm:alignment:L5",
+      "levelLabel": "L5 FAIRest of them all",
+      "ordinal": "5",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L138"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D6",
+      "dimensionLabel": "FAIR Knowledge",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D6-L0",
+      "descriptorID": "D6-L0",
+      "descriptorComment": "FAIR-related knowledge and awareness are absent or insufficient within the organisation, including at leadership level.",
+      "level": "urn:fair-dama-fairmm:alignment:L0",
+      "levelLabel": "L0 Life is unFAIR",
+      "ordinal": "0",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L109"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D6",
+      "dimensionLabel": "FAIR Knowledge",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D6-L1",
+      "descriptorID": "D6-L1",
+      "descriptorComment": "Initial FAIR knowledge develops through external experts, workshops and training. Understanding remains concentrated in individuals rather than shared organisational knowledge, while some staff connect with external communities.",
+      "level": "urn:fair-dama-fairmm:alignment:L1",
+      "levelLabel": "L1 Started the FAIR journey",
+      "ordinal": "1",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L138"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D6",
+      "dimensionLabel": "FAIR Knowledge",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D6-L2",
+      "descriptorID": "D6-L2",
+      "descriptorComment": "Early roles, champions and prototype teams can explain and demonstrate FAIR value, but knowledge remains largely informal and held by individuals. Internal communities and external support begin to develop shared practices and organisation-specific training.",
+      "level": "urn:fair-dama-fairmm:alignment:L2",
+      "levelLabel": "L2 Getting FAIR",
+      "ordinal": "2",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L164"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D6",
+      "dimensionLabel": "FAIR Knowledge",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D6-L3",
+      "descriptorID": "D6-L3",
+      "descriptorComment": "FAIR enters the training curriculum and business units begin formal knowledge sharing. Practitioners and communities build a common domain understanding and exchange implementation experience, at least within departments.",
+      "level": "urn:fair-dama-fairmm:alignment:L3",
+      "levelLabel": "L3 Pretty FAIR",
+      "ordinal": "3",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L171"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D6",
+      "dimensionLabel": "FAIR Knowledge",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D6-L4",
+      "descriptorID": "D6-L4",
+      "descriptorComment": "Training and support are available across the organisation, including onboarding, metadata validation knowledge and cross-domain communities of practice. Strategic knowledge begins to be made explicit in knowledge graphs, with growing participation and recognition in external FAIR communities.",
+      "level": "urn:fair-dama-fairmm:alignment:L4",
+      "levelLabel": "L4 Really FAIR",
+      "ordinal": "4",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L170"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D6",
+      "dimensionLabel": "FAIR Knowledge",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D6-L5",
+      "descriptorID": "D6-L5",
+      "descriptorComment": "A mature FAIR education programme and shared organisational understanding sustain competence. Cross-organisational communities, data contracts and machine-actionable standards bring together technical, business, regulatory and governance expertise to maintain a wider FAIR learning ecosystem.",
+      "level": "urn:fair-dama-fairmm:alignment:L5",
+      "levelLabel": "L5 FAIRest of them all",
+      "ordinal": "5",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L158"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D7",
+      "dimensionLabel": "FAIR Tools and Infrastructures",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D7-L0",
+      "descriptorID": "D7-L0",
+      "descriptorComment": "FAIR tooling, requirements and infrastructure roadmaps are lacking or poorly understood. Fragmented capture tools and ad hoc systems can impede FAIR implementation, with gaps in coordinated access and licensing arrangements.",
+      "level": "urn:fair-dama-fairmm:alignment:L0",
+      "levelLabel": "L0 Life is unFAIR",
+      "ordinal": "0",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L117"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D7",
+      "dimensionLabel": "FAIR Tools and Infrastructures",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D7-L1",
+      "descriptorID": "D7-L1",
+      "descriptorComment": "Initial tooling plans and inventories identify FAIR gaps and requirements, while pragmatic templates and existing systems improve capture and curation. Early metadata centralisation, catalogues, identifier policies and reference-data or vocabulary tools begin to support findability.",
+      "level": "urn:fair-dama-fairmm:alignment:L1",
+      "levelLabel": "L1 Started the FAIR journey",
+      "ordinal": "1",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L149"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D7",
+      "dimensionLabel": "FAIR Tools and Infrastructures",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D7-L2",
+      "descriptorID": "D7-L2",
+      "descriptorComment": "In practical terms, D7-L2 describes early working FAIR infrastructure, potentially within individual departments. It covers tools for metadata publication, controlled vocabularies and persistent identifiers; configuring existing systems; working proofs of concept; and planning wider infrastructure, staffing and budgets.",
+      "level": "urn:fair-dama-fairmm:alignment:L2",
+      "levelLabel": "L2 Getting FAIR",
+      "ordinal": "2",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L183"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D7",
+      "dimensionLabel": "FAIR Tools and Infrastructures",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D7-L3",
+      "descriptorID": "D7-L3",
+      "descriptorComment": "Tools support established FAIR production and metadata management, with a shift towards making data FAIR from creation. Internal capacity, training, reference models and defined interaction mechanisms develop alongside approved resources and vendor selection for wider rollout.",
+      "level": "urn:fair-dama-fairmm:alignment:L3",
+      "levelLabel": "L3 Pretty FAIR",
+      "ordinal": "3",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L186"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D7",
+      "dimensionLabel": "FAIR Tools and Infrastructures",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D7-L4",
+      "descriptorID": "D7-L4",
+      "descriptorComment": "An organisational tooling framework supports automated exploration, consistent FAIR-data interactions and clear human- and machine-readable usage licences. Ontology, taxonomy, governance and API tools, a FAIRification-tool registry and periodic evaluation support current and legacy data.",
+      "level": "urn:fair-dama-fairmm:alignment:L4",
+      "levelLabel": "L4 Really FAIR",
+      "ordinal": "4",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L188"
+    },
+    {
+      "dimension": "urn:fair-dama-fairmm:alignment:D7",
+      "dimensionLabel": "FAIR Tools and Infrastructures",
+      "descriptor": "urn:fair-dama-fairmm:alignment:D7-L5",
+      "descriptorID": "D7-L5",
+      "descriptorComment": "Integrated platforms support automated FAIR data creation, provenance and lifecycle validation through community-agreed interfaces and metadata profiles. Identifier, metadata publication, access-control, semantic-model and exploration services support ecosystem interoperability, with leadership in shared practices and further automation described aspirationally.",
+      "level": "urn:fair-dama-fairmm:alignment:L5",
+      "levelLabel": "L5 FAIRest of them all",
+      "ordinal": "5",
+      "source": "https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L173"
+    }
+  ],
+  "input_module_sha256": {
+    "artefacts\\fairmm-core.ttl": "606f41b0db7409d73448b507895f3383e0702065b4ea9049351f7b0f8b2121c1",
+    "artefacts\\fairmm-v1.2.5.ttl": "a6839fb6464b09f32750afc00db41d71e9f04ce5989befab6be8f25f01e11244",
+    "artefacts\\fairmm-personas.ttl": "3383e5dd99298d137643d0ff16fda872f2883b7b936395fe6f1027449425e16d",
+    "artefacts\\fairmm-dama-alignment.ttl": "729dc217933307bd3a18facecb229a4fa2d33217981d2ca76b8e21712053d781",
+    "artefacts\\fairmm-dama-derived.ttl": "a423a390765a5beb8355856fe89d506cf78c796ed5afb1147bea8e558a820771",
+    "sources\\2026-11-16\\dama-ontologies-v1.1.0\\fair-ontology.ttl": "999db0459b2bbb12d23123ee0ab03fbfc12d2657540995af214ebc3090056c06",
+    "sources\\2026-11-16\\dama-ontologies-v1.1.0\\dama-ontology.ttl": "90bb6e65bffd47eff3e6b9fc3ef266eeaa4046aeda64f0fec219c1206c354400",
+    "sources\\2026-11-16\\dama-ontologies-v1.1.0\\dama-fair-mapping.ttl": "26b8f50134373b70ba86f26bbc51bcd1fe8ba3f96f54d509673183544a8ffe18",
+    "sources\\2026-11-16\\dama-ontologies-v1.1.0\\dama-persona-ontology.ttl": "94a0d24fca501e004868f50d3aab115da8fb96c332b69c9d07e980758d653d92"
+  },
+  "query_sha256": "a78708b197c0bb2b2a66c19c208ba5116f401601a6be5d35a57a34ef80d06e23"
+}

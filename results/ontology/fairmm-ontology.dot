@@ -1,0 +1,60 @@
+digraph FAIRMM {
+  graph [rankdir=LR, bgcolor="white", pad="0.35", nodesep="0.35", ranksep="0.8", fontname="Arial", fontsize=18, label="FAIRMM ontology and qualified DAMA alignments", labelloc=t];
+  node [shape=box, style="rounded,filled", fillcolor="#edf3f8", color="#56728c", fontname="Arial", fontsize=12, margin="0.16,0.12"];
+  edge [fontname="Arial", fontsize=10, color="#5b6c7b", arrowsize=0.7];
+  subgraph cluster_vocabulary {
+    label="Flat vocabularies and matrix descriptions"; color="#b4c7d7"; style=rounded;
+    framework [label="FAIRMM v1.2.5\nFrameworkVersion"];
+    dimensions [label="Dimension\n7 named individuals"];
+    levels [label="MaturityLevel\n6 ordered named individuals"];
+    descriptor [label="Descriptor\n42 dimension–level cells"];
+    interpretation [label="CapabilityInterpretation\nseparate from source wording",fillcolor="#fff4df",color="#b38b3d"];
+    framework -> dimensions [label="dcterms:hasPart"];
+    framework -> levels [label="dcterms:hasPart"];
+    framework -> descriptor [label="hasDescriptor"];
+    descriptor -> dimensions [label="inDimension"];
+    descriptor -> levels [label="atLevel"];
+    descriptor -> interpretation [label="hasInterpretation",style=dashed];
+  }
+  subgraph cluster_alignment {
+    label="Qualified assertions and cumulative association"; color="#b4c7d7"; style=rounded;
+    practice [label="Practice / PracticeBundle"];
+    area [label="DAMA source topic\n11 core area labels + supporting topics"];
+    dimensionAssertion [label="DimensionAlignment\n472 proposed assertions",fillcolor="#fff4df",color="#b38b3d"];
+    onset [label="OnsetAlignment\n26 first-level judgements",fillcolor="#fff4df",color="#b38b3d"];
+    cumulative [label="CumulativeAssociation\n127 derived links",fillcolor="#ede8f7",color="#8770a5"];
+    via [label="Intermediate Practice\nrequired for Indirect assertions"];
+    source [label="Source / rationale / condition\nEvidenceRequirement / review status",shape=note,fillcolor="#f5f5f5",color="#8c99a5"];
+    practice -> area [label="inSourceTopic / inKnowledgeArea"];
+    dimensionAssertion -> practice [label="fromPractice"];
+    onset -> practice [label="fromPractice"];
+    dimensionAssertion -> dimensions [label="targetsDimension"];
+    dimensionAssertion -> descriptor [label="supportedByDescriptor",style=dashed];
+    onset -> levels [label="targetsLevel / firstSupportedLevel"];
+    onset -> descriptor [label="supportedByDescriptor",style=dashed];
+    cumulative -> onset [label="derivedFromOnset",color="#8770a5"];
+    cumulative -> levels [label="targetsLevel",color="#8770a5"];
+    dimensionAssertion -> via [label="viaPractice when Indirect",style=dashed];
+    onset -> via [label="viaPractice when Indirect",style=dashed];
+    dimensionAssertion -> source [label="qualified by",style=dotted];
+    onset -> source [label="qualified by",style=dotted];
+  }
+  subgraph cluster_personas {
+    label="Personas and contextual roles"; color="#b4c7d7"; style=rounded;
+    persona [label="FAIRMM Persona\n30 individuals"];
+    correspondence [label="PersonaCorrespondence\nClose / Partial / Gap",fillcolor="#fff4df",color="#b38b3d"];
+    counterpart [label="DAMA counterpart candidate\nno identity assertion"];
+    assignment [label="RoleAssignmentCandidate\nproposed, not appointed",fillcolor="#fff4df",color="#b38b3d"];
+    role [label="DataRole\nProducer / Consumer / Enabler"];
+    correspondence -> persona [label="fairmmPersona"];
+    correspondence -> counterpart [label="hasCounterpart"];
+    assignment -> persona [label="fairmmPersona"];
+    assignment -> role [label="dataRole"];
+    assignment -> practice [label="inPractice"];
+  }
+  legacy [label="SourceAssertion\n606 source-layer records"];
+  fair [label="Existing FAIR vocabulary\nand DAMA practice vocabulary"];
+  dimensionAssertion -> legacy [label="sourceAssertion",style=dashed];
+  legacy -> fair [label="targetsPrinciple / original classification"];
+  note [label="No subprinciples or level subclass chain.\nOrdering does not imply capability inheritance.\nCumulative area association does not establish organisational maturity.",shape=note,fillcolor="#f5f5f5",color="#8c99a5"];
+}

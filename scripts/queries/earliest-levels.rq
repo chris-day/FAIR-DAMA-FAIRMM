@@ -1,0 +1,9 @@
+PREFIX align: <urn:fair-dama-fairmm:alignment:>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+SELECT ?areaID ?kind ?firstLevel ?rationale
+WHERE {
+  ?onset a align:OnsetAlignment ; align:sourceTopic/dcterms:identifier ?areaID ;
+    align:contributionType ?kind ; align:firstSupportedLevel/dcterms:identifier ?firstLevel ;
+    align:rationale ?rationale .
+}
+ORDER BY ?areaID ?kind

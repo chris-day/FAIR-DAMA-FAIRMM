@@ -1,0 +1,33 @@
+{
+  "version": "1.1.0",
+  "document": "DAMA_Segments_High_Level_v1.18.0.md",
+  "sankeyVersion": "1.3.0",
+  "coreAreas": 11,
+  "additionalTopics": 3,
+  "personas": 123,
+  "sourceActivities": 16,
+  "newActivityContributions": 31,
+  "newDirectActivityContributions": 1,
+  "newIndirectActivityContributions": 30,
+  "preservedExampleContributions": 9,
+  "areaAlignments": 74,
+  "sourceSha256": {
+    "DAMA_Segments_High_Level_v1.18.0.md": "5c8775bbeb82a93ed283656be8b36478ffab31f77b8cfb24f225c6ca9e8c5a5b",
+    "outputs/dama-fair-sankey-v1.3.0/data.json": "777e920828c533c1e0f72c015f773f04800b88a7cefc4ad2119964ae6717f22b",
+    "outputs/dama-20261116/new-areas.json": "7f8b57be450bdb3140189060735a52b56d1ac6e2a1cb32b67d832ce1d570f268"
+  },
+  "checksPassed": 1062,
+  "sha256": {
+    "dama-fair-mapping.ttl": "26b8f50134373b70ba86f26bbc51bcd1fe8ba3f96f54d509673183544a8ffe18",
+    "dama-ontology.ttl": "90bb6e65bffd47eff3e6b9fc3ef266eeaa4046aeda64f0fec219c1206c354400",
+    "dama-persona-ontology.ttl": "94a0d24fca501e004868f50d3aab115da8fb96c332b69c9d07e980758d653d92",
+    "fair-ontology.ttl": "999db0459b2bbb12d23123ee0ab03fbfc12d2657540995af214ebc3090056c06",
+    "ontologies.dot": "b1fb75227d62b78974419be72d18e097320cd2648214464ce72ea42f50847d76",
+    "ontologies.svg": "3cfa6a17ac21749dec49a2b7bf3e9b7e73e7056f5995a7e4f64e0f6ac88a621a",
+    "README.md": "b6b11defa2aba47d91c501a217d954e4f7d545d46439677c8991632dd8ff3cb1",
+    "update_dama_ontologies.py": "61ef2366ae5e5df21bfc45e1e95f400f6a7ddf9da91f715a2060308c307d667a",
+    "validate_dama_ontologies.py": "034b60e7fa82b68e66b6e246966bd7f0cd5152c61a38a77da78dcb3e4be7192e",
+    "validation-report.json": "6eeabbb804b089c0fdcc2a5cb685f071bca43a8899c73f5f2688aab029ad6138",
+    "VALIDATION.md": "37472d66013336ba0d0b099d9967f26d2d455dabe96dd5455aa60fb234c58a7b"
+  }
+}

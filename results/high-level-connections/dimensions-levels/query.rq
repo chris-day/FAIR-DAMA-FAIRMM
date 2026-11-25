@@ -1,0 +1,13 @@
+PREFIX align: <urn:fair-dama-fairmm:alignment:>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT DISTINCT ?dimension ?dimensionLabel ?descriptor ?descriptorID ?descriptorComment ?level ?levelLabel ?ordinal ?source
+WHERE {
+  ?descriptor a align:Descriptor ; align:inDimension ?dimension ;
+    align:atLevel ?level ; dcterms:identifier ?descriptorID .
+  ?dimension a align:Dimension ; rdfs:label ?dimensionLabel .
+  ?level a align:MaturityLevel ; rdfs:label ?levelLabel ; align:levelOrdinal ?ordinal .
+  OPTIONAL { ?descriptor rdfs:comment ?descriptorComment }
+  OPTIONAL { ?descriptor align:primarySource ?source }
+}
+ORDER BY ?dimension ?ordinal

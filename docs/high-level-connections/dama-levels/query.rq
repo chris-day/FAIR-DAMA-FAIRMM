@@ -1,0 +1,13 @@
+PREFIX align: <urn:fair-dama-fairmm:alignment:>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT DISTINCT ?association ?area ?areaLabel ?level ?levelLabel ?ordinal ?kind ?onset ?firstLevel ?inherited ?rule
+WHERE {
+  ?association a align:CumulativeAssociation ; align:sourceTopic ?area ;
+    align:targetsLevel ?level ; align:contributionType ?kind ;
+    align:derivedFromOnset ?onset ; align:firstSupportedLevel ?firstLevel ;
+    align:inherited ?inherited ; align:derivationRule ?rule .
+  ?area rdfs:label ?areaLabel .
+  ?level rdfs:label ?levelLabel ; align:levelOrdinal ?ordinal .
+}
+ORDER BY ?area ?ordinal ?kind

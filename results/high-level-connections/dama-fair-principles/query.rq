@@ -1,0 +1,12 @@
+PREFIX align: <urn:fair-dama-fairmm:alignment:>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT DISTINCT ?assertion ?area ?areaLabel ?practice ?practiceLabel ?principle ?kind ?source
+WHERE {
+  ?assertion a align:SourceAssertion ; align:sourceLayer "activity_table" ;
+    align:inSourceTopic ?area ; align:hasPractice ?practice ;
+    align:targetsPrinciple ?principle ; align:existingContributionType ?kind .
+  ?area rdfs:label ?areaLabel . ?practice rdfs:label ?practiceLabel .
+  OPTIONAL { ?assertion align:primarySource ?source }
+}
+ORDER BY ?area ?principle ?kind ?assertion

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "links": 54,
+  "direct": 45,
+  "indirect": 9,
+  "source_nodes": 14,
+  "target_nodes": 7,
+  "underlying_records": 470,
+  "excluded_extensions": 2,
+  "equal_width": true,
+  "conservation_checked": true,
+  "svg_xml_valid": true
+}

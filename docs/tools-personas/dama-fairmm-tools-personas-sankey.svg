@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 2078" role="img"><title>DAMA personas linked to FAIRMM Tools and Infrastructure through activity roles</title><rect width="1800" height="2078" fill="white"/><g font-family="Segoe UI,Arial,sans-serif" fill="#16283c">
+<text x="48" y="57" font-size="31" font-weight="600">DAMA personas and FAIRMM Tools and Infrastructure</text>
+<text x="48" y="94" font-size="19">34 catalogue personas · 38 D7-aligned activities · 17 November 2026</text>
+<text x="48" y="136" font-size="18">Blue: 34 persona–D7 links through Direct practice alignments; Indirect practice links: 0</text>
+<text x="48" y="173" font-size="17">DAMA personas (activity role occurrences)</text><text x="1299" y="173" font-size="17">FAIRMM dimension</text>
+<path data-link="analytic-design-lead-D7-Direct" d="M451,205.0 C817.3,205.0 898.7,667.0 1265,667.0 L1265,691.5294117647059 C898.7,691.5294117647059 817.3,229.52941176470588 451,229.52941176470588 Z" fill="#2463a7" fill-opacity=".35"><title>Analytic Design Lead: 1 activity-role occurrences</title></path>
+<path data-link="application-architects-D7-Direct" d="M451,257.52941176470586 C817.3,257.52941176470586 898.7,691.5294117647059 1265,691.5294117647059 L1265,716.0588235294117 C898.7,716.0588235294117 817.3,282.0588235294117 451,282.0588235294117 Z" fill="#2463a7" fill-opacity=".35"><title>Application Architects: 5 activity-role occurrences</title></path>
+<path data-link="big-data-platform-architects-D7-Direct" d="M451,310.0588235294117 C817.3,310.0588235294117 898.7,716.0588235294117 1265,716.0588235294117 L1265,740.5882352941176 C898.7,740.5882352941176 817.3,334.58823529411757 451,334.58823529411757 Z" fill="#2463a7" fill-opacity=".35"><title>Big Data Platform Architects: 2 activity-role occurrences</title></path>
+<path data-link="business-data-stewards-D7-Direct" d="M451,362.58823529411757 C817.3,362.58823529411757 898.7,740.5882352941177 1265,740.5882352941177 L1265,765.1176470588235 C898.7,765.1176470588235 817.3,387.1176470588234 451,387.1176470588234 Z" fill="#2463a7" fill-opacity=".35"><title>Business Data Stewards: 1 activity-role occurrences</title></path>
+<path data-link="business-executives-D7-Direct" d="M451,415.1176470588234 C817.3,415.1176470588234 898.7,765.1176470588235 1265,765.1176470588235 L1265,789.6470588235294 C898.7,789.6470588235294 817.3,439.6470588235293 451,439.6470588235293 Z" fill="#2463a7" fill-opacity=".35"><title>Business Executives: 1 activity-role occurrences</title></path>
+<path data-link="business-executives-and-managers-D7-Direct" d="M451,467.6470588235293 C817.3,467.6470588235293 898.7,789.6470588235294 1265,789.6470588235294 L1265,814.1764705882352 C898.7,814.1764705882352 817.3,492.17647058823513 451,492.17647058823513 Z" fill="#2463a7" fill-opacity=".35"><title>Business Executives and Managers: 1 activity-role occurrences</title></path>
+<path data-link="business-and-data-analysts-D7-Direct" d="M451,520.1764705882351 C817.3,520.1764705882351 898.7,814.1764705882354 1265,814.1764705882354 L1265,838.7058823529412 C898.7,838.7058823529412 817.3,544.705882352941 451,544.705882352941 Z" fill="#2463a7" fill-opacity=".35"><title>Business and Data Analysts: 11 activity-role occurrences</title></path>
+<path data-link="dm-executive-D7-Direct" d="M451,572.705882352941 C817.3,572.705882352941 898.7,838.7058823529412 1265,838.7058823529412 L1265,863.2352941176471 C898.7,863.2352941176471 817.3,597.2352941176468 451,597.2352941176468 Z" fill="#2463a7" fill-opacity=".35"><title>DM Executive: 6 activity-role occurrences</title></path>
+<path data-link="dm-leader-D7-Direct" d="M451,625.2352941176468 C817.3,625.2352941176468 898.7,863.2352941176471 1265,863.2352941176471 L1265,887.7647058823529 C898.7,887.7647058823529 817.3,649.7647058823527 451,649.7647058823527 Z" fill="#2463a7" fill-opacity=".35"><title>DM Leader: 9 activity-role occurrences</title></path>
+<path data-link="drm-director-D7-Direct" d="M451,677.7647058823527 C817.3,677.7647058823527 898.7,887.7647058823529 1265,887.7647058823529 L1265,912.2941176470588 C898.7,912.2941176470588 817.3,702.2941176470586 451,702.2941176470586 Z" fill="#2463a7" fill-opacity=".35"><title>DRM Director: 1 activity-role occurrences</title></path>
+<path data-link="data-analysts-D7-Direct" d="M451,730.2941176470586 C817.3,730.2941176470586 898.7,912.2941176470588 1265,912.2941176470588 L1265,936.8235294117646 C898.7,936.8235294117646 817.3,754.8235294117644 451,754.8235294117644 Z" fill="#2463a7" fill-opacity=".35"><title>Data Analysts: 7 activity-role occurrences</title></path>
+<path data-link="data-architects-D7-Direct" d="M451,782.8235294117644 C817.3,782.8235294117644 898.7,936.8235294117648 1265,936.8235294117648 L1265,961.3529411764706 C898.7,961.3529411764706 817.3,807.3529411764703 451,807.3529411764703 Z" fill="#2463a7" fill-opacity=".35"><title>Data Architects: 19 activity-role occurrences</title></path>
+<path data-link="data-architects-and-modelers-D7-Direct" d="M451,835.3529411764703 C817.3,835.3529411764703 898.7,961.3529411764706 1265,961.3529411764706 L1265,985.8823529411765 C898.7,985.8823529411765 817.3,859.8823529411761 451,859.8823529411761 Z" fill="#2463a7" fill-opacity=".35"><title>Data Architects and Modelers: 4 activity-role occurrences</title></path>
+<path data-link="data-governance-council-D7-Direct" d="M451,887.8823529411761 C817.3,887.8823529411761 898.7,985.8823529411765 1265,985.8823529411765 L1265,1010.4117647058823 C898.7,1010.4117647058823 817.3,912.411764705882 451,912.411764705882 Z" fill="#2463a7" fill-opacity=".35"><title>Data Governance Council: 7 activity-role occurrences</title></path>
+<path data-link="data-integration-architects-D7-Direct" d="M451,940.411764705882 C817.3,940.411764705882 898.7,1010.4117647058824 1265,1010.4117647058824 L1265,1034.9411764705883 C898.7,1034.9411764705883 817.3,964.9411764705878 451,964.9411764705878 Z" fill="#2463a7" fill-opacity=".35"><title>Data Integration Architects: 1 activity-role occurrences</title></path>
+<path data-link="data-model-administrators-D7-Direct" d="M451,992.9411764705878 C817.3,992.9411764705878 898.7,1034.9411764705883 1265,1034.9411764705883 L1265,1059.4705882352941 C898.7,1059.4705882352941 817.3,1017.4705882352937 451,1017.4705882352937 Z" fill="#2463a7" fill-opacity=".35"><title>Data Model Administrators: 1 activity-role occurrences</title></path>
+<path data-link="data-modelers-D7-Direct" d="M451,1045.4705882352937 C817.3,1045.4705882352937 898.7,1059.4705882352941 1265,1059.4705882352941 L1265,1084.0 C898.7,1084.0 817.3,1069.9999999999995 451,1069.9999999999995 Z" fill="#2463a7" fill-opacity=".35"><title>Data Modelers: 9 activity-role occurrences</title></path>
+<path data-link="data-producers-D7-Direct" d="M451,1097.9999999999995 C817.3,1097.9999999999995 898.7,1084.0 1265,1084.0 L1265,1108.5294117647059 C898.7,1108.5294117647059 817.3,1122.5294117647054 451,1122.5294117647054 Z" fill="#2463a7" fill-opacity=".35"><title>Data Producers: 8 activity-role occurrences</title></path>
+<path data-link="data-quality-and-governance-specialists-D7-Direct" d="M451,1150.5294117647054 C817.3,1150.5294117647054 898.7,1108.5294117647059 1265,1108.5294117647059 L1265,1133.0588235294117 C898.7,1133.0588235294117 817.3,1175.0588235294113 451,1175.0588235294113 Z" fill="#2463a7" fill-opacity=".35"><title>Data Quality and Governance Specialists: 2 activity-role occurrences</title></path>
+<path data-link="data-scientists-D7-Direct" d="M451,1203.0588235294113 C817.3,1203.0588235294113 898.7,1133.0588235294117 1265,1133.0588235294117 L1265,1157.5882352941176 C898.7,1157.5882352941176 817.3,1227.588235294117 451,1227.588235294117 Z" fill="#2463a7" fill-opacity=".35"><title>Data Scientists: 1 activity-role occurrences</title></path>
+<path data-link="data-stewards-D7-Direct" d="M451,1255.588235294117 C817.3,1255.588235294117 898.7,1157.5882352941176 1265,1157.5882352941176 L1265,1182.1176470588234 C898.7,1182.1176470588234 817.3,1280.117647058823 451,1280.117647058823 Z" fill="#2463a7" fill-opacity=".35"><title>Data Stewards: 19 activity-role occurrences</title></path>
+<path data-link="data-stewardship-council-D7-Direct" d="M451,1308.117647058823 C817.3,1308.117647058823 898.7,1182.1176470588234 1265,1182.1176470588234 L1265,1206.6470588235293 C898.7,1206.6470588235293 817.3,1332.6470588235288 451,1332.6470588235288 Z" fill="#2463a7" fill-opacity=".35"><title>Data Stewardship Council: 1 activity-role occurrences</title></path>
+<path data-link="database-administrators-D7-Direct" d="M451,1360.6470588235288 C817.3,1360.6470588235288 898.7,1206.6470588235295 1265,1206.6470588235295 L1265,1231.1764705882354 C898.7,1231.1764705882354 817.3,1385.1764705882347 451,1385.1764705882347 Z" fill="#2463a7" fill-opacity=".35"><title>Database Administrators: 9 activity-role occurrences</title></path>
+<path data-link="etl-service-interface-developers-D7-Direct" d="M451,1413.1764705882347 C817.3,1413.1764705882347 898.7,1231.1764705882354 1265,1231.1764705882354 L1265,1255.7058823529412 C898.7,1255.7058823529412 817.3,1437.7058823529405 451,1437.7058823529405 Z" fill="#2463a7" fill-opacity=".35"><title>ETL, Service, Interface Developers: 9 activity-role occurrences</title></path>
+<path data-link="executives-and-managers-D7-Direct" d="M451,1465.7058823529405 C817.3,1465.7058823529405 898.7,1255.7058823529412 1265,1255.7058823529412 L1265,1280.235294117647 C898.7,1280.235294117647 817.3,1490.2352941176464 451,1490.2352941176464 Z" fill="#2463a7" fill-opacity=".35"><title>Executives and Managers: 2 activity-role occurrences</title></path>
+<path data-link="it-executives-D7-Direct" d="M451,1518.2352941176464 C817.3,1518.2352941176464 898.7,1280.235294117647 1265,1280.235294117647 L1265,1304.764705882353 C898.7,1304.764705882353 817.3,1542.7647058823522 451,1542.7647058823522 Z" fill="#2463a7" fill-opacity=".35"><title>IT Executives: 2 activity-role occurrences</title></path>
+<path data-link="it-steering-committee-D7-Direct" d="M451,1570.7647058823522 C817.3,1570.7647058823522 898.7,1304.764705882353 1265,1304.764705882353 L1265,1329.2941176470588 C898.7,1329.2941176470588 817.3,1595.294117647058 451,1595.294117647058 Z" fill="#2463a7" fill-opacity=".35"><title>IT Steering Committee: 1 activity-role occurrences</title></path>
+<path data-link="ingestion-architects-D7-Direct" d="M451,1623.294117647058 C817.3,1623.294117647058 898.7,1329.294117647059 1265,1329.294117647059 L1265,1353.8235294117649 C898.7,1353.8235294117649 817.3,1647.823529411764 451,1647.823529411764 Z" fill="#2463a7" fill-opacity=".35"><title>Ingestion Architects: 2 activity-role occurrences</title></path>
+<path data-link="metadata-specialists-D7-Direct" d="M451,1675.823529411764 C817.3,1675.823529411764 898.7,1353.8235294117649 1265,1353.8235294117649 L1265,1378.3529411764707 C898.7,1378.3529411764707 817.3,1700.3529411764698 451,1700.3529411764698 Z" fill="#2463a7" fill-opacity=".35"><title>Metadata Specialists: 8 activity-role occurrences</title></path>
+<path data-link="other-dm-professionals-D7-Direct" d="M451,1728.3529411764698 C817.3,1728.3529411764698 898.7,1378.3529411764707 1265,1378.3529411764707 L1265,1402.8823529411766 C898.7,1402.8823529411766 817.3,1752.8823529411757 451,1752.8823529411757 Z" fill="#2463a7" fill-opacity=".35"><title>Other DM Professionals: 2 activity-role occurrences</title></path>
+<path data-link="other-it-professionals-D7-Direct" d="M451,1780.8823529411757 C817.3,1780.8823529411757 898.7,1402.8823529411766 1265,1402.8823529411766 L1265,1427.4117647058824 C898.7,1427.4117647058824 817.3,1805.4117647058815 451,1805.4117647058815 Z" fill="#2463a7" fill-opacity=".35"><title>Other IT Professionals: 8 activity-role occurrences</title></path>
+<path data-link="project-and-program-managers-D7-Direct" d="M451,1833.4117647058815 C817.3,1833.4117647058815 898.7,1427.4117647058824 1265,1427.4117647058824 L1265,1451.9411764705883 C898.7,1451.9411764705883 817.3,1857.9411764705874 451,1857.9411764705874 Z" fill="#2463a7" fill-opacity=".35"><title>Project and Program Managers: 5 activity-role occurrences</title></path>
+<path data-link="software-developers-D7-Direct" d="M451,1885.9411764705874 C817.3,1885.9411764705874 898.7,1451.9411764705883 1265,1451.9411764705883 L1265,1476.4705882352941 C898.7,1476.4705882352941 817.3,1910.4705882352932 451,1910.4705882352932 Z" fill="#2463a7" fill-opacity=".35"><title>Software Developers: 4 activity-role occurrences</title></path>
+<path data-link="subject-matter-experts-D7-Direct" d="M451,1938.4705882352932 C817.3,1938.4705882352932 898.7,1476.4705882352941 1265,1476.4705882352941 L1265,1501.0 C898.7,1501.0 817.3,1962.999999999999 451,1962.999999999999 Z" fill="#2463a7" fill-opacity=".35"><title>Subject Matter Experts: 9 activity-role occurrences</title></path>
+<rect x="435" y="205" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="223.26470588235293" text-anchor="end" font-size="18">Analytic Design Lead</text>
+<rect x="435" y="257.52941176470586" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="275.7941176470588" text-anchor="end" font-size="18">Application Architects</text>
+<rect x="435" y="310.0588235294117" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="328.32352941176464" text-anchor="end" font-size="18">Big Data Platform Architects</text>
+<rect x="435" y="362.58823529411757" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="380.8529411764705" text-anchor="end" font-size="18">Business Data Stewards</text>
+<rect x="435" y="415.1176470588234" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="433.38235294117635" text-anchor="end" font-size="18">Business Executives</text>
+<rect x="435" y="467.6470588235293" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="485.9117647058822" text-anchor="end" font-size="18">Business Executives and Managers</text>
+<rect x="435" y="520.1764705882351" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="538.4411764705881" text-anchor="end" font-size="18">Business and Data Analysts</text>
+<rect x="435" y="572.705882352941" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="590.9705882352939" text-anchor="end" font-size="18">DM Executive</text>
+<rect x="435" y="625.2352941176468" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="643.4999999999998" text-anchor="end" font-size="18">DM Leader</text>
+<rect x="435" y="677.7647058823527" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="696.0294117647056" text-anchor="end" font-size="18">DRM Director</text>
+<rect x="435" y="730.2941176470586" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="748.5588235294115" text-anchor="end" font-size="18">Data Analysts</text>
+<rect x="435" y="782.8235294117644" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="801.0882352941173" text-anchor="end" font-size="18">Data Architects</text>
+<rect x="435" y="835.3529411764703" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="853.6176470588232" text-anchor="end" font-size="18">Data Architects and Modelers</text>
+<rect x="435" y="887.8823529411761" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="906.147058823529" text-anchor="end" font-size="18">Data Governance Council</text>
+<rect x="435" y="940.411764705882" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="958.6764705882349" text-anchor="end" font-size="18">Data Integration Architects</text>
+<rect x="435" y="992.9411764705878" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="1011.2058823529408" text-anchor="end" font-size="18">Data Model Administrators</text>
+<rect x="435" y="1045.4705882352937" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="1063.7352941176466" text-anchor="end" font-size="18">Data Modelers</text>
+<rect x="435" y="1097.9999999999995" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="1116.2647058823525" text-anchor="end" font-size="18">Data Producers</text>
+<rect x="435" y="1150.5294117647054" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="1157.2941176470583" text-anchor="end" font-size="18">Data Quality and Governance</text>
+<text x="419" y="1180.2941176470583" text-anchor="end" font-size="18">Specialists</text>
+<rect x="435" y="1203.0588235294113" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="1221.3235294117642" text-anchor="end" font-size="18">Data Scientists</text>
+<rect x="435" y="1255.588235294117" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="1273.85294117647" text-anchor="end" font-size="18">Data Stewards</text>
+<rect x="435" y="1308.117647058823" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="1326.382352941176" text-anchor="end" font-size="18">Data Stewardship Council</text>
+<rect x="435" y="1360.6470588235288" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="1378.9117647058818" text-anchor="end" font-size="18">Database Administrators</text>
+<rect x="435" y="1413.1764705882347" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="1431.4411764705876" text-anchor="end" font-size="18">ETL, Service, Interface Developers</text>
+<rect x="435" y="1465.7058823529405" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="1483.9705882352935" text-anchor="end" font-size="18">Executives and Managers</text>
+<rect x="435" y="1518.2352941176464" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="1536.4999999999993" text-anchor="end" font-size="18">IT Executives</text>
+<rect x="435" y="1570.7647058823522" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="1589.0294117647052" text-anchor="end" font-size="18">IT Steering Committee</text>
+<rect x="435" y="1623.294117647058" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="1641.558823529411" text-anchor="end" font-size="18">Ingestion Architects</text>
+<rect x="435" y="1675.823529411764" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="1694.0882352941169" text-anchor="end" font-size="18">Metadata Specialists</text>
+<rect x="435" y="1728.3529411764698" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="1746.6176470588227" text-anchor="end" font-size="18">Other DM Professionals</text>
+<rect x="435" y="1780.8823529411757" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="1799.1470588235286" text-anchor="end" font-size="18">Other IT Professionals</text>
+<rect x="435" y="1833.4117647058815" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="1851.6764705882345" text-anchor="end" font-size="18">Project and Program Managers</text>
+<rect x="435" y="1885.9411764705874" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="1904.2058823529403" text-anchor="end" font-size="18">Software Developers</text>
+<rect x="435" y="1938.4705882352932" width="16" height="24.529411764705884" fill="#405468"/>
+<text x="419" y="1956.7352941176462" text-anchor="end" font-size="18">Subject Matter Experts</text>
+<rect x="1265" y="667.0" width="16" height="834.0" fill="#405468"/>
+<text x="1299" y="1078.5" text-anchor="start" font-size="18">D7 · FAIR Tools and</text>
+<text x="1299" y="1101.5" text-anchor="start" font-size="18">Infrastructures</text>
+<text x="48" y="2013" font-size="17">Ribbons retain practice alignment type. Responsible, Approving and Contributing roles are listed in the details.</text>
+<text x="48" y="2043" font-size="17">Persona participation does not establish personal accountability, FAIR implementation or maturity. Unmatched role labels are documented separately.</text></g></svg>

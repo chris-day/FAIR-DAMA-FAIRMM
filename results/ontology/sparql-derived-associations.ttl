@@ -1,0 +1,1783 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <urn:fair-dama-fairmm:alignment:> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:cumulative-AREA-01-L1-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-01-L1-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-01-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-01-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-01-direct-practice ;
+    ns1:inherited false ;
+    ns1:sourceTopic ns1:AREA-01 ;
+    ns1:targetsLevel ns1:L1 .
+
+ns1:cumulative-AREA-01-L1-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-01-L1-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-01-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-01-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-01-indirect-practice ;
+    ns1:inherited false ;
+    ns1:sourceTopic ns1:AREA-01 ;
+    ns1:targetsLevel ns1:L1 .
+
+ns1:cumulative-AREA-01-L2-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-01-L2-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-01-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-01-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-01-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-01 ;
+    ns1:targetsLevel ns1:L2 .
+
+ns1:cumulative-AREA-01-L2-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-01-L2-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-01-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-01-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-01-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-01 ;
+    ns1:targetsLevel ns1:L2 .
+
+ns1:cumulative-AREA-01-L3-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-01-L3-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-01-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-01-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-01-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-01 ;
+    ns1:targetsLevel ns1:L3 .
+
+ns1:cumulative-AREA-01-L3-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-01-L3-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-01-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-01-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-01-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-01 ;
+    ns1:targetsLevel ns1:L3 .
+
+ns1:cumulative-AREA-01-L4-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-01-L4-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-01-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-01-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-01-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-01 ;
+    ns1:targetsLevel ns1:L4 .
+
+ns1:cumulative-AREA-01-L4-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-01-L4-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-01-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-01-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-01-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-01 ;
+    ns1:targetsLevel ns1:L4 .
+
+ns1:cumulative-AREA-01-L5-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-01-L5-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-01-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-01-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-01-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-01 ;
+    ns1:targetsLevel ns1:L5 .
+
+ns1:cumulative-AREA-01-L5-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-01-L5-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-01-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-01-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-01-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-01 ;
+    ns1:targetsLevel ns1:L5 .
+
+ns1:cumulative-AREA-02-L1-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-02-L1-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-02-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-02-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-02-direct-practice ;
+    ns1:inherited false ;
+    ns1:sourceTopic ns1:AREA-02 ;
+    ns1:targetsLevel ns1:L1 .
+
+ns1:cumulative-AREA-02-L1-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-02-L1-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-02-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-02-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-02-indirect-practice ;
+    ns1:inherited false ;
+    ns1:sourceTopic ns1:AREA-02 ;
+    ns1:targetsLevel ns1:L1 .
+
+ns1:cumulative-AREA-02-L2-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-02-L2-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-02-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-02-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-02-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-02 ;
+    ns1:targetsLevel ns1:L2 .
+
+ns1:cumulative-AREA-02-L2-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-02-L2-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-02-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-02-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-02-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-02 ;
+    ns1:targetsLevel ns1:L2 .
+
+ns1:cumulative-AREA-02-L3-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-02-L3-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-02-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-02-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-02-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-02 ;
+    ns1:targetsLevel ns1:L3 .
+
+ns1:cumulative-AREA-02-L3-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-02-L3-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-02-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-02-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-02-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-02 ;
+    ns1:targetsLevel ns1:L3 .
+
+ns1:cumulative-AREA-02-L4-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-02-L4-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-02-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-02-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-02-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-02 ;
+    ns1:targetsLevel ns1:L4 .
+
+ns1:cumulative-AREA-02-L4-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-02-L4-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-02-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-02-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-02-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-02 ;
+    ns1:targetsLevel ns1:L4 .
+
+ns1:cumulative-AREA-02-L5-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-02-L5-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-02-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-02-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-02-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-02 ;
+    ns1:targetsLevel ns1:L5 .
+
+ns1:cumulative-AREA-02-L5-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-02-L5-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-02-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-02-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-02-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-02 ;
+    ns1:targetsLevel ns1:L5 .
+
+ns1:cumulative-AREA-03-L1-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-03-L1-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-03-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-03-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-03-direct-practice ;
+    ns1:inherited false ;
+    ns1:sourceTopic ns1:AREA-03 ;
+    ns1:targetsLevel ns1:L1 .
+
+ns1:cumulative-AREA-03-L1-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-03-L1-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-03-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-03-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-03-indirect-practice ;
+    ns1:inherited false ;
+    ns1:sourceTopic ns1:AREA-03 ;
+    ns1:targetsLevel ns1:L1 .
+
+ns1:cumulative-AREA-03-L2-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-03-L2-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-03-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-03-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-03-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-03 ;
+    ns1:targetsLevel ns1:L2 .
+
+ns1:cumulative-AREA-03-L2-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-03-L2-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-03-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-03-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-03-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-03 ;
+    ns1:targetsLevel ns1:L2 .
+
+ns1:cumulative-AREA-03-L3-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-03-L3-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-03-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-03-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-03-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-03 ;
+    ns1:targetsLevel ns1:L3 .
+
+ns1:cumulative-AREA-03-L3-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-03-L3-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-03-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-03-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-03-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-03 ;
+    ns1:targetsLevel ns1:L3 .
+
+ns1:cumulative-AREA-03-L4-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-03-L4-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-03-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-03-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-03-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-03 ;
+    ns1:targetsLevel ns1:L4 .
+
+ns1:cumulative-AREA-03-L4-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-03-L4-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-03-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-03-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-03-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-03 ;
+    ns1:targetsLevel ns1:L4 .
+
+ns1:cumulative-AREA-03-L5-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-03-L5-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-03-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-03-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-03-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-03 ;
+    ns1:targetsLevel ns1:L5 .
+
+ns1:cumulative-AREA-03-L5-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-03-L5-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-03-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-03-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-03-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-03 ;
+    ns1:targetsLevel ns1:L5 .
+
+ns1:cumulative-AREA-04-L1-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-04-L1-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-04-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-04-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-04-indirect-practice ;
+    ns1:inherited false ;
+    ns1:sourceTopic ns1:AREA-04 ;
+    ns1:targetsLevel ns1:L1 .
+
+ns1:cumulative-AREA-04-L2-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-04-L2-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-04-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-04-direct ;
+    ns1:firstSupportedLevel ns1:L2 ;
+    ns1:fromPractice ns1:ONSET-04-direct-practice ;
+    ns1:inherited false ;
+    ns1:sourceTopic ns1:AREA-04 ;
+    ns1:targetsLevel ns1:L2 .
+
+ns1:cumulative-AREA-04-L2-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-04-L2-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-04-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-04-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-04-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-04 ;
+    ns1:targetsLevel ns1:L2 .
+
+ns1:cumulative-AREA-04-L3-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-04-L3-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-04-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-04-direct ;
+    ns1:firstSupportedLevel ns1:L2 ;
+    ns1:fromPractice ns1:ONSET-04-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-04 ;
+    ns1:targetsLevel ns1:L3 .
+
+ns1:cumulative-AREA-04-L3-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-04-L3-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-04-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-04-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-04-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-04 ;
+    ns1:targetsLevel ns1:L3 .
+
+ns1:cumulative-AREA-04-L4-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-04-L4-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-04-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-04-direct ;
+    ns1:firstSupportedLevel ns1:L2 ;
+    ns1:fromPractice ns1:ONSET-04-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-04 ;
+    ns1:targetsLevel ns1:L4 .
+
+ns1:cumulative-AREA-04-L4-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-04-L4-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-04-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-04-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-04-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-04 ;
+    ns1:targetsLevel ns1:L4 .
+
+ns1:cumulative-AREA-04-L5-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-04-L5-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-04-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-04-direct ;
+    ns1:firstSupportedLevel ns1:L2 ;
+    ns1:fromPractice ns1:ONSET-04-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-04 ;
+    ns1:targetsLevel ns1:L5 .
+
+ns1:cumulative-AREA-04-L5-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-04-L5-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-04-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-04-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-04-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-04 ;
+    ns1:targetsLevel ns1:L5 .
+
+ns1:cumulative-AREA-05-L1-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-05-L1-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-05-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-05-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-05-direct-practice ;
+    ns1:inherited false ;
+    ns1:sourceTopic ns1:AREA-05 ;
+    ns1:targetsLevel ns1:L1 .
+
+ns1:cumulative-AREA-05-L1-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-05-L1-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-05-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-05-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-05-indirect-practice ;
+    ns1:inherited false ;
+    ns1:sourceTopic ns1:AREA-05 ;
+    ns1:targetsLevel ns1:L1 .
+
+ns1:cumulative-AREA-05-L2-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-05-L2-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-05-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-05-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-05-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-05 ;
+    ns1:targetsLevel ns1:L2 .
+
+ns1:cumulative-AREA-05-L2-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-05-L2-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-05-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-05-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-05-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-05 ;
+    ns1:targetsLevel ns1:L2 .
+
+ns1:cumulative-AREA-05-L3-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-05-L3-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-05-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-05-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-05-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-05 ;
+    ns1:targetsLevel ns1:L3 .
+
+ns1:cumulative-AREA-05-L3-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-05-L3-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-05-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-05-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-05-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-05 ;
+    ns1:targetsLevel ns1:L3 .
+
+ns1:cumulative-AREA-05-L4-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-05-L4-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-05-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-05-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-05-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-05 ;
+    ns1:targetsLevel ns1:L4 .
+
+ns1:cumulative-AREA-05-L4-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-05-L4-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-05-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-05-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-05-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-05 ;
+    ns1:targetsLevel ns1:L4 .
+
+ns1:cumulative-AREA-05-L5-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-05-L5-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-05-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-05-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-05-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-05 ;
+    ns1:targetsLevel ns1:L5 .
+
+ns1:cumulative-AREA-05-L5-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-05-L5-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-05-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-05-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-05-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-05 ;
+    ns1:targetsLevel ns1:L5 .
+
+ns1:cumulative-AREA-06-L1-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-06-L1-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-06-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-06-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-06-direct-practice ;
+    ns1:inherited false ;
+    ns1:sourceTopic ns1:AREA-06 ;
+    ns1:targetsLevel ns1:L1 .
+
+ns1:cumulative-AREA-06-L1-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-06-L1-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-06-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-06-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-06-indirect-practice ;
+    ns1:inherited false ;
+    ns1:sourceTopic ns1:AREA-06 ;
+    ns1:targetsLevel ns1:L1 .
+
+ns1:cumulative-AREA-06-L2-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-06-L2-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-06-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-06-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-06-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-06 ;
+    ns1:targetsLevel ns1:L2 .
+
+ns1:cumulative-AREA-06-L2-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-06-L2-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-06-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-06-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-06-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-06 ;
+    ns1:targetsLevel ns1:L2 .
+
+ns1:cumulative-AREA-06-L3-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-06-L3-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-06-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-06-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-06-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-06 ;
+    ns1:targetsLevel ns1:L3 .
+
+ns1:cumulative-AREA-06-L3-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-06-L3-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-06-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-06-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-06-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-06 ;
+    ns1:targetsLevel ns1:L3 .
+
+ns1:cumulative-AREA-06-L4-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-06-L4-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-06-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-06-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-06-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-06 ;
+    ns1:targetsLevel ns1:L4 .
+
+ns1:cumulative-AREA-06-L4-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-06-L4-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-06-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-06-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-06-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-06 ;
+    ns1:targetsLevel ns1:L4 .
+
+ns1:cumulative-AREA-06-L5-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-06-L5-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-06-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-06-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-06-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-06 ;
+    ns1:targetsLevel ns1:L5 .
+
+ns1:cumulative-AREA-06-L5-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-06-L5-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-06-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-06-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-06-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-06 ;
+    ns1:targetsLevel ns1:L5 .
+
+ns1:cumulative-AREA-07-L1-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-07-L1-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-07-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-07-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-07-indirect-practice ;
+    ns1:inherited false ;
+    ns1:sourceTopic ns1:AREA-07 ;
+    ns1:targetsLevel ns1:L1 .
+
+ns1:cumulative-AREA-07-L2-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-07-L2-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-07-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-07-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-07-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-07 ;
+    ns1:targetsLevel ns1:L2 .
+
+ns1:cumulative-AREA-07-L3-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-07-L3-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-07-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-07-direct ;
+    ns1:firstSupportedLevel ns1:L3 ;
+    ns1:fromPractice ns1:ONSET-07-direct-practice ;
+    ns1:inherited false ;
+    ns1:sourceTopic ns1:AREA-07 ;
+    ns1:targetsLevel ns1:L3 .
+
+ns1:cumulative-AREA-07-L3-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-07-L3-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-07-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-07-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-07-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-07 ;
+    ns1:targetsLevel ns1:L3 .
+
+ns1:cumulative-AREA-07-L4-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-07-L4-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-07-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-07-direct ;
+    ns1:firstSupportedLevel ns1:L3 ;
+    ns1:fromPractice ns1:ONSET-07-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-07 ;
+    ns1:targetsLevel ns1:L4 .
+
+ns1:cumulative-AREA-07-L4-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-07-L4-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-07-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-07-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-07-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-07 ;
+    ns1:targetsLevel ns1:L4 .
+
+ns1:cumulative-AREA-07-L5-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-07-L5-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-07-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-07-direct ;
+    ns1:firstSupportedLevel ns1:L3 ;
+    ns1:fromPractice ns1:ONSET-07-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-07 ;
+    ns1:targetsLevel ns1:L5 .
+
+ns1:cumulative-AREA-07-L5-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-07-L5-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-07-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-07-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-07-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-07 ;
+    ns1:targetsLevel ns1:L5 .
+
+ns1:cumulative-AREA-08-L1-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-08-L1-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-08-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-08-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-08-direct-practice ;
+    ns1:inherited false ;
+    ns1:sourceTopic ns1:AREA-08 ;
+    ns1:targetsLevel ns1:L1 .
+
+ns1:cumulative-AREA-08-L1-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-08-L1-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-08-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-08-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-08-indirect-practice ;
+    ns1:inherited false ;
+    ns1:sourceTopic ns1:AREA-08 ;
+    ns1:targetsLevel ns1:L1 .
+
+ns1:cumulative-AREA-08-L2-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-08-L2-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-08-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-08-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-08-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-08 ;
+    ns1:targetsLevel ns1:L2 .
+
+ns1:cumulative-AREA-08-L2-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-08-L2-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-08-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-08-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-08-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-08 ;
+    ns1:targetsLevel ns1:L2 .
+
+ns1:cumulative-AREA-08-L3-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-08-L3-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-08-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-08-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-08-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-08 ;
+    ns1:targetsLevel ns1:L3 .
+
+ns1:cumulative-AREA-08-L3-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-08-L3-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-08-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-08-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-08-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-08 ;
+    ns1:targetsLevel ns1:L3 .
+
+ns1:cumulative-AREA-08-L4-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-08-L4-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-08-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-08-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-08-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-08 ;
+    ns1:targetsLevel ns1:L4 .
+
+ns1:cumulative-AREA-08-L4-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-08-L4-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-08-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-08-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-08-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-08 ;
+    ns1:targetsLevel ns1:L4 .
+
+ns1:cumulative-AREA-08-L5-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-08-L5-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-08-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-08-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-08-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-08 ;
+    ns1:targetsLevel ns1:L5 .
+
+ns1:cumulative-AREA-08-L5-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-08-L5-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-08-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-08-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-08-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-08 ;
+    ns1:targetsLevel ns1:L5 .
+
+ns1:cumulative-AREA-09-L1-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-09-L1-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-09-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-09-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-09-direct-practice ;
+    ns1:inherited false ;
+    ns1:sourceTopic ns1:AREA-09 ;
+    ns1:targetsLevel ns1:L1 .
+
+ns1:cumulative-AREA-09-L1-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-09-L1-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-09-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-09-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-09-indirect-practice ;
+    ns1:inherited false ;
+    ns1:sourceTopic ns1:AREA-09 ;
+    ns1:targetsLevel ns1:L1 .
+
+ns1:cumulative-AREA-09-L2-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-09-L2-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-09-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-09-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-09-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-09 ;
+    ns1:targetsLevel ns1:L2 .
+
+ns1:cumulative-AREA-09-L2-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-09-L2-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-09-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-09-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-09-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-09 ;
+    ns1:targetsLevel ns1:L2 .
+
+ns1:cumulative-AREA-09-L3-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-09-L3-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-09-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-09-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-09-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-09 ;
+    ns1:targetsLevel ns1:L3 .
+
+ns1:cumulative-AREA-09-L3-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-09-L3-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-09-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-09-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-09-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-09 ;
+    ns1:targetsLevel ns1:L3 .
+
+ns1:cumulative-AREA-09-L4-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-09-L4-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-09-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-09-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-09-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-09 ;
+    ns1:targetsLevel ns1:L4 .
+
+ns1:cumulative-AREA-09-L4-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-09-L4-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-09-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-09-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-09-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-09 ;
+    ns1:targetsLevel ns1:L4 .
+
+ns1:cumulative-AREA-09-L5-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-09-L5-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-09-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-09-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-09-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-09 ;
+    ns1:targetsLevel ns1:L5 .
+
+ns1:cumulative-AREA-09-L5-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-09-L5-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-09-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-09-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-09-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-09 ;
+    ns1:targetsLevel ns1:L5 .
+
+ns1:cumulative-AREA-10-L1-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-10-L1-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-10-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-10-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-10-direct-practice ;
+    ns1:inherited false ;
+    ns1:sourceTopic ns1:AREA-10 ;
+    ns1:targetsLevel ns1:L1 .
+
+ns1:cumulative-AREA-10-L1-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-10-L1-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-10-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-10-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-10-indirect-practice ;
+    ns1:inherited false ;
+    ns1:sourceTopic ns1:AREA-10 ;
+    ns1:targetsLevel ns1:L1 .
+
+ns1:cumulative-AREA-10-L2-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-10-L2-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-10-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-10-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-10-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-10 ;
+    ns1:targetsLevel ns1:L2 .
+
+ns1:cumulative-AREA-10-L2-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-10-L2-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-10-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-10-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-10-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-10 ;
+    ns1:targetsLevel ns1:L2 .
+
+ns1:cumulative-AREA-10-L3-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-10-L3-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-10-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-10-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-10-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-10 ;
+    ns1:targetsLevel ns1:L3 .
+
+ns1:cumulative-AREA-10-L3-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-10-L3-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-10-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-10-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-10-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-10 ;
+    ns1:targetsLevel ns1:L3 .
+
+ns1:cumulative-AREA-10-L4-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-10-L4-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-10-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-10-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-10-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-10 ;
+    ns1:targetsLevel ns1:L4 .
+
+ns1:cumulative-AREA-10-L4-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-10-L4-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-10-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-10-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-10-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-10 ;
+    ns1:targetsLevel ns1:L4 .
+
+ns1:cumulative-AREA-10-L5-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-10-L5-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-10-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-10-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-10-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-10 ;
+    ns1:targetsLevel ns1:L5 .
+
+ns1:cumulative-AREA-10-L5-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-10-L5-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-10-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-10-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-10-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-10 ;
+    ns1:targetsLevel ns1:L5 .
+
+ns1:cumulative-AREA-11-L1-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-11-L1-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-11-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-11-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-11-direct-practice ;
+    ns1:inherited false ;
+    ns1:sourceTopic ns1:AREA-11 ;
+    ns1:targetsLevel ns1:L1 .
+
+ns1:cumulative-AREA-11-L1-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-11-L1-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-11-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-11-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-11-indirect-practice ;
+    ns1:inherited false ;
+    ns1:sourceTopic ns1:AREA-11 ;
+    ns1:targetsLevel ns1:L1 .
+
+ns1:cumulative-AREA-11-L2-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-11-L2-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-11-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-11-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-11-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-11 ;
+    ns1:targetsLevel ns1:L2 .
+
+ns1:cumulative-AREA-11-L2-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-11-L2-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-11-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-11-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-11-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-11 ;
+    ns1:targetsLevel ns1:L2 .
+
+ns1:cumulative-AREA-11-L3-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-11-L3-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-11-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-11-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-11-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-11 ;
+    ns1:targetsLevel ns1:L3 .
+
+ns1:cumulative-AREA-11-L3-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-11-L3-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-11-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-11-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-11-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-11 ;
+    ns1:targetsLevel ns1:L3 .
+
+ns1:cumulative-AREA-11-L4-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-11-L4-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-11-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-11-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-11-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-11 ;
+    ns1:targetsLevel ns1:L4 .
+
+ns1:cumulative-AREA-11-L4-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-11-L4-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-11-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-11-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-11-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-11 ;
+    ns1:targetsLevel ns1:L4 .
+
+ns1:cumulative-AREA-11-L5-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-11-L5-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-11-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-11-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-11-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-11 ;
+    ns1:targetsLevel ns1:L5 .
+
+ns1:cumulative-AREA-11-L5-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-11-L5-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-11-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-11-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-11-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-11 ;
+    ns1:targetsLevel ns1:L5 .
+
+ns1:cumulative-AREA-13-L1-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-13-L1-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-13-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-13-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-13-direct-practice ;
+    ns1:inherited false ;
+    ns1:sourceTopic ns1:AREA-13 ;
+    ns1:targetsLevel ns1:L1 .
+
+ns1:cumulative-AREA-13-L1-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-13-L1-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-13-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-13-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-13-indirect-practice ;
+    ns1:inherited false ;
+    ns1:sourceTopic ns1:AREA-13 ;
+    ns1:targetsLevel ns1:L1 .
+
+ns1:cumulative-AREA-13-L2-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-13-L2-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-13-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-13-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-13-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-13 ;
+    ns1:targetsLevel ns1:L2 .
+
+ns1:cumulative-AREA-13-L2-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-13-L2-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-13-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-13-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-13-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-13 ;
+    ns1:targetsLevel ns1:L2 .
+
+ns1:cumulative-AREA-13-L3-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-13-L3-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-13-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-13-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-13-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-13 ;
+    ns1:targetsLevel ns1:L3 .
+
+ns1:cumulative-AREA-13-L3-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-13-L3-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-13-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-13-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-13-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-13 ;
+    ns1:targetsLevel ns1:L3 .
+
+ns1:cumulative-AREA-13-L4-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-13-L4-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-13-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-13-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-13-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-13 ;
+    ns1:targetsLevel ns1:L4 .
+
+ns1:cumulative-AREA-13-L4-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-13-L4-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-13-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-13-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-13-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-13 ;
+    ns1:targetsLevel ns1:L4 .
+
+ns1:cumulative-AREA-13-L5-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-13-L5-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-13-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-13-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-13-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-13 ;
+    ns1:targetsLevel ns1:L5 .
+
+ns1:cumulative-AREA-13-L5-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-13-L5-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-13-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-13-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-13-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-13 ;
+    ns1:targetsLevel ns1:L5 .
+
+ns1:cumulative-AREA-14-L1-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-14-L1-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-14-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-14-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-14-direct-practice ;
+    ns1:inherited false ;
+    ns1:sourceTopic ns1:AREA-14 ;
+    ns1:targetsLevel ns1:L1 .
+
+ns1:cumulative-AREA-14-L1-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-14-L1-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-14-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-14-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-14-indirect-practice ;
+    ns1:inherited false ;
+    ns1:sourceTopic ns1:AREA-14 ;
+    ns1:targetsLevel ns1:L1 .
+
+ns1:cumulative-AREA-14-L2-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-14-L2-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-14-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-14-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-14-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-14 ;
+    ns1:targetsLevel ns1:L2 .
+
+ns1:cumulative-AREA-14-L2-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-14-L2-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-14-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-14-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-14-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-14 ;
+    ns1:targetsLevel ns1:L2 .
+
+ns1:cumulative-AREA-14-L3-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-14-L3-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-14-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-14-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-14-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-14 ;
+    ns1:targetsLevel ns1:L3 .
+
+ns1:cumulative-AREA-14-L3-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-14-L3-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-14-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-14-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-14-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-14 ;
+    ns1:targetsLevel ns1:L3 .
+
+ns1:cumulative-AREA-14-L4-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-14-L4-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-14-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-14-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-14-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-14 ;
+    ns1:targetsLevel ns1:L4 .
+
+ns1:cumulative-AREA-14-L4-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-14-L4-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-14-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-14-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-14-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-14 ;
+    ns1:targetsLevel ns1:L4 .
+
+ns1:cumulative-AREA-14-L5-Direct a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:DirectAlignment ;
+    dcterms:identifier "AREA-14-L5-Direct" ;
+    prov:wasDerivedFrom ns1:ONSET-14-direct ;
+    ns1:contributionType "Direct" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-14-direct ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-14-direct-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-14 ;
+    ns1:targetsLevel ns1:L5 .
+
+ns1:cumulative-AREA-14-L5-Indirect a ns1:Alignment,
+        ns1:CumulativeAssociation,
+        ns1:IndirectAlignment ;
+    dcterms:identifier "AREA-14-L5-Indirect" ;
+    prov:wasDerivedFrom ns1:ONSET-14-indirect ;
+    ns1:contributionType "Indirect" ;
+    ns1:derivationRule ns1:CumulativeLevelRule ;
+    ns1:derivedFromOnset ns1:ONSET-14-indirect ;
+    ns1:firstSupportedLevel ns1:L1 ;
+    ns1:fromPractice ns1:ONSET-14-indirect-practice ;
+    ns1:inherited true ;
+    ns1:sourceTopic ns1:AREA-14 ;
+    ns1:targetsLevel ns1:L5 .
+

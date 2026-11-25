@@ -1,0 +1,32 @@
+[project]
+site_name = "FAIR-DAMA-FAIRMM"
+site_description = "Independent documentary crosswalk between FAIR-DAMA and FAIR Maturity Matrix v1.2.5."
+nav = [
+  { "Home" = "index.md" },
+  { "16 November source refresh" = "source-refresh.md" },
+  { "High-level ontology connections" = "high-level-connections/index.md" },
+  { "Alignment overview" = "fairmm/index.md" },
+  { "Dimension alignment Sankey" = "sankey/index.md" },
+  { "Tools and Infrastructure personas" = "tools-personas/index.md" },
+  { "Maturity level alignment Sankey" = "levels/index.md" },
+  { "Level alignment analysis" = "levels/analysis.md" },
+  { "Knowledge areas and reconciliation" = "fairmm/areas.md" },
+  { "Persona correspondences" = "fairmm/personas.md" },
+  { "Persona FAIR relationships" = "fairmm/persona-relationships.md" },
+  { "Dimensions and levels" = "fairmm/dimensions.md" },
+  { "FAIR Data" = "fairmm/d1.md" },
+  { "FAIR Leadership" = "fairmm/d2.md" },
+  { "FAIR Strategy" = "fairmm/d3.md" },
+  { "FAIR Personas" = "fairmm/d4.md" },
+  { "FAIR Processes" = "fairmm/d5.md" },
+  { "FAIR Knowledge" = "fairmm/d6.md" },
+  { "FAIR Tools and infrastructures" = "fairmm/d7.md" },
+  { "Documentary review" = "fairmm/review.md" },
+  { "Ontology extension" = "ontology.md" },
+]
+
+[project.theme]
+font = false
+
+[project.extra]
+generator = false

@@ -1,0 +1,8 @@
+PREFIX align: <urn:fair-dama-fairmm:alignment:>
+SELECT ?layer ?originalType (COUNT(?assertion) AS ?count)
+WHERE {
+  ?assertion a align:SourceAssertion ; align:sourceLayer ?layer ;
+    align:originalContributionType ?originalType .
+}
+GROUP BY ?layer ?originalType
+ORDER BY ?layer ?originalType

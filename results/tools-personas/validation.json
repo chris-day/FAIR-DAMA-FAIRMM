@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "personas": 34,
+  "links": 34,
+  "counts": {
+    "Direct": 34,
+    "Indirect": 0
+  },
+  "aligned_activities": 38,
+  "alignment_records": 86,
+  "role_occurrences": 178,
+  "unresolved_fields": 47,
+  "source_role_fidelity": true,
+  "unique_ribbons": true,
+  "ribbon_conservation": true,
+  "svg_valid": true,
+  "selector_free": true
+}

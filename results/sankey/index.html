@@ -1,0 +1,11 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DAMA and FAIRMM static and interactive Sankeys</title><style>body{font:16px/1.6 system-ui,sans-serif;color:#16283c;background:#fff;max-width:1600px;margin:auto;padding:24px}h1{font-size:28px}img{width:100%;height:auto}button{font:inherit;padding:10px 16px;cursor:pointer}a{color:#2463a7}iframe{width:100%}</style></head><body><h1>DAMA segments and FAIRMM dimensions</h1><p>45 Direct and 9 Indirect proposed relationships. Each equal-width ribbon represents one segment–dimension–type relationship, not strength or maturity.</p><img src="dama-fairmm-dimensions-sankey.svg" alt="Static overview of proposed DAMA segment and FAIRMM dimension alignment"><p>Hover over nodes to highlight connections, select ribbons for rationale and deliverables, and select labels to open documentation. The interactive diagram loads D3 from jsDelivr only after you choose to load it.</p><button id="load-fairmm-sankey" type="button">Load interactive diagram</button>
+
+<iframe id="fairmm-sankey-frame" title="Interactive DAMA segments and FAIRMM dimensions Sankey" width="100%" height="1350" loading="lazy" style="border:0;display:none;"></iframe>
+
+<script>
+(() => {
+  const button=document.getElementById('load-fairmm-sankey'),frame=document.getElementById('fairmm-sankey-frame');
+  button.addEventListener('click',()=>{frame.src='dama-fairmm-dimensions-sankey.html?v=cf3cdfe613b6';frame.style.display='block';button.hidden=true;});
+  window.addEventListener('message',event=>{if(event.source===frame.contentWindow&&event.data?.type==='fairmm-sankey-height'&&Number.isFinite(event.data.height)){frame.height=String(Math.max(600,Math.min(9000,event.data.height+20)));}});
+})();
+</script><p><a href="dama-fairmm-dimensions-sankey.html?v=cf3cdfe613b6">Open interactive diagram separately</a> · <a href="dama-fairmm-dimensions-sankey-offline.html">Offline interactive fallback</a> · <a href="dama-fairmm-dimensions-sankey.svg">Static SVG</a></p><p>Direct/Indirect describes dimension support, separately from source FAIR-principle classifications. All current Indirect links target FAIR Data in the current crosswalk. Maturity Assessment is supporting segment 12; the aggregate overview and two extensions without a segment are excluded.</p></body></html>

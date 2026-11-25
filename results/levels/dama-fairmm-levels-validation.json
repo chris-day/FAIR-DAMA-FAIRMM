@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "checks": [
+    "SVG parses"
+  ],
+  "counts": {
+    "Direct": 62,
+    "Indirect": 65
+  },
+  "cumulative_links": 127,
+  "onset_judgements": 26,
+  "level_counts": {
+    "L0": {},
+    "L1": {
+      "Direct": 11,
+      "Indirect": 13
+    },
+    "L2": {
+      "Direct": 12,
+      "Indirect": 13
+    },
+    "L3": {
+      "Direct": 13,
+      "Indirect": 13
+    },
+    "L4": {
+      "Direct": 13,
+      "Indirect": 13
+    },
+    "L5": {
+      "Direct": 13,
+      "Indirect": 13
+    }
+  }
+}

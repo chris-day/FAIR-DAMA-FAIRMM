@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "dimensions": {
+    "expected": 54,
+    "actual": 54,
+    "relationships_equal": true
+  },
+  "levels": {
+    "expected": 127,
+    "actual": 127,
+    "relationships_equal": true
+  },
+  "input": "five modular Turtle files; no JSON relationship literals",
+  "approved_json_use": "regression comparison only"
+}

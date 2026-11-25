@@ -1,0 +1,13 @@
+PREFIX align: <urn:fair-dama-fairmm:alignment:>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT DISTINCT ?occurrence ?persona ?personaLabel ?role ?practice ?practiceLabel ?deliverable ?deliverableLabel ?source
+WHERE {
+  ?occurrence a align:ActivityRoleOccurrence ; align:sourcePersona ?persona ;
+    align:sourceRoleCategory ?role ; align:concernsPractice ?practice .
+  ?persona rdfs:label ?personaLabel . ?practice rdfs:label ?practiceLabel ;
+    align:hasDeliverable ?deliverable .
+  ?deliverable rdfs:label ?deliverableLabel .
+  OPTIONAL { ?occurrence dcterms:source ?source }
+}
+ORDER BY ?persona ?practice ?role ?deliverable ?occurrence

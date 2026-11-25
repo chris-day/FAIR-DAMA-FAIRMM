@@ -1,0 +1,2 @@
+# Preserve source snapshots and generated artefacts byte-for-byte across clones.
+* -text

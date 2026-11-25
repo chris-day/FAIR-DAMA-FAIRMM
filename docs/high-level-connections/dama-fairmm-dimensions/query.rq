@@ -1,0 +1,14 @@
+PREFIX align: <urn:fair-dama-fairmm:alignment:>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT DISTINCT ?assertion ?area ?areaLabel ?practice ?practiceLabel ?dimension ?dimensionLabel ?kind ?rationale ?condition
+WHERE {
+  ?assertion a align:DimensionAlignment ; align:sourceTopic ?area ;
+    align:fromPractice ?practice ; align:targetsDimension ?dimension ;
+    align:contributionType ?kind .
+  ?area rdfs:label ?areaLabel . ?practice rdfs:label ?practiceLabel .
+  ?dimension rdfs:label ?dimensionLabel .
+  OPTIONAL { ?assertion align:rationale ?rationale }
+  OPTIONAL { ?assertion align:applicabilityCondition ?condition }
+}
+ORDER BY ?area ?dimension ?kind ?assertion

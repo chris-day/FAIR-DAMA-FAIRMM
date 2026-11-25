@@ -1,0 +1,9 @@
+PREFIX align: <urn:fair-dama-fairmm:alignment:>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT DISTINCT ?persona ?role ?practice ?category ?status
+WHERE {
+  ?candidate a align:RoleAssignmentCandidate ; align:fairmmPersona/rdfs:label ?persona ;
+    align:dataRole/rdfs:label ?role ; align:inPractice/rdfs:label ?practice ;
+    align:hasRoleOccurrence/align:sourceRoleCategory ?category ; align:reviewStatus ?status .
+}
+ORDER BY ?persona ?practice ?role

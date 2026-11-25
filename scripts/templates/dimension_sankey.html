@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DAMA segments and FAIRMM dimensions interactive Sankey</title>
+<style>
+:root{color-scheme:light dark;--bg:#fff;--fg:#16283c;--muted:#475569;--line:#cbd5e1;--direct:#2463a7;--indirect:#b75f08;--node:#405468}
+@media(prefers-color-scheme:dark){:root{--bg:#16212d;--fg:#e6edf3;--muted:#bac7d5;--line:#536476;--direct:#70adeb;--indirect:#efae66;--node:#92a6ba}}
+*{box-sizing:border-box}body{margin:0;padding:20px;font:16px/1.5 system-ui,sans-serif;background:var(--bg);color:var(--fg)}main{max-width:1600px;margin:auto}h1{font-size:25px;margin:0 0 8px}h2{font-size:21px;margin:0 0 8px}h3{font-size:17px;margin:18px 0 6px}p{margin:8px 0}.subtitle,.note{color:var(--muted)}.legend{display:flex;flex-wrap:wrap;gap:10px 24px;align-items:center;margin:18px 0}.key{display:inline-block;width:30px;height:8px;margin-right:8px;vertical-align:middle;background:var(--direct)}.key.indirect{background:repeating-linear-gradient(90deg,var(--indirect) 0 7px,transparent 7px 10px)}.controls{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;margin:12px 0}select,button{font:inherit;color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:6px 10px}a{color:var(--direct)}.chart{width:100%}.chart svg{display:block;max-width:100%;font:14px system-ui,sans-serif;color:var(--fg)}.chart text{fill:var(--fg)}.ribbon{fill:none;stroke-opacity:.36;cursor:pointer}.ribbon:focus{stroke-opacity:.95;outline:none}.node{fill:var(--node);cursor:pointer}.node-label:hover text,.node-label:focus text{text-decoration:underline}.detail{border-top:1px solid var(--line);padding-top:18px;margin-top:18px;overflow-wrap:anywhere}.detail ul{padding-left:24px}.detail li{margin:5px 0}details{margin:14px 0}summary{cursor:pointer}#failure{padding:16px;border:1px solid var(--line)}[hidden]{display:none!important}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+</style>
+</head>
+<body>
+<main id="dimension-sankey">
+<h1>DAMA segments and FAIRMM dimensions</h1>
+<p class="subtitle">Proposed Direct and Indirect dimension alignment · FAIRMM v1.2.5</p>
+<div class="legend"><span><i class="key" aria-hidden="true"></i>Direct · 38</span><span><i class="key indirect" aria-hidden="true"></i>Indirect · 7</span><span class="note">Each ribbon = one proposed relationship</span></div>
+<p>Hover or focus on a segment or dimension to highlight its connections. Select a ribbon for rationale and deliverables. Select a label to open its documentation.</p>
+<p id="failure" hidden>The interactive libraries could not be loaded. <a href="dama-fairmm-dimensions-sankey-offline.html">Open the offline interactive version</a> or <a href="dama-fairmm-dimensions-sankey.svg">view the static diagram</a>.</p>
+<div class="chart" id="chart" aria-label="Interactive Sankey chart"></div>
+<section class="detail" aria-live="polite" aria-atomic="false">
+<h2 id="selected-title">Select a relationship</h2>
+<div id="selected-details"><p>Rationale, deliverables, activities and source references will appear here.</p></div>
+</section>
+<p class="note">Widths count distinct segment–dimension–type relationships, not strength, implementation or maturity. The aggregate overview and two extensions without a segment assignment are excluded. Segment 12 is a supporting discipline. Direct/Indirect dimension support is separate from source FAIR-principle classifications.</p>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
+<script>
+(() => {
+  'use strict';
+  const model=__MODEL__;
+  const root=document.getElementById('dimension-sankey'),chart=document.getElementById('chart');
+  const detail=document.getElementById('selected-details'), title=document.getElementById('selected-title');
+  const shortNames={'AREA-01':'Governance','AREA-02':'Architecture','AREA-03':'Development','AREA-04':'Operations','AREA-05':'Security','AREA-06':'Reference & master data','AREA-07':'Warehousing & BI','AREA-08':'Documents & content','AREA-09':'Metadata','AREA-10':'Quality','AREA-11':'Integration & interoperability','AREA-12':'Maturity assessment'};
+  let paths=null,hovered=null,lastWidth=0;
+  function reportHeight(){window.parent.postMessage({type:'fairmm-sankey-height',height:Math.ceil(root.getBoundingClientRect().height)+40},'*')}
+  if(typeof window.d3==='undefined'||typeof window.d3.sankey!=='function'){
+    document.getElementById('failure').hidden=false;
+    reportHeight();return;
+  }
+  const allLinks=model.links;
+  function paint(){if(!paths)return;paths.attr('stroke-opacity',l=>hovered?((l.source.id===hovered||l.target.id===hovered||l.id===hovered)?.85:.05):.36)}
+  function text(parent,tag,value){const e=document.createElement(tag);e.textContent=value;parent.append(e);return e}
+  function list(parent,values){const ul=document.createElement('ul');parent.append(ul);for(const value of values)text(ul,'li',value)}
+  function select(id){
+    detail.replaceChildren();
+    const l=allLinks.find(link=>link.id===id);
+    title.textContent=l?l.source_label+' → '+l.target_label+' · '+l.kind:'Select a relationship';
+    if(!l){text(detail,'p','Rationale, deliverables, activities and source references will appear here.');paint();reportHeight();return}
+    text(detail,'p',l.underlying_record_count+' underlying documentary records; '+l.activities.length+' distinct activities. Ribbon width remains one relationship.');
+    text(detail,'h3','Rationale');list(detail,l.rationales);
+    text(detail,'h3','Deliverables');list(detail,l.deliverables);
+    text(detail,'h3','Applicability conditions');list(detail,l.conditions);
+    text(detail,'p','Source FAIR IDs: '+(l.principles.join(', ')||'None assigned')+'. Original FAIR contribution types: '+(l.original_fair_contribution_types.join(', ')||'None assigned')+'.');
+    text(detail,'p','Candidate descriptor references: '+l.descriptor_ids.join(', '));
+    const more=document.createElement('details');text(more,'summary','Activities and pinned sources');detail.append(more);list(more,l.activities);
+    const ul=document.createElement('ul');more.append(ul);for(const href of l.sources){const li=document.createElement('li');const a=text(li,'a',href.split('/').pop());a.href=href;a.target='_blank';a.rel='noopener';ul.append(li)}
+    paint();reportHeight();
+  }
+  function draw(){
+    const w=Math.max(300,Math.round(chart.clientWidth)),h=1020,narrow=w<720;
+    const left=narrow?Math.min(135,w*.32):Math.min(320,w*.3),right=narrow?Math.min(130,w*.30):Math.min(275,w*.26);
+    chart.replaceChildren();
+    const shown=allLinks;
+    const active=new Set(shown.flatMap(l=>[l.source,l.target]));
+    const nodes=model.nodes.filter(n=>active.has(n.id)).map(n=>({id:n.id,label:n.label,side:n.side,href:n.documentation_url}));
+    const svg=d3.select(chart).append('svg').attr('width',w).attr('height',h).attr('viewBox',`0 0 ${w} ${h}`).attr('role','img').attr('aria-labelledby','dynamic-title dynamic-desc');
+    svg.append('title').attr('id','dynamic-title').text('Proposed Direct and Indirect DAMA segment to FAIRMM dimension alignment');
+    svg.append('desc').attr('id','dynamic-desc').text(shown.length+' equal-width relationships. Use node labels for documentation and ribbons for rationale and deliverables.');
+    const graph=d3.sankey().nodeId(d=>d.id).nodeWidth(12).nodePadding(narrow?36:32).nodeSort(null).extent([[left,40],[w-right,h-20]])({nodes,links:shown.map(l=>({...l}))});
+    svg.append('text').attr('x',0).attr('y',20).text('DAMA segments');svg.append('text').attr('x',w).attr('y',20).attr('text-anchor','end').text('FAIRMM dimensions');
+    paths=svg.append('g').selectAll('path').data(graph.links).join('path').attr('class','ribbon').attr('d',d3.sankeyLinkHorizontal()).attr('stroke',d=>d.kind==='Direct'?'var(--direct)':'var(--indirect)').attr('stroke-width',d=>Math.max(1,d.width)).attr('stroke-dasharray',d=>d.kind==='Indirect'?'7 4':null).attr('tabindex',0).attr('role','button').attr('data-link',d=>d.id).attr('aria-label',d=>d.source_label+' to '+d.target_label+', '+d.kind).on('pointerenter',(e,d)=>{hovered=d.id;paint()}).on('pointerleave',()=>{hovered=null;paint()}).on('focus',(e,d)=>{hovered=d.id;paint()}).on('blur',()=>{hovered=null;paint()}).on('click',(e,d)=>select(d.id)).on('keydown',(e,d)=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();select(d.id)}});
+    paths.append('title').text(d=>d.source_label+' → '+d.target_label+' · '+d.kind);
+    const groups=svg.append('g').selectAll('g').data(graph.nodes).join('g');
+    groups.append('rect').attr('class','node').attr('x',d=>d.x0).attr('y',d=>d.y0).attr('width',d=>d.x1-d.x0).attr('height',d=>d.y1-d.y0).on('pointerenter',(e,d)=>{hovered=d.id;paint()}).on('pointerleave',()=>{hovered=null;paint()}).append('title').text(d=>d.label+' · '+d.value+' relationships');
+    groups.each(function(d){
+      const isLeft=d.side==='source',x=isLeft?d.x0-10:d.x1+10,y=(d.y0+d.y1)/2;
+      const anchor=d3.select(this).append('a').attr('class','node-label').attr('href',d.href).attr('target','_blank').attr('rel','noopener').attr('aria-label','Open documentation: '+d.label).on('pointerenter',()=>{hovered=d.id;paint()}).on('pointerleave',()=>{hovered=null;paint()}).on('focus',()=>{hovered=d.id;paint()}).on('blur',()=>{hovered=null;paint()});
+      anchor.append('title').text('Open documentation: '+d.label);
+      const label=isLeft&&narrow?shortNames[d.id]:d.label;
+      const t=anchor.append('text').attr('x',x).attr('y',y).attr('text-anchor',isLeft?'end':'start');
+      const maxWidth=isLeft?left-18:right-18,lines=[];let line='';
+      for(const word of label.split(' ')){const candidate=(line+' '+word).trim();t.text(candidate);if(line&&t.node().getComputedTextLength()>maxWidth){lines.push(line);line=word}else line=candidate}if(line)lines.push(line);t.text('');
+      lines.forEach((s,i)=>t.append('tspan').attr('x',x).attr('dy',i===0?`${-(lines.length-1)*.55}em`:'1.1em').text(s));
+    });
+    lastWidth=w;paint();reportHeight();
+  }
+  new ResizeObserver(()=>{if(Math.round(chart.clientWidth)!==lastWidth)draw()}).observe(chart);
+  new ResizeObserver(reportHeight).observe(root);
+  draw();
+})();
+</script>
+</body>
+</html>

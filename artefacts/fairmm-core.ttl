@@ -1,0 +1,449 @@
+@prefix align: <urn:fair-dama-fairmm:alignment:> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix map: <https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+align:AreaRoleOccurrence a owl:Class ;
+    rdfs:label "AreaRoleOccurrence"@en ;
+    skos:definition "A supplier, participant or consumer occurrence in a source topic."@en .
+
+align:DiagnosticReview a owl:Class ;
+    rdfs:label "DiagnosticReview"@en ;
+    rdfs:subClassOf align:LevelReview ;
+    skos:definition "A baseline review that does not assert positive alignment."@en .
+
+align:DimensionAlignment a owl:Class ;
+    rdfs:label "DimensionAlignment"@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty align:targetsDimension ],
+        [ a owl:Restriction ;
+            owl:maxCardinality "0"^^xsd:nonNegativeInteger ;
+            owl:onProperty align:targetsLevel ],
+        align:Alignment ;
+    owl:disjointWith align:LevelAlignment ;
+    skos:definition "An alignment with exactly one dimension target."@en .
+
+align:DirectAlignment a owl:Class ;
+    rdfs:label "DirectAlignment"@en ;
+    rdfs:subClassOf align:Alignment ;
+    owl:disjointWith align:IndirectAlignment ;
+    skos:definition "The practice directly produces or verifies evidence relevant to the target capability."@en .
+
+align:PracticeBundle a owl:Class ;
+    rdfs:label "PracticeBundle"@en ;
+    rdfs:subClassOf align:Practice ;
+    skos:definition "A composite practice comprising the source activities behind a level-onset judgement."@en .
+
+align:RoleCategory a owl:Class ;
+    rdfs:label "RoleCategory"@en ;
+    skos:definition "A source involvement category, separate from a data role."@en .
+
+align:SourceSnapshot a owl:Class ;
+    rdfs:label "SourceSnapshot"@en ;
+    skos:definition "A pinned source revision or file digest."@en .
+
+align:UnresolvedAlignmentCandidate a owl:Class ;
+    rdfs:label "UnresolvedAlignmentCandidate"@en ;
+    skos:definition "A documentary candidate with no sufficiently matched descriptor; not an asserted alignment."@en .
+
+align:aggregate a owl:DatatypeProperty ;
+    rdfs:range xsd:boolean .
+
+align:applicabilityCondition a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+align:areaRoleCategory a owl:ObjectProperty .
+
+align:candidateDimension a owl:ObjectProperty .
+
+align:candidatePersona a owl:ObjectProperty ;
+    rdfs:range align:PersonaCorrespondence .
+
+align:concernsPractice a owl:ObjectProperty ;
+    rdfs:range align:Practice .
+
+align:confidence a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+align:contributionType a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+align:damaCounterpart a owl:ObjectProperty .
+
+align:derivationRule a owl:ObjectProperty ;
+    rdfs:range align:DerivationRule .
+
+align:derivedFromSourceNode a owl:ObjectProperty .
+
+align:evidenceStatus a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+align:existingContributionType a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+align:fieldHeading a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+align:frameworkPart a owl:ObjectProperty .
+
+align:fullSourceBlock a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+align:hasCounterpart a owl:ObjectProperty ;
+    rdfs:range align:CounterpartCandidate .
+
+align:hasDeliverable a owl:ObjectProperty ;
+    rdfs:range align:Deliverable .
+
+align:hasDescriptor a owl:ObjectProperty ;
+    rdfs:range align:Descriptor .
+
+align:hasDescriptorEvidence a owl:ObjectProperty ;
+    rdfs:range align:DescriptorEvidence .
+
+align:hasInterpretation a owl:ObjectProperty ;
+    rdfs:range align:CapabilityInterpretation .
+
+align:hasPractice a owl:ObjectProperty ;
+    rdfs:range align:Practice .
+
+align:hasRoleAssignmentCandidate a owl:ObjectProperty ;
+    rdfs:range align:RoleAssignmentCandidate .
+
+align:hasRoleOccurrence a owl:ObjectProperty ;
+    rdfs:range align:ActivityRoleOccurrence .
+
+align:hasSourceField a owl:ObjectProperty ;
+    rdfs:range align:SourceField .
+
+align:inFrameworkVersion a owl:ObjectProperty ;
+    rdfs:range align:FrameworkVersion .
+
+align:inKnowledgeArea a owl:ObjectProperty ;
+    rdfs:range align:SourceKnowledgeArea .
+
+align:inSourceTopic a owl:ObjectProperty ;
+    rdfs:range align:SourceTopic .
+
+align:inherited a owl:DatatypeProperty ;
+    rdfs:range xsd:boolean .
+
+align:levelOrdinal a owl:DatatypeProperty ;
+    rdfs:range xsd:nonNegativeInteger .
+
+align:matchLimitation a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+align:matchStatus a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+align:matchingPhrase a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+align:nextLevel a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:comment "Ordering only. This property does not propagate capabilities, establish organisational maturity, or turn levels into subclasses." ;
+    rdfs:range align:MaturityLevel ;
+    rdfs:subPropertyOf align:precedes .
+
+align:numericValue a owl:DatatypeProperty ;
+    rdfs:range xsd:decimal .
+
+align:onsetStatus a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+<urn:fair-dama-fairmm:alignment:ontology:core> a owl:Ontology ;
+    dcterms:description "DAMA ontologies v1.1.0 / document v1.18.0 / workbook V3 (2026-11-16). User-supplied local release; FAIR-DAMA checkout revision is context only, not provenance for the supplied release.",
+        "Independent local ontology. Source definitions, proposed alignments and materialized associations remain distinct. No operational maturity assessment." ;
+    dcterms:source <file:///D:/Work-Documents/13_Research/2026_Research/FAIR/research-repos/FAIR-DAMA-FAIRMM/sources/2026-11-16/DAMA-PDOC_FAIR-MASTER_2026-11-16_V3.xlsx>,
+        <file:///D:/Work-Documents/13_Research/2026_Research/FAIR/research-repos/FAIR-DAMA-FAIRMM/sources/2026-11-16/DAMA_FAIR_Ontologies_v1.1.0.zip>,
+        <file:///D:/Work-Documents/13_Research/2026_Research/FAIR/research-repos/FAIR-DAMA-FAIRMM/sources/2026-11-16/DAMA_Segments_High_Level_v1.18.0.md>,
+        <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/tree/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4>,
+        <https://github.com/chris-day/FAIR-DAMA/tree/ca36f80ba52e89d89111b13e390e8a7671cc3f5d> ;
+    dcterms:title "FAIRMM core ontology"@en ;
+    owl:versionIRI <urn:fair-dama-fairmm:alignment:ontology:core:1.1.0> ;
+    owl:versionInfo "1.1.0" .
+
+align:originalContributionType a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+align:primarySource a owl:ObjectProperty .
+
+align:qualification a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+align:rationale a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+align:relationshipKind a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+align:reportedDirectFAIRPrinciple a owl:ObjectProperty .
+
+align:reportedIndirectFAIRPrinciple a owl:ObjectProperty .
+
+align:requiresActivityContext a owl:DatatypeProperty ;
+    rdfs:range xsd:boolean .
+
+align:requiresEvidence a owl:ObjectProperty ;
+    rdfs:range align:EvidenceRequirement .
+
+align:reviewOfOnset a owl:ObjectProperty ;
+    rdfs:range align:OnsetAlignment .
+
+align:reviewStatus a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+align:roleSuggestion a owl:ObjectProperty .
+
+align:ruleText a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+align:scope a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+align:sha256 a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+align:sourceAssertion a owl:ObjectProperty ;
+    rdfs:range align:SourceAssertion .
+
+align:sourceBranch a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+align:sourceColumn a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+align:sourceCoordinate a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+align:sourceIdentifier a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+align:sourceIntermediatePractice a owl:ObjectProperty ;
+    rdfs:range align:Practice .
+
+align:sourceLayer a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+align:sourcePersona a owl:ObjectProperty .
+
+align:sourcePosition a owl:DatatypeProperty ;
+    rdfs:range xsd:nonNegativeInteger .
+
+align:sourceRevision a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+align:sourceRoleCategory a owl:ObjectProperty .
+
+align:sourceSnapshot a owl:ObjectProperty .
+
+align:sourceText a owl:DatatypeProperty ;
+    rdfs:range xsd:string .
+
+align:sourceTopic a owl:ObjectProperty ;
+    rdfs:range align:SourceTopic .
+
+align:supportedByDescriptor a owl:ObjectProperty ;
+    rdfs:range align:Descriptor .
+
+align:supportsInterpretation a owl:ObjectProperty .
+
+align:targetsPrinciple a owl:ObjectProperty .
+
+align:topicNumber a owl:DatatypeProperty ;
+    rdfs:range xsd:nonNegativeInteger .
+
+align:ActivityRoleOccurrence a owl:Class ;
+    rdfs:label "ActivityRoleOccurrence"@en ;
+    skos:definition "A responsible, approving or contributing role occurrence in an activity source."@en .
+
+align:CapabilityInterpretation a owl:Class ;
+    rdfs:label "CapabilityInterpretation"@en ;
+    skos:definition "A separately identified proposed interpretation of descriptor text."@en .
+
+align:CounterpartCandidate a owl:Class ;
+    rdfs:label "CounterpartCandidate"@en ;
+    skos:definition "A proposed DAMA counterpart with its own match qualification and source."@en .
+
+align:CumulativeAssociation a owl:Class ;
+    rdfs:label "CumulativeAssociation"@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty align:firstSupportedLevel ],
+        [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty align:derivedFromOnset ],
+        align:LevelAlignment ;
+    skos:definition "A materialized area-level-type association derived from an onset judgement."@en .
+
+align:DataRole a owl:Class ;
+    rdfs:label "DataRole"@en ;
+    skos:definition "Producer, Consumer or Enabler in the context of data work."@en .
+
+align:Deliverable a owl:Class ;
+    rdfs:label "Deliverable"@en ;
+    skos:definition "A named practice output, preserving the source wording."@en .
+
+align:DerivationRule a owl:Class ;
+    rdfs:label "DerivationRule"@en ;
+    skos:definition "An explicit reproducible rule for materialized relationships."@en .
+
+align:DescriptorEvidence a owl:Class ;
+    rdfs:label "DescriptorEvidence"@en ;
+    skos:definition "A source-cited descriptor clause supporting a proposed interpretation."@en .
+
+align:EvidenceRequirement a owl:Class ;
+    rdfs:label "EvidenceRequirement"@en ;
+    skos:definition "A requirement for evidence, not an observed test result."@en .
+
+align:FrameworkVersion a owl:Class ;
+    rdfs:label "FrameworkVersion"@en ;
+    skos:definition "An identified edition of the FAIR Maturity Matrix."@en .
+
+align:IndirectAlignment a owl:Class ;
+    rdfs:label "IndirectAlignment"@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty align:viaPractice ;
+            owl:someValuesFrom align:Practice ],
+        align:Alignment ;
+    skos:definition "The practice enables an intermediate practice that provides or verifies the relevant evidence."@en .
+
+align:LevelReview a owl:Class ;
+    rdfs:label "LevelReview"@en ;
+    skos:definition "A documentary review of a knowledge area at a specified level."@en .
+
+align:Persona a owl:Class ;
+    rdfs:label "Persona"@en ;
+    skos:definition "A FAIRMM archetypal actor; not an appointed individual."@en .
+
+align:PersonaCorrespondence a owl:Class ;
+    rdfs:label "PersonaCorrespondence"@en ;
+    skos:definition "A qualified proposed comparison between FAIRMM and DAMA persona entries."@en .
+
+align:RoleAssignmentCandidate a owl:Class ;
+    rdfs:label "RoleAssignmentCandidate"@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty align:dataRole ],
+        [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty align:fairmmPersona ],
+        [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty align:inPractice ] ;
+    skos:definition "A proposed data role for a persona in a specific practice, not an appointment."@en .
+
+align:SourceAssertion a owl:Class ;
+    rdfs:label "SourceAssertion"@en ;
+    skos:definition "An original FAIR-principle assertion retained in its own source layer."@en .
+
+align:SourceField a owl:Class ;
+    rdfs:label "SourceField"@en ;
+    skos:definition "An original table field, retaining its heading, position and exact text."@en .
+
+align:SourceKnowledgeArea a owl:Class ;
+    rdfs:label "SourceKnowledgeArea"@en ;
+    rdfs:subClassOf align:SourceTopic ;
+    skos:definition "A numbered core knowledge area in the source catalogue; not an identity assertion with another edition."@en .
+
+align:atLevel a owl:ObjectProperty ;
+    rdfs:range align:MaturityLevel .
+
+align:dataRole a owl:ObjectProperty ;
+    rdfs:range align:DataRole .
+
+align:derivedFromOnset a owl:ObjectProperty ;
+    rdfs:range align:OnsetAlignment .
+
+align:fairmmPersona a owl:ObjectProperty ;
+    rdfs:range align:Persona .
+
+align:fromPractice a owl:ObjectProperty ;
+    rdfs:range align:Practice .
+
+align:inDimension a owl:ObjectProperty ;
+    rdfs:range align:Dimension .
+
+align:inPractice a owl:ObjectProperty ;
+    rdfs:range align:Practice .
+
+align:precedes a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:comment "Ordering only. This property does not propagate capabilities, establish organisational maturity, or turn levels into subclasses." ;
+    rdfs:range align:MaturityLevel .
+
+align:viaPractice a owl:ObjectProperty ;
+    rdfs:range align:Practice .
+
+align:Dimension a owl:Class ;
+    rdfs:label "Dimension"@en ;
+    owl:disjointWith align:Descriptor,
+        align:MaturityLevel ;
+    skos:definition "A complementary FAIRMM perspective. Individual dimensions form a flat vocabulary."@en .
+
+align:OnsetAlignment a owl:Class ;
+    rdfs:label "OnsetAlignment"@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty align:firstSupportedLevel ],
+        align:LevelAlignment ;
+    owl:disjointWith align:CumulativeAssociation ;
+    skos:definition "A source-backed judgement of the first supported level for a practice contribution."@en .
+
+align:firstSupportedLevel a owl:ObjectProperty ;
+    rdfs:range align:MaturityLevel .
+
+align:targetsDimension a owl:ObjectProperty ;
+    rdfs:range align:Dimension .
+
+align:targetsLevel a owl:ObjectProperty ;
+    rdfs:range align:MaturityLevel .
+
+align:LevelAlignment a owl:Class ;
+    rdfs:label "LevelAlignment"@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:maxCardinality "0"^^xsd:nonNegativeInteger ;
+            owl:onProperty align:targetsDimension ],
+        [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty align:targetsLevel ],
+        align:Alignment ;
+    skos:definition "An alignment with exactly one maturity-level target."@en .
+
+align:SourceTopic a owl:Class ;
+    rdfs:label "SourceTopic"@en ;
+    skos:definition "A topic in the source catalogue, retaining its source terminology."@en .
+
+align:Alignment a owl:Class ;
+    rdfs:label "Alignment"@en ;
+    rdfs:comment "Pattern reuse does not reuse map:fromPractice or map:targetsPrinciple: their FAIR-specific domains and ranges must not classify FAIRMM targets as FAIR subprinciples." ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty align:fromPractice ] ;
+    skos:definition "A qualified proposed assertion connecting a practice to a dimension or maturity level."@en .
+
+align:Descriptor a owl:Class ;
+    rdfs:label "Descriptor"@en ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty align:atLevel ],
+        [ a owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty align:inDimension ] ;
+    skos:definition "The source description at one dimension and one maturity level; not a subprinciple."@en .
+
+align:MaturityLevel a owl:Class ;
+    rdfs:label "MaturityLevel"@en ;
+    owl:disjointWith align:Descriptor ;
+    skos:definition "An ordered FAIRMM stage. Individual levels form a flat vocabulary, not a class hierarchy."@en .
+
+align:Practice a owl:Class ;
+    rdfs:label "Practice"@en ;
+    rdfs:subClassOf map:Practice ;
+    skos:definition "A DAMA-related or explicitly proposed implementation practice."@en .
+

@@ -1,0 +1,10 @@
+PREFIX align: <urn:fair-dama-fairmm:alignment:>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?descriptor ?identifier ?comment ?source ?sourceWording
+WHERE {
+  ?descriptor a align:Descriptor ; dcterms:identifier ?identifier ;
+    rdfs:comment ?comment ; align:primarySource ?source ;
+    align:fullSourceBlock ?sourceWording .
+}
+ORDER BY ?identifier

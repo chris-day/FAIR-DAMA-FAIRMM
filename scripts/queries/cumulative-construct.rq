@@ -1,0 +1,29 @@
+PREFIX align: <urn:fair-dama-fairmm:alignment:>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+CONSTRUCT {
+  ?association a align:CumulativeAssociation, align:Alignment, ?kindClass ;
+    dcterms:identifier ?identifier ;
+    align:fromPractice ?practice ;
+    align:sourceTopic ?area ;
+    align:targetsLevel ?target ;
+    align:firstSupportedLevel ?first ;
+    align:contributionType ?kind ;
+    align:derivedFromOnset ?onset ;
+    prov:wasDerivedFrom ?onset ;
+    align:derivationRule align:CumulativeLevelRule ;
+    align:inherited ?inherited .
+}
+WHERE {
+  ?onset a align:OnsetAlignment ; align:firstSupportedLevel ?first ;
+    align:fromPractice ?practice ; align:sourceTopic ?area ; align:contributionType ?kind .
+  ?area dcterms:identifier ?areaID .
+  ?first align:levelOrdinal ?start .
+  ?target a align:MaturityLevel ; align:levelOrdinal ?ordinal ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 .
+  FILTER (?ordinal >= ?start && ?ordinal <= 5)
+  BIND (CONCAT(?areaID, "-L", STR(?ordinal), "-", ?kind) AS ?identifier)
+  BIND (IRI(CONCAT("urn:fair-dama-fairmm:alignment:cumulative-", ?identifier)) AS ?association)
+  BIND (?ordinal > ?start AS ?inherited)
+  BIND (IF(?kind = "Direct", align:DirectAlignment, align:IndirectAlignment) AS ?kindClass)
+}

@@ -1,0 +1,9 @@
+PREFIX align: <urn:fair-dama-fairmm:alignment:>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?assertion ?practiceLabel ?viaLabel ?target ?condition
+WHERE {
+  ?assertion a align:IndirectAlignment ; align:fromPractice/rdfs:label ?practiceLabel ;
+    align:viaPractice/rdfs:label ?viaLabel ; align:applicabilityCondition ?condition .
+  { ?assertion align:targetsDimension ?target }
+  UNION { ?assertion align:targetsLevel ?target }
+}

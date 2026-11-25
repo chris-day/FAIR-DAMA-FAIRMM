@@ -1,0 +1,4273 @@
+{
+  "version": "1.1.0",
+  "status": "passed",
+  "method": "RDFLib Turtle parsing, explicit RDF/OWL structural invariants, source fidelity and offline SPARQL joins. No remote imports or complete OWL reasoning.",
+  "checksPassed": 1062,
+  "checks": [
+    {
+      "check": "All four Turtle modules parse",
+      "passed": true
+    },
+    {
+      "check": "External FAIR vocabulary bytes unchanged",
+      "passed": true
+    },
+    {
+      "check": "Exactly 11 original core knowledge areas",
+      "passed": true
+    },
+    {
+      "check": "Closed core enumeration remains exactly the original 11",
+      "passed": true
+    },
+    {
+      "check": "Framework hasPart core list unchanged",
+      "passed": true
+    },
+    {
+      "check": "Additional topics have distinct, explicit classification",
+      "passed": true
+    },
+    {
+      "check": "Framework links all three additional topics separately",
+      "passed": true
+    },
+    {
+      "check": "Core and additional-topic classes are explicitly disjoint",
+      "passed": true
+    },
+    {
+      "check": "The three supporting topics are explicitly distinct individuals",
+      "passed": true
+    },
+    {
+      "check": "Original DAMA individuals retain their identities",
+      "passed": true
+    },
+    {
+      "check": "Valid DAMA targets for inKnowledgeArea",
+      "passed": true
+    },
+    {
+      "check": "Valid DAMA targets for inTopic",
+      "passed": true
+    },
+    {
+      "check": "Valid DAMA targets for fromTopic",
+      "passed": true
+    },
+    {
+      "check": "No additional topic is used as an inKnowledgeArea target",
+      "passed": true
+    },
+    {
+      "check": "inKnowledgeArea specializes the broader inTopic property",
+      "passed": true
+    },
+    {
+      "check": "FAIR vocabulary contains all 15 numbered IDs",
+      "passed": true
+    },
+    {
+      "check": "Valid FAIR targets for targetsPrinciple",
+      "passed": true
+    },
+    {
+      "check": "Valid FAIR targets for alignedPrinciple",
+      "passed": true
+    },
+    {
+      "check": "Valid FAIR targets for evidenceForPrinciple",
+      "passed": true
+    },
+    {
+      "check": "Valid FAIR targets for reportedDirectFAIRPrinciple",
+      "passed": true
+    },
+    {
+      "check": "Valid FAIR targets for reportedIndirectFAIRPrinciple",
+      "passed": true
+    },
+    {
+      "check": "All nine original practice examples retained",
+      "passed": true
+    },
+    {
+      "check": "Contribution counts: 7 direct, 33 indirect",
+      "passed": true
+    },
+    {
+      "check": "No assertion is both direct and indirect",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: AttachUsageLicenseToR1_1",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: AttachUsageLicenseToR1_1",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: AttachUsageLicenseToR1_1",
+      "passed": true
+    },
+    {
+      "check": "Direct assertion has no indirect pathway: AttachUsageLicenseToR1_1",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/BigDataDataScience/row-4/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/BigDataDataScience/row-4/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/BigDataDataScience/row-4/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/BigDataDataScience/row-4/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/BigDataDataScience/row-7/indirect/I3",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/BigDataDataScience/row-7/indirect/I3",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/BigDataDataScience/row-7/indirect/I3",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/BigDataDataScience/row-7/indirect/I3",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/BigDataDataScience/row-9/indirect/R1",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/BigDataDataScience/row-9/indirect/R1",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/BigDataDataScience/row-9/indirect/R1",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/BigDataDataScience/row-9/indirect/R1",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: PublishSharedRepresentationToI1",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: PublishSharedRepresentationToI1",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: PublishSharedRepresentationToI1",
+      "passed": true
+    },
+    {
+      "check": "Direct assertion has no indirect pathway: PublishSharedRepresentationToI1",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/DataHandlingEthics/row-7/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/DataHandlingEthics/row-7/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/DataHandlingEthics/row-7/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/DataHandlingEthics/row-7/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: ConfigureRetrievalAuthorizationToA1_2",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: ConfigureRetrievalAuthorizationToA1_2",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: ConfigureRetrievalAuthorizationToA1_2",
+      "passed": true
+    },
+    {
+      "check": "Direct assertion has no indirect pathway: ConfigureRetrievalAuthorizationToA1_2",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/DataHandlingEthics/row-3/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/DataHandlingEthics/row-3/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/DataHandlingEthics/row-3/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/DataHandlingEthics/row-3/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/BigDataDataScience/row-5/indirect/F2",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/BigDataDataScience/row-5/indirect/F2",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/BigDataDataScience/row-5/indirect/F2",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/BigDataDataScience/row-5/indirect/F2",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/BigDataDataScience/row-7/indirect/I1",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/BigDataDataScience/row-7/indirect/I1",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/BigDataDataScience/row-7/indirect/I1",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/BigDataDataScience/row-7/indirect/I1",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/BigDataDataScience/row-3/indirect/A1.1",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/BigDataDataScience/row-3/indirect/A1.1",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/BigDataDataScience/row-3/indirect/A1.1",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/BigDataDataScience/row-3/indirect/A1.1",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: SetDataSecurityPolicyToA1_2",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: SetDataSecurityPolicyToA1_2",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: SetDataSecurityPolicyToA1_2",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: SetDataSecurityPolicyToA1_2",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/BigDataDataScience/row-8/indirect/R1",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/BigDataDataScience/row-8/indirect/R1",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/BigDataDataScience/row-8/indirect/R1",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/BigDataDataScience/row-8/indirect/R1",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/DataHandlingEthics/row-4/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/DataHandlingEthics/row-4/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/DataHandlingEthics/row-4/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/DataHandlingEthics/row-4/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/BigDataDataScience/row-9/indirect/F2",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/BigDataDataScience/row-9/indirect/F2",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/BigDataDataScience/row-9/indirect/F2",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/BigDataDataScience/row-9/indirect/F2",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/DataHandlingEthics/row-5/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/DataHandlingEthics/row-5/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/DataHandlingEthics/row-5/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/DataHandlingEthics/row-5/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: AssignProvenanceResponsibilityToR1_2",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: AssignProvenanceResponsibilityToR1_2",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: AssignProvenanceResponsibilityToR1_2",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: AssignProvenanceResponsibilityToR1_2",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/BigDataDataScience/row-10/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/BigDataDataScience/row-10/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/BigDataDataScience/row-10/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/BigDataDataScience/row-10/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/BigDataDataScience/row-7/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/BigDataDataScience/row-7/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/BigDataDataScience/row-7/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/BigDataDataScience/row-7/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/BigDataDataScience/row-5/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/BigDataDataScience/row-5/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/BigDataDataScience/row-5/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/BigDataDataScience/row-5/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/BigDataDataScience/row-3/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/BigDataDataScience/row-3/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/BigDataDataScience/row-3/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/BigDataDataScience/row-3/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: PublishProvenanceToR1_2",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: PublishProvenanceToR1_2",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: PublishProvenanceToR1_2",
+      "passed": true
+    },
+    {
+      "check": "Direct assertion has no indirect pathway: PublishProvenanceToR1_2",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/BigDataDataScience/row-6/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/BigDataDataScience/row-6/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/BigDataDataScience/row-6/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/BigDataDataScience/row-6/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: IndexInSearchableCatalogToF4",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: IndexInSearchableCatalogToF4",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: IndexInSearchableCatalogToF4",
+      "passed": true
+    },
+    {
+      "check": "Direct assertion has no indirect pathway: IndexInSearchableCatalogToF4",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/BigDataDataScience/row-3/indirect/A1",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/BigDataDataScience/row-3/indirect/A1",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/BigDataDataScience/row-3/indirect/A1",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/BigDataDataScience/row-3/indirect/A1",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/BigDataDataScience/row-8/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/BigDataDataScience/row-8/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/BigDataDataScience/row-8/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/BigDataDataScience/row-8/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/BigDataDataScience/row-4/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/BigDataDataScience/row-4/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/BigDataDataScience/row-4/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/BigDataDataScience/row-4/indirect/R1.2",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/DataHandlingEthics/row-3/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/DataHandlingEthics/row-3/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/DataHandlingEthics/row-3/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/DataHandlingEthics/row-3/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/DataHandlingEthics/row-8/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/DataHandlingEthics/row-8/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/DataHandlingEthics/row-8/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/DataHandlingEthics/row-8/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/BigDataDataScience/row-2/indirect/R1.3",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/BigDataDataScience/row-2/indirect/R1.3",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/BigDataDataScience/row-2/indirect/R1.3",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/BigDataDataScience/row-2/indirect/R1.3",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/DataHandlingEthics/row-5/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/DataHandlingEthics/row-5/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/DataHandlingEthics/row-5/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/DataHandlingEthics/row-5/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/DataHandlingEthics/row-4/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/DataHandlingEthics/row-4/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/DataHandlingEthics/row-4/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/DataHandlingEthics/row-4/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/BigDataDataScience/row-6/direct/R1",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/BigDataDataScience/row-6/direct/R1",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/BigDataDataScience/row-6/direct/R1",
+      "passed": true
+    },
+    {
+      "check": "Direct assertion has no indirect pathway: contribution/BigDataDataScience/row-6/direct/R1",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/DataHandlingEthics/row-7/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/DataHandlingEthics/row-7/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/DataHandlingEthics/row-7/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/DataHandlingEthics/row-7/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/BigDataDataScience/row-10/indirect/A1",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/BigDataDataScience/row-10/indirect/A1",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/BigDataDataScience/row-10/indirect/A1",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/BigDataDataScience/row-10/indirect/A1",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: SetLicensingPolicyToR1_1",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: SetLicensingPolicyToR1_1",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: SetLicensingPolicyToR1_1",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: SetLicensingPolicyToR1_1",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/DataHandlingEthics/row-8/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/DataHandlingEthics/row-8/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/DataHandlingEthics/row-8/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/DataHandlingEthics/row-8/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/DataHandlingEthics/row-2/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/DataHandlingEthics/row-2/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/DataHandlingEthics/row-2/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/DataHandlingEthics/row-2/indirect/A1.2",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: contribution/DataHandlingEthics/row-2/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: contribution/DataHandlingEthics/row-2/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: contribution/DataHandlingEthics/row-2/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "Indirect pathway and matching evidence practice: contribution/DataHandlingEthics/row-2/indirect/R1.1",
+      "passed": true
+    },
+    {
+      "check": "One source and FAIR target: IncludeDatasetIdentifierToF3",
+      "passed": true
+    },
+    {
+      "check": "Typed source practice: IncludeDatasetIdentifierToF3",
+      "passed": true
+    },
+    {
+      "check": "Rationale and provenance: IncludeDatasetIdentifierToF3",
+      "passed": true
+    },
+    {
+      "check": "Direct assertion has no indirect pathway: IncludeDatasetIdentifierToF3",
+      "passed": true
+    },
+    {
+      "check": "123 persona names match the document without collisions",
+      "passed": true
+    },
+    {
+      "check": "All 108 original persona IRIs preserved",
+      "passed": true
+    },
+    {
+      "check": "All 15 numbered source topics represented",
+      "passed": true
+    },
+    {
+      "check": "Persona description: All Employees",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: All Employees",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: All Employees",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: All Employees",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: All Employees",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: All Employees",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Analytic Design Lead",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Analytic Design Lead",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Analytic Design Lead",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Analytic Design Lead",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Analytic Design Lead",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Analytic Design Lead",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Application Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Application Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Application Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Application Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Application Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Application Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Application Developers and Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Application Developers and Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Application Developers and Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Application Developers and Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Application Developers and Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Application Developers and Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Application Users",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Application Users",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Application Users",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Application Users",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Application Users",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Application Users",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Audit / Compliance",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Audit / Compliance",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Audit / Compliance",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Audit / Compliance",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Audit / Compliance",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Audit / Compliance",
+      "passed": true
+    },
+    {
+      "check": "Persona description: BI Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: BI Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: BI Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: BI Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: BI Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: BI Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona description: BI and Reporting Users",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: BI and Reporting Users",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: BI and Reporting Users",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: BI and Reporting Users",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: BI and Reporting Users",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: BI and Reporting Users",
+      "passed": true
+    },
+    {
+      "check": "Persona description: BI Developers and Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: BI Developers and Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: BI Developers and Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: BI Developers and Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: BI Developers and Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: BI Developers and Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona description: BI Program Manager",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: BI Program Manager",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: BI Program Manager",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: BI Program Manager",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: BI Program Manager",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: BI Program Manager",
+      "passed": true
+    },
+    {
+      "check": "Persona description: BI Specialists",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: BI Specialists",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: BI Specialists",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: BI Specialists",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: BI Specialists",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: BI Specialists",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Big Data Platform Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Big Data Platform Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Big Data Platform Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Big Data Platform Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Big Data Platform Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Big Data Platform Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Business and Data Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Business and Data Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Business and Data Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Business and Data Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Business and Data Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Business and Data Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Business and IT users",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Business and IT users",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Business and IT users",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Business and IT users",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Business and IT users",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Business and IT users",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Business Data Stewards",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Business Data Stewards",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Business Data Stewards",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Business Data Stewards",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Business Data Stewards",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Business Data Stewards",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Business Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Business Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Business Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Business Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Business Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Business Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Business Executives and Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Business Executives and Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Business Executives and Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Business Executives and Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Business Executives and Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Business Executives and Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Business Management",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Business Management",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Business Management",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Business Management",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Business Management",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Business Management",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Business Partners",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Business Partners",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Business Partners",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Business Partners",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Business Partners",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Business Partners",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Business Subject Matter Experts",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Business Subject Matter Experts",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Business Subject Matter Experts",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Business Subject Matter Experts",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Business Subject Matter Experts",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Business Subject Matter Experts",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Business Users",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Business Users",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Business Users",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Business Users",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Business Users",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Business Users",
+      "passed": true
+    },
+    {
+      "check": "Persona description: CDO / CIO",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: CDO / CIO",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: CDO / CIO",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: CDO / CIO",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: CDO / CIO",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: CDO / CIO",
+      "passed": true
+    },
+    {
+      "check": "Persona description: CDO/CIO",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: CDO/CIO",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: CDO/CIO",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: CDO/CIO",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: CDO/CIO",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: CDO/CIO",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Change Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Change Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Change Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Change Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Change Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Change Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Chief Information Officer",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Chief Information Officer",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Chief Information Officer",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Chief Information Officer",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Chief Information Officer",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Chief Information Officer",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Chief Knowledge Officer",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Chief Knowledge Officer",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Chief Knowledge Officer",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Chief Knowledge Officer",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Chief Knowledge Officer",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Chief Knowledge Officer",
+      "passed": true
+    },
+    {
+      "check": "Persona description: CIO",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: CIO",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: CIO",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: CIO",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: CIO",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: CIO",
+      "passed": true
+    },
+    {
+      "check": "Persona description: CIO and Other Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: CIO and Other Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: CIO and Other Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: CIO and Other Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: CIO and Other Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: CIO and Other Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona description: CIO/CTO",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: CIO/CTO",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: CIO/CTO",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: CIO/CTO",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: CIO/CTO",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: CIO/CTO",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Clerical Workers",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Clerical Workers",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Clerical Workers",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Clerical Workers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Clerical Workers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Clerical Workers",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Coordinating Data Stewards",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Coordinating Data Stewards",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Coordinating Data Stewards",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Coordinating Data Stewards",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Coordinating Data Stewards",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Coordinating Data Stewards",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Customers",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Customers",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Customers",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Customers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Customers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Customers",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Customers and Collaborators",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Customers and Collaborators",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Customers and Collaborators",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Customers and Collaborators",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Customers and Collaborators",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Customers and Collaborators",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Analysts and Modelers",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Analysts and Modelers",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Analysts and Modelers",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Analysts and Modelers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Analysts and Modelers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Analysts and Modelers",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Architects and Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Architects and Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Architects and Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Architects and Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Architects and Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Architects and Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Architects and Modelers",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Architects and Modelers",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Architects and Modelers",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Architects and Modelers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Architects and Modelers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Architects and Modelers",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Brokers",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Brokers",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Brokers",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Brokers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Brokers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Brokers",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Consumers",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Consumers",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Consumers",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Consumers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Consumers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Consumers",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Creators",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Creators",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Creators",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Creators",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Creators",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Creators",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Curators",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Curators",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Curators",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Curators",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Curators",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Curators",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Governance Bodies",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Governance Bodies",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Governance Bodies",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Governance Bodies",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Governance Bodies",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Governance Bodies",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Governance Council",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Governance Council",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Governance Council",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Governance Council",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Governance Council",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Governance Council",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Governance Office",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Governance Office",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Governance Office",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Governance Office",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Governance Office",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Governance Office",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Integration (ETL) Specialists",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Integration (ETL) Specialists",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Integration (ETL) Specialists",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Integration (ETL) Specialists",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Integration (ETL) Specialists",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Integration (ETL) Specialists",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Integration Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Integration Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Integration Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Integration Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Integration Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Integration Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Integration Developers and Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Integration Developers and Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Integration Developers and Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Integration Developers and Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Integration Developers and Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Integration Developers and Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Management Executive",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Management Executive",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Management Executive",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Management Executive",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Management Executive",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Management Executive",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Model Administrator",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Model Administrator",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Model Administrator",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Model Administrator",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Model Administrator",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Model Administrator",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Model Administrators",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Model Administrators",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Model Administrators",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Model Administrators",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Model Administrators",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Model Administrators",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Modelers",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Modelers",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Modelers",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Modelers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Modelers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Modelers",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Producers",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Producers",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Producers",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Producers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Producers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Producers",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Providers",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Providers",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Providers",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Providers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Providers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Providers",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Quality Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Quality Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Quality Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Quality Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Quality Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Quality Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Quality and Governance Specialists",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Quality and Governance Specialists",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Quality and Governance Specialists",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Quality and Governance Specialists",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Quality and Governance Specialists",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Quality and Governance Specialists",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Scientists",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Scientists",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Scientists",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Scientists",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Scientists",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Scientists",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Security Administrators",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Security Administrators",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Security Administrators",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Security Administrators",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Security Administrators",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Security Administrators",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data SME\u2019s",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data SME\u2019s",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data SME\u2019s",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data SME\u2019s",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data SME\u2019s",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data SME\u2019s",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Stewards",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Stewards",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Stewards",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Stewards",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Stewards",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Stewards",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Stewards and SMEs",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Stewards and SMEs",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Stewards and SMEs",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Stewards and SMEs",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Stewards and SMEs",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Stewards and SMEs",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Stewardship Council",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Stewardship Council",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Stewardship Council",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Stewardship Council",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Stewardship Council",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Stewardship Council",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Data Suppliers",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Data Suppliers",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Data Suppliers",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Data Suppliers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Data Suppliers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Data Suppliers",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Database Administrators",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Database Administrators",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Database Administrators",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Database Administrators",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Database Administrators",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Database Administrators",
+      "passed": true
+    },
+    {
+      "check": "Persona description: DM Execs and Other IT Mgmt",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: DM Execs and Other IT Mgmt",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: DM Execs and Other IT Mgmt",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: DM Execs and Other IT Mgmt",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: DM Execs and Other IT Mgmt",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: DM Execs and Other IT Mgmt",
+      "passed": true
+    },
+    {
+      "check": "Persona description: DM Executive",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: DM Executive",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: DM Executive",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: DM Executive",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: DM Executive",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: DM Executive",
+      "passed": true
+    },
+    {
+      "check": "Persona description: DM Executive and Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: DM Executive and Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: DM Executive and Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: DM Executive and Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: DM Executive and Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: DM Executive and Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona description: DM Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: DM Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: DM Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: DM Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: DM Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: DM Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona description: DM Executives & Data Governance Bodies",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: DM Executives & Data Governance Bodies",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: DM Executives & Data Governance Bodies",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: DM Executives & Data Governance Bodies",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: DM Executives & Data Governance Bodies",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: DM Executives & Data Governance Bodies",
+      "passed": true
+    },
+    {
+      "check": "Persona description: DM Executives and Other IT Management",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: DM Executives and Other IT Management",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: DM Executives and Other IT Management",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: DM Executives and Other IT Management",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: DM Executives and Other IT Management",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: DM Executives and Other IT Management",
+      "passed": true
+    },
+    {
+      "check": "Persona description: DM Leader",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: DM Leader",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: DM Leader",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: DM Leader",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: DM Leader",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: DM Leader",
+      "passed": true
+    },
+    {
+      "check": "Persona description: DM Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: DM Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: DM Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: DM Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: DM Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: DM Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona description: DM Services",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: DM Services",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: DM Services",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: DM Services",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: DM Services",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: DM Services",
+      "passed": true
+    },
+    {
+      "check": "Persona description: DRM Director",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: DRM Director",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: DRM Director",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: DRM Director",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: DRM Director",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: DRM Director",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Employees",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Employees",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Employees",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Employees",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Employees",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Employees",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Enterprise Customers",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Enterprise Customers",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Enterprise Customers",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Enterprise Customers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Enterprise Customers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Enterprise Customers",
+      "passed": true
+    },
+    {
+      "check": "Persona description: ETL, Service, Interface Developers",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: ETL, Service, Interface Developers",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: ETL, Service, Interface Developers",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: ETL, Service, Interface Developers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: ETL, Service, Interface Developers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: ETL, Service, Interface Developers",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Executive Data Stewards",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Executive Data Stewards",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Executive Data Stewards",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Executive Data Stewards",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Executive Data Stewards",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Executive Data Stewards",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Executives and Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Executives and Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Executives and Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Executives and Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Executives and Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Executives and Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona description: External customers",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: External customers",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: External customers",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: External customers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: External customers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: External customers",
+      "passed": true
+    },
+    {
+      "check": "Persona description: External Customers and Systems",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: External Customers and Systems",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: External Customers and Systems",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: External Customers and Systems",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: External Customers and Systems",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: External Customers and Systems",
+      "passed": true
+    },
+    {
+      "check": "Persona description: External parties",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: External parties",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: External parties",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: External parties",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: External parties",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: External parties",
+      "passed": true
+    },
+    {
+      "check": "Persona description: External Sources",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: External Sources",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: External Sources",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: External Sources",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: External Sources",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: External Sources",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Government",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Government",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Government",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Government",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Government",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Government",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Government and Industry Regulators",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Government and Industry Regulators",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Government and Industry Regulators",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Government and Industry Regulators",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Government and Industry Regulators",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Government and Industry Regulators",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Government regulatory agencies",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Government regulatory agencies",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Government regulatory agencies",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Government regulatory agencies",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Government regulatory agencies",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Government regulatory agencies",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Help Desk Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Help Desk Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Help Desk Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Help Desk Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Help Desk Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Help Desk Analysts",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Information Consumers",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Information Consumers",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Information Consumers",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Information Consumers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Information Consumers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Information Consumers",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Information Consumers (Internal and External)",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Information Consumers (Internal and External)",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Information Consumers (Internal and External)",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Information Consumers (Internal and External)",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Information Consumers (Internal and External)",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Information Consumers (Internal and External)",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Ingestion Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Ingestion Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Ingestion Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Ingestion Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Ingestion Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Ingestion Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Intermediaries",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Intermediaries",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Intermediaries",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Intermediaries",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Intermediaries",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Intermediaries",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Internal Customers and Systems",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Internal Customers and Systems",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Internal Customers and Systems",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Internal Customers and Systems",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Internal Customers and Systems",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Internal Customers and Systems",
+      "passed": true
+    },
+    {
+      "check": "Persona description: IT Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: IT Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: IT Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: IT Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: IT Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: IT Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona description: IT Operators",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: IT Operators",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: IT Operators",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: IT Operators",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: IT Operators",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: IT Operators",
+      "passed": true
+    },
+    {
+      "check": "Persona description: IT Steering Committee",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: IT Steering Committee",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: IT Steering Committee",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: IT Steering Committee",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: IT Steering Committee",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: IT Steering Committee",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Knowledge Workers",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Knowledge Workers",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Knowledge Workers",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Knowledge Workers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Knowledge Workers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Knowledge Workers",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Managers and Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Managers and Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Managers and Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Managers and Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Managers and Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Managers and Executives",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Maturity Assessors",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Maturity Assessors",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Maturity Assessors",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Maturity Assessors",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Maturity Assessors",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Maturity Assessors",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Meta-data Specialist",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Meta-data Specialist",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Meta-data Specialist",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Meta-data Specialist",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Meta-data Specialist",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Meta-data Specialist",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Metadata Specialists",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Metadata Specialists",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Metadata Specialists",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Metadata Specialists",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Metadata Specialists",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Metadata Specialists",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Organizational Effectiveness Group",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Organizational Effectiveness Group",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Organizational Effectiveness Group",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Organizational Effectiveness Group",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Organizational Effectiveness Group",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Organizational Effectiveness Group",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Other Data Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Other Data Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Other Data Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Other Data Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Other Data Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Other Data Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Other DM Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Other DM Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Other DM Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Other DM Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Other DM Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Other DM Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Other Enterprise Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Other Enterprise Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Other Enterprise Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Other Enterprise Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Other Enterprise Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Other Enterprise Architects",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Other IT Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Other IT Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Other IT Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Other IT Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Other IT Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Other IT Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Other IT Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Other IT Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Other IT Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Other IT Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Other IT Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Other IT Professionals",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Project and Program Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Project and Program Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Project and Program Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Project and Program Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Project and Program Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Project and Program Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Project Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Project Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Project Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Project Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Project Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Project Managers",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Records Management Staff",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Records Management Staff",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Records Management Staff",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Records Management Staff",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Records Management Staff",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Records Management Staff",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Regulators",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Regulators",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Regulators",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Regulators",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Regulators",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Regulators",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Regulatory Bodies",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Regulatory Bodies",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Regulatory Bodies",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Regulatory Bodies",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Regulatory Bodies",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Regulatory Bodies",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Senior management",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Senior management",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Senior management",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Senior management",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Senior management",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Senior management",
+      "passed": true
+    },
+    {
+      "check": "Persona description: SMEs and Other Info Consumers",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: SMEs and Other Info Consumers",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: SMEs and Other Info Consumers",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: SMEs and Other Info Consumers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: SMEs and Other Info Consumers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: SMEs and Other Info Consumers",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Software Developers",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Software Developers",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Software Developers",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Software Developers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Software Developers",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Software Developers",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Stakeholders",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Stakeholders",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Stakeholders",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Stakeholders",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Stakeholders",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Stakeholders",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Standards Organizations",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Standards Organizations",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Standards Organizations",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Standards Organizations",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Standards Organizations",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Standards Organizations",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Steering Committees",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Steering Committees",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Steering Committees",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Steering Committees",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Steering Committees",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Steering Committees",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Subject Matter Experts",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Subject Matter Experts",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Subject Matter Experts",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Subject Matter Experts",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Subject Matter Experts",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Subject Matter Experts",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Subject Matter Experts (SMEs)",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Subject Matter Experts (SMEs)",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Subject Matter Experts (SMEs)",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Subject Matter Experts (SMEs)",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Subject Matter Experts (SMEs)",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Subject Matter Experts (SMEs)",
+      "passed": true
+    },
+    {
+      "check": "Persona description: Vendors, Customers, and Partners",
+      "passed": true
+    },
+    {
+      "check": "Persona supplierIn: Vendors, Customers, and Partners",
+      "passed": true
+    },
+    {
+      "check": "Persona participantIn: Vendors, Customers, and Partners",
+      "passed": true
+    },
+    {
+      "check": "Persona consumerIn: Vendors, Customers, and Partners",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedDirectFAIRPrinciple: Vendors, Customers, and Partners",
+      "passed": true
+    },
+    {
+      "check": "Persona reportedIndirectFAIRPrinciple: Vendors, Customers, and Partners",
+      "passed": true
+    },
+    {
+      "check": "Spelling variants retain distinct identities",
+      "passed": true
+    },
+    {
+      "check": "Core-only correspondence range correspondsToKnowledgeArea",
+      "passed": true
+    },
+    {
+      "check": "Core-only correspondence range partiallyCorrespondsToKnowledgeArea",
+      "passed": true
+    },
+    {
+      "check": "Additional topics correspond through the topic property",
+      "passed": true
+    },
+    {
+      "check": "Exact workbook row BigDataDataScience!2",
+      "passed": true
+    },
+    {
+      "check": "Activity label and row provenance BigDataDataScience2",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles BigDataDataScience2/2",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles BigDataDataScience2/3",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles BigDataDataScience2/4",
+      "passed": true
+    },
+    {
+      "check": "Activity evidence requirement BigDataDataScience2",
+      "passed": true
+    },
+    {
+      "check": "No inferred implementation claim BigDataDataScience2",
+      "passed": true
+    },
+    {
+      "check": "Exact workbook row BigDataDataScience!3",
+      "passed": true
+    },
+    {
+      "check": "Activity label and row provenance BigDataDataScience3",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles BigDataDataScience3/2",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles BigDataDataScience3/3",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles BigDataDataScience3/4",
+      "passed": true
+    },
+    {
+      "check": "Activity evidence requirement BigDataDataScience3",
+      "passed": true
+    },
+    {
+      "check": "No inferred implementation claim BigDataDataScience3",
+      "passed": true
+    },
+    {
+      "check": "Exact workbook row BigDataDataScience!4",
+      "passed": true
+    },
+    {
+      "check": "Activity label and row provenance BigDataDataScience4",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles BigDataDataScience4/2",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles BigDataDataScience4/3",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles BigDataDataScience4/4",
+      "passed": true
+    },
+    {
+      "check": "Activity evidence requirement BigDataDataScience4",
+      "passed": true
+    },
+    {
+      "check": "No inferred implementation claim BigDataDataScience4",
+      "passed": true
+    },
+    {
+      "check": "Exact workbook row BigDataDataScience!5",
+      "passed": true
+    },
+    {
+      "check": "Activity label and row provenance BigDataDataScience5",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles BigDataDataScience5/2",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles BigDataDataScience5/3",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles BigDataDataScience5/4",
+      "passed": true
+    },
+    {
+      "check": "Activity evidence requirement BigDataDataScience5",
+      "passed": true
+    },
+    {
+      "check": "No inferred implementation claim BigDataDataScience5",
+      "passed": true
+    },
+    {
+      "check": "Exact workbook row BigDataDataScience!6",
+      "passed": true
+    },
+    {
+      "check": "Activity label and row provenance BigDataDataScience6",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles BigDataDataScience6/2",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles BigDataDataScience6/3",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles BigDataDataScience6/4",
+      "passed": true
+    },
+    {
+      "check": "Activity evidence requirement BigDataDataScience6",
+      "passed": true
+    },
+    {
+      "check": "No inferred implementation claim BigDataDataScience6",
+      "passed": true
+    },
+    {
+      "check": "Exact workbook row BigDataDataScience!7",
+      "passed": true
+    },
+    {
+      "check": "Activity label and row provenance BigDataDataScience7",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles BigDataDataScience7/2",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles BigDataDataScience7/3",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles BigDataDataScience7/4",
+      "passed": true
+    },
+    {
+      "check": "Activity evidence requirement BigDataDataScience7",
+      "passed": true
+    },
+    {
+      "check": "No inferred implementation claim BigDataDataScience7",
+      "passed": true
+    },
+    {
+      "check": "Exact workbook row BigDataDataScience!8",
+      "passed": true
+    },
+    {
+      "check": "Activity label and row provenance BigDataDataScience8",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles BigDataDataScience8/2",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles BigDataDataScience8/3",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles BigDataDataScience8/4",
+      "passed": true
+    },
+    {
+      "check": "Activity evidence requirement BigDataDataScience8",
+      "passed": true
+    },
+    {
+      "check": "No inferred implementation claim BigDataDataScience8",
+      "passed": true
+    },
+    {
+      "check": "Exact workbook row BigDataDataScience!9",
+      "passed": true
+    },
+    {
+      "check": "Activity label and row provenance BigDataDataScience9",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles BigDataDataScience9/2",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles BigDataDataScience9/3",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles BigDataDataScience9/4",
+      "passed": true
+    },
+    {
+      "check": "Activity evidence requirement BigDataDataScience9",
+      "passed": true
+    },
+    {
+      "check": "No inferred implementation claim BigDataDataScience9",
+      "passed": true
+    },
+    {
+      "check": "Exact workbook row BigDataDataScience!10",
+      "passed": true
+    },
+    {
+      "check": "Activity label and row provenance BigDataDataScience10",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles BigDataDataScience10/2",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles BigDataDataScience10/3",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles BigDataDataScience10/4",
+      "passed": true
+    },
+    {
+      "check": "Activity evidence requirement BigDataDataScience10",
+      "passed": true
+    },
+    {
+      "check": "No inferred implementation claim BigDataDataScience10",
+      "passed": true
+    },
+    {
+      "check": "Exact workbook row DataHandlingEthics!2",
+      "passed": true
+    },
+    {
+      "check": "Activity label and row provenance DataHandlingEthics2",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles DataHandlingEthics2/2",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles DataHandlingEthics2/3",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles DataHandlingEthics2/4",
+      "passed": true
+    },
+    {
+      "check": "Activity evidence requirement DataHandlingEthics2",
+      "passed": true
+    },
+    {
+      "check": "No inferred implementation claim DataHandlingEthics2",
+      "passed": true
+    },
+    {
+      "check": "Exact workbook row DataHandlingEthics!3",
+      "passed": true
+    },
+    {
+      "check": "Activity label and row provenance DataHandlingEthics3",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles DataHandlingEthics3/2",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles DataHandlingEthics3/3",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles DataHandlingEthics3/4",
+      "passed": true
+    },
+    {
+      "check": "Activity evidence requirement DataHandlingEthics3",
+      "passed": true
+    },
+    {
+      "check": "No inferred implementation claim DataHandlingEthics3",
+      "passed": true
+    },
+    {
+      "check": "Exact workbook row DataHandlingEthics!4",
+      "passed": true
+    },
+    {
+      "check": "Activity label and row provenance DataHandlingEthics4",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles DataHandlingEthics4/2",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles DataHandlingEthics4/3",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles DataHandlingEthics4/4",
+      "passed": true
+    },
+    {
+      "check": "Activity evidence requirement DataHandlingEthics4",
+      "passed": true
+    },
+    {
+      "check": "No inferred implementation claim DataHandlingEthics4",
+      "passed": true
+    },
+    {
+      "check": "Exact workbook row DataHandlingEthics!5",
+      "passed": true
+    },
+    {
+      "check": "Activity label and row provenance DataHandlingEthics5",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles DataHandlingEthics5/2",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles DataHandlingEthics5/3",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles DataHandlingEthics5/4",
+      "passed": true
+    },
+    {
+      "check": "Activity evidence requirement DataHandlingEthics5",
+      "passed": true
+    },
+    {
+      "check": "No inferred implementation claim DataHandlingEthics5",
+      "passed": true
+    },
+    {
+      "check": "Exact workbook row DataHandlingEthics!6",
+      "passed": true
+    },
+    {
+      "check": "Activity label and row provenance DataHandlingEthics6",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles DataHandlingEthics6/2",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles DataHandlingEthics6/3",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles DataHandlingEthics6/4",
+      "passed": true
+    },
+    {
+      "check": "Activity evidence requirement DataHandlingEthics6",
+      "passed": true
+    },
+    {
+      "check": "No inferred implementation claim DataHandlingEthics6",
+      "passed": true
+    },
+    {
+      "check": "Exact workbook row DataHandlingEthics!7",
+      "passed": true
+    },
+    {
+      "check": "Activity label and row provenance DataHandlingEthics7",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles DataHandlingEthics7/2",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles DataHandlingEthics7/3",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles DataHandlingEthics7/4",
+      "passed": true
+    },
+    {
+      "check": "Activity evidence requirement DataHandlingEthics7",
+      "passed": true
+    },
+    {
+      "check": "No inferred implementation claim DataHandlingEthics7",
+      "passed": true
+    },
+    {
+      "check": "Exact workbook row DataHandlingEthics!8",
+      "passed": true
+    },
+    {
+      "check": "Activity label and row provenance DataHandlingEthics8",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles DataHandlingEthics8/2",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles DataHandlingEthics8/3",
+      "passed": true
+    },
+    {
+      "check": "Proposed activity roles DataHandlingEthics8/4",
+      "passed": true
+    },
+    {
+      "check": "Activity evidence requirement DataHandlingEthics8",
+      "passed": true
+    },
+    {
+      "check": "No inferred implementation claim DataHandlingEthics8",
+      "passed": true
+    },
+    {
+      "check": "All 31 new activity contributions match the source cells exactly",
+      "passed": true
+    },
+    {
+      "check": "All 16 source activities retained, including unmapped training",
+      "passed": true
+    },
+    {
+      "check": "No direct Ethics mapping invented",
+      "passed": true
+    },
+    {
+      "check": "Only the documented conditional R1 direct Big Data mapping",
+      "passed": true
+    },
+    {
+      "check": "No dangling persona references proposedResponsiblePersona",
+      "passed": true
+    },
+    {
+      "check": "No dangling persona references proposedApprovingPersona",
+      "passed": true
+    },
+    {
+      "check": "No dangling persona references proposedContributingPersona",
+      "passed": true
+    },
+    {
+      "check": "Exactly 74 area-level assessments",
+      "passed": true
+    },
+    {
+      "check": "Every Sankey record agrees exactly with the area assessment layer",
+      "passed": true
+    },
+    {
+      "check": "Area assessments are not practice contributions",
+      "passed": true
+    },
+    {
+      "check": "Area and practice assessment classes are explicitly disjoint",
+      "passed": true
+    },
+    {
+      "check": "All 13 additional-topic Sankey links reference source activities",
+      "passed": true
+    },
+    {
+      "check": "Area mapping counts: 52 Direct / 10 Enabling / 12 Indirect",
+      "passed": true
+    },
+    {
+      "check": "Document source anchors resolve",
+      "passed": true
+    },
+    {
+      "check": "Ontology revision metadata is consistent",
+      "passed": true
+    },
+    {
+      "check": "SPARQL cross-module persona/additional-topic query returns all new topic groups",
+      "passed": true
+    },
+    {
+      "check": "SPARQL resolves every indirect evidence pathway",
+      "passed": true
+    },
+    {
+      "check": "Repository mirror equivalent: dama-ontology.ttl",
+      "passed": true
+    },
+    {
+      "check": "Repository mirror equivalent: dama-fair-mapping.ttl",
+      "passed": true
+    },
+    {
+      "check": "Repository mirror equivalent: dama-persona-ontology.ttl",
+      "passed": true
+    },
+    {
+      "check": "Repository mirror equivalent: fair-ontology.ttl",
+      "passed": true
+    }
+  ],
+  "triples": {
+    "dama-ontology.ttl": 185,
+    "dama-fair-mapping.ttl": 1864,
+    "dama-persona-ontology.ttl": 1965,
+    "fair-ontology.ttl": 199
+  },
+  "counts": {
+    "coreAreas": 11,
+    "additionalTopics": 3,
+    "personas": 123,
+    "sourceActivities": 16,
+    "originalExampleContributions": 9,
+    "newActivityContributions": 31,
+    "directContributions": 7,
+    "indirectContributions": 33,
+    "areaAlignments": 74
+  }
+}

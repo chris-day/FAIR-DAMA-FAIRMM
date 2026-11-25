@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "input_modules": {
+    "artefacts\\fairmm-core.ttl": "606f41b0db7409d73448b507895f3383e0702065b4ea9049351f7b0f8b2121c1",
+    "artefacts\\fairmm-v1.2.5.ttl": "a6839fb6464b09f32750afc00db41d71e9f04ce5989befab6be8f25f01e11244",
+    "artefacts\\fairmm-personas.ttl": "3383e5dd99298d137643d0ff16fda872f2883b7b936395fe6f1027449425e16d",
+    "artefacts\\fairmm-dama-alignment.ttl": "729dc217933307bd3a18facecb229a4fa2d33217981d2ca76b8e21712053d781",
+    "artefacts\\fairmm-dama-derived.ttl": "a423a390765a5beb8355856fe89d506cf78c796ed5afb1147bea8e558a820771",
+    "sources\\2026-11-16\\dama-ontologies-v1.1.0\\fair-ontology.ttl": "999db0459b2bbb12d23123ee0ab03fbfc12d2657540995af214ebc3090056c06",
+    "sources\\2026-11-16\\dama-ontologies-v1.1.0\\dama-ontology.ttl": "90bb6e65bffd47eff3e6b9fc3ef266eeaa4046aeda64f0fec219c1206c354400",
+    "sources\\2026-11-16\\dama-ontologies-v1.1.0\\dama-fair-mapping.ttl": "26b8f50134373b70ba86f26bbc51bcd1fe8ba3f96f54d509673183544a8ffe18",
+    "sources\\2026-11-16\\dama-ontologies-v1.1.0\\dama-persona-ontology.ttl": "94a0d24fca501e004868f50d3aab115da8fb96c332b69c9d07e980758d653d92"
+  },
+  "union_triples": 81703,
+  "source_modules_unchanged": true,
+  "unassigned_dimension_extensions_excluded": 2,
+  "views": [
+    {
+      "key": "dama-fair-principles",
+      "query_rows": 173,
+      "nodes": 27,
+      "links": 64,
+      "counts": {
+        "Indirect": 31,
+        "Direct": 33
+      },
+      "flow_conserved": true
+    },
+    {
+      "key": "dama-fairmm-dimensions",
+      "query_rows": 470,
+      "nodes": 21,
+      "links": 54,
+      "counts": {
+        "Direct": 45,
+        "Indirect": 9
+      },
+      "flow_conserved": true
+    },
+    {
+      "key": "dimensions-levels",
+      "query_rows": 42,
+      "nodes": 55,
+      "links": 84,
+      "counts": {
+        "Descriptor": 84
+      },
+      "flow_conserved": true
+    },
+    {
+      "key": "personas-activities-outcomes",
+      "query_rows": 356,
+      "nodes": 237,
+      "links": 465,
+      "counts": {
+        "Responsible": 116,
+        "Approving": 80,
+        "Contributing": 160,
+        "Deliverable": 109
+      },
+      "flow_conserved": true
+    },
+    {
+      "key": "dama-levels",
+      "query_rows": 127,
+      "nodes": 19,
+      "links": 127,
+      "counts": {
+        "Direct": 62,
+        "Indirect": 65
+      },
+      "flow_conserved": true
+    }
+  ],
+  "extraction": "RDFLib SPARQL SELECT DISTINCT; no JSON source inputs; no OWL inference"
+}

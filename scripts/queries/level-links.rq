@@ -1,0 +1,13 @@
+PREFIX align: <urn:fair-dama-fairmm:alignment:>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+SELECT ?areaID ?levelID ?kind ?firstLevel ?inherited ?onset
+WHERE {
+  ?association a align:CumulativeAssociation ; align:sourceTopic ?area ;
+    align:targetsLevel ?level ; align:contributionType ?kind ;
+    align:firstSupportedLevel ?first ; align:inherited ?inherited ;
+    align:derivedFromOnset ?onset .
+  ?area dcterms:identifier ?areaID .
+  ?level dcterms:identifier ?levelID .
+  ?first dcterms:identifier ?firstLevel .
+}
+ORDER BY ?areaID ?levelID ?kind

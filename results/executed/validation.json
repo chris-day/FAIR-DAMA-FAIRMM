@@ -1,0 +1,342 @@
+{
+  "status": "passed",
+  "scope": "documentary fidelity and structure; no operational pilot",
+  "checks": [
+    {
+      "check": "activities unique IDs",
+      "passed": true
+    },
+    {
+      "check": "assertions unique IDs",
+      "passed": true
+    },
+    {
+      "check": "dama_personas unique IDs",
+      "passed": true
+    },
+    {
+      "check": "persona_correspondences unique IDs",
+      "passed": true
+    },
+    {
+      "check": "descriptors unique IDs",
+      "passed": true
+    },
+    {
+      "check": "alignments unique IDs",
+      "passed": true
+    },
+    {
+      "check": "All upstream FAIRMM personas compared",
+      "passed": true
+    },
+    {
+      "check": "All DAMA persona source entries retained",
+      "passed": true
+    },
+    {
+      "check": "All source activity rows retained",
+      "passed": true
+    },
+    {
+      "check": "All 42 dimension and level cells retained",
+      "passed": true
+    },
+    {
+      "check": "All ontology contribution records retained separately",
+      "passed": true
+    },
+    {
+      "check": "All ontology area assessments retained separately",
+      "passed": true
+    },
+    {
+      "check": "Earlier visualisation retained in historical corpus",
+      "passed": true
+    },
+    {
+      "check": "Source digest: DAMA-PDOC_FAIR-MASTER_2026-11-16_V3.xlsx",
+      "passed": true
+    },
+    {
+      "check": "Source digest: DAMA_FAIR_Ontologies_v1.1.0.zip",
+      "passed": true
+    },
+    {
+      "check": "Source digest: DAMA_Segments_High_Level_v1.18.0.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: workbook-extract.json",
+      "passed": true
+    },
+    {
+      "check": "Source digest: dama-fair-mapping.ttl",
+      "passed": true
+    },
+    {
+      "check": "Source digest: dama-ontology.ttl",
+      "passed": true
+    },
+    {
+      "check": "Source digest: dama-persona-ontology.ttl",
+      "passed": true
+    },
+    {
+      "check": "Source digest: fair-ontology.ttl",
+      "passed": true
+    },
+    {
+      "check": "Source digest: manifest.json",
+      "passed": true
+    },
+    {
+      "check": "Source digest: ontologies.dot",
+      "passed": true
+    },
+    {
+      "check": "Source digest: ontologies.svg",
+      "passed": true
+    },
+    {
+      "check": "Source digest: README.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: update_dama_ontologies.py",
+      "passed": true
+    },
+    {
+      "check": "Source digest: validate_dama_ontologies.py",
+      "passed": true
+    },
+    {
+      "check": "Source digest: validation-report.json",
+      "passed": true
+    },
+    {
+      "check": "Source digest: VALIDATION.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: level0.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: level1.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: level2.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: level3.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: level4.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: level5.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: Autonomous_AI_Agent.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: Business_Analyst.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: Business_Leader.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: Business_Owner.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: Citizen_Data_Scientist.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: Clinical_Data_Manager.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: Curator.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: Data_Analyst.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: Data_Engineer.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: Data_Integration_Specialist.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: Data_Owner.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: Data_Protection_Officer.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: Data_Quality_Manager.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: Data_Scientist.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: Data_Standards_and_Governance_Expert.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: Data_Steward.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: Data_Strategy_Owner.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: FAIR_Community_Manager.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: FAIR_Data_Architect.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: FAIR_Trainer.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: Knowledge-Enabled_Citizen.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: Lab_Manager.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: Legal_Data_Expert.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: Master_Data_Manager.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: Ontologist.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: Project_Manager.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: Reference_Data_Manager.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: Researcher.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: Subject_Matter_Expert.md",
+      "passed": true
+    },
+    {
+      "check": "Source digest: Technology_Leader.md",
+      "passed": true
+    },
+    {
+      "check": "All 12 activity fields equal the cited source row",
+      "passed": true
+    },
+    {
+      "check": "No activity FAIR principle or Direct/Indirect label upgraded",
+      "passed": true
+    },
+    {
+      "check": "Every descriptor block and source line matches upstream text",
+      "passed": true
+    },
+    {
+      "check": "Every relationship has cited descriptor clauses",
+      "passed": true
+    },
+    {
+      "check": "All crosswalk references and intermediate practices valid",
+      "passed": true
+    },
+    {
+      "check": "Gap rows never assert a functional equivalence",
+      "passed": true
+    },
+    {
+      "check": "RDF dimension alignments equal JSON alignments",
+      "passed": true
+    },
+    {
+      "check": "RDF persona correspondences equal JSON correspondences",
+      "passed": true
+    },
+    {
+      "check": "RDF descriptors equal JSON descriptors",
+      "passed": true
+    },
+    {
+      "check": "Ontology avoids identity and exact equivalence assertions",
+      "passed": true
+    },
+    {
+      "check": "JSON downloads identical to canonical artefact",
+      "passed": true
+    },
+    {
+      "check": "Modular RDF downloads identical to canonical artefacts",
+      "passed": true
+    },
+    {
+      "check": "All crosswalk-page relative links resolve",
+      "passed": true
+    },
+    {
+      "check": "All 13 crosswalk pages built",
+      "passed": true
+    },
+    {
+      "check": "Rendered navigation, downloads and anchors resolve",
+      "passed": true
+    }
+  ],
+  "rdf_triples": 78582,
+  "alignment_count": 472,
+  "dimensions": {
+    "D1": 167,
+    "D5": 189,
+    "D7": 86,
+    "D3": 13,
+    "D4": 6,
+    "D2": 6,
+    "D6": 5
+  },
+  "persona_confidence": {
+    "Partial": 15,
+    "Close": 9,
+    "Gap": 6
+  }
+}

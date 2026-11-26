@@ -15,7 +15,9 @@ def clean(path):
  if path.exists():shutil.rmtree(path)
 def run(name,args,cwd=ROOT,expect_inconsistent=False):
  env=os.environ.copy();env.update({'PYTHONHASHSEED':'0','PYTHONUTF8':'1'});p=subprocess.run(args,cwd=cwd,env=env,capture_output=True,text=True,encoding='utf-8',errors='replace');(OUT/(name+'.log')).write_bytes((p.stdout+p.stderr).encode('utf-8'));ok=p.returncode==0 if not expect_inconsistent else p.returncode!=0 and 'inconsistent' in (p.stdout+p.stderr).lower();COMMANDS.append({'stage':name,'command':list(map(str,args)),'exit_code':p.returncode,'passed':ok});write(OUT/'pipeline-commands.json',COMMANDS);print(name+': '+('passed' if ok else 'FAILED'),flush=True)
- if not ok:raise RuntimeError(name+' failed; see validation/'+name+'.log')
+ if not ok:
+  print(p.stdout+p.stderr,flush=True)
+  raise RuntimeError(name+' failed; see validation/'+name+'.log')
 def runtime(java):
  if sys.version.split()[0]!=CONFIG['python_version']:raise RuntimeError('Expected Python '+CONFIG['python_version'])
  deps={}

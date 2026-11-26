@@ -1,0 +1,137 @@
+[
+  {
+    "path": "inputs\\alignment\\ontology-catalog.xml",
+    "source_uri": "file:///C:/Users/chrisd/Documents/Codex/2026-11-25/aan/outputs/G4/FAIR-DAMA-Integrated/inputs/alignment/ontology-catalog.xml",
+    "sha256": "26c52b335474769279f77551b285799025cdc127f53ffa6ad8da619092dffe20"
+  },
+  {
+    "path": "inputs\\alignment\\resolved-dependencies\\baseline\\artefacts\\fairmm-core.ttl",
+    "source_uri": "file:///C:/Users/chrisd/Documents/Codex/2026-11-25/aan/outputs/G4/FAIR-DAMA-Integrated/inputs/alignment/resolved-dependencies/baseline/artefacts/fairmm-core.ttl",
+    "sha256": "db19fcc01b1c8cd2ba2322812ac67db6d502e0f16f9cf74111c08aaea0c05af9"
+  },
+  {
+    "path": "inputs\\alignment\\resolved-dependencies\\baseline\\artefacts\\fairmm-dama-alignment.ttl",
+    "source_uri": "file:///C:/Users/chrisd/Documents/Codex/2026-11-25/aan/outputs/G4/FAIR-DAMA-Integrated/inputs/alignment/resolved-dependencies/baseline/artefacts/fairmm-dama-alignment.ttl",
+    "sha256": "cbd79c38bf177876374584395d4a074956c447f2352c1c7dd8e3af57364bcacc"
+  },
+  {
+    "path": "inputs\\alignment\\resolved-dependencies\\baseline\\artefacts\\fairmm-dama-derived.ttl",
+    "source_uri": "file:///C:/Users/chrisd/Documents/Codex/2026-11-25/aan/outputs/G4/FAIR-DAMA-Integrated/inputs/alignment/resolved-dependencies/baseline/artefacts/fairmm-dama-derived.ttl",
+    "sha256": "e8c629a3836c9aaa65942ed9f93182b112ef037c7113c5e91f87ad13e57b95af"
+  },
+  {
+    "path": "inputs\\alignment\\resolved-dependencies\\baseline\\artefacts\\fairmm-personas.ttl",
+    "source_uri": "file:///C:/Users/chrisd/Documents/Codex/2026-11-25/aan/outputs/G4/FAIR-DAMA-Integrated/inputs/alignment/resolved-dependencies/baseline/artefacts/fairmm-personas.ttl",
+    "sha256": "7b3889264ba312b611a9aaa41bf7d84a544d661a25a8bae98f4fa04528e26aef"
+  },
+  {
+    "path": "inputs\\alignment\\resolved-dependencies\\baseline\\artefacts\\fairmm-v1.2.5.ttl",
+    "source_uri": "file:///C:/Users/chrisd/Documents/Codex/2026-11-25/aan/outputs/G4/FAIR-DAMA-Integrated/inputs/alignment/resolved-dependencies/baseline/artefacts/fairmm-v1.2.5.ttl",
+    "sha256": "d30c26da81bc4c71a460815cd2f05d00993de69dbfa5b988dc33d4d3e717a714"
+  },
+  {
+    "path": "inputs\\alignment\\resolved-dependencies\\baseline\\sources\\2026-11-16\\dama-ontologies-v1.1.0\\dama-fair-mapping.ttl",
+    "source_uri": "file:///C:/Users/chrisd/Documents/Codex/2026-11-25/aan/outputs/G4/FAIR-DAMA-Integrated/inputs/alignment/resolved-dependencies/baseline/sources/2026-11-16/dama-ontologies-v1.1.0/dama-fair-mapping.ttl",
+    "sha256": "0ec39c2694a49f548c090c28200a8e04ea4ebc8684401aa85351bfdc36314079"
+  },
+  {
+    "path": "inputs\\alignment\\resolved-dependencies\\baseline\\sources\\2026-11-16\\dama-ontologies-v1.1.0\\dama-ontology.ttl",
+    "source_uri": "file:///C:/Users/chrisd/Documents/Codex/2026-11-25/aan/outputs/G4/FAIR-DAMA-Integrated/inputs/alignment/resolved-dependencies/baseline/sources/2026-11-16/dama-ontologies-v1.1.0/dama-ontology.ttl",
+    "sha256": "7d31f71c9d58eaf28aee73d527376f8b02fd24915ffa9c303f4b0beb31dd6230"
+  },
+  {
+    "path": "inputs\\alignment\\resolved-dependencies\\baseline\\sources\\2026-11-16\\dama-ontologies-v1.1.0\\dama-persona-ontology.ttl",
+    "source_uri": "file:///C:/Users/chrisd/Documents/Codex/2026-11-25/aan/outputs/G4/FAIR-DAMA-Integrated/inputs/alignment/resolved-dependencies/baseline/sources/2026-11-16/dama-ontologies-v1.1.0/dama-persona-ontology.ttl",
+    "sha256": "7b647bf948fbe2f48fe2606f3590d9cac3f0fba984961293cf34dcc2bd289c15"
+  },
+  {
+    "path": "inputs\\alignment\\resolved-dependencies\\baseline\\sources\\2026-11-16\\dama-ontologies-v1.1.0\\fair-ontology.ttl",
+    "source_uri": "file:///C:/Users/chrisd/Documents/Codex/2026-11-25/aan/outputs/G4/FAIR-DAMA-Integrated/inputs/alignment/resolved-dependencies/baseline/sources/2026-11-16/dama-ontologies-v1.1.0/fair-ontology.ttl",
+    "sha256": "634cd041cbd3c75145e682472bb49051daf50c5e9c0eff421ebc15be33b3410d"
+  },
+  {
+    "path": "inputs\\alignment\\resolved-dependencies\\dependencies\\capability-1.0.0.ttl",
+    "source_uri": "file:///C:/Users/chrisd/Documents/Codex/2026-11-25/aan/outputs/G4/FAIR-DAMA-Integrated/inputs/alignment/resolved-dependencies/dependencies/capability-1.0.0.ttl",
+    "sha256": "d7ae1ee5b117bd8401a91b25ad68bf2b351ca770feb687bb31749053d6ac6c00"
+  },
+  {
+    "path": "inputs\\alignment\\resolved-dependencies\\dependencies\\dama-1.2.0.ttl",
+    "source_uri": "file:///C:/Users/chrisd/Documents/Codex/2026-11-25/aan/outputs/G4/FAIR-DAMA-Integrated/inputs/alignment/resolved-dependencies/dependencies/dama-1.2.0.ttl",
+    "sha256": "439cbcf7172b6505aa54e889846fbcdd824d2f348e2522c80b038704d429f10c"
+  },
+  {
+    "path": "inputs\\alignment\\semantic-alignment-1.0.0.ttl",
+    "source_uri": "file:///C:/Users/chrisd/Documents/Codex/2026-11-25/aan/outputs/G4/FAIR-DAMA-Integrated/inputs/alignment/semantic-alignment-1.0.0.ttl",
+    "sha256": "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  },
+  {
+    "path": "inputs\\domains\\capability-1.0.0.ttl",
+    "source_uri": "file:///C:/Users/chrisd/Documents/Codex/2026-11-25/aan/outputs/G4/FAIR-DAMA-Integrated/inputs/domains/capability-1.0.0.ttl",
+    "sha256": "b12eb6a156931bbf388cf3d6061e0761143bf87e80eaaeb37e9dd9a4cf647c2e"
+  },
+  {
+    "path": "inputs\\domains\\dama-1.2.0.ttl",
+    "source_uri": "file:///C:/Users/chrisd/Documents/Codex/2026-11-25/aan/outputs/G4/FAIR-DAMA-Integrated/inputs/domains/dama-1.2.0.ttl",
+    "sha256": "bb69694b665160c4e86735e722430822fcbc6c8a266b565662f4a257c09c20a1"
+  },
+  {
+    "path": "inputs\\originals\\artefacts\\fairmm-core.ttl",
+    "source_uri": "file:///C:/Users/chrisd/Documents/Codex/2026-11-25/aan/outputs/G4/FAIR-DAMA-Integrated/inputs/originals/artefacts/fairmm-core.ttl",
+    "sha256": "606f41b0db7409d73448b507895f3383e0702065b4ea9049351f7b0f8b2121c1"
+  },
+  {
+    "path": "inputs\\originals\\artefacts\\fairmm-dama-alignment.ttl",
+    "source_uri": "file:///C:/Users/chrisd/Documents/Codex/2026-11-25/aan/outputs/G4/FAIR-DAMA-Integrated/inputs/originals/artefacts/fairmm-dama-alignment.ttl",
+    "sha256": "729dc217933307bd3a18facecb229a4fa2d33217981d2ca76b8e21712053d781"
+  },
+  {
+    "path": "inputs\\originals\\artefacts\\fairmm-dama-derived.ttl",
+    "source_uri": "file:///C:/Users/chrisd/Documents/Codex/2026-11-25/aan/outputs/G4/FAIR-DAMA-Integrated/inputs/originals/artefacts/fairmm-dama-derived.ttl",
+    "sha256": "a423a390765a5beb8355856fe89d506cf78c796ed5afb1147bea8e558a820771"
+  },
+  {
+    "path": "inputs\\originals\\artefacts\\fairmm-personas.ttl",
+    "source_uri": "file:///C:/Users/chrisd/Documents/Codex/2026-11-25/aan/outputs/G4/FAIR-DAMA-Integrated/inputs/originals/artefacts/fairmm-personas.ttl",
+    "sha256": "3383e5dd99298d137643d0ff16fda872f2883b7b936395fe6f1027449425e16d"
+  },
+  {
+    "path": "inputs\\originals\\artefacts\\fairmm-v1.2.5.ttl",
+    "source_uri": "file:///C:/Users/chrisd/Documents/Codex/2026-11-25/aan/outputs/G4/FAIR-DAMA-Integrated/inputs/originals/artefacts/fairmm-v1.2.5.ttl",
+    "sha256": "a6839fb6464b09f32750afc00db41d71e9f04ce5989befab6be8f25f01e11244"
+  },
+  {
+    "path": "inputs\\originals\\historical-mapping.md",
+    "source_uri": "file:///C:/Users/chrisd/Documents/Codex/2026-11-25/aan/outputs/G4/FAIR-DAMA-Integrated/inputs/originals/historical-mapping.md",
+    "sha256": "f004d79e09dfa6fdb7f15c6e2471aa04d3c77b29db841a8c2363bce0e5a0583f"
+  },
+  {
+    "path": "inputs\\originals\\historical-row-register.json",
+    "source_uri": "file:///C:/Users/chrisd/Documents/Codex/2026-11-25/aan/outputs/G4/FAIR-DAMA-Integrated/inputs/originals/historical-row-register.json",
+    "sha256": "f4b445044588ac83c31af473614ed7b6de79e7016b2c0a5d4a71044389b8d016"
+  },
+  {
+    "path": "inputs\\originals\\sources\\2026-11-16\\dama-ontologies-v1.1.0\\dama-fair-mapping.ttl",
+    "source_uri": "file:///C:/Users/chrisd/Documents/Codex/2026-11-25/aan/outputs/G4/FAIR-DAMA-Integrated/inputs/originals/sources/2026-11-16/dama-ontologies-v1.1.0/dama-fair-mapping.ttl",
+    "sha256": "26b8f50134373b70ba86f26bbc51bcd1fe8ba3f96f54d509673183544a8ffe18"
+  },
+  {
+    "path": "inputs\\originals\\sources\\2026-11-16\\dama-ontologies-v1.1.0\\dama-ontology.ttl",
+    "source_uri": "file:///C:/Users/chrisd/Documents/Codex/2026-11-25/aan/outputs/G4/FAIR-DAMA-Integrated/inputs/originals/sources/2026-11-16/dama-ontologies-v1.1.0/dama-ontology.ttl",
+    "sha256": "90bb6e65bffd47eff3e6b9fc3ef266eeaa4046aeda64f0fec219c1206c354400"
+  },
+  {
+    "path": "inputs\\originals\\sources\\2026-11-16\\dama-ontologies-v1.1.0\\dama-persona-ontology.ttl",
+    "source_uri": "file:///C:/Users/chrisd/Documents/Codex/2026-11-25/aan/outputs/G4/FAIR-DAMA-Integrated/inputs/originals/sources/2026-11-16/dama-ontologies-v1.1.0/dama-persona-ontology.ttl",
+    "sha256": "94a0d24fca501e004868f50d3aab115da8fb96c332b69c9d07e980758d653d92"
+  },
+  {
+    "path": "inputs\\originals\\sources\\2026-11-16\\dama-ontologies-v1.1.0\\fair-ontology.ttl",
+    "source_uri": "file:///C:/Users/chrisd/Documents/Codex/2026-11-25/aan/outputs/G4/FAIR-DAMA-Integrated/inputs/originals/sources/2026-11-16/dama-ontologies-v1.1.0/fair-ontology.ttl",
+    "sha256": "999db0459b2bbb12d23123ee0ab03fbfc12d2657540995af214ebc3090056c06"
+  },
+  {
+    "path": "inputs\\originals\\tool-catalogue-register.json",
+    "source_uri": "file:///C:/Users/chrisd/Documents/Codex/2026-11-25/aan/outputs/G4/FAIR-DAMA-Integrated/inputs/originals/tool-catalogue-register.json",
+    "sha256": "9b62345773276ee0d0bb73b8af1fec3f6ff2dc882eccf32933672045cc63094f"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "candidate_version": "1.0.0-rc.1-repository.1",
+  "ontology_release": "1.0.0",
+  "documentation_version": "1.2.0",
+  "selected_FAIRMM_release": "1.2.5",
+  "architecture_baseline": "1.4.0",
+  "release_date": "2026-11-26",
+  "archive_timestamp": [
+    2026,
+    11,
+    26,
+    0,
+    0,
+    0
+  ],
+  "python_version": "3.11.9",
+  "java_version": "17.0.21.1",
+  "java_distribution_ci": "zulu",
+  "channel": "local-repository-integration-review",
+  "owner_release_signoff": "G6 baseline accepted; repository adaptation pending review",
+  "licence_clearance": "pending; component notices retained; no new grant assumed",
+  "public_distribution_authorised": false,
+  "deployment_authorised": false
+}

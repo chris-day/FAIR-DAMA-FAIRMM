@@ -1,0 +1,1282 @@
+[
+  {
+    "line": 478,
+    "section": "0. Data Management",
+    "source_label": "Data Modeling Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/07b3d09e61cdb3ff29d274b5",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/478-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 479,
+    "section": "0. Data Management",
+    "source_label": "Database Management Systems",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/3895c6e9ca76a4d427867b6b",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/479-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 480,
+    "section": "0. Data Management",
+    "source_label": "Data Integration and Quality Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/a1a385b68a99acc9154131df",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/480-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 481,
+    "section": "0. Data Management",
+    "source_label": "Business Intelligence Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/03985847208cb676e7d15cfd",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/481-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 482,
+    "section": "0. Data Management",
+    "source_label": "Document Management Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/c75a38cc122dcb613a18e1e0",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/482-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 483,
+    "section": "0. Data Management",
+    "source_label": "Meta-data Repository Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/8624b65491c11acb3f7e3031",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/483-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 593,
+    "section": "1. Data Governance",
+    "source_label": "Intranet Website",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/15492505d71019164ff17cd4",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/593-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 594,
+    "section": "1. Data Governance",
+    "source_label": "E-Mail",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/2fae6fb30b0d0077f771923d",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/594-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 595,
+    "section": "1. Data Governance",
+    "source_label": "Meta-data Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/c3c78c7d6e33f8bff0298df7",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/595-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 596,
+    "section": "1. Data Governance",
+    "source_label": "Meta-data Repository",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/71f6a22010f88a7b92c3d3cb",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/596-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 597,
+    "section": "1. Data Governance",
+    "source_label": "Issue Management Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/6ee7a6a54370fe8cdffc6ca4",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/597-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 598,
+    "section": "1. Data Governance",
+    "source_label": "Data Governance KPI Dashboard",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/e8a9fae53447d7f511184130",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/598-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 735,
+    "section": "2. Data Architecture Management",
+    "source_label": "Data Modeling Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/07b3d09e61cdb3ff29d274b5",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/735-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 736,
+    "section": "2. Data Architecture Management",
+    "source_label": "Model Management Tool",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/8af1af98775efd3d83cdfd2e",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/736-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 737,
+    "section": "2. Data Architecture Management",
+    "source_label": "Meta-data Repository",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/71f6a22010f88a7b92c3d3cb",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/737-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 738,
+    "section": "2. Data Architecture Management",
+    "source_label": "Office Productivity Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/092b74cd6df25814619e31ce",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/738-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 881,
+    "section": "3. Data Development",
+    "source_label": "Data Modeling Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/07b3d09e61cdb3ff29d274b5",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/881-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 882,
+    "section": "3. Data Development",
+    "source_label": "Database Management Systems",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/3895c6e9ca76a4d427867b6b",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/882-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 883,
+    "section": "3. Data Development",
+    "source_label": "Software Development Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/3c7abbef8441de46d73d3ee4",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/883-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 884,
+    "section": "3. Data Development",
+    "source_label": "Testing Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/9df587c702850e3f27b3e11c",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/884-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 885,
+    "section": "3. Data Development",
+    "source_label": "Data Profiling Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/4ff8962218effafd3547ba87",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/885-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 886,
+    "section": "3. Data Development",
+    "source_label": "Model Management Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/4524a3d142cbc5f16263d04e",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/886-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 887,
+    "section": "3. Data Development",
+    "source_label": "Configuration Management Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/18522b582a35659300c4fa70",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/887-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 888,
+    "section": "3. Data Development",
+    "source_label": "Office Productivity Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/092b74cd6df25814619e31ce",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/888-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1022,
+    "section": "4. Data Operations Management",
+    "source_label": "Database Management Systems",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/3895c6e9ca76a4d427867b6b",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1022-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1023,
+    "section": "4. Data Operations Management",
+    "source_label": "Data Development Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/c2a7ab31e156d23cc73603c4",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1023-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1024,
+    "section": "4. Data Operations Management",
+    "source_label": "Database Administration Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/240a19364222dc8fdc2e487c",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1024-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1025,
+    "section": "4. Data Operations Management",
+    "source_label": "Office Productivity Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/092b74cd6df25814619e31ce",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1025-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1155,
+    "section": "5. Data Security Management",
+    "source_label": "Database Management System",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/a63f413945a65054f6896840",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1155-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1156,
+    "section": "5. Data Security Management",
+    "source_label": "Business Intelligence Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/03985847208cb676e7d15cfd",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1156-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1157,
+    "section": "5. Data Security Management",
+    "source_label": "Application Frameworks",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/8796436caf6867176002317d",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1157-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1158,
+    "section": "5. Data Security Management",
+    "source_label": "Identity Management Technologies",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/dffa5692cfba4c7e4e738b7b",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1158-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1159,
+    "section": "5. Data Security Management",
+    "source_label": "Change Control Systems",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/ef0d851bbdbc9620ced3a55d",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1159-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1278,
+    "section": "6. Reference & Master Data Management",
+    "source_label": "Reference Data Management Applications",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/6b1f4723b8edbc3ed704a79c",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1278-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1279,
+    "section": "6. Reference & Master Data Management",
+    "source_label": "Master Data Management Applications",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/5c52140702a2acbb034a7465",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1279-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1280,
+    "section": "6. Reference & Master Data Management",
+    "source_label": "Data Modeling Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/07b3d09e61cdb3ff29d274b5",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1280-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1281,
+    "section": "6. Reference & Master Data Management",
+    "source_label": "Process Modeling Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/607b1a33ea7ad638bfa2966b",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1281-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1282,
+    "section": "6. Reference & Master Data Management",
+    "source_label": "Meta-data Repositories",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/7419042e481247c6b1a2e7b9",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1282-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1283,
+    "section": "6. Reference & Master Data Management",
+    "source_label": "Data Profiling Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/4ff8962218effafd3547ba87",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1283-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1284,
+    "section": "6. Reference & Master Data Management",
+    "source_label": "Data Cleansing Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/ed38a453ec9e105aea6b6d84",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1284-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1285,
+    "section": "6. Reference & Master Data Management",
+    "source_label": "Data Integration Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/5e404259f62171935b171828",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1285-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1286,
+    "section": "6. Reference & Master Data Management",
+    "source_label": "Business Process and Rule Engines",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/949af03bb89481bac6a91c00",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1286-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1287,
+    "section": "6. Reference & Master Data Management",
+    "source_label": "Change Management Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/61d7b3e601126ae75bdb6c9d",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1287-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1417,
+    "section": "7. Data Warehousing & Business Intelligence Management",
+    "source_label": "Database Management Systems",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/3895c6e9ca76a4d427867b6b",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1417-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1418,
+    "section": "7. Data Warehousing & Business Intelligence Management",
+    "source_label": "Data Profiling Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/4ff8962218effafd3547ba87",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1418-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1419,
+    "section": "7. Data Warehousing & Business Intelligence Management",
+    "source_label": "Data Integration Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/5e404259f62171935b171828",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1419-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1420,
+    "section": "7. Data Warehousing & Business Intelligence Management",
+    "source_label": "Data Cleansing Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/ed38a453ec9e105aea6b6d84",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1420-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1421,
+    "section": "7. Data Warehousing & Business Intelligence Management",
+    "source_label": "Business Intelligence Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/03985847208cb676e7d15cfd",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1421-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1422,
+    "section": "7. Data Warehousing & Business Intelligence Management",
+    "source_label": "Analytic Applications",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/f5bcb0d012cff40a1dd4a31e",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1422-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1423,
+    "section": "7. Data Warehousing & Business Intelligence Management",
+    "source_label": "Data Modeling Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/07b3d09e61cdb3ff29d274b5",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1423-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1424,
+    "section": "7. Data Warehousing & Business Intelligence Management",
+    "source_label": "Performance Management Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/3d9b7a782c739a12493fe180",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1424-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1425,
+    "section": "7. Data Warehousing & Business Intelligence Management",
+    "source_label": "Meta-data Repository",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/71f6a22010f88a7b92c3d3cb",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1425-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1426,
+    "section": "7. Data Warehousing & Business Intelligence Management",
+    "source_label": "Data Quality Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/0e6404493d132a0a0c515a5f",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1426-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1427,
+    "section": "7. Data Warehousing & Business Intelligence Management",
+    "source_label": "Data Security Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/ad2394cbf9463315a0a727e6",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1427-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1556,
+    "section": "8. Document & Content Management",
+    "source_label": "Stored Documents",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/15c74fd660e125bad5ed5588",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1556-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1557,
+    "section": "8. Document & Content Management",
+    "source_label": "Office Productivity Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/092b74cd6df25814619e31ce",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1557-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1558,
+    "section": "8. Document & Content Management",
+    "source_label": "Image and Workflow Management Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/3db69681843fdc5f15a19fc2",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1558-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1559,
+    "section": "8. Document & Content Management",
+    "source_label": "Records Management Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/cf732f2743ab5d1c5ffcd200",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1559-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1560,
+    "section": "8. Document & Content Management",
+    "source_label": "XML Development Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/2bb3bacb56465170b0e8581f",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1560-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1561,
+    "section": "8. Document & Content Management",
+    "source_label": "Collaboration Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/baa402e35e8977d26daaa5a9",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1561-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1562,
+    "section": "8. Document & Content Management",
+    "source_label": "Internet",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/57e8a431deec0d70da0a26ea",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1562-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1563,
+    "section": "8. Document & Content Management",
+    "source_label": "Email Systems",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/faaebdbd672d7cd49b2e259a",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1563-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1689,
+    "section": "9. Meta-data Management",
+    "source_label": "Meta-data Repositories",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/7419042e481247c6b1a2e7b9",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1689-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1690,
+    "section": "9. Meta-data Management",
+    "source_label": "Data Modeling Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/07b3d09e61cdb3ff29d274b5",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1690-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1691,
+    "section": "9. Meta-data Management",
+    "source_label": "Database Management Systems",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/3895c6e9ca76a4d427867b6b",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1691-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1692,
+    "section": "9. Meta-data Management",
+    "source_label": "Data Integration Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/5e404259f62171935b171828",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1692-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1693,
+    "section": "9. Meta-data Management",
+    "source_label": "Business Intelligence Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/03985847208cb676e7d15cfd",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1693-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1694,
+    "section": "9. Meta-data Management",
+    "source_label": "System Management Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/53328498ba65f408d3286fc5",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1694-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1695,
+    "section": "9. Meta-data Management",
+    "source_label": "Object Modeling Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/d82607f79c4857646c94d15e",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1695-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1696,
+    "section": "9. Meta-data Management",
+    "source_label": "Process Modeling Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/607b1a33ea7ad638bfa2966b",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1696-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1697,
+    "section": "9. Meta-data Management",
+    "source_label": "Report Generating Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/175b4193e2e1c775b87105f5",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1697-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1698,
+    "section": "9. Meta-data Management",
+    "source_label": "Data Quality Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/0e6404493d132a0a0c515a5f",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1698-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1699,
+    "section": "9. Meta-data Management",
+    "source_label": "Data Development and Administration Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/5e59e82ea9898e262b8f2e1d",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1699-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1700,
+    "section": "9. Meta-data Management",
+    "source_label": "Reference and Master Data Management Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/7ed50e54974513f7b8c2093d",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1700-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1830,
+    "section": "10. Data Quality Management",
+    "source_label": "Data Profiling Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/4ff8962218effafd3547ba87",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1830-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1831,
+    "section": "10. Data Quality Management",
+    "source_label": "Statistical Analysis Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/89bcfac137864f894367ba43",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1831-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1832,
+    "section": "10. Data Quality Management",
+    "source_label": "Data Cleansing Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/ed38a453ec9e105aea6b6d84",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1832-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1833,
+    "section": "10. Data Quality Management",
+    "source_label": "Data Integration Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/5e404259f62171935b171828",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1833-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 1834,
+    "section": "10. Data Quality Management",
+    "source_label": "Issue and Event Management Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/3acc1e0529f33308732a3a52",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/1834-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2140,
+    "section": "13. Big Data & Data Science",
+    "source_label": "MPP Shared-Nothing Technologies",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/8ec9fe411859931ab62369cd",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2140-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2141,
+    "section": "13. Big Data & Data Science",
+    "source_label": "Distributed File-based Databases",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/2e16d1078783ac2947560e10",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2141-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2142,
+    "section": "13. Big Data & Data Science",
+    "source_label": "In-memory Computing and Databases",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/7c78169f1c5600f411d5f099",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2142-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2143,
+    "section": "13. Big Data & Data Science",
+    "source_label": "In-database Algorithms",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/46a47a6754a352cb18e83f71",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2143-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2144,
+    "section": "13. Big Data & Data Science",
+    "source_label": "Big Data Cloud Solutions",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/55fa62651488f274c1531a50",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2144-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2145,
+    "section": "13. Big Data & Data Science",
+    "source_label": "Statistical Computing and Graphical Languages",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/a030ecd957f61efdd96388b6",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2145-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2146,
+    "section": "13. Big Data & Data Science",
+    "source_label": "Data Visualization Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/01d94e1675f272ac3ab86459",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2146-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2267,
+    "section": "14. Data Handling Ethics",
+    "source_label": "Wikis, Knowledge Bases, Intranet Sites",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/79603849bc7188bb18053fb2",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2267-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2268,
+    "section": "14. Data Handling Ethics",
+    "source_label": "Microblogs, other internal communication tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/f1961ccde9cbc72f1811d1cd",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2268-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2660,
+    "section": "Appendix Activity Technical Drivers: 01. Data Handling Ethics",
+    "source_label": "Wikis, Knowledge Bases, Intranet Sites",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/79603849bc7188bb18053fb2",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2660-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2660,
+    "section": "Appendix Activity Technical Drivers: 01. Data Handling Ethics",
+    "source_label": "Microblogs, other internal communication tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/f1961ccde9cbc72f1811d1cd",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2660-1",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2661,
+    "section": "Appendix Activity Technical Drivers: 02. Data Governance & Stewardship",
+    "source_label": "Websites",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/bec8768fab41a2df7d72ed31",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2661-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2661,
+    "section": "Appendix Activity Technical Drivers: 02. Data Governance & Stewardship",
+    "source_label": "Business Glossary Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/8fe65ca2714400449d6ea0f6",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2661-1",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2661,
+    "section": "Appendix Activity Technical Drivers: 02. Data Governance & Stewardship",
+    "source_label": "Workflow Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/1beda362990cdc4f9d97ab10",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2661-2",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2661,
+    "section": "Appendix Activity Technical Drivers: 02. Data Governance & Stewardship",
+    "source_label": "Document Management Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/c75a38cc122dcb613a18e1e0",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2661-3",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2661,
+    "section": "Appendix Activity Technical Drivers: 02. Data Governance & Stewardship",
+    "source_label": "Data Governance Scorecards",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/27121c508ffff1005accb42f",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2661-4",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2662,
+    "section": "Appendix Activity Technical Drivers: 03. Data Architecture",
+    "source_label": "Data modeling tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/479aa834defe2fe7ea935f36",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2662-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2662,
+    "section": "Appendix Activity Technical Drivers: 03. Data Architecture",
+    "source_label": "Asset management software",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/7b85ed131fb2eff586447f76",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2662-1",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2662,
+    "section": "Appendix Activity Technical Drivers: 03. Data Architecture",
+    "source_label": "Graphical design applications",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/c4e00aa624f6b63d372547db",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2662-2",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2663,
+    "section": "Appendix Activity Technical Drivers: 04. Data Modeling & Design",
+    "source_label": "Data modeling tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/479aa834defe2fe7ea935f36",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2663-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2663,
+    "section": "Appendix Activity Technical Drivers: 04. Data Modeling & Design",
+    "source_label": "Lineage tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/5f00f7b26645ee5b804167f7",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2663-1",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2663,
+    "section": "Appendix Activity Technical Drivers: 04. Data Modeling & Design",
+    "source_label": "Data profiling tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/3f5ed8502cd91cf6b6b280e2",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2663-2",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2663,
+    "section": "Appendix Activity Technical Drivers: 04. Data Modeling & Design",
+    "source_label": "Metadata repositories",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/d8b0886840bed6f9e95ec7f2",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2663-3",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2663,
+    "section": "Appendix Activity Technical Drivers: 04. Data Modeling & Design",
+    "source_label": "Data model patterns",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/5e2aed56151bcd56736bd36d",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2663-4",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2663,
+    "section": "Appendix Activity Technical Drivers: 04. Data Modeling & Design",
+    "source_label": "Industry data models",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/00a102e87f6f2c7982b5f371",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2663-5",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2664,
+    "section": "Appendix Activity Technical Drivers: 05. Data Storage & Operations",
+    "source_label": "Data Modeling Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/07b3d09e61cdb3ff29d274b5",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2664-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2664,
+    "section": "Appendix Activity Technical Drivers: 05. Data Storage & Operations",
+    "source_label": "Database Monitoring Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/f966d82e87064db93c7d2656",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2664-1",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2664,
+    "section": "Appendix Activity Technical Drivers: 05. Data Storage & Operations",
+    "source_label": "Database Management Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/bfbe50be8f9257b3837db848",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2664-2",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2664,
+    "section": "Appendix Activity Technical Drivers: 05. Data Storage & Operations",
+    "source_label": "Developer Support Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/ffe0fca1619fd2570a416c89",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2664-3",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2665,
+    "section": "Appendix Activity Technical Drivers: 06. Data Security",
+    "source_label": "Anti-virus and Security Software",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/142fefd96abdd8d052521cfb",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2665-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2665,
+    "section": "Appendix Activity Technical Drivers: 06. Data Security",
+    "source_label": "Webpage Security",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/21267c32b814774123ca3c70",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2665-1",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2665,
+    "section": "Appendix Activity Technical Drivers: 06. Data Security",
+    "source_label": "Identity Management Technology",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/f38c1315de2c5cc9f81f1041",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2665-2",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2665,
+    "section": "Appendix Activity Technical Drivers: 06. Data Security",
+    "source_label": "Intrusion Detection and Prevention Software",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/b2436e72a68c1d8ed86881d7",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2665-3",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2665,
+    "section": "Appendix Activity Technical Drivers: 06. Data Security",
+    "source_label": "Firewalls",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/5e70278b556911cc98d6ab72",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2665-4",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2665,
+    "section": "Appendix Activity Technical Drivers: 06. Data Security",
+    "source_label": "Metadata tracking",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/b0d43e8139724f463a3007a4",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2665-5",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2665,
+    "section": "Appendix Activity Technical Drivers: 06. Data Security",
+    "source_label": "Data Masking / Encryption",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/717ee0da48f2910848eba80e",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2665-6",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2666,
+    "section": "Appendix Activity Technical Drivers: 07. Data Integration & Interoperability",
+    "source_label": "Data Transformation Engine",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/991a7a6b9cff732bdaa08c72",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2666-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2666,
+    "section": "Appendix Activity Technical Drivers: 07. Data Integration & Interoperability",
+    "source_label": "Business Rules Engine",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/106f68f204e8247f349bbbbe",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2666-1",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2666,
+    "section": "Appendix Activity Technical Drivers: 07. Data Integration & Interoperability",
+    "source_label": "Data Virtualization Server",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/d98b95dd0aba9e75c8d6309a",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2666-2",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2666,
+    "section": "Appendix Activity Technical Drivers: 07. Data Integration & Interoperability",
+    "source_label": "Enterprise Service Bus",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/8d119edfa94ca00391030798",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2666-3",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2666,
+    "section": "Appendix Activity Technical Drivers: 07. Data Integration & Interoperability",
+    "source_label": "Data and Process Modeling Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/c44f63394528462077af0551",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2666-4",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2666,
+    "section": "Appendix Activity Technical Drivers: 07. Data Integration & Interoperability",
+    "source_label": "Data Profiling Tool",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/91d42951093f9d5fa6e1c786",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2666-5",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2666,
+    "section": "Appendix Activity Technical Drivers: 07. Data Integration & Interoperability",
+    "source_label": "Metadata Repository",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/e90481b6f938913f3e75e80d",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2666-6",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2667,
+    "section": "Appendix Activity Technical Drivers: 08. Document & Content Management",
+    "source_label": "Office productivity software",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/26ab308c0003348d0a0ab71d",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2667-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2667,
+    "section": "Appendix Activity Technical Drivers: 08. Document & Content Management",
+    "source_label": "Enterprise content management system",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/ed4972c3d0de2c6ee725544b",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2667-1",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2667,
+    "section": "Appendix Activity Technical Drivers: 08. Document & Content Management",
+    "source_label": "Controlled vocabulary / meta-data tool",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/5d0f2962dccc6f403825b023",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2667-2",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2667,
+    "section": "Appendix Activity Technical Drivers: 08. Document & Content Management",
+    "source_label": "Knowledge management wiki",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/4db5fc37212e78862cb87f68",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2667-3",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2667,
+    "section": "Appendix Activity Technical Drivers: 08. Document & Content Management",
+    "source_label": "Visual media tool",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/8e599a153baeb6e2591bda20",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2667-4",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2667,
+    "section": "Appendix Activity Technical Drivers: 08. Document & Content Management",
+    "source_label": "Social media",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/b904a7715560651747727cd9",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2667-5",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2667,
+    "section": "Appendix Activity Technical Drivers: 08. Document & Content Management",
+    "source_label": "E-discovery technology",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/b9b3d2575ecf15b1442a1371",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2667-6",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2668,
+    "section": "Appendix Activity Technical Drivers: 09. Reference & Master Data",
+    "source_label": "Data Integration Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/5e404259f62171935b171828",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2668-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2668,
+    "section": "Appendix Activity Technical Drivers: 09. Reference & Master Data",
+    "source_label": "Data Remediation Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/cac1b4e8a98057358ee90d86",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2668-1",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2668,
+    "section": "Appendix Activity Technical Drivers: 09. Reference & Master Data",
+    "source_label": "Operational Data Stores",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/d9b4576c14f536f9c4d2a88b",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2668-2",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2668,
+    "section": "Appendix Activity Technical Drivers: 09. Reference & Master Data",
+    "source_label": "Data Sharing Hubs",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/2b9635c366aad5da34b7134a",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2668-3",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2668,
+    "section": "Appendix Activity Technical Drivers: 09. Reference & Master Data",
+    "source_label": "Data Modeling Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/07b3d09e61cdb3ff29d274b5",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2668-4",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2668,
+    "section": "Appendix Activity Technical Drivers: 09. Reference & Master Data",
+    "source_label": "Metadata Repositories",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/bf93178419eed7e7d64d587e",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2668-5",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2668,
+    "section": "Appendix Activity Technical Drivers: 09. Reference & Master Data",
+    "source_label": "MDM Application Platforms",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/1de9b4350e889125a90ab21b",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2668-6",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2669,
+    "section": "Appendix Activity Technical Drivers: 10. Data Warehouse & Business Intelligence",
+    "source_label": "Metadata Repositories",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/bf93178419eed7e7d64d587e",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2669-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2669,
+    "section": "Appendix Activity Technical Drivers: 10. Data Warehouse & Business Intelligence",
+    "source_label": "Data Integration Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/5e404259f62171935b171828",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2669-1",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2669,
+    "section": "Appendix Activity Technical Drivers: 10. Data Warehouse & Business Intelligence",
+    "source_label": "Business Intelligence Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/03985847208cb676e7d15cfd",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2669-2",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2670,
+    "section": "Appendix Activity Technical Drivers: 11. Metadata Management",
+    "source_label": "Metadata Repository Management Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/b0bcb70ac95d853f372fcbcc",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2670-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2670,
+    "section": "Appendix Activity Technical Drivers: 11. Metadata Management",
+    "source_label": "Metadata Repositories in other Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/162139324fbb6c7280d620bb",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2670-1",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2670,
+    "section": "Appendix Activity Technical Drivers: 11. Metadata Management",
+    "source_label": "Integration Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/8e75008ebf785772745fc4f4",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2670-2",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2671,
+    "section": "Appendix Activity Technical Drivers: 12. Data Quality Management",
+    "source_label": "Data Profiling Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/4ff8962218effafd3547ba87",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2671-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2671,
+    "section": "Appendix Activity Technical Drivers: 12. Data Quality Management",
+    "source_label": "Business Rule Engine",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/3f1bdf0eadfc23b5d7cbb41f",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2671-1",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2671,
+    "section": "Appendix Activity Technical Drivers: 12. Data Quality Management",
+    "source_label": "Data Parsing and Formatting",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/3ef549d3572ba6a555462ba6",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2671-2",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2671,
+    "section": "Appendix Activity Technical Drivers: 12. Data Quality Management",
+    "source_label": "Data Transformation and Standardization",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/7197c4611fb0ec1e8d629172",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2671-3",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2671,
+    "section": "Appendix Activity Technical Drivers: 12. Data Quality Management",
+    "source_label": "Data Enrichment",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/1c63195604276e3aebdb6fe3",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2671-4",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2671,
+    "section": "Appendix Activity Technical Drivers: 12. Data Quality Management",
+    "source_label": "Incident Management",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/ce109eb54091d855d23a02df",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2671-5",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2672,
+    "section": "Appendix Activity Technical Drivers: 13. Big Data & Data Science",
+    "source_label": "MPP Shared-Nothing Technologies",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/8ec9fe411859931ab62369cd",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2672-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2672,
+    "section": "Appendix Activity Technical Drivers: 13. Big Data & Data Science",
+    "source_label": "Distributed File-based Databases",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/2e16d1078783ac2947560e10",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2672-1",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2672,
+    "section": "Appendix Activity Technical Drivers: 13. Big Data & Data Science",
+    "source_label": "In-memory Computing and Databases",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/7c78169f1c5600f411d5f099",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2672-2",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2672,
+    "section": "Appendix Activity Technical Drivers: 13. Big Data & Data Science",
+    "source_label": "In-database Algorithms",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/46a47a6754a352cb18e83f71",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2672-3",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2672,
+    "section": "Appendix Activity Technical Drivers: 13. Big Data & Data Science",
+    "source_label": "Big Data Cloud Solutions",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/55fa62651488f274c1531a50",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2672-4",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2672,
+    "section": "Appendix Activity Technical Drivers: 13. Big Data & Data Science",
+    "source_label": "Statistical Computing and Graphical Languages",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/a030ecd957f61efdd96388b6",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2672-5",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2672,
+    "section": "Appendix Activity Technical Drivers: 13. Big Data & Data Science",
+    "source_label": "Data Visualization Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/01d94e1675f272ac3ab86459",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2672-6",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2673,
+    "section": "Appendix Activity Technical Drivers: 14. Data Management Maturity Assessment",
+    "source_label": "Data Management Maturity Frameworks",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/753024d443708e01b06f6da3",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2673-0",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2673,
+    "section": "Appendix Activity Technical Drivers: 14. Data Management Maturity Assessment",
+    "source_label": "Communications Plan",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/387d85817bf25b36b762e145",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2673-1",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2673,
+    "section": "Appendix Activity Technical Drivers: 14. Data Management Maturity Assessment",
+    "source_label": "Collaboration Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/baa402e35e8977d26daaa5a9",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2673-2",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2673,
+    "section": "Appendix Activity Technical Drivers: 14. Data Management Maturity Assessment",
+    "source_label": "Knowledge Management and Metadata Repositories",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/662acf13d77b1dd966d2fe8b",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2673-3",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  },
+  {
+    "line": 2673,
+    "section": "Appendix Activity Technical Drivers: 14. Data Management Maturity Assessment",
+    "source_label": "Data Profiling Tools",
+    "iri": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#tool/4ff8962218effafd3547ba87",
+    "occurrence": "https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogue-occurrence/2673-4",
+    "identity_policy": "Exact catalogue labels share a new category; variants remain distinct; no equivalence to existing entities asserted."
+  }
+]

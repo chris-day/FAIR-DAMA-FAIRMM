@@ -1,0 +1,27 @@
+{
+  "main_run_commit": "3165988dc239c0e3683b3fea0617b2dce671c8c4",
+  "final_implementation_commit": "a826eda507fa4856f686f4d389fbdabd502b0ee3",
+  "branch": "codex/store-independent-acceptance",
+  "date": "2026-11-26",
+  "main_run_passed": 129,
+  "targeted_restore_followup_passed": 6,
+  "total_passed": 135,
+  "failed": 0,
+  "load_profiles": [
+    "flat",
+    "trig",
+    "imports"
+  ],
+  "distribution_query_executions": 54,
+  "recovery_query_executions": 72,
+  "total_query_executions": 126,
+  "asserted_triples": 95008,
+  "source_graphs": 16,
+  "runtime_contexts": 18,
+  "OWL_outcomes": 5,
+  "candidate_sha256": "c193f63f21823324f77b5c5ccb8a68246f9250d2f33f3752e4c5c3cee0e52e4c",
+  "owner_acceptance": "accepted",
+  "vendor_deployment_executed": false,
+  "public_release_executed": false,
+  "owner_acceptance_date": "2026-11-26"
+}

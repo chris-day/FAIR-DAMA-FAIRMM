@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.tools/
+validation/
+release/
+dist/
+docs/generated/
+acceptance/evidence/

@@ -1,0 +1,17 @@
+@prefix cap: <urn:capability-ontology:> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+cap:RealisationShape a sh:NodeShape ; sh:targetClass cap:Realisation ;
+ sh:property [ sh:path cap:forImplementation ; sh:minCount 1 ; sh:maxCount 1 ; sh:class cap:Implementation ] ;
+ sh:property [ sh:path cap:realisesCapability ; sh:minCount 1 ; sh:maxCount 1 ; sh:class cap:Capability ] ;
+ sh:property [ sh:path cap:inScope ; sh:minCount 1 ; sh:maxCount 1 ; sh:class cap:Scope ] ;
+ sh:property [ sh:path cap:verificationState ; sh:minCount 1 ; sh:maxCount 1 ; sh:in (cap:Unknown cap:Unverified cap:Verified cap:NotApplicable) ] ;
+ sh:sparql [ sh:message "Verified realisation requires evidence and explicit implementation conditions." ;
+ sh:select """PREFIX cap: <urn:capability-ontology:>
+ SELECT $this WHERE { $this cap:verificationState cap:Verified .
+ FILTER (NOT EXISTS { $this cap:hasEvidence ?e . ?e a cap:Evidence }
+      || NOT EXISTS { $this cap:requiresCondition ?c . ?c a cap:ImplementationCondition }) }""" ] .
+cap:RequirementShape a sh:NodeShape ; sh:targetClass cap:Requirement ;
+ sh:property [ sh:path cap:requiresCapability ; sh:minCount 1 ; sh:class cap:Capability ] .
+cap:ProfileShape a sh:NodeShape ; sh:targetClass cap:Profile ;
+ sh:property [ sh:path cap:hasRequirement ; sh:minCount 1 ; sh:class cap:Requirement ] .

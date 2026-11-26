@@ -1,0 +1,1878 @@
+@prefix align: <urn:fair-dama-fairmm:alignment:> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:fair-dama-fairmm:alignment:ontology:version> a owl:Ontology ;
+    dcterms:description "DAMA ontologies v1.1.0 / document v1.18.0 / workbook V3 (2026-11-16). User-supplied local release; FAIR-DAMA checkout revision is context only, not provenance for the supplied release.",
+        "Independent local ontology. Source definitions, proposed alignments and materialized associations remain distinct. No operational maturity assessment." ;
+    dcterms:source <file:///D:/Work-Documents/13_Research/2026_Research/FAIR/research-repos/FAIR-DAMA-FAIRMM/sources/2026-11-16/DAMA-PDOC_FAIR-MASTER_2026-11-16_V3.xlsx>,
+        <file:///D:/Work-Documents/13_Research/2026_Research/FAIR/research-repos/FAIR-DAMA-FAIRMM/sources/2026-11-16/DAMA_FAIR_Ontologies_v1.1.0.zip>,
+        <file:///D:/Work-Documents/13_Research/2026_Research/FAIR/research-repos/FAIR-DAMA-FAIRMM/sources/2026-11-16/DAMA_Segments_High_Level_v1.18.0.md>,
+        <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/tree/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4>,
+        <https://github.com/chris-day/FAIR-DAMA/tree/ca36f80ba52e89d89111b13e390e8a7671cc3f5d> ;
+    dcterms:title "FAIRMM version ontology"@en ;
+    owl:imports <urn:fair-dama-fairmm:alignment:ontology:core> ;
+    owl:versionIRI <urn:fair-dama-fairmm:alignment:ontology:version:1.1.0> ;
+    owl:versionInfo "1.1.0" .
+
+align:D1-L0 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Data at L0"@en ;
+    dcterms:identifier "D1-L0" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L62> ;
+    rdfs:comment "Data is fragmented across silos, inconsistent formats and local systems, with ad hoc access and usage arrangements. Finding and using it often requires specialist knowledge; a coordinated FAIR data approach is absent."@en ;
+    align:atLevel align:L0 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """Data is often in silos, making it inaccessible or challenging to integrate across departments. There's a mishmash of data types, formats, and file systems akin to a "Wild West" scenario, leading to inconsistency and inefficiency. Data practices' adherence needs to be improved, making it hard to establish standardized processes. Additionally, data agreements tend to be ad-hoc, with individual or small teams making decisions about data usage without a broader organizational strategy. Data cataloguing appears in situ. Raw data follows un-conformed formats and is external to a data lake. It requires expert technical and subject matter knowledge to access and use.
+
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D1 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L62> .
+
+align:D1-L1 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Data at L1"@en ;
+    dcterms:identifier "D1-L1" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L57> ;
+    rdfs:comment "Initial cataloguing, data-lake hosting and access governance are emerging, alongside early metadata and identifier use. Data remains heterogeneous and generally unconformed to a domain model, so reuse still depends on technical and subject expertise."@en ;
+    align:atLevel align:L1 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """Some data is cataloged and hosted in a data lake, and there is governance for accessibility; however, data is generally "unconformed" (meaning that no domain model is used to constrain information).
+
+    Data requires average technical and expert subject matter knowledge to use.
+
+    Heterogeneity is a feature of this stage: some data may be unstructured, while pockets of structured data may be in the organization. There is an emerging awareness and application of metadata. Scoping starts with making data FAIR. The deployment of Identifiers and metadata is beginning. Multiple types of identifiers (not necessarily GUPRI) may exist.
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D1 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L57> .
+
+align:D1-L2 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Data at L2"@en ;
+    dcterms:identifier "D1-L2" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L65> ;
+    rdfs:comment "Data is catalogued and conforms to local or system-specific models, with system-level access controls. It may reside in a data lake, but alignment to shared domain models is incomplete and technical and subject expertise are still needed."@en ;
+    align:atLevel align:L2 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """Data, conformed to a local model, is cataloged (i.e. a metadata record of existence is created), and data resides in a data lake.
+
+    At the organization level, data is conformed system-by-system and may not map to a domain data model.
+
+    Controls on access at the system level.
+
+    Requires average level technical and subject matter knowledge to use. ( for example the role of [Data Scientist](FAIR_personas/Data_Scientist.md) )
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D1 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L65> .
+
+align:D1-L3 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Data at L3"@en ;
+    dcterms:identifier "D1-L3" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L66> ;
+    rdfs:comment "FAIR data is working within departments or domains: local reference data, resolvable metadata, domain models and data-level access controls support integration, reuse and emerging self-service analytics. Broader organisational interoperability and reuse remain challenging."@en ;
+    align:atLevel align:L3 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """One can find “FAIR” data in local environments such as a organization’s departments, divisions or functions.
+
+    Data embeds local master and reference data. Metadata is identifiable and resolvable (at a local level), but data is still being determined (also at a local level).
+
+    Data is “conformed” using a domain-level data model. It is integrated, processed and audited to support specific consumption patterns.
+
+    While we achieve “Findability” and there is evidence of re-use at the local level, the "Interoperability" and "Reusability" principles are still a challenge in the broader scope of the organization.
+
+    There are controls in place on Access at the data level.
+
+    The creation of analytics-ready 'data-marts' enabling self-service analytics is under way.
+
+    Machine interpretation is possible at the department level.
+
+    Initial FAIR data sets are in production and proving value. There is a company-wide supported plan to make all (relevant) data FAIR. More data sets are bornFAIR while the company's budget and competencies grow. There is evidence of local reusability and, to some extent, interoperability.
+
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D1 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L66> .
+
+align:D1-L4 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Data at L4"@en ;
+    dcterms:identifier "D1-L4" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L68> ;
+    rdfs:comment "FAIR data can be found and used across the organisation through consistent identifiers, controlled vocabularies, enterprise metadata and reference data, and cross-domain models. Cross-domain analytics and machine interpretation are supported, and generating data FAIR is becoming normal practice."@en ;
+    align:atLevel align:L4 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """One can find "FAIR" data across departments and divisions in an organization.
+
+    Data and Metadata are identifiable and resolvable and use Controlled Vocabulary terminologies.
+
+    Persistent Identifiers, global (GUPRI) where appropriate, are implemented consistently across the company.
+
+    In addition to the level of [Pretty FAIR](level3.md), Data is described in a cross-domain data or industry model.
+
+    Data embeds Enterprise master and reference data. Enterprise-level Metadata standards are applied.
+
+    Cross-domain Analytics is enabled and showcases the "Interoperability' functionality within a given company.
+
+    Role: [Citizen_Data_Scientist](FAIR_personas/Citizen_Data_Scientist.md) using all relevant pharma company data.
+
+    Machine interpretation is possible at an organization level.
+
+    Data starts to be "generated" FAIR.
+
+    Most of the relevant data in the company is FAIR, and there is enough knowledge and capacity (budget & competence) to make data FAIR. FAIR data is becoming the norm and part of all new projects. Making data fair is a no-brainer. It is possible and well-supported. Data that is not FAIR exists. It is intentional, e.g., based on business value, or there may be a plan to be made FAIR. 
+
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D1 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L68> .
+
+align:D1-L5 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Data at L5"@en ;
+    dcterms:identifier "D1-L5" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L67> ;
+    rdfs:comment "FAIR-by-design data remains FAIR throughout its lifecycle and supports relevant internal and external use. Shared semantic descriptions, machine-actionable resources and interoperable ecosystem practices enable automated operations and reuse across organisational boundaries."@en ;
+    align:atLevel align:L5 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """All organization functions and units adhere to FAIR data principles as much as relevant, emphasizing data Findability and Accessibility. The need for data to be Interoperable and Reusable across internal and external data standards, potentially driven by regulatory compliance, is fulfilled.
+
+    The norm is for data creation to remain FAIR throughout its lifecycle, including during processing via pipelines and APIs. Connecting these principles with scalable, fit-for-purpose tools ensures efficient data management, alignment with regulatory requirements, and ease of access, sharing, and use.
+
+    Several companies exist at this level, and some data is "FAIR" across organizations within a given ecosystem, including pharma, CRO, regulatory bodies, and consultancies.
+
+    Business concepts aggregate data, and users can navigate between concepts seamlessly.
+
+    Machine actionability and automated operations are possible. These operations may include machine-enabled AI and semantic solutions that can act directly on data sets without the need for interpretation, thanks to the availability of self-describing digital objects.
+
+    In addition to the features described in [Really FAIR](level4.md), we fully describe the data using a knowledge language or ontology of the types that carry GUPRIs (Role: [Knowledge-Enabled Citizens](FAIR_personas/Knowledge-Enabled_Citizen.md) ).
+
+    FAIR data are a key strategic asset and advantage of the company. Based on expected business value, critical data assets comply with the FAIR data principle, and new data generated is "FAIR by design".
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D1 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L67> .
+
+align:D2-L0 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Leadership at L0"@en ;
+    dcterms:identifier "D2-L0" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L70> ;
+    rdfs:comment "Leadership engagement, FAIR understanding and ownership are lacking or insufficient. FAIR data is not an organisational priority, and staff and processes receive little support for adopting it."@en ;
+    align:atLevel align:L0 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """There needs to be champions or an understanding of FAIR data in the organizational leadership.
+
+    There needs to be more leadership engagement, and co-workers and processes need more support for adhering to FAIR data principles. Furthermore, the organization lacks a conceptual grasp of "FAIR" and displays an absence of ownership, interest, and overall awareness regarding data management. This disregard extends to the organization's strategic focus, as data and FAIR principles are not considered priorities. These factors may combine to tarnish the organization's reputation regarding adherence to FAIR practices in data management.
+
+
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D2 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L70> .
+
+align:D2-L1 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Leadership at L1"@en ;
+    dcterms:identifier "D2-L1" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L68> ;
+    rdfs:comment "Leadership awareness and early champions are emerging from business, technology or data roles. Top-down or bottom-up support begins, but implementation strategy and resources may still be unclear, with initial interest in training."@en ;
+    align:atLevel align:L1 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """Leadership Awareness of FAIR data starts. NB "Leadership" typically implies persons with responsibility and budget for financial and human resources: [Business Leaders](FAIR_personas/Business_Leader.md), [Business Owner](FAIR_personas/Business_Owner.md) and [Technology_Leader](FAIR_personas/Technology_Leader.md).
+
+
+    Awareness of FAIR data starts, and there is some understanding of the (potential) value of FAIR data. The people with this awareness can become internal "thought leaders". They can be found at different levels and in different functions. They may be [Data_Scientists](FAIR_personas/Data_Scientist.md), [Data_Analysts](FAIR_personas/Data_Analyst.md) for example. 
+
+    That can be a combination of "top-down" or "bottom-up" leadership.
+
+    In "Bottom-up leadership", intermediate-level executives, for example a [Lab Manager](FAIR_personas/Lab_Manager.md) , are looking for "top-down" support from champions that in or close to the "C-suite” : personas suchas  [Business Leader](FAIR_personas/Business_Leader.md).), [Business Owner](FAIR_personas/Business_Owner.md) and [Technology_Leader](FAIR_personas/Technology_Leader.md).
+
+    There can be situations where FAIR implementation is driven “top-down”. However, the strategy and means to implement may be vague as “C-suite” leaders may lack the specific knowledge to develop those. Leadership may have some buy-in to train the first people to make data FAIR.
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D2 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L68> .
+
+align:D2-L2 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Leadership at L2"@en ;
+    dcterms:identifier "D2-L2" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L79> ;
+    rdfs:comment "Leadership workshops, internal champions and initial teams are building understanding of FAIR value. Early projects receive increasing sponsorship, funding and commitment to enabling services and organisations."@en ;
+    align:atLevel align:L2 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """Initial "C-suite" workshops are starting on the need and value of FAIR data.
+
+    Initial projects to make data FAIR are starting.
+
+    The company has some champions, and first teams start to gather.
+
+    Internal workshops are starting to create more awareness in the company.
+
+    More leadership members in the company have started to understand FAIR data and its value.
+
+    More "buy-in" is happening: leadership-funded initiatives, commitment to enabling key steps, and Memberships to enabling organizations (e.g. for PIDs ).
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D2 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L79> .
+
+align:D2-L3 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Leadership at L3"@en ;
+    dcterms:identifier "D2-L3" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L88> ;
+    rdfs:comment "Leadership expects FAIR implementation to be included in project budgets and sets objectives, accountability, metrics and training. A supported organisational vision is backed by people and funding, with some engagement in external standards convergence."@en ;
+    align:atLevel align:L3 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """Leadership (C level / or relevant department level) expectation is that any data project (or product) budgets include a component for FAIR implementation.
+
+    There are FAIR metrics for the use of organizational governance.
+
+    Leadership creates objectives, accountability and necessary training for FAIR data implementation.
+
+    Leadership has a vision and plans to make the entire company aware of FAIR data, FAIR practices and their value.
+
+    There is a clear leadership understanding of why making data FAIR adds value.
+
+    There is company-wide support for FAIR implementation (Human Resources and Financial Resources are made available).
+
+    Budget/resources are available to grow FAIR examples and the "Planned FAIR" attitude.
+
+    For example, leadership starts engaging outside the organization's boundaries to enable convergence standards.
+
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D2 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L88> .
+
+align:D2-L4 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Leadership at L4"@en ;
+    dcterms:identifier "D2-L4" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L95> ;
+    rdfs:comment "An enterprise FAIR mandate is embedded in budget approvals, governance and risk management, with clear leadership accountability. Internal implementation is funded, while procurement requirements and participation in the wider FAIR community extend its influence."@en ;
+    align:atLevel align:L4 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """Leadership expects that a data project (or product) budget approval will only commence with a related FAIR implementation budget.
+
+    The organization leadership has implemented a FAIR mandate across its entire enterprise, emphasizing the importance of FAIR data principles and financing internal implementation projects. This commitment is integral to their data governance processes and risk management. The focus is on internal (intra-company) leadership rather than explicitly externally oriented leadership. Nevertheless, the organization attracts vendors and service providers in the FAIR data space. It exerts external leadership, for example, by defining data and metadata requirements for service procurement in a given domain (e.g., transcriptomics or imaging).
+
+    The organization is actively involved in the broader FAIR community (outside of the organization boundaries), frequently participating in conference speakers and consistently publishing work with a foundation in FAIR principles. This activity demonstrates their dedication to promoting and advancing FAIR data practices and principles within the pharma and LifeSciences industry). The organization uses open-source tools and semantic resources to promote reuse and interoperability in a pre-competitive fashion. The accountability of leadership in FAIR implementation across the organization is clear.
+
+
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D2 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L95> .
+
+align:D2-L5 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Leadership at L5"@en ;
+    dcterms:identifier "D2-L5" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L86> ;
+    rdfs:comment "Senior leadership is fully committed and accountable for FAIR strategy, with support across business and IT. Demonstrated value, sustained resources, operational metrics and recognised external leadership support FAIR practice within and beyond the organisation."@en ;
+    align:atLevel align:L5 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """The C-level leadership is pivotal in overseeing and accountable for FAIR data strategies. There is full buy-in by leadership from general management, business and IT roles alike.
+
+    The leadership demonstrates a profound awareness of the transformative impact of FAIR data on the organization.
+
+    The organization emerges as a notable leader in FAIRification, showcasing a tangible return on investment, setting industry standards, and influencing successful FAIR data patterns. It features a well-defined vision, actively engages leadership across the organizational hierarchy, empowers financially and culturally, and ensures enduring commitment to FAIR principles.
+
+    Precise alignment with FAIR practices underpins the organization’s approach to operational metrics, extending this perspective horizontally both within and outside the company.
+
+    Leadership transcends mere virtue signalling, opting for thought leadership by exemplifying FAIR principles and breaking down data silos. The organization enjoys international recognition, attracting collaborations leveraging FAIR data principle applications for mutual benefits.
+
+
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D2 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L86> .
+
+align:D3-L0 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Strategy at L0"@en ;
+    dcterms:identifier "D3-L0" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L81> ;
+    rdfs:comment "There is no explicit FAIR strategy or coordinated implementation pathway. Any use of FAIR principles is reactive or ad hoc, with little strategic recognition of their value."@en ;
+    align:atLevel align:L0 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """No FAIR strategy exists. There is no awareness and understanding of FAIR data, so it needs to be in the company's strategy or any department. Data management may be simplistic but also, in other ways, quite advanced. The prevailing approach to FAIR data management is reactive, with FAIR principles, at best, haphazardly applied in response to external pressures and specific needs. Notably, there needs to be a formal strategy delineating adopting FAIR principles and their associated values within the organization. This lack of strategy reflects an overarching need for more ambition and recognition of the significance of the FAIR principles. As a result, there needs to be more intent or a structured pathway for implementing FAIR data principles across various organizational levels or divisions. This result underscores the organization's need to acknowledge and prioritise FAIR principles in data management.
+
+
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D3 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L81> .
+
+align:D3-L1 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Strategy at L1"@en ;
+    dcterms:identifier "D3-L1" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L85> ;
+    rdfs:comment "An initial FAIR vision and plan are emerging as leaders recognise its strategic value. The organisation reviews existing practice, considers collaboration and explores technical and open-resource choices, but execution remains embryonic."@en ;
+    align:atLevel align:L1 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """Awareness of FAIR data started. A vision and plan for FAIR data begins to emerge. Different strategies are possible and are embryonic.
+
+    Some leaders are starting to craft a plan and vision. Some organization leaders recognize the imperative for a strategic approach to FAIR data management. Although there is a visionary proposal for FAIR, the plans need more execution.
+
+    This realization has spurred a proactive stance towards implementing FAIR data principles and understanding their significance as a strategic asset. The organization has initiated a review of past and current efforts in this domain while also examining the FAIR practices employed by other entities, internal or external. To this point, some organizations see the value of strategic collaborative efforts with pre-competitive organizations, e.g. Pistoia Alliance, EU co-financed projects, GO FAIR implementation networks, Elixir or similar US-based initiatives.
+
+    This effort indicates a shift towards a more proactive and informed approach to FAIR data management to optimize data accessibility, interoperability, and reusability in the organization's operations.
+
+    Strategic considerations and approaches emerge towards more "closed" (internal creation of FAIR tools and process) or more "open-source" FAIR resources (e.g. Controlled Vocabularies, ontologies,...).
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D3 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L85> .
+
+align:D3-L2 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Strategy at L2"@en ;
+    dcterms:identifier "D3-L2" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L97> ;
+    rdfs:comment "A first FAIR vision, strategy and plan has approval at organisational or local level. Champions and tactical initiatives are learning from early implementation, while FAIR begins to align with the broader data strategy, models and architectural choices."@en ;
+    align:atLevel align:L2 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """The first version of the vision, strategy and plan has approval.
+
+    This strategy may be at the highest level of the company but also more localized levels.
+
+    Some champions in the company start to appear.
+
+    More people in the company are starting to understand FAIR data and its strategic value.
+
+    People follow FAIR awareness or tactical implementation plans, which can be local to various parts of the company.
+
+    They learn about what works and what doesn't.
+
+    They also share this in communities while picking up new knowledge as input for their strategy.
+
+    Efforts to align FAIR implementation to Data Strategy and "data models", if they exist (cf. data models in "tools" dimension). If those are not yet available, there is an awareness they are needed.
+
+    FAIR emerges as an element of a broader Data strategy.
+
+    The realization that technical choices, architectures and partnerships have strategic implications, e.g. on the policy and concrete implementation of PIDs, URI, and GUPRIs.
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D3 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L97> .
+
+align:D3-L3 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Strategy at L3"@en ;
+    dcterms:identifier "D3-L3" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L110> ;
+    rdfs:comment "A refined FAIR strategy and implementation guidance have leadership support, budget and capacity. Value is beginning to be tracked, enterprise architecture and federated domain models are considered, and implementation plans may still operate at departmental scale."@en ;
+    align:atLevel align:L3 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """A refined version of the vision, strategy and plans for implementation exist.
+
+    There is (at least one) a high-level "FAIR strategy" embodied in a set of guidance documents (e.g. strategy, guidelines, policy, "how to" guides).
+
+    There is a clear understanding of why making data FAIR adds value; this may extend beyond a given corporate function or domain. This value-adding process begins to be tracked or monitored. Strategies begin to encompass enterprise-level dimensions.
+
+    There is a company-wide supported vision and plan supported by the C-suite and with enough budget and capacity building.
+
+    Budget/resources available to grow FAIR examples but also a "planned for FAIR" attitude.
+
+    "FAIR implementation" plans to enact the strategy are in place. These may still be at a functional or department level (not enterprise-wide).
+
+    The impact, organization-wide system architecture and decisions of which systems (including external sources) will be part of the FAIR implementation are evaluated and are part of the strategic documentation.
+
+    Some legal requirements (for example, research security and Sunshine ACT in the US) are (or begin to be) interpreted in terms of FAIR implementation strategy.
+
+    The data strategy accommodates federated domain-specific FAIR data, and there is an operating model, set of procedures, and defined models to harmonize, align, and connect functional domain data to expand and scale FAIR data beyond single or simple domain-specific use cases.
+
+
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D3 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L110> .
+
+align:D3-L4 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Strategy at L4"@en ;
+    dcterms:identifier "D3-L4" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L109> ;
+    rdfs:comment "A sustained enterprise FAIR strategy connects central and federated domain data through operating models, standards and procedures. FAIR metrics, risk management and allocated people and budgets support implementation, with strategic awareness embedded across the organisation."@en ;
+    align:atLevel align:L4 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """There is a FAIR data strategy in place which accommodates both centralized enterprise-level FAIR data and federated domain-specific FAIR data, and there is an operating model, set of procedures, central models, and standards to harmonize, align, and connect functional domain data to expand and scale FAIR data beyond single or simple domain-specific use cases.
+
+    The organization has set forth a comprehensive FAIR mandate across the enterprise. This mandate includes the integration of FAIR metrics into the data governance process and data risk management practices. The organization has allocated capacity (budget & people) to deliver on its FAIR data vision. The organization had the time to show the continuity of its strategy and can point to impact areas that have typically been there for several years.
+
+    There is a strategic allocation of Human, financial and time Resources to the various FAIR dimensions (cf: Tools, Roles, dimensions)
+
+    There is a clear awareness of the FAIR data strategy, especially for the roles that require its implementation. The organization's strategic culture embeds the FAIR data strategy. All employees have a basic understanding of FAIR data and act to enable its principles.
+
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D3 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L109> .
+
+align:D3-L5 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Strategy at L5"@en ;
+    dcterms:identifier "D3-L5" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L103> ;
+    rdfs:comment "FAIR is a widely understood organisational norm with a durable, transparent strategy. Measurable business outcomes, cost-benefit evidence, cross-functional integration and feedback guide investment, while relevant external stakeholders can see the strategy in practice."@en ;
+    align:atLevel align:L5 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """A company-wide vision and plan is supported and known and supported by all employees. FAIR is the norm, and everyone understands why FAIR data is needed. The company is also recognized for its FAIR data work and is a data-savvy company.
+
+    FAIR data implementation strategy presents several crucial elements. There are clear links between FAIR data practices and tangible business outcomes, including cost savings, efficiency gains, and the identification of, e.g. business or IPR opportunities.
+
+    Establishing Metrics and methodologies to measure these outcomes reinforces the strategy's connection to essential tools. Importantly, the organization comprehends the impact of FAIRness on its financial performance, prioritizing it as a part of its overarching business strategy, supported by empirical cost-benefit analyses.
+
+    A high emphasis on Data integration facilitates the discovery of synergies by linking data across various business functions.
+
+    The FAIR strategy is characterized by transparency, longevity, and effective measurement through metrics and feedback loops, aligning it with the organization's strategic imperatives.
+
+    Outreach efforts to diverse stakeholders, including pharmaceutical companies, CROs, regulatory bodies, and academia, are also evident when relevant: strategy embodiments are externally visible.
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D3 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L103> .
+
+align:D4-L0 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Personas at L0"@en ;
+    dcterms:identifier "D4-L0" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L90> ;
+    rdfs:comment "FAIR competence and designated roles are absent or poorly recognised. Resource resistance, reluctance to share data and cultural barriers impede the adoption of FAIR responsibilities."@en ;
+    align:atLevel align:L0 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """There needs to be awareness and understanding of FAIR data. Competency is absent in the company.
+
+    There needs to be designated roles or recognition of the need for roles dedicated to FAIR data management. Resistance and headwinds are prevalent, as people are hesitant to allocate resources or engage in data sharing, often preferring to hoard data under the guise of security by secrecy. This resistance and potential hostility towards the FAIR approach hinder its adoption. Furthermore, FAIR data principles must be more balanced in favour of other data-related aspects, undermining their integration into the organization's data management practices. These challenges reflect the existence of cultural and organizational barriers to the adoption of FAIR principles.
+
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D4 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L90> .
+
+align:D4-L1 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Personas at L1"@en ;
+    dcterms:identifier "D4-L1" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L101> ;
+    rdfs:comment "Early curators, semantic experts, coordinators and data strategists begin supporting FAIR work. External experts and workshops help staff develop initial skills and lead the first internal projects."@en ;
+    align:atLevel align:L1 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """Those who work with data start to use FAIR Processes.
+
+    Key emerging roles: curator (e.g. corrects and complements data in systems, checks consistency, completeness, and accuracy); semantic expert (e.g. creates and corrects data dictionaries)
+
+    Support staff: e.g. data coordinator (ensures the following of embryonic processes ).
+
+    Data strategist (e.g., create "leadership" awareness, design architectures, process flows ).
+
+    Leadership hires external experts (consulting firms) to explain FAIR, train people internally or start making existing datasets "FAIR".
+
+    Organization members are sent to external workshops or training (e.g. [GO FAIR Foundation](https://www.gofair.foundation/training)) to lead the first internal projects.
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D4 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L101> .
+
+align:D4-L2 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Personas at L2"@en ;
+    dcterms:identifier "D4-L2" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L123> ;
+    rdfs:comment "Designated FAIR-related roles are beginning to take shape, including scientists, stewards, curators, governance and integration specialists, owners and community roles. Individuals may hold several roles, while early teams demonstrate value through prototypes and gain recognition."@en ;
+    align:atLevel align:L2 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """In this dimension the [Data Scientist](FAIR_personas/Data_Scientist.md) persona is key.
+
+      Emerging personas include:  [Data_Steward](FAIR_personas/Data_Steward.md), [Curator](FAIR_personas/Curator.md), [Data_Standards_and_Governance_Expert](FAIR_personas/Data_Standards_and_Governance_Expert.md) , [Data_Integration_Specialist](FAIR_personas/Data_Integration_Specialist.md) with semantic expertise may be brought in. [Data_Strategy_Owner](FAIR_personas/Data_Strategy_Owner.md), [Data_Owner](FAIR_personas/Data_Owner.md) are engaging in the FAIR data transition. Further [FAIR_Community_Manager](FAIR_personas/FAIR_Community_Manager.md) may begin to appear. 
+       
+      The same individual often has multiple hats, or can embody multiple personas. However, designated roles start to take shape in the company. Organisaitons begin to have designated FAIR-related roles: advertising for new positions and recognising explicitly the FAIRification work that some people have done implicitly (and often without recognition) in their previous roles.
+
+      People become more mindful that governance is a part of [FAIRprocesses](fmm-d5.md).
+
+      You can take advantage of  programmatic dataset discovery and ingestion through globally unique persistent identifiers.
+      The first champions and teams of various personas mentioned above develop Minimal Viable Products or services showcasing example of value creation thank to FAIR data. They start proving value and get internal recognition.
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D4 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L123> .
+
+align:D4-L3 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Personas at L3"@en ;
+    dcterms:identifier "D4-L3" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L135> ;
+    rdfs:comment "A framework of complementary FAIR roles and their interactions is emerging, supported by experienced staff and developing formal training. Business, subject and technical roles collaborate in implementation, and the source also discusses emerging opportunities for autonomous agents."@en ;
+    align:atLevel align:L3 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """Key Roles include:  [Data_Steward](FAIR_personas/Data_Steward.md) , [Curator](FAIR_personas/Curator.md) ,  [Data_Standards_and_Governance_Expert](FAIR_personas/Data_Standards_and_Governance_Expert.md) ,  [Data_Integration_Specialist](FAIR_personas/Data_Integration_Specialist.md) ,  [Data_Engineer](FAIR_personas/Data_Engineer.md), [Data_Owner](FAIR_personas/Data_Owner.md)
+
+    Emerging personas include [FAIR_Data_Architect](FAIR_personas/FAIR_Data_Architect.md), [Citizen_Data_Scientist](FAIR_personas/Citizen_Data_Scientist.md), [Data_Strategy_Owner](FAIR_personas/Data_Strategy_Owner.md), [FAIR_Community_Manager](FAIR_personas/FAIR_Community_Manager.md).
+
+    The organization has started laying out a framework of FAIR roles and how they interact with one another and begins to have some experienced employees in FAIR roles.
+
+    [FAIR training](FAIR_training.md) has started to be part of some people's corporate training curriculum in some departments.
+
+    Formal roles and training are being laid out and approved. This cultural change role is pivotal in promoting and embedding a data-driven culture aligned with the organization's data management goals and practices.
+
+    Teams with complementary roles emerge. For example, IT and business functions may collaborate in creating Knowledge Graphs with the help of teams including personas such as  [Subject_Matter_Expert](FAIR_personas/Subject_Matter_Expert.md) ,[Business_Analyst](FAIR_personas/Business_Analyst.md) , [FAIR_Data_Architect](FAIR_personas/FAIR_Data_Architect.md),  [Data_Engineer](FAIR_personas/Data_Engineer.md), [Ontologist](FAIR_personas/Ontologist.md)
+
+    [Autonomous_AI_Agent](FAIR_personas/Autonomous_AI_Agent.md) personas can take advantage of standardized API protocols with clear authentication mechanisms enabling programmatic data retrieval, machine-readable access policies allowing agents to autonomously determine permissions, provenance graphs enabling trust assessment, audit trails, and failure debugging.
+
+
+
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D4 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L135> .
+
+align:D4-L4 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Personas at L4"@en ;
+    dcterms:identifier "D4-L4" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L124> ;
+    rdfs:comment "A resourced framework of FAIR roles is established across technical, business, ownership and governance functions. Institutional training and change-management support develop proficiency, while leadership and financial roles help sustain implementation and monitor value."@en ;
+    align:atLevel align:L4 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """Key roles are in place for metadata, data and governance management. The additional personas  that emerged more clearly -or are more clearly part of the FAIR enablers - include [Citizen_Data_Scientist](FAIR_personas/Citizen_Data_Scientist.md) , [Ontologist](FAIR_personas/Ontologist.md), [Master_Data_Manager](FAIR_personas/Master_Data_Manager.md), [Data_Owner](FAIR_personas/Data_Owner.md) , [Data_Strategy_Owner](FAIR_personas/Data_Strategy_Owner.md)and **Data product owner**. 
+
+    Leadership personas ([Business Leaders](), [Business Owner](FAIR_personas/Business_Owner.md) and [Technology_Leader](FAIR_personas/Technology_Leader.md).) keep playing a key role and enables a data-centric enterprise, but all employees are involved implicitly (cf [FAIR tools at level 4](level4.md#level-4-really-fair-fair-tools-and-infrastructures)) or explicitly in the FAIR data principle implementation.
+
+    "FAIR" is not limited to technical roles. Among others, business roles provide subject matter expertise for creating Knowledge Graphs (KG) and ontologies. Personas with financial responsibilities or influence ([Business Leaders](), [Business Owner](FAIR_personas/Business_Owner.md) , [Business_Analyst](FAIR_personas/Business_Analyst.md)) can ensure financial support but also monitor the added value (ROI) of FAIR data, tools, and insights created by FAIR data, tools and processes.
+
+    Crucially, we see the institutionalisation of FAIR training programs (with the persona [FAIR_Trainer](FAIR_personas/FAIR_Trainer.md)) to ensure proficiency in each role. Change management roles and practices (cf. [process 4](level4.md#level-4-really-fair-fair-processes) ) related to FAIR data culture adoption are well established and is part of [Project_Manager](FAIR_personas/Project_Manager.md) can count on for the organisational assets.
+
+    The company is resourced (cf. [FAIR strategy level 4](level4.md#level-4-really-fair-fair-strategy)) with a diverse set of personas within an existing framework for data management and integration, including:  [Data_Steward](FAIR_personas/Data_Steward.md) , [Curator](FAIR_personas/Curator.md) ,   [FAIR_Data_Architect](FAIR_personas/FAIR_Data_Architect.md), [Data_Standards_and_Governance_Expert](FAIR_personas/Data_Standards_and_Governance_Expert.md) ,  [Data_Integration_Specialist](FAIR_personas/Data_Integration_Specialist.md) ,  [Data_Engineer](https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/FAIR-MM-V1.2.5/docs/FAIR_personas/Data_Engineer.md), [Data_Quality_Manager](FAIR_personas/Data_Quality_Manager.md), [Legal_Data_Expert](FAIR_personas/Legal_Data_Expert.md), [Reference_Data_Manager](FAIR_personas/Reference_Data_Manager.md), enterprise and domain  [Ontologist](FAIR_personas/Ontologist.md), the data strategists personas previously mentioned, communication experts, AI professionals, (NB this is not an exclusive list). 
+
+    [Citizen_Data_Scientist](FAIR_personas/Citizen_Data_Scientist.md) personas leverage self-service analytics platforms, intuitive data visualization tools, dashboards and other FAIR-enabled resources to explore datasets, generate reports, and uncover patterns or trends relevant to their roles.
+
+    [Autonomous_AI_Agent](FAIR_personas/Autonomous_AI_Agent.md) can personas can take advantage of a full gamut of benefits afforded by FAIR data principles which increase effectivenss and reduce hallucinations. A significant pending issue and shortcoming is the lack of data interoperability and reusability across organisations. This limits the ability to source and combine data sets for training especially when quality data is scare in any given organisation and pooling is a necessity.
+
+    These roles collaboratively contribute to effective data management, integrating various expertise and responsibilities.
+
+    There is enough knowledge and capacity (budget, human resources, competencies) to make data FAIR. FAIR is often the norm; all employees have heard about it and can easily access training and champions. The framework of roles and interactions is in place, along with the establishment of training for each role.
+
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D4 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L124> .
+
+align:D4-L5 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Personas at L5"@en ;
+    dcterms:identifier "D4-L5" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L120> ;
+    rdfs:comment "FAIR competence is normal across the workforce, recognised roles are empowered and new staff receive training. Cross-organisational collaboration, knowledge-enabled citizens and strategic role frameworks sustain FAIR practice and support emerging automated actors."@en ;
+    align:atLevel align:L5 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """FAIR is the norm, and everyone understands why FAIR data is needed. Everyone who needs to have adequate skills has them. Everyone new also gets FAIR data training. FAIR data is a competence of all employees. There is recognition for the FAIR data work.
+
+    At this level [Knowledge-Enabled_Citizen](FAIR_personas/Knowledge-Enabled_Citizen.md) are empowered with access to cross-organizational information enabling them to contribute effectively to the organization's goals and objectives by utilizing FAIR-enabled resources.
+
+    A range of functional roles are defined, recognized and empowered. These roles include :[Citizen_Data_Scientist](FAIR_personas/Citizen_Data_Scientist.md) ,[Data_Steward](FAIR_personas/Data_Steward.md) , [Curator](FAIR_personas/Curator.md) ,   [FAIR_Data_Architect](FAIR_personas/FAIR_Data_Architect.md), [Data_Standards_and_Governance_Expert](FAIR_personas/Data_Standards_and_Governance_Expert.md) ,  [Data_Integration_Specialist](FAIR_personas/Data_Integration_Specialist.md) ,  [Data_Engineer](https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/FAIR-MM-V1.2.5/docs/FAIR_personas/Data_Engineer.md), [Data_Quality_Manager](FAIR_personas/Data_Quality_Manager.md), [Legal_Data_Expert](FAIR_personas/Legal_Data_Expert.md), [Reference_Data_Manager](FAIR_personas/Reference_Data_Manager.md), enterprise and domain  [Ontologist](FAIR_personas/Ontologist.md), [Master_Data_Manager](FAIR_personas/Master_Data_Manager.md), [Data_Owner](FAIR_personas/Data_Owner.md) , [Data_Strategy_Owner](FAIR_personas/Data_Strategy_Owner.md)and **Data product owner. 
+
+    Developing a structured and well-conceived role framework is emphasized, guided by experts versed in FAIR principles and collaboration across organisations. For example a inter-organization [FAIR_Data_Architect](FAIR_personas/FAIR_Data_Architect.md) and [Data_Standards_and_Governance_Expert](FAIR_personas/Data_Standards_and_Governance_Expert.md)interacting with various  [Technology_Leader](FAIR_personas/Technology_Leader.md) and [Data_Strategy_Owner](FAIR_personas/Data_Strategy_Owner.md) personas on behalf of [Business_Leaders](FAIR_personas/Business_Leader.md). The passage also underscores the need for strategic roles in promoting cultural change and maintaining FAIR practices while nurturing newcomers and recognizing the champions who initiated the FAIR agenda. Other companies ask FAIR Champions to share their best practices.
+
+    [Autonomous_AI_Agent](FAIR_personas/Autonomous_AI_Agent.md)  personas operating at this level can take advantage of thefull gamut of benefits afforded by FAIR data principles, but also source, pool and combine data sets from any given organisation enabling access to its FAIR data. Their capabilities are difficult to describe and imagine today.  
+
+
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D4 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L120> .
+
+align:D5-L0 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Processes at L0"@en ;
+    dcterms:identifier "D5-L0" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L101> ;
+    rdfs:comment "Coordinated FAIR processes are absent. Existing implicit data-management practices may divert effort from FAIR implementation rather than supporting it."@en ;
+    align:atLevel align:L0 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """No FAIR process exists company-wide, and no explicit data management processes exist. If (implicit) data management processes are in place, they may divert effort and resources from implementing FAIR data principles, albeit not intentionally.
+
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D5 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L101> .
+
+align:D5-L1 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Processes at L1"@en ;
+    dcterms:identifier "D5-L1" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L120> ;
+    rdfs:comment "Early FAIR guidelines, identifier policies, targeted integration initiatives and retrospective FAIRification decisions are emerging. Discussions on metadata, content and reference data accompany discovery, profiling, training and initial culture-change efforts."@en ;
+    align:atLevel align:L1 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """In recognizing FAIR data's potential (business) value, there are processes to consider and determine which data we should makeFAIR retrospectively. Efforts are underway to establish processes that provide guidelines for creating FAIR data, including the policy development for globally unique identifiers to enable the "F" principle.
+
+    We see a strategic integration approach with the pursuit of Initiatives to implement FAIR principles within specific functions or groups. As part of these efforts, processes may surface for identifying internal and external good practices related to FAIR data. This approach may imply a move toward more systematic and structured approaches to FAIR implementation, aligning with the organization's evolving understanding of the importance of standardized and accessible data.
+
+    The start of alignment discussions on metadata centralization, content management, and what constitutes reference data take place.
+
+    As the organization navigates this phase, the emphasis on training, guidelines, and targeted initiatives reflects a growing commitment to embedding FAIR principles in its data management practices.
+
+    There is an emergence of culture change processes alongside the ongoing ad hoc training process for FAIR roles.
+
+    Data domains will have a data discovery, profiling, and optimization phase or project.
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D5 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L120> .
+
+align:D5-L2 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Processes at L2"@en ;
+    dcterms:identifier "D5-L2" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L140> ;
+    rdfs:comment "Pilot projects demonstrate FAIR value while processes, training and governance begin to align. Retrospectives inform improvement, and curation, metadata guidance, procurement requirements and knowledge of licensing and lineage support emerging repeatable practice."@en ;
+    align:atLevel align:L2 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """The organization conducts needs assessments to structure formal training frameworks while continuing ad hoc training initiatives. At least one pilot project showcases successful FAIR implementation, emphasizing impact and value.
+
+    Efforts toward aligning individual FAIR data processes are underway but still need to be standardized, with ongoing coordination and integrated proof-of-concept projects in development.
+
+    Specific training on FAIR principles, such as persistent URIs, involves cross-board participation, including procurement.
+
+    Regular retrospectives on pilot projects inform ongoing learning and improvements.
+
+    The organization possesses comprehensive metadata and awareness of data specifics. Although not all data details are within a FAIR catalog, there's an insight into licenses, refresh cycles, lineage, rationale, intended usage, and business value. Process design ensures knowledge of these aspects, particularly in procurement, contributing to a more comprehensive understanding of data assets.
+
+    Culture change. The first projects to make data FAIR are starting. A plan to make all data FAIR starts to shape. Competence grows, and buy-in starts to happen on the business side.
+
+    Processes include data curation, metadata guidelines definition, and retrospective data FAIRification. FAIR data procurement has defined requirements.
+
+    Governance: recognize the need for governance processes related to FAIR principles and the processes for FAIR (e.g. master and reference data, consideration of dimensions for FAIR, RDMs ).
+
+    Governance processes may have other names. They focus on conflict resolution, reconciliation, and community building.
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D5 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L140> .
+
+align:D5-L3 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Processes at L3"@en ;
+    dcterms:identifier "D5-L3" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L158> ;
+    rdfs:comment "At least one business unit uses documented FAIR processes in production, supported by trained staff and coordinated initiatives. FAIR is being integrated into onboarding, continuing education, standard IT workflows, procurement and implementation planning."@en ;
+    align:atLevel align:L3 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """The organization initiates formal training for FAIR roles while a majority have embraced FAIR principles for major resources, backed by well-trained personnel capable of evaluating and implementing FAIR standards. At least one business unit actively employs FAIR processes in production, supported by documentation and training, with other FAIR initiatives underway and coordinated efforts recognized.
+
+    The FAIR data training is part of employee onboarding and continuous education development. The organization tailors specific FAIR processes to suit its needs and incorporates guidelines for providing FAIR data into standard IT procedures. Efforts to make metadata implementation accessible in a standardized manner without changing existing processes. The organization begins to integrate FAIR practices into workflows and configure systems to facilitate FAIR practices, demonstrating a commitment to normalising FAIR standards within organizational operations.
+
+    Additional processes include retrospective data FAIRification, the definition of requirements for procurement of FAIR data, curation of FAIR implementation tools, and cross-functional (e.g., business- IT- R&D) FAIR initiatives.
+
+    A "FAIR implementation plan" to enact the strategy is in place.
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D5 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L158> .
+
+align:D5-L4 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Processes at L4"@en ;
+    dcterms:identifier "D5-L4" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L150> ;
+    rdfs:comment "FAIR processes and role-specific training are established across the data ecosystem and increasingly normalised in organisational work. Automated tools, feedback mechanisms, metadata maintenance and emerging organisation-wide standards support continuous improvement and business-impact evaluation."@en ;
+    align:atLevel align:L4 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """The organization has established FAIR data practices across its data ecosystem, and role-specific training is available. Employee onboarding includes FAIR data training, and this training receives regular updates. It started a journey towards "FAIR practices".
+
+    The integration of Automated FAIR data tools into the organizational system is evident. Key activities now operate with FAIR processes recognized for their value, supported by general guidelines. There's a defined set of necessary organizational processes and an awareness of existing gaps.
+
+    Feedback mechanisms exist to enhance data FAIRness, ensuring ongoing improvement—the design of Processes to maintain business metadata systematically, which is crucial for capturing usage and impact. The organization showcases the value derived from normalized FAIR data practices and continues implementation, striving towards full FAIR compliance, demonstrating a commitment to evolving and embedding FAIR principles.
+
+    Measures of business impact have been described and piloted. There may be established processes and knowledge sharing for FAIR implementation projects' business value and impact.
+
+    The definition and creation of FAIR "standards" require processes that appear at this stage. There is a dialogue beyond the boundaries (departments) of the organization.
+
+    Processes to develop organization-wide standards for FAIR data management begin to evolve.
+
+    FAIR processes are used within a broader community and are becoming standard within the organization.
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D5 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L150> .
+
+align:D5-L5 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Processes at L5"@en ;
+    dcterms:identifier "D5-L5" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L138> ;
+    rdfs:comment "FAIR practices are integrated throughout the data lifecycle and sustained across ecosystem partners. Shared standards, training, APIs, metadata feedback and community learning support exchange beyond organisational boundaries and continued maintenance of FAIR processes and tools."@en ;
+    align:atLevel align:L5 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """FAIR processes are integral across all data processes, ensuring proven value throughout the entire data lifecycle.
+
+    World-class training programs are established and disseminated through courses. Organizations employ adaptable FAIR data frameworks that provide common standards, facilitating seamless FAIR data exchange among entities via fit-for-purpose FAIR-enabled APIs or tools.
+
+    The organization actively shares its learnings internally and externally, among others, through communities of practices. Processes are in a position to align data harmonisation efforts beyond the organization, such as feedback loops with standard-setting bodies. Mechanisms exist to sustain metadata across organizations, including update and feedback processes between data vendors and consumers.
+
+    Organizational practices embed FAIR data principles compliance, with a commitment to maintaining this compliance in the future. This holistic approach ensures the embedding of FAIR principles in every facet of data management and exchange within and outside the organization.
+
+    A standard (organization-level) process for onboarding data/technology projects and the relevant resources/people (e.g., FAIR training at project start-up) exists.
+
+    There are planned processes to maintain FAIR implementation standards and tools (e.g., CV, ontologies) at the company and across data ecosystem partners.
+
+    Regulatory agencies (FDA, EMEA, etc.) are incentivizing the ecosystem with guidance concerning FAIR data in their regulatory process.
+
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D5 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L138> .
+
+align:D6-L0 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Knowledge at L0"@en ;
+    dcterms:identifier "D6-L0" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L109> ;
+    rdfs:comment "FAIR-related knowledge and awareness are absent or insufficient within the organisation, including at leadership level."@en ;
+    align:atLevel align:L0 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """There is no FAIR-related knowledge in the organization. There needs to be awareness and understanding of FAIR data; leadership must have champions and understanding.
+
+
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D6 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L109> .
+
+align:D6-L1 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Knowledge at L1"@en ;
+    dcterms:identifier "D6-L1" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L138> ;
+    rdfs:comment "Initial FAIR knowledge develops through external experts, workshops and training. Understanding remains concentrated in individuals rather than shared organisational knowledge, while some staff connect with external communities."@en ;
+    align:atLevel align:L1 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """Awareness of FAIR data starts with first workshops and training by external experts. People are sent to external workshops or training to understand FAIR better. Higher-level leadership are sent the First whitepapers, proposals or plans for buy-in.
+
+    There are pockets of FAIR knowledge (e.g. individuals) but no shared organizational knowledge. The organization becomes aware of what it has yet to know.
+
+    Community of practice: not yet established "internally", but some individuals connect with external communities of practice (e.g. academia, Public-Private Partnerships, Pistoia Alliance, ELIXIR).
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D6 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L138> .
+
+align:D6-L2 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Knowledge at L2"@en ;
+    dcterms:identifier "D6-L2" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L164> ;
+    rdfs:comment "Early roles, champions and prototype teams can explain and demonstrate FAIR value, but knowledge remains largely informal and held by individuals. Internal communities and external support begin to develop shared practices and organisation-specific training."@en ;
+    align:atLevel align:L2 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """Designated roles start to take shape in the company.
+
+    FAIR knowledge is largely in people yet needs more formalization.
+
+    The first champions and teams in prototypes can do it, explain it, prove value and start to get internal recognition.
+
+    Community of practice also forms internally and facilitates knowledge exchanges ( for example, exchanges around emerging/good practices for FAIR and data Stewardship ).
+
+    External resources help develop FAIR training based on the organization's specificities.
+
+    Knowledge on processes, e.g. "FAIRification", what can be considered "FAIR" and what is not "FAIR"begins to be shared.
+
+    "Vendors" (e.g. publishers) and "service providers" (e.g. CROs) curate, distribute, and generate data and play a role in the FAIR knowledge ecosystem.
+
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D6 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L164> .
+
+align:D6-L3 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Knowledge at L3"@en ;
+    dcterms:identifier "D6-L3" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L171> ;
+    rdfs:comment "FAIR enters the training curriculum and business units begin formal knowledge sharing. Practitioners and communities build a common domain understanding and exchange implementation experience, at least within departments."@en ;
+    align:atLevel align:L3 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """FAIR data is part of the training curriculum, with some materials and experts available company-wide.
+
+    Business Units begin the formalisation of FAIR knowledge sharing.
+
+    Domain knowledge, providing a shared understanding and interpretation of data context within each domain, starts to be established.
+
+    The Community of Practice drives domain knowledge through the common understanding and interpretation of data and its context.
+
+    A community of knowledgeable FAIR practitioners have met and have started sharing experiences in making data FAIR, at least at the department level.
+
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D6 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L171> .
+
+align:D6-L4 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Knowledge at L4"@en ;
+    dcterms:identifier "D6-L4" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L170> ;
+    rdfs:comment "Training and support are available across the organisation, including onboarding, metadata validation knowledge and cross-domain communities of practice. Strategic knowledge begins to be made explicit in knowledge graphs, with growing participation and recognition in external FAIR communities."@en ;
+    align:atLevel align:L4 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """Assets and support are in place to train everyone in the company on FAIR data. Most people in the company understand FAIR data and its value. Newly onboarded people and projects now also go through the FAIR data education.
+
+    Knowledge about validating instance metadata against annotation requirements and data shapes is evident.
+
+    Implicit knowledge with strategic value starts to be captured explicitly in (business-relevant) Knowledge Graphs.
+
+    An organization-wide cross-domain FAIR community of practice is established, with a named leader and regular cadence of meetings with a standing agenda of project reviews, best practice development, real-world experiences, and sharing of learnings.
+
+    Through organizations (such as GO FAIR FOUNDATION, ELIXIR, RDA, and the Pistoia Alliance), industry organizations have begun to come together in communities to work on FAIR standards in different domains.
+
+    The organization has gained recognition within FAIR circles. The experts within the organization regularly speak at conferences. It consistently publishes work firmly rooted in FAIR principles, highlighting its dedication to promoting the Findable, Accessible, Interoperable, and Reusable aspects of data management and contributing to thought leadership in the field.
+
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D6 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L170> .
+
+align:D6-L5 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Knowledge at L5"@en ;
+    dcterms:identifier "D6-L5" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L158> ;
+    rdfs:comment "A mature FAIR education programme and shared organisational understanding sustain competence. Cross-organisational communities, data contracts and machine-actionable standards bring together technical, business, regulatory and governance expertise to maintain a wider FAIR learning ecosystem."@en ;
+    align:atLevel align:L5 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """There is a company-wide clear understanding of FAIR data. The company has a "FAIR data academy" (or similar education program) with FAIR data materials: training, best practices, use cases, showcases, a calendar with events, and trainers.
+
+    **Data contracts** are in place, which involve a collaborative effort among data experts, curators, semantic web specialists, knowledge engineers, AI professionals, data strategists, regulators, procurement officers, and decision-makers. Their roles ensure data is machine-actionable, adhering to community-established metadata standards extending beyond an organization's boundaries. These experts may possess knowledge in employing, e.g., LLM and AI techniques. Furthermore, they understand regulatory requirements, enabling them to express them in machine-actionable profiles. This comprehensive approach ensures data management compliance with industry standards and legal regulations, promoting data interoperability and usability beyond organizational confines. Across organizations, there is management and knowledge of FAIR standards.
+
+    An industry-wide, cross-organization FAIR community of practice is established, with distributed leadership. Regular cadence of meetings with a standing agenda of project reviews, best practice development, real-world experiences, and sharing of learnings.
+
+    The FAIR community is actively driving a FAIR learning system approach to standards development, data governance, data stewardship, data product management, and other topics as a natural outcome of the community effort.
+
+    Regulatory agencies are part of the FAIR practice community and incentivise the ecosystem with guidance.
+
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**""" ;
+    align:inDimension align:D6 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L158> .
+
+align:D7-L0 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Tools and Infrastructures at L0"@en ;
+    dcterms:identifier "D7-L0" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L117> ;
+    rdfs:comment "FAIR tooling, requirements and infrastructure roadmaps are lacking or poorly understood. Fragmented capture tools and ad hoc systems can impede FAIR implementation, with gaps in coordinated access and licensing arrangements."@en ;
+    align:atLevel align:L0 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """The organization presents a significant deficit in tools and infrastructure for implementing FAIR data management principles. Notably, the organization needs specialised tools, well-defined requirements, or a structured roadmap to ensure data adheres to the FAIR principles of Findability. Free field forms, e.g. in Excel documents, are frequent. This deficiency results in an unstructured and fragmented approach to data capture, undermining the organization's capacity to manage its data effectively. A pronounced lack of awareness and understanding of FAIR-compliant tools leads to a disjointed, ad-hoc problem-solving methodology that often contradicts FAIR principles. In the worst-case scenario, specific tools actively work against FAIR principles, exacerbating the challenge, especially when mandated by organizational processes, potentially coupled with geographical and web domain restrictions, further hindering the establishment of a robust FAIR data management framework. The organization must include an Inventory of the licences and access policy related to data sets.
+
+
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**
+
+    === "Findability"
+
+        Tool(s) or infrastructure component which contributes, enhances or enriches Findability:
+          
+        *   [https://fairtoolkit.pistoiaalliance.org/methods/findability-maturity-indicators/](https://fairtoolkit.pistoiaalliance.org/methods/findability-maturity-indicators/)
+            
+        *   [https://fairtoolkit.pistoiaalliance.org/methods/tool-data-granularity-and-context/](https://fairtoolkit.pistoiaalliance.org/methods/tool-data-granularity-and-context/)
+
+    === "Accessibility"
+
+        Tool(s) or infrastructure component(s) which contributes, enhances or enriches Accessibility.
+
+        *   [https://fairtoolkit.pistoiaalliance.org/methods/accessibility-maturity-indicators/](https://fairtoolkit.pistoiaalliance.org/methods/accessibility-maturity-indicators/)
+      
+
+    === "Interoperability"
+
+        Tool(s) or infrastructure component(s) which contributes, enhances or enriches Interoperability.
+
+        *   [https://fairtoolkit.pistoiaalliance.org/methods/interoperability-maturity-indicators/](https://fairtoolkit.pistoiaalliance.org/methods/interoperability-maturity-indicators/)
+    
+
+    === "Reusability"
+
+        Tool(s) or infrastructure component(s) which contributes, enhances or enriches Reusability.
+
+        *   [https://fairtoolkit.pistoiaalliance.org/methods/reusability-maturity-indicators/](https://fairtoolkit.pistoiaalliance.org/methods/reusability-maturity-indicators/)
+
+
+
+![](images/new-pisto-logo-small.png)""" ;
+    align:inDimension align:D7 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md#L117> .
+
+align:D7-L1 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Tools and Infrastructures at L1"@en ;
+    dcterms:identifier "D7-L1" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L149> ;
+    rdfs:comment "Initial tooling plans and inventories identify FAIR gaps and requirements, while pragmatic templates and existing systems improve capture and curation. Early metadata centralisation, catalogues, identifier policies and reference-data or vocabulary tools begin to support findability."@en ;
+    align:atLevel align:L1 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """At this stage, there is an understanding of the data challenges and a recognition of the importance of FAIR data. Still, the organization needs to learn how to make it happen. Initial plans for tooling and infrastructure for POCs start to take shape, along with organizational buy-in.
+
+    We see pragmatic progress in data and metadata creation and curation tools used to enhance existing IT practices (e.g. Excel templates, a drop-down list with limited selected items). There still needs to be complete FAIR tooling, but there is an inventory of the existing tooling and some determination of gaps along with the requirements for FAIR tooling.
+
+    There is some centralization of metadata, e.g. with content management systems,ELN systems, e.g. DKAN. There may be a deployment of other systems such as Github, Drupal, Sharepoints.
+
+    The organization starts thinking about and implementing "Findability" with Uniform Resource Identifier (URI) / Globally Unique, Persistent, Resolvable Identifier (GUPRI)services, published metadata catalogs, controlled vocabularies, Master Data Management (MDM) system (What needs to be "found"? Who needs to find what?). At least one policy on unique resource locators.
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**
+
+    === "Findability"
+
+        Tool(s) or infrastructure component which contributes, enhances or enriches Findability:
+
+        *   [https://fairtoolkit.pistoiaalliance.org/use-cases/adoption-and-impact-of-an-identifier-policy-astrazeneca/](https://fairtoolkit.pistoiaalliance.org/use-cases/adoption-and-impact-of-an-identifier-policy-astrazeneca/)
+          
+        *   [https://fairtoolkit.pistoiaalliance.org/methods/findability-maturity-indicators/](https://fairtoolkit.pistoiaalliance.org/methods/findability-maturity-indicators/)
+          
+
+    === "Accessibility"
+
+        Tool(s) or infrastructure component(s) which contributes, enhances or enriches Accessibility.
+
+        *   [https://fairtoolkit.pistoiaalliance.org/methods/accessibility-maturity-indicators/](https://fairtoolkit.pistoiaalliance.org/methods/accessibility-maturity-indicators/)
+      
+
+    === "Interoperability"
+
+        Tool(s) or infrastructure component(s) which contributes, enhances or enriches Interoperability.
+
+        *   [https://fairtoolkit.pistoiaalliance.org/methods/interoperability-maturity-indicators/](https://fairtoolkit.pistoiaalliance.org/methods/interoperability-maturity-indicators/)
+    
+
+    === "Reusability"
+
+        Tool(s) or infrastructure component(s) which contributes, enhances or enriches Reusability.
+
+        *   [https://fairtoolkit.pistoiaalliance.org/methods/reusability-maturity-indicators/](https://fairtoolkit.pistoiaalliance.org/methods/reusability-maturity-indicators/)
+
+
+![](images/new-pisto-logo-small.png)""" ;
+    align:inDimension align:D7 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md#L149> .
+
+align:D7-L2 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Tools and Infrastructures at L2"@en ;
+    dcterms:identifier "D7-L2" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L183> ;
+    rdfs:comment "In practical terms, D7-L2 describes early working FAIR infrastructure, potentially within individual departments. It covers tools for metadata publication, controlled vocabularies and persistent identifiers; configuring existing systems; working proofs of concept; and planning wider infrastructure, staffing and budgets."@en ;
+    align:atLevel align:L2 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """At this stage, the following are likely to be implemented (at least in some departments, do not need to be company-wide):Tools introduced to capture and publish metadata; Tools to work with controlled vocabularies; Tools to work with / manage persistent identifiers (PIDs).
+
+    "FAIR data points" capturing and tooling may depend on the specific pharma function.
+
+    Configure existing systems to implement FAIR, e.g., assigning PIDs to key documents, persons in organizational structures dealing with Human Resource, grant management, and publishing (authoring).
+
+    The deployment of FAIR data maturity framework assessments (see "Lexicon")
+
+    Initial infrastructure and tooling are in place for the first working POCs. Now that POCs work and prove value, RFPs or company-wide plans for tooling and infrastructure are getting scoped, including additional capacity for putting that infrastructure and tooling in place (people and budget).
+
+    "Vendors", e.g. for ELN, play a key role in providing tools toward FAIR data principle implementation.
+
+    The organization may look for reference "tools", e.g. controlled vocabularies, ontologies, data standards.
+
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**
+
+    === "Findability"
+
+        Tool(s) or infrastructure component which contributes, enhances or enriches Findability:
+          
+        *   [Identifier Service](https://w3id.org/fair/fip/terms/Identifier-service)
+        *   [Metadata schema](https://w3id.org/fair/fip/terms/Metadata-schema)
+        *   [Registry](https://w3id.org/fair/fip/terms/Registry)
+
+    === "Accessibility"
+
+        Tool(s) or infrastructure component(s) which contributes, enhances or enriches Accessibility.
+
+        *   [Authorization&AuthenticationService](https://w3id.org/fair/fip/terms/Authentication-and-authorization-service)
+      
+
+    === "Interoperability"
+
+        Tool(s) or infrastructure component(s) which contributes, enhances or enriches Interoperability.
+
+        (less in focus at this stage)
+    
+
+    === "Reusability"
+
+        Tool(s) or infrastructure component(s) which contributes, enhances or enriches Reusability.
+
+        R is less in focus at this level, and usually not implemented.
+
+![](images/new-pisto-logo-small.png)""" ;
+    align:inDimension align:D7 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md#L183> .
+
+align:D7-L3 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Tools and Infrastructures at L3"@en ;
+    dcterms:identifier "D7-L3" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L186> ;
+    rdfs:comment "Tools support established FAIR production and metadata management, with a shift towards making data FAIR from creation. Internal capacity, training, reference models and defined interaction mechanisms develop alongside approved resources and vendor selection for wider rollout."@en ;
+    align:atLevel align:L3 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """Established processes for producing and managing FAIR data, with tools, either internally developed or available by vendors and other organizations, could be limited in terms of entities and the level of sophistication.
+
+    Tools that help create FAIR Data and manage metadata collection templates and ontologies are available.
+
+    Ways of working ensure data is made FAIR from the onset, working prospectively rather than retrospectively (i.e., compared to doing FAIRification work after data creation).
+
+    The process can start with external resources (people or tools) but needs to shift to internal resources (employees), rolling the tooling and infrastructure out, including training and support.
+
+    An "anchor/reference model", or "enterprise-wide data model", is being built (cf. refer to the Strategy dimension). This model can also be a semantic model external to the organization but selected based on business needs and suitability.
+
+    There is a conceptual definition of Interaction mechanisms with FAIR data, although they are not yet machine-actionable, indicating a step towards making data more accessible and interoperable.
+
+    The approval of Budget and capacity for delivery at scale, along with the launch of RFPs or similar and vendors are selected to put tooling and infrastructure in place for company-wide use.
+
+    It becomes easier to make data FAIR company-wide, using the well-supported off-the-shelf tools than in the previous maturity level.
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**
+
+    === "Findability"
+
+        Tool(s) or infrastructure component which contributes, enhances or enriches Findability:
+
+        *   [Identifier services](https://peta-pico.github.io/tapas/tapas.html?api=peta-pico/dsw-nanopub-api&op=/find_gofair_qualified_things_x&param_searchterm=%20&param_type=https://w3id.org/fair/fip/terms/Identifier-service&autosubmit=on)
+            
+        *   [Metadata schemas](https://peta-pico.github.io/tapas/tapas.html?api=peta-pico/dsw-nanopub-api&op=/find_gofair_qualified_things_x&param_searchterm=%20&param_type=https://w3id.org/fair/fip/terms/Metadata-schema&autosubmit=on)
+            
+        *   [https://fairtoolkit.pistoiaalliance.org/use-cases/prospective-fairification-of-data-on-the-edison-platform-roche/](https://fairtoolkit.pistoiaalliance.org/use-cases/prospective-fairification-of-data-on-the-edison-platform-roche/)
+          
+
+    === "Accessibility"
+
+        Tool(s) or infrastructure component(s) which contributes, enhances or enriches Accessibility.
+
+        *   [Communication protocols](https://w3id.org/fair/fip/terms/Communication-protocol)
+            
+        *   [Authorization&AuthenticationServices](https://peta-pico.github.io/tapas/tapas.html?api=peta-pico/dsw-nanopub-api&op=/find_gofair_qualified_things_x&param_searchterm=%20&param_type=https://w3id.org/fair/fip/terms/Authentication-and-authorization-service&autosubmit=on)
+            
+        *   [Metadata preservation policy](https://peta-pico.github.io/tapas/tapas.html?api=peta-pico/dsw-nanopub-api&op=/find_gofair_qualified_things_x&param_searchterm=%20&param_type=https://w3id.org/fair/fip/terms/Metadata-preservation-policy&autosubmit=on)
+      
+
+    === "Interoperability"
+
+        Tool(s) or infrastructure component(s) which contributes, enhances or enriches Interoperability.
+
+        *   [Structured vocabularies](https://peta-pico.github.io/tapas/tapas.html?api=peta-pico/dsw-nanopub-api&op=/find_gofair_qualified_things_x&param_searchterm=%20&param_type=https://w3id.org/fair/fip/terms/Structured-vocabulary&autosubmit=on)
+          
+
+    
+
+    === "Reusability"
+
+        Tool(s) or infrastructure component(s) which contributes, enhances or enriches Reusability.
+
+        *   [Data Usage License](https://peta-pico.github.io/tapas/tapas.html?api=peta-pico/dsw-nanopub-api&op=/find_gofair_qualified_things_x&param_searchterm=%20&param_type=https://w3id.org/fair/fip/terms/Data-usage-license&autosubmit=on)
+            
+        *   [Provenance Model](https://peta-pico.github.io/tapas/tapas.html?api=peta-pico/dsw-nanopub-api&op=/find_gofair_qualified_things_x&param_searchterm=%20&param_type=https://w3id.org/fair/fip/terms/Provenance-model&autosubmit=on)
+
+
+
+
+![](images/new-pisto-logo-small.png)""" ;
+    align:inDimension align:D7 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md#L186> .
+
+align:D7-L4 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Tools and Infrastructures at L4"@en ;
+    dcterms:identifier "D7-L4" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L188> ;
+    rdfs:comment "An organisational tooling framework supports automated exploration, consistent FAIR-data interactions and clear human- and machine-readable usage licences. Ontology, taxonomy, governance and API tools, a FAIRification-tool registry and periodic evaluation support current and legacy data."@en ;
+    align:atLevel align:L4 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """The organization has taken several noteworthy steps to advance FAIR data management, including the following tools:
+
+    **Automated Data Exploration Tools**: The implementation of Tools enables more efficient data analysis and utilization to facilitate automated data exploration.
+
+    **Defined Interaction Mechanisms:** Defined Interaction mechanisms with FAIR data have been consistently implemented across the organization and meet prioritized, organization-specific business needs.
+
+    **Reusability**: Each dataset has a clear human and machine-readable usage licence. Data producers strive for reusability of their data to maximize their value
+
+    **Organizational-Level Framework:** The organization has established a comprehensive framework for FAIR data management. This framework includes a range of internal and external tools covering ontology and taxonomy sources, tools for managing ontologies and taxonomies, data governance tools, and API tools that support FAIR data adoption. Furthermore, developing strategies and tools guide the FAIRification of legacy data.
+
+    **Registry of FAIRification Tools**: Establishing a registry of tools specific to the organization's industry specialization. These tools are applied during the design phase before implementation and company-level processes are in place. Standards and governance practices integrate these tools, and a list of tools or internal experts with an overview of their capability is available. The organization periodically evaluates historical and current solutions, ensuring they remain current and effective.
+
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**
+
+    === "Findability"
+
+        Tool(s) or infrastructure component which contributes, enhances or enriches Findability:
+
+        *   [Identifier services](https://peta-pico.github.io/tapas/tapas.html?api=peta-pico/dsw-nanopub-api&op=/find_gofair_qualified_things_x&param_searchterm=%20&param_type=https://w3id.org/fair/fip/terms/Identifier-service&autosubmit=on)
+            
+        *   [Metadata schemas](https://peta-pico.github.io/tapas/tapas.html?api=peta-pico/dsw-nanopub-api&op=/find_gofair_qualified_things_x&param_searchterm=%20&param_type=https://w3id.org/fair/fip/terms/Metadata-schema&autosubmit=on)
+          
+
+    === "Accessibility"
+
+        Tool(s) or infrastructure component(s) which contributes, enhances or enriches Accessibility.
+
+        *   [Communication protocols](https://w3id.org/fair/fip/terms/Communication-protocol)
+            
+        *   [Authorization&AuthenticationServices](https://peta-pico.github.io/tapas/tapas.html?api=peta-pico/dsw-nanopub-api&op=/find_gofair_qualified_things_x&param_searchterm=%20&param_type=https://w3id.org/fair/fip/terms/Authentication-and-authorization-service&autosubmit=on)
+            
+        *   [Metadata preservation policy](https://peta-pico.github.io/tapas/tapas.html?api=peta-pico/dsw-nanopub-api&op=/find_gofair_qualified_things_x&param_searchterm=%20&param_type=https://w3id.org/fair/fip/terms/Metadata-preservation-policy&autosubmit=on)
+      
+
+    === "Interoperability"
+
+        Tool(s) or infrastructure component(s) which contributes, enhances or enriches Interoperability.
+
+        *   [Knowledge representation languages](https://w3id.org/fair/fip/terms/Knowledge-representation-language)
+            
+        *   [Structured vocabularies](https://peta-pico.github.io/tapas/tapas.html?api=peta-pico/dsw-nanopub-api&op=/find_gofair_qualified_things_x&param_searchterm=%20&param_type=https://w3id.org/fair/fip/terms/Structured-vocabulary&autosubmit=on)
+            
+        *   [Semantic Model](https://peta-pico.github.io/tapas/tapas.html?api=peta-pico/dsw-nanopub-api&op=/find_gofair_qualified_things_x&param_searchterm=%20&param_type=https://w3id.org/fair/fip/terms/Semantic-model&autosubmit=on)
+    
+
+    === "Reusability"
+
+        Tool(s) or infrastructure component(s) which contributes, enhances or enriches Reusability.
+
+        *   [Data Usage License](https://peta-pico.github.io/tapas/tapas.html?api=peta-pico/dsw-nanopub-api&op=/find_gofair_qualified_things_x&param_searchterm=%20&param_type=https://w3id.org/fair/fip/terms/Data-usage-license&autosubmit=on)
+            
+        *   [Provenance Model](https://peta-pico.github.io/tapas/tapas.html?api=peta-pico/dsw-nanopub-api&op=/find_gofair_qualified_things_x&param_searchterm=%20&param_type=https://w3id.org/fair/fip/terms/Provenance-model&autosubmit=on)
+            
+        *   [FAIR Implementation Profiles](https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile)
+
+
+![](images/new-pisto-logo-small.png)""" ;
+    align:inDimension align:D7 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md#L188> .
+
+align:D7-L5 a owl:NamedIndividual,
+        align:Descriptor ;
+    rdfs:label "FAIR Tools and Infrastructures at L5"@en ;
+    dcterms:identifier "D7-L5" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L173> ;
+    rdfs:comment "Integrated platforms support automated FAIR data creation, provenance and lifecycle validation through community-agreed interfaces and metadata profiles. Identifier, metadata publication, access-control, semantic-model and exploration services support ecosystem interoperability, with leadership in shared practices and further automation described aspirationally."@en ;
+    align:atLevel align:L5 ;
+    align:evidenceStatus "not assessed" ;
+    align:fullSourceBlock """In this scenario, the design of platforms and suites of tools facilitate the automated creation of FAIR data while ensuring provenance capture and enabling FAIR data to remain such, thanks to appropriate "FAIR" processes.
+
+    Defined interaction mechanisms provide standardized interfaces serving FAIR data conformant to the (industry-wide) community-agreed metadata profiles for various consumption contexts. Furthermore, the organization is a leader in issuing recommendations for FAIR data implementation profiles.
+
+    The platforms may encompass various components, including:
+
+    **GUPRI** (Identifiers): The system supports using globally unique, persistent identifiers for data, both internally and externally, enhancing data discoverability.
+
+    **FAIR Metadata Publication**: The platform supports the publication of FAIR metadata internally and externally, with considerations for data access restrictions.
+
+    **Authentication and Authorization Infrastructure (AAI):** This ensures permissible accessibility for individuals and machines, aligning with industry standards.
+
+    **Data Interaction Interfaces**: The provision of interfaces to enable data usage, including analytics and data interaction methods, ensuring transparency and adherence to FAIR principles exist.
+
+    **Data Exploration**: The system offers tools to explore data with machines capable of interpreting metadata, which can also involve anonymized or aggregated data for tasks like cohorting and feasibility assessments.
+
+    **Semantic Model Managemen**t: It manages semantic models and ontologies, including external and in-house ontologies/controlled terminologies.
+
+    **FAIR Data Validation**: Tools are in place to validate the FAIRness of data throughout its lifecycle.
+
+    **Community Leader/Beacons**: Additionally, the organization actively builds common and shareable FAIR data practices and platforms pre-competitive within the industry, encouraging other companies and vendors to follow suit. The platforms provide user-friendly tools for achieving comprehensive FAIR data management with robust documentation and subject matter expertise (SME) support. Aspirationally, an automated FAIRification tool, possibly utilising AI, is envisaged for all data types. Implementing FAIR API and protocols is considered for connecting with various data sources, such as HR and legal data, following cross-company standards. "Federation tools'' may enhance data sharing and collaboration across organizations.
+
+
+
+    **[(Back to the FAIR Matrix)](FAIRMaturityMatrix.md)**
+
+    === "Findability"
+
+        Tool(s) or infrastructure component which contributes, enhances or enriches Findability:
+
+        *   i[dentifier services](https://peta-pico.github.io/tapas/tapas.html?api=peta-pico/dsw-nanopub-api&op=/find_gofair_qualified_things_x&param_searchterm=%20&param_type=https://w3id.org/fair/fip/terms/Identifier-service&autosubmit=on)
+            
+        *   [Metadata-data-linking-schema](https://peta-pico.github.io/tapas/tapas.html?api=peta-pico/dsw-nanopub-api&op=/find_gofair_qualified_things_x&param_searchterm=%20&param_type=https://w3id.org/fair/fip/terms/Metadata-data-linking-schema&autosubmit=on)
+            
+        *   [Metadata schemas](https://peta-pico.github.io/tapas/tapas.html?api=peta-pico/dsw-nanopub-api&op=/find_gofair_qualified_things_x&param_searchterm=%20&param_type=https://w3id.org/fair/fip/terms/Metadata-schema&autosubmit=on)
+            
+        *   [Registries](https://peta-pico.github.io/tapas/tapas.html?api=peta-pico/dsw-nanopub-api&op=/find_gofair_qualified_things_x&param_searchterm=%20&param_type=https://w3id.org/fair/fip/terms/Registry&autosubmit=on)
+   
+          
+
+    === "Accessibility"
+
+        Tool(s) or infrastructure component(s) which contributes, enhances or enriches Accessibility.
+
+        *   [Communication protocols](https://w3id.org/fair/fip/terms/Communication-protocol)
+            
+        *   [Authorization&AuthenticationServices](https://peta-pico.github.io/tapas/tapas.html?api=peta-pico/dsw-nanopub-api&op=/find_gofair_qualified_things_x&param_searchterm=%20&param_type=https://w3id.org/fair/fip/terms/Authentication-and-authorization-service&autosubmit=on)
+            
+        *   [Metadata preservation policy](https://peta-pico.github.io/tapas/tapas.html?api=peta-pico/dsw-nanopub-api&op=/find_gofair_qualified_things_x&param_searchterm=%20&param_type=https://w3id.org/fair/fip/terms/Metadata-preservation-policy&autosubmit=on)
+      
+
+    === "Interoperability"
+
+        Tool(s) or infrastructure component(s) which contributes, enhances or enriches Interoperability.
+
+        *   [Knowledge representation languages](https://w3id.org/fair/fip/terms/Knowledge-representation-language)
+            
+        *   [Structured vocabularies](https://peta-pico.github.io/tapas/tapas.html?api=peta-pico/dsw-nanopub-api&op=/find_gofair_qualified_things_x&param_searchterm=%20&param_type=https://w3id.org/fair/fip/terms/Structured-vocabulary&autosubmit=on)
+            
+        *   [Semantic Model](https://peta-pico.github.io/tapas/tapas.html?api=peta-pico/dsw-nanopub-api&op=/find_gofair_qualified_things_x&param_searchterm=%20&param_type=https://w3id.org/fair/fip/terms/Semantic-model&autosubmit=on)
+    
+
+    === "Reusability"
+
+        Tool(s) or infrastructure component(s) which contributes, enhances or enriches Reusability.
+
+        *   [Data Usage License](https://peta-pico.github.io/tapas/tapas.html?api=peta-pico/dsw-nanopub-api&op=/find_gofair_qualified_things_x&param_searchterm=%20&param_type=https://w3id.org/fair/fip/terms/Data-usage-license&autosubmit=on)
+            
+        *   [Provenance Model](https://peta-pico.github.io/tapas/tapas.html?api=peta-pico/dsw-nanopub-api&op=/find_gofair_qualified_things_x&param_searchterm=%20&param_type=https://w3id.org/fair/fip/terms/Provenance-model&autosubmit=on)
+            
+        *   [FAIR Implementation Profiles](https://w3id.org/fair/fip/terms/FAIR-Implementation-Profile)
+
+
+![](images/new-pisto-logo-small.png)""" ;
+    align:inDimension align:D7 ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md#L173> .
+
+align:file-0db8d155d3a015e144cf140e a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <file:///D:/Work-Documents/13_Research/2026_Research/FAIR/research-repos/FAIR-DAMA-FAIRMM/sources/2026-11-16/dama-ontologies-v1.1.0/validate_dama_ontologies.py> ;
+    align:sha256 "034b60e7fa82b68e66b6e246966bd7f0cd5152c61a38a77da78dcb3e4be7192e" .
+
+align:file-0db9935ebd892c5fee932063 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/Data_Owner.md> ;
+    align:sha256 "f13ce5b72e8206a56691c7173ead5f531ef7841abadce6b4f1af5405250b1b05" .
+
+align:file-0e3a210040c774eea99e17c1 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md> ;
+    align:sha256 "c780b0faf7a879c2c1a5b3e5dd8b90866ee815d0942d55063128060ecf9ccb4d" .
+
+align:file-12e6b99f67c139ec760cf2d2 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/Data_Integration_Specialist.md> ;
+    align:sha256 "3174475269a366ce1cef58811241b37bf41d93dbbae5d6c74ca7415bfed46440" .
+
+align:file-166a4c3d4178a5214023a646 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <file:///D:/Work-Documents/13_Research/2026_Research/FAIR/research-repos/FAIR-DAMA-FAIRMM/sources/2026-11-16/DAMA_Segments_High_Level_v1.18.0.md> ;
+    align:sha256 "5c8775bbeb82a93ed283656be8b36478ffab31f77b8cfb24f225c6ca9e8c5a5b" .
+
+align:file-1a72923f2f11cd00ce2a50e2 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <file:///D:/Work-Documents/13_Research/2026_Research/FAIR/research-repos/FAIR-DAMA-FAIRMM/sources/2026-11-16/dama-ontologies-v1.1.0/README.md> ;
+    align:sha256 "b6b11defa2aba47d91c501a217d954e4f7d545d46439677c8991632dd8ff3cb1" .
+
+align:file-1b24587875d8fba4d2cb93c6 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <file:///D:/Work-Documents/13_Research/2026_Research/FAIR/research-repos/FAIR-DAMA-FAIRMM/sources/2026-11-16/dama-ontologies-v1.1.0/dama-fair-mapping.ttl> ;
+    align:sha256 "26b8f50134373b70ba86f26bbc51bcd1fe8ba3f96f54d509673183544a8ffe18" .
+
+align:file-1bfabaa2521aa4cb9622e99c a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/Reference_Data_Manager.md> ;
+    align:sha256 "12200c1923f3c39d0c06445a46525c5457e30e9847c04e813d39507fbb5bc0e4" .
+
+align:file-217fc3078360905f886b4918 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <file:///D:/Work-Documents/13_Research/2026_Research/FAIR/research-repos/FAIR-DAMA-FAIRMM/sources/2026-11-16/dama-ontologies-v1.1.0/fair-ontology.ttl> ;
+    align:sha256 "999db0459b2bbb12d23123ee0ab03fbfc12d2657540995af214ebc3090056c06" .
+
+align:file-26161f77d9118ca7e151bf49 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md> ;
+    align:sha256 "722a30126d14b4bbc4e2a68148db80e3e80a936be7ab307eb96f92ddd8836d79" .
+
+align:file-2e193382f65e24f4fe4b9543 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <file:///D:/Work-Documents/13_Research/2026_Research/FAIR/research-repos/FAIR-DAMA-FAIRMM/sources/2026-11-16/dama-ontologies-v1.1.0/ontologies.svg> ;
+    align:sha256 "3cfa6a17ac21749dec49a2b7bf3e9b7e73e7056f5995a7e4f64e0f6ac88a621a" .
+
+align:file-3000c8cf09be6e7c4729f1b8 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <file:///D:/Work-Documents/13_Research/2026_Research/FAIR/research-repos/FAIR-DAMA-FAIRMM/sources/2026-11-16/dama-ontologies-v1.1.0/validation-report.json> ;
+    align:sha256 "6eeabbb804b089c0fdcc2a5cb685f071bca43a8899c73f5f2688aab029ad6138" .
+
+align:file-35fbb8911a0f093d0393aef3 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/Citizen_Data_Scientist.md> ;
+    align:sha256 "9750141f1b03a39c5dd4d371f55bd50f339d0385cf74a0ec0a2da57ccd7fe3cd" .
+
+align:file-36f5ca4eab3fb04df97f3dc4 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/Legal_Data_Expert.md> ;
+    align:sha256 "4868258586cf8993e9e59472b5a21d4d3d5946af10f950d99844f3e0c41a19c6" .
+
+align:file-38a827fb1dc5001cf8bdc1a8 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/Knowledge-Enabled_Citizen.md> ;
+    align:sha256 "8462a6c56884e72d222c864bf736e0b2056036bbc4cd5081d10f9fac13dde9d7" .
+
+align:file-39b80ec056c5789ae9afcd57 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/Researcher.md> ;
+    align:sha256 "e48fa7a682c7a7a09ccb20e717b0f164dbf4a3d85f0dcb2d8240d57acb4477c2" .
+
+align:file-3e98a50f366ffd57975f52b7 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/Curator.md> ;
+    align:sha256 "dad8109a9c1ce57b8f9f2a62c3facbd349a8416f0016e922c5ec9a2335300055" .
+
+align:file-4aa5ed69352b3c0e4195d237 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/Lab_Manager.md> ;
+    align:sha256 "3293e66a4df1a3d6e43bffb4123e72493dd0c6b2bec788655bfc8608abadf576" .
+
+align:file-4d654188b7f31064ff09b225 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/Data_Analyst.md> ;
+    align:sha256 "5849177ddc6683d0e32940710f7d425e62aff0c2d1807550b810cc2d99fbbb35" .
+
+align:file-4da479eb3ee8b4719b240910 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md> ;
+    align:sha256 "aa3e3d948902cd1e19fc0b22d216896e061da226e23952a49c0fc9d5d8c61983" .
+
+align:file-56fd05a0ef3f99a0ef5e7ba0 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/Data_Engineer.md> ;
+    align:sha256 "91f91389cb994cffe1aa4bb663c2acf0f549c3161cc20750d5feff2b7757f0fd" .
+
+align:file-581813a5a094207bd332c9ff a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <file:///D:/Work-Documents/13_Research/2026_Research/FAIR/research-repos/FAIR-DAMA-FAIRMM/sources/2026-11-16/DAMA_FAIR_Ontologies_v1.1.0.zip> ;
+    align:sha256 "2c6707c87b6ce4d3fae3383f1a0997d15a65de5f4f1c43da92a1c334ec7a18a1" .
+
+align:file-5889881a3b550c3ae8aab347 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/Master_Data_Manager.md> ;
+    align:sha256 "757ab63e685436148b7e10a0e10b61d72589a19a767f6a3d577846c4ff5b46b7" .
+
+align:file-5a9c2a328957e79b3e57b318 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/FAIR_Data_Architect.md> ;
+    align:sha256 "228f411b89b61abd836d64fb1242738c5c93d16fa703d14ca2c3b232a70ff938" .
+
+align:file-660727f9598b6767ac68b656 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/Business_Analyst.md> ;
+    align:sha256 "56023a215e6ad337856b524ff43233bea0d51a842aa0f0da7f1832d3eb8413a1" .
+
+align:file-6a3ac8944abaaf03fb518033 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/Technology_Leader.md> ;
+    align:sha256 "75929ed2a2fd392df6436da66dc23bde05011c4874c27b70be177b23197a130e" .
+
+align:file-7442fd22a786476b600edc35 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/FAIR_Trainer.md> ;
+    align:sha256 "6f85481660b4d4bc075a71a47f3d3f5005bfd82800cfc41675ead342712a1fbe" .
+
+align:file-748eddac7c42e8449e454d43 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md> ;
+    align:sha256 "00149754f6b0257f8d6b7c657b599b49b7925d2f2cdc58bab7bfa580295a748a" .
+
+align:file-7bf5c743c8f2880f40106266 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/Data_Protection_Officer.md> ;
+    align:sha256 "6f1bd7aad396e7ac3e238789e8c901cf6e288e3c285b2f26c2fb238db485cc41" .
+
+align:file-8bfd6eb7a49e7c6fcc63a3ac a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <file:///D:/Work-Documents/13_Research/2026_Research/FAIR/research-repos/FAIR-DAMA-FAIRMM/sources/2026-11-16/dama-ontologies-v1.1.0/VALIDATION.md> ;
+    align:sha256 "37472d66013336ba0d0b099d9967f26d2d455dabe96dd5455aa60fb234c58a7b" .
+
+align:file-9747be3fe47fb3bd50171a16 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/Autonomous_AI_Agent.md> ;
+    align:sha256 "9d5d75d717eabc21351342b7befe330d2bfb64dab8858d9b256a11207d025338" .
+
+align:file-98ba7d8e6c3b1f1baa826bf4 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/Data_Standards_and_Governance_Expert.md> ;
+    align:sha256 "d7c27b85437a7b79eb06186d32e488b9b223c7b0259f7206e4051b528d4367d6" .
+
+align:file-a0928866bd2e65dd046aaa6f a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/Subject_Matter_Expert.md> ;
+    align:sha256 "ce35003c4012bbb3ea23d9f7d9cd113e711ed7071d7e7cb41ec324137da24b9d" .
+
+align:file-a75f8b808cc1b8a8f0ff6c51 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/FAIR_Community_Manager.md> ;
+    align:sha256 "d6326cfd63de693c9607be8b569fa7ff63b63f880426fbba5dca788caffd27c5" .
+
+align:file-abf5564cdacde864f647e502 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <file:///D:/Work-Documents/13_Research/2026_Research/FAIR/research-repos/FAIR-DAMA-FAIRMM/sources/2026-11-16/dama-ontologies-v1.1.0/ontologies.dot> ;
+    align:sha256 "b1fb75227d62b78974419be72d18e097320cd2648214464ce72ea42f50847d76" .
+
+align:file-b1d4f31dedf439b36f8d8d19 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/Ontologist.md> ;
+    align:sha256 "e64a15b15ab0fcb565bf82f690f1c3da5d4fe44f406f95188848a34f8f137b5d" .
+
+align:file-b3cfb8e3f97ecebc5d0227f4 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/Business_Owner.md> ;
+    align:sha256 "80a44da588e049b422ad3173ada293a9fe36d647b0d008e2e08086f8293c5412" .
+
+align:file-b839e7bb719c0ffae03131ca a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md> ;
+    align:sha256 "227f24f8498a164db2b5f0e461301e5ca8639fc67d102485fffd020fa7ad0b0e" .
+
+align:file-b9982c80e89eb0e35968d20b a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <file:///D:/Work-Documents/13_Research/2026_Research/FAIR/research-repos/FAIR-DAMA-FAIRMM/sources/2026-11-16/dama-ontologies-v1.1.0/update_dama_ontologies.py> ;
+    align:sha256 "61ef2366ae5e5df21bfc45e1e95f400f6a7ddf9da91f715a2060308c307d667a" .
+
+align:file-bd7dafbeb322639f77c0379e a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <file:///D:/Work-Documents/13_Research/2026_Research/FAIR/research-repos/FAIR-DAMA-FAIRMM/sources/2026-11-16/DAMA-PDOC_FAIR-MASTER_2026-11-16_V3.xlsx> ;
+    align:sha256 "df74e2cd99dac76208d54d8ce0d59a24c1e7a0e906f3144849d6e6d4c4ac8b94" .
+
+align:file-c044ccadd906a914401d0579 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md> ;
+    align:sha256 "d07f61999cbd4672df34404c74eaf74f8bcb9efc2a09126f612e367df93f7488" .
+
+align:file-c10ea84230b7907771093d0d a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <file:///D:/Work-Documents/13_Research/2026_Research/FAIR/research-repos/FAIR-DAMA-FAIRMM/sources/2026-11-16/workbook-extract.json> ;
+    align:sha256 "beadbb410d03f6580bef5ed93e48c0a8199755daa4f0bd63b9076d2aaf3c244e" .
+
+align:file-c600ff37ac73deb7812211b3 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <file:///D:/Work-Documents/13_Research/2026_Research/FAIR/research-repos/FAIR-DAMA-FAIRMM/sources/2026-11-16/dama-ontologies-v1.1.0/dama-persona-ontology.ttl> ;
+    align:sha256 "94a0d24fca501e004868f50d3aab115da8fb96c332b69c9d07e980758d653d92" .
+
+align:file-ca96a6cc5b5a21877239e0f6 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <file:///D:/Work-Documents/13_Research/2026_Research/FAIR/research-repos/FAIR-DAMA-FAIRMM/sources/2026-11-16/dama-ontologies-v1.1.0/dama-ontology.ttl> ;
+    align:sha256 "90bb6e65bffd47eff3e6b9fc3ef266eeaa4046aeda64f0fec219c1206c354400" .
+
+align:file-cb4bba27f3e52e071264d6ae a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/Clinical_Data_Manager.md> ;
+    align:sha256 "b946061519b1a7f0c2d54b512ce0fba2a884c2b5403621d85af3a6a3cfcc2a19" .
+
+align:file-cd30c0f69bd556dc26de837a a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/Data_Strategy_Owner.md> ;
+    align:sha256 "32d8056704b45719ea3eeefc96696d04f4913438967997894526ab9351e25e32" .
+
+align:file-cd78b1cf51eda2bb25db497d a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/Business_Leader.md> ;
+    align:sha256 "ce986af82d2792bb57792356a082e830504bd79f8e4fa628c8829feb0d53d404" .
+
+align:file-d9cf7a0ffb0b1e1cc0038597 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <file:///D:/Work-Documents/13_Research/2026_Research/FAIR/research-repos/FAIR-DAMA-FAIRMM/sources/2026-11-16/dama-ontologies-v1.1.0/manifest.json> ;
+    align:sha256 "e210ca344685811d4ef0f786ced3748021212c4b3d6549635a3580e99c695efb" .
+
+align:file-e69e638caa311bcc19e9a198 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/Data_Scientist.md> ;
+    align:sha256 "be8b4c9d11ca6c7f4e7fa13f22f7ecf61ae88f7d4931c0a75804ba40e8fc5f33" .
+
+align:file-eb8a33c74f8a0aabe3172318 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/Data_Steward.md> ;
+    align:sha256 "55f2bb8276e3b95d9cdd0f34510e4926a73fcd47eb63303b413b42c72d1853f4" .
+
+align:file-f7b23a813a22f58421137760 a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/Project_Manager.md> ;
+    align:sha256 "ced300d337a1909afb88b80c10ba3559721a2703c8dcd9da90ded6f4dad8c074" .
+
+align:file-fa68993671add845c82d95cb a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FAIR_personas/Data_Quality_Manager.md> ;
+    align:sha256 "0d3cf3d934e4c44b735adf07a2d4c132472fd54ea3a23d3942ab525a6b0a95d6" .
+
+align:snapshot-FAIR-DAMA a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    rdfs:label "FAIR-DAMA source snapshot"@en ;
+    dcterms:source <https://github.com/chris-day/FAIR-DAMA/tree/ca36f80ba52e89d89111b13e390e8a7671cc3f5d> ;
+    align:sourceBranch "main" ;
+    align:sourceRevision "ca36f80ba52e89d89111b13e390e8a7671cc3f5d" .
+
+align:snapshot-FAIR-Maturity-Matrix a owl:NamedIndividual,
+        align:SourceSnapshot ;
+    rdfs:label "FAIR-Maturity-Matrix source snapshot"@en ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/tree/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4> ;
+    align:sourceBranch "FAIR-MM-V1.2.5" ;
+    align:sourceRevision "8ff4676eb340b0da5034ffb3d0e901c594c3cfc4" .
+
+align:Version125MaturityLevel a owl:Class ;
+    rdfs:subClassOf align:MaturityLevel ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:oneOf ( align:L0 align:L1 align:L2 align:L3 align:L4 align:L5 ) ] .
+
+align:Version125Dimension a owl:Class ;
+    rdfs:subClassOf align:Dimension ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:oneOf ( align:D1 align:D2 align:D3 align:D4 align:D5 align:D6 align:D7 ) ] .
+
+align:D1 a owl:NamedIndividual,
+        align:Dimension,
+        align:Version125Dimension ;
+    rdfs:label "FAIR Data"@en ;
+    dcterms:identifier "D1" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/fmm-d1.md> ;
+    skos:definition "This dimension concerns metadata, data, and data products. Several frameworks to evaluate the maturity of FAIR data exist publicly and in private organizational environments. The intention of this dimension is to provide a qualitative pragmatic indication, not to replace existing FAIR data assessment models. For a catalogue of FAIR data assessment tools and methods we refer to: FAIR assist tools.  Especially at the initial levels, a FAIR assessment tool should help identify the FAIR data principles in focus when starting a FAIR data implementation journey. This dimension closely connects to FAIR tools, infrastructures, processes, and personas." ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/fmm-d1.md> ;
+    align:sourceText "This dimension concerns metadata, data, and data products. Several frameworks to evaluate the maturity of FAIR data exist publicly and in private organizational environments. The intention of this dimension is to provide a qualitative pragmatic indication, not to replace existing FAIR data assessment models. For a catalogue of FAIR data assessment tools and methods we refer to: [FAIR assist tools](https://fairassist.org/tools).  Especially at the initial levels, a FAIR assessment tool should help identify the FAIR data principles in focus when starting a FAIR data implementation journey. This dimension closely connects to FAIR tools, infrastructures, processes, and personas." .
+
+align:D2 a owl:NamedIndividual,
+        align:Dimension,
+        align:Version125Dimension ;
+    rdfs:label "FAIR Leadership"@en ;
+    dcterms:identifier "D2" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/fmm-d2.md> ;
+    skos:definition "This dimension deals with types and leadership levels required to implement FAIR principles in a life science organization. Ultimately, leadership \"owns\" the vision of FAIR implementation, or the “why”.  Leadership roles are also necessary to ensure that strategies can be defined, enabled, implemented, and executed. Leadership ensures the resources (financial, time, priority) are set and available. Ultimately, leadership, at various levels in and outside the boundaries of the organizations, is accountable for implementing FAIR data principles. This requires a sufficiently deep level of understanding of the FAIR principles, of the costs (time, financial, opportunity) associated with data practices that are not FAIR and the skills needed to implement FAIR data principles." ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/fmm-d2.md> ;
+    align:sourceText "This dimension deals with types and leadership levels required to implement FAIR principles in a life science organization. Ultimately, leadership \"owns\" the vision of FAIR implementation, or the “why”.  Leadership roles are also necessary to ensure that strategies can be defined, enabled, implemented, and executed. Leadership ensures the resources (financial, time, priority) are set and available. Ultimately, leadership, at various levels in and outside the boundaries of the organizations, is accountable for implementing FAIR data principles. This requires a sufficiently deep level of understanding of the FAIR principles, of the costs (time, financial, opportunity) associated with data practices that are not FAIR and the skills needed to implement FAIR data principles." .
+
+align:D3 a owl:NamedIndividual,
+        align:Dimension,
+        align:Version125Dimension ;
+    rdfs:label "FAIR Strategy"@en ;
+    dcterms:identifier "D3" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/fmm-d3.md> ;
+    skos:definition "Strategies are frameworks for making decisions related to FAIR implementation, from business case to capability-building to running operations. After setting the \"why\" of FAIR implementation journeys and what \"will success look like,” \"how and with which priorities will the organization evolve given the current status?” This dimension is also concerned with deciding what not to do (e.g., only some data may need to be FAIR, “FAIR Enough”), identifying metrics, organizational sectors (beyond R&D) involved and the cultural change required." ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/fmm-d3.md> ;
+    align:sourceText "Strategies are frameworks for making decisions related to FAIR implementation, from business case to capability-building to running operations. After setting the \"why\" of FAIR implementation journeys and what \"will success look like,” \"how and with which priorities will the organization evolve given the current status?” This dimension is also concerned with deciding what not to do (e.g., only some data may need to be FAIR, “FAIR Enough”), identifying metrics, organizational sectors (beyond R&D) involved and the cultural change required." .
+
+align:D4 a owl:NamedIndividual,
+        align:Dimension,
+        align:Version125Dimension ;
+    rdfs:label "FAIR Personas"@en ;
+    dcterms:identifier "D4" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/fmm-d4.md> ;
+    skos:definition """This dimension addresses the personas required in an organization to implement FAIR principles in this dimension. What are the jobs to do? Who would ensure that happens? Who are the people responsible for FAIR implementation, but also affected by it? These personas will ensure, among others, project execution to build capabilities and operational roles maintaining FAIR processes, infrastructure, governance, as well as data and metadata. The personas can play different roles, for example they can be primarily data consumers or data producers.
+Personas embody and apply FAIR knowledge as they mature. At higher maturity levels, FAIR knowledge is increasingly embedded within organizational tools, infrastructure, and the data itself.""" ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/fmm-d4.md> ;
+    align:sourceText """This dimension addresses the personas required in an organization to implement FAIR principles in this dimension. What are the jobs to do? Who would ensure that happens? Who are the people responsible for FAIR implementation, but also affected by it? These personas will ensure, among others, project execution to build capabilities and operational roles maintaining FAIR processes, infrastructure, governance, as well as data and metadata. The personas can play different roles, for example they can be primarily data consumers or data producers.
+Personas embody and apply FAIR knowledge as they mature. At higher maturity levels, FAIR knowledge is increasingly embedded within organizational tools, infrastructure, and the data itself.""" .
+
+align:D5 a owl:NamedIndividual,
+        align:Dimension,
+        align:Version125Dimension ;
+    rdfs:label "FAIR Processes"@en ;
+    dcterms:identifier "D5" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/fmm-d5.md> ;
+    skos:definition "FAIR data principles implementation requires underlying processes connecting the necessary metadata, data, tools, roles and knowledge. Some of these processes may be implicit in the early stages of FAIR data implementation. Still, they will become more explicit and so ubiquitous that they will become transparent once we achieve the highest maturity levels." ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/fmm-d5.md> ;
+    align:sourceText "FAIR data principles implementation requires underlying processes connecting the necessary metadata, data, tools, roles and knowledge. Some of these processes may be implicit in the early stages of FAIR data implementation. Still, they will become more explicit and so ubiquitous that they will become transparent once we achieve the highest maturity levels." .
+
+align:D6 a owl:NamedIndividual,
+        align:Dimension,
+        align:Version125Dimension ;
+    rdfs:label "FAIR Knowledge"@en ;
+    dcterms:identifier "D6" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/fmm-d6.md> ;
+    skos:definition "The FAIR Knowledge dimension concerns the factual, conceptual, procedural  knowledge required for FAIR implementation at the various stages. Knowledge is often associated with human expert roles and connects with the FAIR personas  dimension. FAIR personas can acquire and transfer knowledge with FAIR training." ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/fmm-d6.md> ;
+    align:sourceText "The FAIR Knowledge dimension concerns the [factual, conceptual, procedural  knowledge](https://www.celt.iastate.edu/instructional-strategies/effective-teaching-practices/revised-blooms-taxonomy/#responsive) required for FAIR implementation at the various stages. Knowledge is often associated with human expert roles and connects with the [FAIR personas](fmm-d4.md)  dimension. FAIR personas can acquire and transfer knowledge with [FAIR training](FAIR_training.md)." .
+
+align:D7 a owl:NamedIndividual,
+        align:Dimension,
+        align:Version125Dimension ;
+    rdfs:label "FAIR Tools and Infrastructures"@en ;
+    dcterms:identifier "D7" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/fmm-d7.md> ;
+    skos:definition "This dimension concerns the essential information technology tools and infrastructures needed to implement FAIR data principles. It is closely related to the “FAIR data” dimension of the maturity model. The close relationship between FAIR implementation and semantic web technologies underscores the significance of the tools required to implement the FAIR principles. Beyond these aspects, additional frameworks that can enhance the implementation of FAIR data principles, broadening the scope of considerations for a comprehensive approach, are considered." ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/fmm-d7.md> ;
+    align:sourceText "This dimension concerns the essential information technology tools and infrastructures needed to implement FAIR data principles. It is closely related to the “FAIR data” dimension of the maturity model. The close relationship between FAIR implementation and semantic web technologies underscores the significance of the tools required to implement the FAIR principles. Beyond these aspects, additional frameworks that can enhance the implementation of FAIR data principles, broadening the scope of considerations for a comprehensive approach, are considered." .
+
+align:L0 a owl:NamedIndividual,
+        align:MaturityLevel,
+        align:Version125MaturityLevel ;
+    rdfs:label "L0 Life is unFAIR"@en ;
+    dcterms:identifier "L0" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FMMlevels.md>,
+        <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level0.md> ;
+    skos:definition "Lack of awareness, possibly acquiring awareness." ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:levelOrdinal 0 ;
+    align:nextLevel align:L1 ;
+    align:precedes align:L1,
+        align:L2,
+        align:L3,
+        align:L4,
+        align:L5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FMMlevels.md> ;
+    align:sourceText "Lack of awareness, possibly acquiring awareness." .
+
+align:L1 a owl:NamedIndividual,
+        align:MaturityLevel,
+        align:Version125MaturityLevel ;
+    rdfs:label "L1 Started the FAIR journey"@en ;
+    dcterms:identifier "L1" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FMMlevels.md>,
+        <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level1.md> ;
+    skos:definition "Awareness started, and the first pilots for implementation." ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:levelOrdinal 1 ;
+    align:nextLevel align:L2 ;
+    align:precedes align:L2,
+        align:L3,
+        align:L4,
+        align:L5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FMMlevels.md> ;
+    align:sourceText "Awareness started, and the first pilots for implementation." .
+
+align:L2 a owl:NamedIndividual,
+        align:MaturityLevel,
+        align:Version125MaturityLevel ;
+    rdfs:label "L2 Getting FAIR"@en ;
+    dcterms:identifier "L2" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FMMlevels.md>,
+        <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level2.md> ;
+    skos:definition "Pilots for implementation are in place" ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:levelOrdinal 2 ;
+    align:nextLevel align:L3 ;
+    align:precedes align:L3,
+        align:L4,
+        align:L5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FMMlevels.md> ;
+    align:sourceText "Pilots for implementation are in place" .
+
+align:L3 a owl:NamedIndividual,
+        align:MaturityLevel,
+        align:Version125MaturityLevel ;
+    rdfs:label "L3 Pretty FAIR"@en ;
+    dcterms:identifier "L3" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FMMlevels.md>,
+        <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level3.md> ;
+    skos:definition "Transition to good and best practice" ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:levelOrdinal 3 ;
+    align:nextLevel align:L4 ;
+    align:precedes align:L4,
+        align:L5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FMMlevels.md> ;
+    align:sourceText "Transition to good and best practice" .
+
+align:L4 a owl:NamedIndividual,
+        align:MaturityLevel,
+        align:Version125MaturityLevel ;
+    rdfs:label "L4 Really FAIR"@en ;
+    dcterms:identifier "L4" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FMMlevels.md>,
+        <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level4.md> ;
+    skos:definition "Operational, best practice known at the time of writing. Internal organisational focus. Emerging cross-organisation" ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:levelOrdinal 4 ;
+    align:nextLevel align:L5 ;
+    align:precedes align:L5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FMMlevels.md> ;
+    align:sourceText "Operational, best practice known at the time of writing. Internal organisational focus. Emerging cross-organisation" .
+
+align:L5 a owl:NamedIndividual,
+        align:MaturityLevel,
+        align:Version125MaturityLevel ;
+    rdfs:label "L5 FAIRest of them all"@en ;
+    dcterms:identifier "L5" ;
+    dcterms:source <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FMMlevels.md>,
+        <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/level5.md> ;
+    skos:definition "Aspirational. conceivable but still needs to be realised.   Cross-organisation standards and Interoperability" ;
+    align:inFrameworkVersion align:FAIRMM-v1.2.5 ;
+    align:levelOrdinal 5 ;
+    align:primarySource <https://github.com/Pistoia-Alliance-Inc/FAIR-Maturity-Matrix/blob/8ff4676eb340b0da5034ffb3d0e901c594c3cfc4/docs/FMMlevels.md> ;
+    align:sourceText "Aspirational. conceivable but still needs to be realised.   Cross-organisation standards and Interoperability" .
+
+align:FAIRMM-v1.2.5 a owl:NamedIndividual,
+        align:FrameworkVersion ;
+    rdfs:label "FAIR Maturity Matrix v1.2.5"@en ;
+    dcterms:description "DAMA ontologies v1.1.0 / document v1.18.0 / workbook V3 (2026-11-16). User-supplied local release; FAIR-DAMA checkout revision is context only, not provenance for the supplied release." ;
+    dcterms:hasPart align:D1,
+        align:D2,
+        align:D3,
+        align:D4,
+        align:D5,
+        align:D6,
+        align:D7,
+        align:L0,
+        align:L1,
+        align:L2,
+        align:L3,
+        align:L4,
+        align:L5 ;
+    dcterms:identifier "FAIR-MM-V1.2.5" ;
+    dcterms:rights "FAIRMM repository source: Pistoia Alliance contributors, GPL-3.0; persona overview separately states CC BY 4.0. FAIR-DAMA: Chris Day, CC0. Preserve these component-specific notices." ;
+    owl:versionInfo "1.2.5" ;
+    align:hasDescriptor align:D1-L0,
+        align:D1-L1,
+        align:D1-L2,
+        align:D1-L3,
+        align:D1-L4,
+        align:D1-L5,
+        align:D2-L0,
+        align:D2-L1,
+        align:D2-L2,
+        align:D2-L3,
+        align:D2-L4,
+        align:D2-L5,
+        align:D3-L0,
+        align:D3-L1,
+        align:D3-L2,
+        align:D3-L3,
+        align:D3-L4,
+        align:D3-L5,
+        align:D4-L0,
+        align:D4-L1,
+        align:D4-L2,
+        align:D4-L3,
+        align:D4-L4,
+        align:D4-L5,
+        align:D5-L0,
+        align:D5-L1,
+        align:D5-L2,
+        align:D5-L3,
+        align:D5-L4,
+        align:D5-L5,
+        align:D6-L0,
+        align:D6-L1,
+        align:D6-L2,
+        align:D6-L3,
+        align:D6-L4,
+        align:D6-L5,
+        align:D7-L0,
+        align:D7-L1,
+        align:D7-L2,
+        align:D7-L3,
+        align:D7-L4,
+        align:D7-L5 ;
+    align:sourceSnapshot align:file-0db8d155d3a015e144cf140e,
+        align:file-0db9935ebd892c5fee932063,
+        align:file-0e3a210040c774eea99e17c1,
+        align:file-12e6b99f67c139ec760cf2d2,
+        align:file-166a4c3d4178a5214023a646,
+        align:file-1a72923f2f11cd00ce2a50e2,
+        align:file-1b24587875d8fba4d2cb93c6,
+        align:file-1bfabaa2521aa4cb9622e99c,
+        align:file-217fc3078360905f886b4918,
+        align:file-26161f77d9118ca7e151bf49,
+        align:file-2e193382f65e24f4fe4b9543,
+        align:file-3000c8cf09be6e7c4729f1b8,
+        align:file-35fbb8911a0f093d0393aef3,
+        align:file-36f5ca4eab3fb04df97f3dc4,
+        align:file-38a827fb1dc5001cf8bdc1a8,
+        align:file-39b80ec056c5789ae9afcd57,
+        align:file-3e98a50f366ffd57975f52b7,
+        align:file-4aa5ed69352b3c0e4195d237,
+        align:file-4d654188b7f31064ff09b225,
+        align:file-4da479eb3ee8b4719b240910,
+        align:file-56fd05a0ef3f99a0ef5e7ba0,
+        align:file-581813a5a094207bd332c9ff,
+        align:file-5889881a3b550c3ae8aab347,
+        align:file-5a9c2a328957e79b3e57b318,
+        align:file-660727f9598b6767ac68b656,
+        align:file-6a3ac8944abaaf03fb518033,
+        align:file-7442fd22a786476b600edc35,
+        align:file-748eddac7c42e8449e454d43,
+        align:file-7bf5c743c8f2880f40106266,
+        align:file-8bfd6eb7a49e7c6fcc63a3ac,
+        align:file-9747be3fe47fb3bd50171a16,
+        align:file-98ba7d8e6c3b1f1baa826bf4,
+        align:file-a0928866bd2e65dd046aaa6f,
+        align:file-a75f8b808cc1b8a8f0ff6c51,
+        align:file-abf5564cdacde864f647e502,
+        align:file-b1d4f31dedf439b36f8d8d19,
+        align:file-b3cfb8e3f97ecebc5d0227f4,
+        align:file-b839e7bb719c0ffae03131ca,
+        align:file-b9982c80e89eb0e35968d20b,
+        align:file-bd7dafbeb322639f77c0379e,
+        align:file-c044ccadd906a914401d0579,
+        align:file-c10ea84230b7907771093d0d,
+        align:file-c600ff37ac73deb7812211b3,
+        align:file-ca96a6cc5b5a21877239e0f6,
+        align:file-cb4bba27f3e52e071264d6ae,
+        align:file-cd30c0f69bd556dc26de837a,
+        align:file-cd78b1cf51eda2bb25db497d,
+        align:file-d9cf7a0ffb0b1e1cc0038597,
+        align:file-e69e638caa311bcc19e9a198,
+        align:file-eb8a33c74f8a0aabe3172318,
+        align:file-f7b23a813a22f58421137760,
+        align:file-fa68993671add845c82d95cb,
+        align:snapshot-FAIR-DAMA,
+        align:snapshot-FAIR-Maturity-Matrix .
+
+[] a owl:AllDifferent ;
+    owl:distinctMembers ( align:D1 align:D2 align:D3 align:D4 align:D5 align:D6 align:D7 ) .
+
+[] a owl:AllDifferent ;
+    owl:distinctMembers ( align:L0 align:L1 align:L2 align:L3 align:L4 align:L5 ) .
+

@@ -1,0 +1,10 @@
+{
+  "accepted_candidate_sha256": "c193f63f21823324f77b5c5ccb8a68246f9250d2f33f3752e4c5c3cee0e52e4c",
+  "upstream_G5_revision": "7e3b862c958e8e4c313d611769724772b600bf84",
+  "upstream_G6_implementation_revision": "a826eda507fa4856f686f4d389fbdabd502b0ee3",
+  "upstream_G6_acceptance_revision": "5fb8d6bae7fa886e50b5b9dd11cb23d75cfcf1ba",
+  "host_start_revision": "6c0d0fce21dcbe8ba851a9481707aea5f54c2ec6",
+  "date": "2026-11-26",
+  "integration_authority": "User approved plan and authorised local implementation and validation",
+  "source_pin_policy": "Component copies are pinned; compare against host originals before builds. Baseline updates require review."
+}

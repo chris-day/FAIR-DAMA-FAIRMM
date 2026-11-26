@@ -1,0 +1,528 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dcterms:creator a owl:AnnotationProperty .
+
+dcterms:description a owl:AnnotationProperty .
+
+dcterms:hasPart a owl:ObjectProperty .
+
+dcterms:identifier a owl:AnnotationProperty .
+
+dcterms:license a owl:AnnotationProperty .
+
+dcterms:modified a owl:AnnotationProperty .
+
+dcterms:partOf a owl:AnnotationProperty .
+
+dcterms:rights a owl:AnnotationProperty .
+
+dcterms:source a owl:AnnotationProperty .
+
+dcterms:title a owl:AnnotationProperty .
+
+vann:preferredNamespacePrefix a owl:AnnotationProperty .
+
+vann:preferredNamespaceUri a owl:AnnotationProperty .
+
+<http://semanticscience.org/resource/000090> a owl:Class .
+
+skos:definition a owl:AnnotationProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#AreaAlignmentAssessment> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#DirectContribution> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#FAIRContribution> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#IndirectContribution> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#Practice> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#SourceActivity> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#alignedPrinciple> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#alignmentBasis> a owl:AnnotationProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#alignmentType> a owl:AnnotationProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#applicabilityCondition> a owl:AnnotationProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#assessmentStatus> a owl:AnnotationProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#deliverables> a owl:AnnotationProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#derivedFromActivity> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#directSupportExplanation> a owl:AnnotationProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#evidenceForPrinciple> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#evidenceRequirement> a owl:AnnotationProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#fromPractice> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#fromTopic> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#inKnowledgeArea> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#inTopic> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#indirectSupportExplanation> a owl:AnnotationProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#lifecycleCode> a owl:AnnotationProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#proposedApprovingPersona> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#proposedContributingPersona> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#proposedResponsiblePersona> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#rationale> a owl:AnnotationProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#relevantDeliverables> a owl:AnnotationProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#sourceRow> a owl:AnnotationProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#sourceWorksheet> a owl:AnnotationProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#targetsPrinciple> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#viaPractice> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#AdditionalTopic> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#CatalogueOccurrence> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#CatalogueSection> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#DMBOK2-2017-KnowledgeArea> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#FrameworkEdition> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#KnowledgeArea> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#ManagementTopic> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#ToolCategory> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#catalogueCategory> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#hasAdditionalTopic> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#inCatalogueSection> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#sourceLabel> a owl:DatatypeProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#sourceLine> a owl:DatatypeProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#Goal> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#Persona> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#Responsibility> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#Role> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#SourceTopic> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#concernsPractice> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#consumerIn> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#correspondsToKnowledgeArea> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#correspondsToTopic> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#hasGoal> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#hasResponsibility> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#partiallyCorrespondsToKnowledgeArea> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#participantIn> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#reportedDirectFAIRPrinciple> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#reportedIndirectFAIRPrinciple> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#representsRole> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#supplierIn> a owl:ObjectProperty .
+
+<https://w3id.org/fair/principles/terms/FAIR> a owl:Class .
+
+<https://w3id.org/fair/principles/terms/FAIR-Principle> a owl:Class .
+
+<https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple> a owl:Class .
+
+<https://w3id.org/fair/principles/terms/FAIR-SubPrinciple> a owl:Class .
+
+<urn:capability-ontology:forImplementation> a owl:ObjectProperty ;
+    rdfs:domain <urn:capability-ontology:Realisation> ;
+    rdfs:range <urn:capability-ontology:Implementation> .
+
+<urn:capability-ontology:hasEvidence> a owl:ObjectProperty ;
+    rdfs:range <urn:capability-ontology:Evidence> .
+
+<urn:capability-ontology:hasRequirement> a owl:ObjectProperty ;
+    rdfs:domain <urn:capability-ontology:Profile> ;
+    rdfs:range <urn:capability-ontology:Requirement> .
+
+<urn:capability-ontology:inScope> a owl:ObjectProperty ;
+    rdfs:range <urn:capability-ontology:Scope> .
+
+<urn:capability-ontology:ontology> a owl:Ontology ;
+    dcterms:description "Domain-neutral functional abilities, requirements, profiles and contextual realisations. A potential capability is not evidence of implementation."@en ;
+    dcterms:title "Capability ontology"@en ;
+    owl:versionIRI <urn:capability-ontology:ontology:version:1.0.0> ;
+    owl:versionInfo "1.0.0" .
+
+<urn:capability-ontology:rationale> a owl:AnnotationProperty ;
+    rdfs:range xsd:string .
+
+<urn:capability-ontology:realisesCapability> a owl:ObjectProperty ;
+    rdfs:domain <urn:capability-ontology:Realisation> ;
+    rdfs:range <urn:capability-ontology:Capability> .
+
+<urn:capability-ontology:requiresCapability> a owl:ObjectProperty ;
+    rdfs:domain <urn:capability-ontology:Requirement> ;
+    rdfs:range <urn:capability-ontology:Capability> .
+
+<urn:capability-ontology:requiresCondition> a owl:ObjectProperty ;
+    rdfs:range <urn:capability-ontology:ImplementationCondition> .
+
+<urn:capability-ontology:verificationState> a owl:ObjectProperty ;
+    rdfs:domain <urn:capability-ontology:Realisation> ;
+    rdfs:range <urn:capability-ontology:VerificationState> .
+
+<urn:fair-dama-fairmm:alignment:ActivityRoleOccurrence> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:Alignment> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:AreaRoleOccurrence> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:CapabilityInterpretation> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:CapabilityProgressionProposal> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:CapabilityProposal> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:CounterpartCandidate> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:CumulativeAssociation> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:DataRole> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:Deliverable> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:DerivationRule> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:Descriptor> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:DescriptorEvidence> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:DiagnosticReview> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:Dimension> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:DimensionAlignment> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:DirectAlignment> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:EvidenceRequirement> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:FrameworkVersion> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:HistoricalRow> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:IndirectAlignment> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:LevelAlignment> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:LevelReview> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:LifecycleReview> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:MaturityLevel> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:MaturityRangeProposal> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:OnsetAlignment> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:Persona> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:PersonaCorrespondence> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:Practice> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:PracticeBundle> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:RoleAssignmentCandidate> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:RoleCategory> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:SourceAssertion> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:SourceField> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:SourceKnowledgeArea> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:SourceSnapshot> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:SourceTopic> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:ToolPrincipleProposal> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:UnresolvedAlignmentCandidate> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:Version125Dimension> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:Version125MaturityLevel> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:aggregate> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:applicabilityCondition> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:areaRoleCategory> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:atLevel> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:candidateDimension> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:candidatePersona> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:concernsPractice> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:conditionalMarker> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:confidence> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:contributionType> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:damaCounterpart> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:dataRole> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:deploymentScope> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:deploymentVerificationStatus> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:derivationRule> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:derivedFromOnset> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:derivedFromSourceNode> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:disposition> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:evidenceStatus> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:existingContributionType> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:fairmmPersona> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:fieldHeading> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:firstSupportedLevel> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:forTool> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:frameworkPart> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:fromPractice> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:fullSourceBlock> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:hasCounterpart> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:hasDeliverable> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:hasDescriptor> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:hasDescriptorEvidence> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:hasInterpretation> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:hasPractice> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:hasRoleAssignmentCandidate> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:hasRoleOccurrence> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:hasSourceField> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:historicalRow> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:inDimension> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:inFrameworkVersion> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:inKnowledgeArea> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:inPractice> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:inSourceTopic> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:inherited> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:levelLabel> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:levelOrdinal> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:matchLimitation> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:matchStatus> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:matchingPhrase> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:nextLevel> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:normalizedMappingStatus> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:numericValue> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:onsetStatus> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:originalContributionType> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:originalSupportCell> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:precedes> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:primarySource> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:progressionCode> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:proposedCapability> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:qualification> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:rangeSummary> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:rationale> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:relationshipKind> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:reportedDirectFAIRPrinciple> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:reportedIndirectFAIRPrinciple> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:requiresActivityContext> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:requiresEvidence> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:reviewOfOnset> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:reviewStatus> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:roleSuggestion> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:ruleText> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:scope> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:sha256> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceAssertion> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceBranch> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceColumn> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceCoordinate> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceIdentifier> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceIntermediatePractice> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceLabel> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceLayer> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceLine> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:sourcePersona> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:sourcePosition> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceRevision> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceRoleCategory> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceSection> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceSnapshot> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceText> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceTopic> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:supportedByDescriptor> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:supportsInterpretation> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:targetsDimension> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:targetsLevel> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:targetsPrinciple> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:topicNumber> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:viaPractice> a owl:ObjectProperty .
+
+<urn:capability-ontology:Evidence> a owl:Class ;
+    rdfs:label "Evidence"@en .
+
+<urn:capability-ontology:ImplementationCondition> a owl:Class ;
+    rdfs:label "Implementation condition"@en .
+
+<urn:capability-ontology:Profile> a owl:Class ;
+    rdfs:label "Profile"@en ;
+    rdfs:comment "A scoped collection of requirements; no realisation is entailed by membership."@en .
+
+<urn:capability-ontology:Scope> a owl:Class ;
+    rdfs:label "Scope"@en .
+
+<urn:capability-ontology:Capability> a owl:Class ;
+    rdfs:label "Capability"@en ;
+    rdfs:comment "An ability to perform a function; distinct from an implementation realising it."@en ;
+    owl:disjointWith <urn:capability-ontology:Implementation>,
+        <urn:capability-ontology:Realisation> .
+
+<urn:capability-ontology:Implementation> a owl:Class ;
+    rdfs:label "Implementation"@en .
+
+<urn:capability-ontology:NotApplicable> a owl:NamedIndividual,
+        <urn:capability-ontology:VerificationState> .
+
+<urn:capability-ontology:Requirement> a owl:Class ;
+    rdfs:label "Requirement"@en ;
+    rdfs:comment "A requirement for a capability, potentially subject to conditions."@en .
+
+<urn:capability-ontology:Unknown> a owl:NamedIndividual,
+        <urn:capability-ontology:VerificationState> .
+
+<urn:capability-ontology:Unverified> a owl:NamedIndividual,
+        <urn:capability-ontology:VerificationState> .
+
+<urn:capability-ontology:Verified> a owl:NamedIndividual,
+        <urn:capability-ontology:VerificationState> .
+
+<urn:capability-ontology:Realisation> a owl:Class ;
+    rdfs:label "Realisation"@en ;
+    rdfs:comment "A contextual claim relating an implementation to a capability, with separate verification state."@en .
+
+<urn:capability-ontology:VerificationState> a owl:Class ;
+    owl:oneOf ( <urn:capability-ontology:Unknown> <urn:capability-ontology:Unverified> <urn:capability-ontology:Verified> <urn:capability-ontology:NotApplicable> ) .
+
+[] a owl:AllDifferent ;
+    owl:distinctMembers ( <urn:capability-ontology:Unknown> <urn:capability-ontology:Unverified> <urn:capability-ontology:Verified> <urn:capability-ontology:NotApplicable> ) .
+

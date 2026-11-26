@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-26",
+  "G1": "User approved implementation design",
+  "G2": "User approved domain candidates",
+  "G3": "User approved alignment with the recorded coverage exceptions",
+  "G4": {
+    "status": "approved",
+    "authority": "User message: G4 Approved. next step",
+    "approved_integration_commit": "0fef814f2e2c13729dc45be12612927f2b584878"
+  },
+  "G5_release_signoff": "approved by user before G6",
+  "public_release_authorisation": false,
+  "GraphDB_deployment_authorisation": false,
+  "G6_acceptance": "accepted by user on 2026-11-26",
+  "repository_adaptation": "local implementation authorised; final review pending"
+}

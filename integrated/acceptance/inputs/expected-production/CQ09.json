@@ -1,0 +1,1136 @@
+[
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H013/Direct/F2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Metadata Repositories and F2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H013/Direct/F3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Metadata Repositories and F3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H013/Direct/F4",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Metadata Repositories and F4; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H013/Direct/R1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Metadata Repositories and R1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H013/Indirect/A1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Metadata Repositories and A1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H013/Indirect/A2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Metadata Repositories and A2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H013/Indirect/F1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Metadata Repositories and F1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H013/Indirect/I1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Metadata Repositories and I1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H013/Indirect/I2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Metadata Repositories and I2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H013/Indirect/I3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Metadata Repositories and I3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H013/Indirect/R1.2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Metadata Repositories and R1.2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H013/Indirect/R1.3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Metadata Repositories and R1.3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H014/Direct/F2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Metadata Repository Management Tools and F2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H014/Direct/F3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Metadata Repository Management Tools and F3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H014/Direct/F4",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Metadata Repository Management Tools and F4; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H014/Direct/R1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Metadata Repository Management Tools and R1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H014/Indirect/A1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Metadata Repository Management Tools and A1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H014/Indirect/A2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Metadata Repository Management Tools and A2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H014/Indirect/F1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Metadata Repository Management Tools and F1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H014/Indirect/I1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Metadata Repository Management Tools and I1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H014/Indirect/I2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Metadata Repository Management Tools and I2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H014/Indirect/I3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Metadata Repository Management Tools and I3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H014/Indirect/R1.2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Metadata Repository Management Tools and R1.2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H014/Indirect/R1.3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Metadata Repository Management Tools and R1.3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H015/Direct/F2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Metadata Repositories in other Tools and F2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H015/Direct/F3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Metadata Repositories in other Tools and F3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H015/Direct/R1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Metadata Repositories in other Tools and R1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H015/Indirect/F4",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Metadata Repositories in other Tools and F4; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H015/Indirect/I1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Metadata Repositories in other Tools and I1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H015/Indirect/I2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Metadata Repositories in other Tools and I2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H015/Indirect/I3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Metadata Repositories in other Tools and I3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H015/Indirect/R1.2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Metadata Repositories in other Tools and R1.2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H016/Direct/I2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Business Glossary Tools and I2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H016/Indirect/F2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Business Glossary Tools and F2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H016/Indirect/F4",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Business Glossary Tools and F4; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H016/Indirect/I1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Business Glossary Tools and I1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H016/Indirect/I3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Business Glossary Tools and I3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H016/Indirect/R1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Business Glossary Tools and R1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H016/Indirect/R1.3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Business Glossary Tools and R1.3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H018/Direct/F2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Knowledge Management and Metadata Repositories and F2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H018/Direct/F4",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Knowledge Management and Metadata Repositories and F4; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H018/Indirect/A1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Knowledge Management and Metadata Repositories and A1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H018/Indirect/F3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Knowledge Management and Metadata Repositories and F3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H018/Indirect/I2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Knowledge Management and Metadata Repositories and I2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H018/Indirect/R1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Knowledge Management and Metadata Repositories and R1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H018/Indirect/R1.3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Knowledge Management and Metadata Repositories and R1.3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H020/Direct/F2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Data Enrichment and F2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H020/Direct/R1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Data Enrichment and R1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H020/Indirect/F3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Enrichment and F3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H020/Indirect/I2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Enrichment and I2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H020/Indirect/I3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Enrichment and I3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H020/Indirect/R1.2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Enrichment and R1.2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H020/Indirect/R1.3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Enrichment and R1.3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H022/Direct/A1.2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Identity Management Technology and A1.2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H022/Indirect/A1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Identity Management Technology and A1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H023/Direct/A1.2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Webpage Security and A1.2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H023/Indirect/A1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Webpage Security and A1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H024/Indirect/A1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Anti-virus and Security Software and A1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H025/Indirect/A1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Intrusion Detection and Prevention Software and A1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H025/Indirect/A1.2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Intrusion Detection and Prevention Software and A1.2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H026/Indirect/A1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Firewalls and A1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H026/Indirect/A1.2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Firewalls and A1.2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H027/Indirect/A1.2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Masking / Encryption and A1.2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H028/Direct/A1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Database Management Tools and A1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H028/Indirect/A1.1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Database Management Tools and A1.1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H028/Indirect/A1.2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Database Management Tools and A1.2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H028/Indirect/A2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Database Management Tools and A2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H028/Indirect/F1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Database Management Tools and F1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H028/Indirect/F4",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Database Management Tools and F4; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H029/Indirect/A1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Database Monitoring Tools and A1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H029/Indirect/A2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Database Monitoring Tools and A2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H030/Direct/A1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Operational Data Stores and A1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H030/Indirect/A2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Operational Data Stores and A2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H030/Indirect/F1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Operational Data Stores and F1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H030/Indirect/F3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Operational Data Stores and F3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H030/Indirect/F4",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Operational Data Stores and F4; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H031/Direct/A1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Distributed File-based Databases and A1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H031/Indirect/A2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Distributed File-based Databases and A2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H031/Indirect/F1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Distributed File-based Databases and F1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H031/Indirect/F4",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Distributed File-based Databases and F4; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H032/Direct/A1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Big Data Cloud Solutions and A1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H032/Indirect/A1.1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Big Data Cloud Solutions and A1.1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H032/Indirect/A1.2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Big Data Cloud Solutions and A1.2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H032/Indirect/A2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Big Data Cloud Solutions and A2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H032/Indirect/F4",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Big Data Cloud Solutions and F4; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H033/Direct/A1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Data Sharing Hubs and A1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H033/Direct/F4",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Data Sharing Hubs and F4; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H033/Indirect/A1.1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Sharing Hubs and A1.1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H033/Indirect/A1.2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Sharing Hubs and A1.2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H033/Indirect/F1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Sharing Hubs and F1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H033/Indirect/F2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Sharing Hubs and F2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H033/Indirect/I1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Sharing Hubs and I1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H033/Indirect/R1.1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Sharing Hubs and R1.1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H034/Direct/A1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Websites and A1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H034/Direct/A1.1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Websites and A1.1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H034/Indirect/A2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Websites and A2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H034/Indirect/F2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Websites and F2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H034/Indirect/F4",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Websites and F4; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H034/Indirect/R1.1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Websites and R1.1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H041/Direct/I1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Data Transformation Engine and I1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H041/Indirect/F2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Transformation Engine and F2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H041/Indirect/I2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Transformation Engine and I2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H041/Indirect/I3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Transformation Engine and I3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H041/Indirect/R1.2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Transformation Engine and R1.2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H041/Indirect/R1.3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Transformation Engine and R1.3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H043/Direct/I1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Data Parsing and Formatting and I1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H043/Indirect/I2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Parsing and Formatting and I2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H043/Indirect/R1.3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Parsing and Formatting and R1.3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H044/Direct/I1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Data Integration Tools and I1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H044/Direct/I3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Data Integration Tools and I3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H044/Indirect/A1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Integration Tools and A1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H044/Indirect/F3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Integration Tools and F3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H044/Indirect/I2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Integration Tools and I2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H044/Indirect/R1.2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Integration Tools and R1.2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H044/Indirect/R1.3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Integration Tools and R1.3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H045/Direct/I1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Integration Tools and I1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H045/Direct/I3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Integration Tools and I3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H045/Indirect/A1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Integration Tools and A1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H045/Indirect/F3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Integration Tools and F3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H045/Indirect/I2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Integration Tools and I2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H045/Indirect/R1.2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Integration Tools and R1.2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H047/Direct/A1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Enterprise Service Bus and A1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H047/Indirect/A1.1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Enterprise Service Bus and A1.1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H047/Indirect/A1.2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Enterprise Service Bus and A1.2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H047/Indirect/I1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Enterprise Service Bus and I1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H047/Indirect/I3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Enterprise Service Bus and I3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H048/Direct/F1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for MDM Application Platforms and F1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H048/Direct/I3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for MDM Application Platforms and I3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H048/Indirect/F2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for MDM Application Platforms and F2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H048/Indirect/F3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for MDM Application Platforms and F3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H048/Indirect/F4",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for MDM Application Platforms and F4; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H048/Indirect/I2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for MDM Application Platforms and I2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H048/Indirect/R1.2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for MDM Application Platforms and R1.2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H048/Indirect/R1.3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for MDM Application Platforms and R1.3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H051/Direct/F2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Document Management Tools and F2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H051/Direct/F4",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Document Management Tools and F4; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H051/Indirect/A1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Document Management Tools and A1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H051/Indirect/A2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Document Management Tools and A2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H051/Indirect/F1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Document Management Tools and F1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H051/Indirect/F3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Document Management Tools and F3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H051/Indirect/R1.1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Document Management Tools and R1.1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H051/Indirect/R1.2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Document Management Tools and R1.2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H054/Direct/A1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Wikis, Knowledge Bases, Intranet Sites and A1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H054/Direct/F2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Wikis, Knowledge Bases, Intranet Sites and F2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H054/Indirect/F4",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Wikis, Knowledge Bases, Intranet Sites and F4; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H054/Indirect/I2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Wikis, Knowledge Bases, Intranet Sites and I2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H054/Indirect/I3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Wikis, Knowledge Bases, Intranet Sites and I3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H054/Indirect/R1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Wikis, Knowledge Bases, Intranet Sites and R1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H056/Indirect/F2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Remediation Tools and F2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H056/Indirect/I1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Remediation Tools and I1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H056/Indirect/I2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Remediation Tools and I2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H056/Indirect/R1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Remediation Tools and R1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H056/Indirect/R1.3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Remediation Tools and R1.3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H058/Indirect/F2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Profiling Tools and F2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H058/Indirect/R1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Profiling Tools and R1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H058/Indirect/R1.3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Data Profiling Tools and R1.3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H059/Indirect/F2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Business Rules Engine and F2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H059/Indirect/F3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Business Rules Engine and F3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H059/Indirect/I1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Business Rules Engine and I1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H059/Indirect/I2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Business Rules Engine and I2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H059/Indirect/I3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Business Rules Engine and I3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H059/Indirect/R1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Business Rules Engine and R1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H059/Indirect/R1.3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Business Rules Engine and R1.3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H060/Direct/R1.2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for Workflow Tools and R1.2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H060/Indirect/F2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Workflow Tools and F2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H060/Indirect/F3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Workflow Tools and F3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H060/Indirect/I3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Workflow Tools and I3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H060/Indirect/R1.1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Workflow Tools and R1.1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H060/Indirect/R1.3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Workflow Tools and R1.3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H063/Indirect/A1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Incident Management and A1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H063/Indirect/A2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Incident Management and A2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H063/Indirect/R1.2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Incident Management and R1.2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H064/Indirect/F2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Collaboration Tools and F2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H064/Indirect/I2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Collaboration Tools and I2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H064/Indirect/R1.3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Collaboration Tools and R1.3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H065/Indirect/A1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Developer Support Tools and A1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H065/Indirect/I1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Developer Support Tools and I1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H065/Indirect/R1.2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Developer Support Tools and R1.2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H065/Indirect/R1.3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Developer Support Tools and R1.3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H066/Indirect/R1.3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Communications Plan and R1.3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H068/Indirect/A1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Business Intelligence Tools and A1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H068/Indirect/F2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Business Intelligence Tools and F2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H068/Indirect/R1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Business Intelligence Tools and R1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H069/Indirect/A1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for MPP Shared-Nothing Technologies and A1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H070/Direct/A1",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical direct proposal for In-memory Computing and Databases and A1; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H070/Indirect/F4",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for In-memory Computing and Databases and F4; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H071/Indirect/R1.2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for In-database Algorithms and R1.2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H072/Indirect/R1.2",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Statistical Computing and Graphical Languages and R1.2; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ],
+  [
+    "urn:fair-dama-fairmm:alignment:tool-principle/H072/Indirect/R1.3",
+    "urn:fair-dama-fairmm:historical-mapping:1.1.0",
+    "Retains the historical indirect proposal for Statistical Computing and Graphical Languages and R1.3; no additional causal claim is introduced.",
+    "c8cad12cbf15e01eb14f47d244f9ff507dfb42cab3f713bd0215b7af9b749349"
+  ]
+]

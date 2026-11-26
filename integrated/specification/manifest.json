@@ -1,0 +1,78 @@
+{
+  "pack_version": "1.0.0",
+  "architecture_baseline": "1.4.0",
+  "adr_count": 13,
+  "status": "implementation specification; source reconciliation pending",
+  "files": [
+    {
+      "path": "ACCEPTANCE_CRITERIA.md",
+      "sha256": "c5293651164e6e02b41a8539596389631a0e009f5894414c8f0f6c1474e26cc8",
+      "bytes": 1620
+    },
+    {
+      "path": "ADR_REGISTER_v1.4.0.md",
+      "sha256": "5b5f4de9d95f21627ec1ca559e5316592d353f7c1302bed6f4dc173b3a0adb75",
+      "bytes": 3577
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "28fa848d79e7560acb001f081ba40c9b6dd32a885fa3995a3da65cdad5917e38",
+      "bytes": 2188
+    },
+    {
+      "path": "ARCHITECTURE_v1.4.0.md",
+      "sha256": "aee573e32024041fdfab885f4394989454874140f6b2b6cd509969818a30c74c",
+      "bytes": 3306
+    },
+    {
+      "path": "CODEX_BOOTSTRAP_PROMPT.md",
+      "sha256": "5d6a4e3fb0ddc4d3abf5d2d78729cec1b997be5ce1674611618defd0368cf050",
+      "bytes": 1770
+    },
+    {
+      "path": "COMPETENCY_QUESTIONS.md",
+      "sha256": "f452099bee00d6b006aeb6162872af5579a63f342f83d084b01390239a5a9e68",
+      "bytes": 2474
+    },
+    {
+      "path": "DAMA_FAIR_Tools_Infrastructure_Mapping_v1.1.0.md",
+      "sha256": "f004d79e09dfa6fdb7f15c6e2471aa04d3c77b29db841a8c2363bce0e5a0583f",
+      "bytes": 17428
+    },
+    {
+      "path": "EXECUTION_PLAN_v1.0.0.md",
+      "sha256": "074cfc129fa8adbef393b79c256bc611070272d4785b3043d0db0f60581ea751",
+      "bytes": 4940
+    },
+    {
+      "path": "MERGE_SPECIFICATION.md",
+      "sha256": "5939244171ab727ec18316164332575677ca6e01dfccc5ac35a22596f1cd16ae",
+      "bytes": 2872
+    },
+    {
+      "path": "NAMESPACE_POLICY.md",
+      "sha256": "b5fe5f1fcd4aa2d45962a1a7e24e4be789fd60302e690867509bc2f3b1b955a8",
+      "bytes": 1068
+    },
+    {
+      "path": "ONTOLOGY_INVENTORY.md",
+      "sha256": "3ebf6f780cf796d26017495661618f56802576b49f5717a3882a3bdeb90e4058",
+      "bytes": 2228
+    },
+    {
+      "path": "README.md",
+      "sha256": "5942b410a0e3902156e06e89ca045941aa091cb919febc499bb9e66242e5b1f4",
+      "bytes": 1649
+    },
+    {
+      "path": "REQUIREMENTS_v1.0.0.md",
+      "sha256": "23823f91ca3d9cbdff28771dec47aea1a0f32566eb1a81295756304523e9b5e6",
+      "bytes": 2430
+    },
+    {
+      "path": "TEST_STRATEGY.md",
+      "sha256": "bee505a25b531ba5c530c83fc6779e50b1dd9af7c72990725cca679b53db929e",
+      "bytes": 2081
+    }
+  ]
+}

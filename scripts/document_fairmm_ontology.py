@@ -30,6 +30,8 @@ The FAIRMM ontology follows the existing FAIR–DAMA patterns: named individuals
 
 ![FAIRMM ontology structure](assets/images/fairmm-ontology.svg)
 
+For the accepted integrated asserted distribution and source/provenance dataset, see [Integrated ontology](integrated/index.md). The module tables and existing diagrams below describe the documentary model.
+
 ## Download the modules
 
 '''+table(['Module','Triples','Contents'],rows)+'''

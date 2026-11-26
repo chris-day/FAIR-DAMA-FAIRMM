@@ -1,7 +1,7 @@
 """Check graph-policy boundaries, host drift rejection and host/site copies."""
 import json,tempfile,shutil,hashlib
 from pathlib import Path
-from rdflib import Graph
+from rdflib import Graph,RDF,URIRef
 from rdflib.compare import isomorphic
 from graph_views import load,ROOT
 import verify_host_sources
@@ -13,7 +13,8 @@ def main():
         if not ok:raise AssertionError(name)
     result=verify_host_sources.verify();check('All nine host source modules match pinned originals',result['checked']==9)
     asserted=load('integrated-asserted');check('Asserted graph equals accepted semantic baseline',len(asserted)==95008 and isomorphic(asserted,Graph().parse(ROOT/'baseline/g4-approved-asserted.ttl')))
-    documentary=load('documentary');check('Historical documentary graph retains its distinct scope',len(documentary)==78582 and len(documentary)!=len(asserted))
+    documentary=load('documentary');cumulative=URIRef('urn:fair-dama-fairmm:alignment:CumulativeAssociation')
+    check('Historical documentary graph retains derived associations outside the asserted scope',len(set(documentary.subjects(RDF.type,cumulative)))==127 and not list(asserted.subjects(RDF.type,cumulative)))
     dataset=load('source-provenance');check('Released dataset default is empty and union disabled',not dataset.default_union and len(dataset.default_context)==0)
     manifest=json.loads((ROOT/'dist/merge-manifest.jsonld').read_text());check('Dataset preserves sixteen source graphs',len(manifest['source_graphs'])==16)
     baseline=ROOT.parent/'releases/integrated/1.0.0-rc.1/FAIR-DAMA-Integrated-1.0.0-rc.1.zip';expected=json.loads((ROOT/'integration-provenance.json').read_text())['accepted_candidate_sha256'];check('Accepted archive is unchanged',hashlib.sha256(baseline.read_bytes()).hexdigest()==expected)

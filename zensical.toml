@@ -1,6 +1,9 @@
 [project]
 site_name = "FAIR-DAMA-FAIRMM"
 site_description = "Independent documentary crosswalk between FAIR-DAMA and FAIR Maturity Matrix v1.2.5."
+site_url = "https://fair-dama-fairmm.perdl.com/"
+repo_url = "https://github.com/chris-day/FAIR-DAMA-FAIRMM"
+copyright = 'Source and licence notices appear on the relevant pages · <a href="#__consent">Change cookie settings</a>'
 nav = [
   { "Home" = "index.md" },
   { "16 November source refresh" = "source-refresh.md" },
@@ -26,10 +29,36 @@ nav = [
   { "Integrated ontology" = "integrated/index.md" },
   { "Integrated build and recovery" = "integrated/operations.md" },
   { "Integrated licences" = "integrated/licences.md" },
+  { "Privacy choices" = "privacy.md" },
 ]
 
 [project.theme]
+favicon = "assets/images/favicon.png"
 font = false
 
 [project.extra]
 generator = false
+
+[project.extra.consent]
+title = "Privacy choices"
+description = """
+  This site saves your cookie choice in your browser. If you allow GitHub repository
+  details, the site may request public information from GitHub. Interactive Sankey
+  diagrams load D3 from jsDelivr only when you choose to open one; that request is
+  separate from this setting. This site does not use analytics.
+"""
+actions = ["accept", "reject", "manage"]
+
+[project.extra.consent.cookies]
+github = { name = "GitHub repository details", checked = false }
+
+[project.plugins.llmstxt]
+markdown_description = "Documentation of proposed DAMA to FAIR Maturity Matrix alignments, source evidence, and interactive diagrams."
+full_output = "llms-full.txt"
+
+[project.plugins.llmstxt.sections]
+"Project and sources" = ["index.md", "source-refresh.md", "fairmm/index.md"]
+"High-level connections" = ["high-level-connections/index.md", "high-level-connections/dama-fair-principles/index.md", "high-level-connections/dama-fairmm-dimensions/index.md", "high-level-connections/dimensions-levels/index.md", "high-level-connections/personas-activities-outcomes/index.md", "high-level-connections/dama-levels/index.md"]
+"Alignment diagrams and analysis" = ["sankey/index.md", "tools-personas/index.md", "levels/index.md", "levels/analysis.md"]
+"FAIRMM dimensions and review" = ["fairmm/areas.md", "fairmm/dimensions.md", "fairmm/d1.md", "fairmm/d2.md", "fairmm/d3.md", "fairmm/d4.md", "fairmm/d5.md", "fairmm/d6.md", "fairmm/d7.md", "fairmm/personas.md", "fairmm/persona-relationships.md", "fairmm/review.md"]
+"Ontology and privacy" = ["ontology.md", "privacy.md"]

@@ -48,7 +48,7 @@ The supplied inputs, extracted package and workbook snapshot are under `sources/
 
 Original 45-dimension / 22-onset / 107-cumulative baselines and the previous corpus remain under `results/history/pre-2026-11-16-refresh/`. The historical corpus was pinned to FAIR-DAMA revision 438ad2d0c6be3c336254fe3ce6a5d93f111db8a0. The supplied release is not misattributed to the current source checkout. FAIRMM remains on FAIR-MM-V1.2.5, revision 8ff4676eb340b0da5034ffb3d0e901c594c3cfc4.
 
-The original proposal is historical planning material; its proposed incorporation into FAIR-DAMA has not been executed. This project remains separate. The historical documentary workflow does not perform SHACL or an operational pilot. The integrated component adds local SHACL/OWL and recovery validation; push and deployment remain outside this local integration. Preserve component attribution and licensing notices, including DAMA International source-image copyright and the scoped FAIRMM notices.
+The original proposal is historical planning material; its proposed incorporation into FAIR-DAMA has not been executed. This project remains separate. No SHACL or operational pilot is included. Documentation deployment is configured in `.github/workflows/docs.yml`. Preserve component attribution and licensing notices, including DAMA International source-image copyright and the scoped FAIRMM notices.
 
 ## Integrated ontology component
 

@@ -1,0 +1,12 @@
+{
+  "hosted_run": "https://github.com/chris-day/FAIR-DAMA-FAIRMM/actions/runs/45880269522",
+  "source_revision": "f567f3e64bdd7f99ce198d1562b8b77986491c8f",
+  "candidate_sha256": "a759f9aa8c0a3fd1d074b48ed490aca5abf01ae25ef6a58aefb2d30ba1443103",
+  "integration_checks": 156,
+  "asserted_triples": 95008,
+  "source_and_provenance_graphs_compared": 17,
+  "semantic_equivalence_to_accepted_baseline": true,
+  "all_archive_payload_hashes_verified": true,
+  "accepted_baseline_unchanged": true,
+  "date": "2026-11-26"
+}

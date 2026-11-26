@@ -1,0 +1,1726 @@
+[
+  {
+    "id": "H001",
+    "section": "1. Purpose and semantic scope",
+    "line": 19,
+    "cells": [
+      "Ontology",
+      "Semantic responsibility"
+    ],
+    "disposition": "header"
+  },
+  {
+    "id": "H002",
+    "section": "1. Purpose and semantic scope",
+    "line": 21,
+    "cells": [
+      "DAMA",
+      "Data management knowledge areas, activities and supporting tools"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H003",
+    "section": "1. Purpose and semantic scope",
+    "line": 22,
+    "cells": [
+      "FAIR",
+      "Canonical FAIR Data Principles"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H004",
+    "section": "1. Purpose and semantic scope",
+    "line": 23,
+    "cells": [
+      "FAIR-MM",
+      "Organisational maturity dimensions and levels"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H005",
+    "section": "2. FAIR-MM maturity levels",
+    "line": 31,
+    "cells": [
+      "Level",
+      "Name",
+      "D7 capability progression"
+    ],
+    "disposition": "header"
+  },
+  {
+    "id": "H006",
+    "section": "2. FAIR-MM maturity levels",
+    "line": 33,
+    "cells": [
+      "L0",
+      "Life is unFAIR",
+      "Ad hoc tooling, fragmented infrastructure and unstructured capture"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H007",
+    "section": "2. FAIR-MM maturity levels",
+    "line": 34,
+    "cells": [
+      "L1",
+      "Started the FAIR journey",
+      "Tool inventory, initial metadata centralisation, planned proofs of concept"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H008",
+    "section": "2. FAIR-MM maturity levels",
+    "line": 35,
+    "cells": [
+      "L2",
+      "Getting FAIR",
+      "Working proofs of concept, metadata publication, persistent identifiers and controlled vocabularies"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H009",
+    "section": "2. FAIR-MM maturity levels",
+    "line": 36,
+    "cells": [
+      "L3",
+      "Pretty FAIR",
+      "Established tooling, prospective FAIRification, reference models and rollout"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H010",
+    "section": "2. FAIR-MM maturity levels",
+    "line": 37,
+    "cells": [
+      "L4",
+      "Really FAIR",
+      "Enterprise-wide implementation, semantic models, APIs and automated exploration"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H011",
+    "section": "2. FAIR-MM maturity levels",
+    "line": 38,
+    "cells": [
+      "L5",
+      "FAIRest of them all",
+      "Automated FAIRification, lifecycle validation, machine-actionability, federation and community leadership"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H012",
+    "section": "3.1 Findability and metadata management",
+    "line": 44,
+    "cells": [
+      "DAMA Tool",
+      "Direct FAIR Principles",
+      "Indirect FAIR Principles",
+      "FAIR-MM Level"
+    ],
+    "disposition": "header"
+  },
+  {
+    "id": "H013",
+    "section": "3.1 Findability and metadata management",
+    "line": 46,
+    "cells": [
+      "Metadata Repositories",
+      "F2, F3, F4, R1",
+      "F1, A1, A2, I1, I2, I3, R1.2, R1.3",
+      "L1–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H014",
+    "section": "3.1 Findability and metadata management",
+    "line": 47,
+    "cells": [
+      "Metadata Repository Management Tools",
+      "F2, F3, F4, R1",
+      "F1, A1, A2, I1, I2, I3, R1.2, R1.3",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H015",
+    "section": "3.1 Findability and metadata management",
+    "line": 48,
+    "cells": [
+      "Metadata Repositories in other Tools",
+      "F2, F3, R1",
+      "F4, I1, I2, I3, R1.2",
+      "L1–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H016",
+    "section": "3.1 Findability and metadata management",
+    "line": 49,
+    "cells": [
+      "Business Glossary Tools",
+      "I2*",
+      "F2, F4, I1, I3, R1, R1.3",
+      "L1–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H017",
+    "section": "3.1 Findability and metadata management",
+    "line": 50,
+    "cells": [
+      "Asset Management Software",
+      "F4*",
+      "F1, F2, F3, A1, R1",
+      "L1–L4"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H018",
+    "section": "3.1 Findability and metadata management",
+    "line": 51,
+    "cells": [
+      "Knowledge Management and Metadata Repositories",
+      "F2, F4",
+      "F3, A1, I2, R1, R1.3",
+      "L1–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H019",
+    "section": "3.1 Findability and metadata management",
+    "line": 52,
+    "cells": [
+      "Metadata Tracking",
+      "R1.2*",
+      "F2, F3, A2, R1",
+      "L3–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H020",
+    "section": "3.1 Findability and metadata management",
+    "line": 53,
+    "cells": [
+      "Data Enrichment",
+      "F2, R1",
+      "F3, I2, I3, R1.2, R1.3",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H021",
+    "section": "3.2 Accessibility and security",
+    "line": 57,
+    "cells": [
+      "DAMA Tool",
+      "Direct FAIR Principles",
+      "Indirect FAIR Principles",
+      "FAIR-MM Level"
+    ],
+    "disposition": "header"
+  },
+  {
+    "id": "H022",
+    "section": "3.2 Accessibility and security",
+    "line": 59,
+    "cells": [
+      "Identity Management Technology",
+      "A1.2",
+      "A1",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H023",
+    "section": "3.2 Accessibility and security",
+    "line": 60,
+    "cells": [
+      "Webpage Security",
+      "A1.2*",
+      "A1",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H024",
+    "section": "3.2 Accessibility and security",
+    "line": 61,
+    "cells": [
+      "Anti-virus and Security Software",
+      "—",
+      "A1",
+      "L1–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H025",
+    "section": "3.2 Accessibility and security",
+    "line": 62,
+    "cells": [
+      "Intrusion Detection and Prevention Software",
+      "—",
+      "A1, A1.2",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H026",
+    "section": "3.2 Accessibility and security",
+    "line": 63,
+    "cells": [
+      "Firewalls",
+      "—",
+      "A1, A1.2",
+      "L1–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H027",
+    "section": "3.2 Accessibility and security",
+    "line": 64,
+    "cells": [
+      "Data Masking / Encryption",
+      "—",
+      "A1.2",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H028",
+    "section": "3.2 Accessibility and security",
+    "line": 65,
+    "cells": [
+      "Database Management Tools",
+      "A1*",
+      "F1, F4, A1.1, A1.2, A2",
+      "L1–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H029",
+    "section": "3.2 Accessibility and security",
+    "line": 66,
+    "cells": [
+      "Database Monitoring Tools",
+      "—",
+      "A1, A2",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H030",
+    "section": "3.2 Accessibility and security",
+    "line": 67,
+    "cells": [
+      "Operational Data Stores",
+      "A1*",
+      "F1, F3, F4, A2",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H031",
+    "section": "3.2 Accessibility and security",
+    "line": 68,
+    "cells": [
+      "Distributed File-based Databases",
+      "A1*",
+      "F1, F4, A2",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H032",
+    "section": "3.2 Accessibility and security",
+    "line": 69,
+    "cells": [
+      "Big Data Cloud Solutions",
+      "A1*",
+      "F4, A1.1, A1.2, A2",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H033",
+    "section": "3.2 Accessibility and security",
+    "line": 70,
+    "cells": [
+      "Data Sharing Hubs",
+      "F4, A1*",
+      "F1, F2, A1.1, A1.2, I1, R1.1",
+      "L3–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H034",
+    "section": "3.2 Accessibility and security",
+    "line": 71,
+    "cells": [
+      "Websites",
+      "A1, A1.1*",
+      "F4, F2, A2, R1.1",
+      "L1–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H035",
+    "section": "3.3 Semantic interoperability and modelling",
+    "line": 75,
+    "cells": [
+      "DAMA Tool",
+      "Direct FAIR Principles",
+      "Indirect FAIR Principles",
+      "FAIR-MM Level"
+    ],
+    "disposition": "header"
+  },
+  {
+    "id": "H036",
+    "section": "3.3 Semantic interoperability and modelling",
+    "line": 77,
+    "cells": [
+      "Data Modelling Tools",
+      "I1*",
+      "F2, F3, I2, I3, R1, R1.3",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H037",
+    "section": "3.3 Semantic interoperability and modelling",
+    "line": 78,
+    "cells": [
+      "Data and Process Modelling Tools",
+      "I1*",
+      "F2, I2, I3, R1.2, R1.3",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H038",
+    "section": "3.3 Semantic interoperability and modelling",
+    "line": 79,
+    "cells": [
+      "Controlled Vocabulary / Metadata Tool",
+      "I2*",
+      "F2, F4, I1, I3, R1, R1.3",
+      "L1–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H039",
+    "section": "3.3 Semantic interoperability and modelling",
+    "line": 80,
+    "cells": [
+      "Data Model Patterns",
+      "—",
+      "I1, I3, R1.3",
+      "L3–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H040",
+    "section": "3.3 Semantic interoperability and modelling",
+    "line": 81,
+    "cells": [
+      "Industry Data Models",
+      "R1.3*",
+      "I1, I2, I3",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H041",
+    "section": "3.3 Semantic interoperability and modelling",
+    "line": 82,
+    "cells": [
+      "Data Transformation Engine",
+      "I1*",
+      "F2, I2, I3, R1.2, R1.3",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H042",
+    "section": "3.3 Semantic interoperability and modelling",
+    "line": 83,
+    "cells": [
+      "Data Transformation and Standardisation",
+      "I1, R1.3*",
+      "F2, I2, I3, R1.2",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H043",
+    "section": "3.3 Semantic interoperability and modelling",
+    "line": 84,
+    "cells": [
+      "Data Parsing and Formatting",
+      "I1*",
+      "I2, R1.3",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H044",
+    "section": "3.3 Semantic interoperability and modelling",
+    "line": 85,
+    "cells": [
+      "Data Integration Tools",
+      "I1, I3*",
+      "F3, A1, I2, R1.2, R1.3",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H045",
+    "section": "3.3 Semantic interoperability and modelling",
+    "line": 86,
+    "cells": [
+      "Integration Tools",
+      "I1, I3*",
+      "F3, A1, I2, R1.2",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H046",
+    "section": "3.3 Semantic interoperability and modelling",
+    "line": 87,
+    "cells": [
+      "Data Virtualisation Server",
+      "A1*",
+      "F4, A1.1, A1.2, I1, I3",
+      "L3–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H047",
+    "section": "3.3 Semantic interoperability and modelling",
+    "line": 88,
+    "cells": [
+      "Enterprise Service Bus",
+      "A1*",
+      "A1.1, A1.2, I1, I3",
+      "L3–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H048",
+    "section": "3.3 Semantic interoperability and modelling",
+    "line": 89,
+    "cells": [
+      "MDM Application Platforms",
+      "F1, I3*",
+      "F2, F3, F4, I2, R1.2, R1.3",
+      "L1–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H049",
+    "section": "3.4 Reusability, provenance and content management",
+    "line": 93,
+    "cells": [
+      "DAMA Tool",
+      "Direct FAIR Principles",
+      "Indirect FAIR Principles",
+      "FAIR-MM Level"
+    ],
+    "disposition": "header"
+  },
+  {
+    "id": "H050",
+    "section": "3.4 Reusability, provenance and content management",
+    "line": 95,
+    "cells": [
+      "Lineage Tools",
+      "R1.2*",
+      "F3, I3, R1",
+      "L3–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H051",
+    "section": "3.4 Reusability, provenance and content management",
+    "line": 96,
+    "cells": [
+      "Document Management Tools",
+      "F2, F4*",
+      "F1, F3, A1, A2, R1.1, R1.2",
+      "L1–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H052",
+    "section": "3.4 Reusability, provenance and content management",
+    "line": 97,
+    "cells": [
+      "Enterprise Content Management System",
+      "F2, F4, A1*",
+      "F1, F3, A2, R1.1, R1.2",
+      "L1–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H053",
+    "section": "3.4 Reusability, provenance and content management",
+    "line": 98,
+    "cells": [
+      "Knowledge Management Wiki",
+      "F2, A1*",
+      "F4, I2, I3, R1",
+      "L1–L4"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H054",
+    "section": "3.4 Reusability, provenance and content management",
+    "line": 99,
+    "cells": [
+      "Wikis, Knowledge Bases, Intranet Sites",
+      "F2, A1*",
+      "F4, I2, I3, R1",
+      "L1–L4"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H055",
+    "section": "3.4 Reusability, provenance and content management",
+    "line": 100,
+    "cells": [
+      "E-discovery Technology",
+      "F4*",
+      "F2, F3, A1, R1.2",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H056",
+    "section": "3.4 Reusability, provenance and content management",
+    "line": 101,
+    "cells": [
+      "Data Remediation Tools",
+      "—",
+      "F2, I1, I2, R1, R1.3",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H057",
+    "section": "3.5 Validation, governance and assessment",
+    "line": 105,
+    "cells": [
+      "DAMA Tool",
+      "Direct FAIR Principles",
+      "Indirect FAIR Principles",
+      "FAIR-MM Level"
+    ],
+    "disposition": "header"
+  },
+  {
+    "id": "H058",
+    "section": "3.5 Validation, governance and assessment",
+    "line": 107,
+    "cells": [
+      "Data Profiling Tools",
+      "—",
+      "F2, R1, R1.3",
+      "L1–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H059",
+    "section": "3.5 Validation, governance and assessment",
+    "line": 108,
+    "cells": [
+      "Business Rules Engine",
+      "—",
+      "F2, F3, I1, I2, I3, R1, R1.3",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H060",
+    "section": "3.5 Validation, governance and assessment",
+    "line": 109,
+    "cells": [
+      "Workflow Tools",
+      "R1.2*",
+      "F2, F3, I3, R1.1, R1.3",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H061",
+    "section": "3.5 Validation, governance and assessment",
+    "line": 110,
+    "cells": [
+      "Data Governance Scorecards",
+      "—",
+      "All 15 principles, where measured",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H062",
+    "section": "3.5 Validation, governance and assessment",
+    "line": 111,
+    "cells": [
+      "Data Management Maturity Frameworks",
+      "—",
+      "All 15 principles, where assessed",
+      "L1–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H063",
+    "section": "3.5 Validation, governance and assessment",
+    "line": 112,
+    "cells": [
+      "Incident Management",
+      "—",
+      "A1, A2, R1.2",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H064",
+    "section": "3.5 Validation, governance and assessment",
+    "line": 113,
+    "cells": [
+      "Collaboration Tools",
+      "—",
+      "F2, I2, R1.3",
+      "L1–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H065",
+    "section": "3.5 Validation, governance and assessment",
+    "line": 114,
+    "cells": [
+      "Developer Support Tools",
+      "—",
+      "A1, I1, R1.2, R1.3",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H066",
+    "section": "3.5 Validation, governance and assessment",
+    "line": 115,
+    "cells": [
+      "Communications Plan",
+      "—",
+      "R1.3*",
+      "L1–L4"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H067",
+    "section": "3.6 Analytical and supporting infrastructure",
+    "line": 119,
+    "cells": [
+      "DAMA Tool",
+      "Direct FAIR Principles",
+      "Indirect FAIR Principles",
+      "FAIR-MM Level"
+    ],
+    "disposition": "header"
+  },
+  {
+    "id": "H068",
+    "section": "3.6 Analytical and supporting infrastructure",
+    "line": 121,
+    "cells": [
+      "Business Intelligence Tools",
+      "—",
+      "F2, A1, R1",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H069",
+    "section": "3.6 Analytical and supporting infrastructure",
+    "line": 122,
+    "cells": [
+      "MPP Shared-Nothing Technologies",
+      "—",
+      "A1",
+      "L3–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H070",
+    "section": "3.6 Analytical and supporting infrastructure",
+    "line": 123,
+    "cells": [
+      "In-memory Computing and Databases",
+      "A1*",
+      "F4",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H071",
+    "section": "3.6 Analytical and supporting infrastructure",
+    "line": 124,
+    "cells": [
+      "In-database Algorithms",
+      "—",
+      "R1.2",
+      "L3–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H072",
+    "section": "3.6 Analytical and supporting infrastructure",
+    "line": 125,
+    "cells": [
+      "Statistical Computing and Graphical Languages",
+      "—",
+      "R1.2, R1.3",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H073",
+    "section": "3.6 Analytical and supporting infrastructure",
+    "line": 126,
+    "cells": [
+      "Data Visualisation Tools",
+      "—",
+      "F2, R1",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H074",
+    "section": "3.6 Analytical and supporting infrastructure",
+    "line": 127,
+    "cells": [
+      "Graphical Design Applications",
+      "—",
+      "F2, R1",
+      "L1–L3"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H075",
+    "section": "3.6 Analytical and supporting infrastructure",
+    "line": 128,
+    "cells": [
+      "Office Productivity Software",
+      "—",
+      "F2, R1",
+      "L0–L3"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H076",
+    "section": "3.6 Analytical and supporting infrastructure",
+    "line": 129,
+    "cells": [
+      "Visual Media Tool",
+      "—",
+      "F2, R1",
+      "L1–L3"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H077",
+    "section": "3.6 Analytical and supporting infrastructure",
+    "line": 130,
+    "cells": [
+      "Social Media",
+      "—",
+      "F4",
+      "L1–L3"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H078",
+    "section": "3.6 Analytical and supporting infrastructure",
+    "line": 131,
+    "cells": [
+      "Microblogs and Internal Communication Tools",
+      "—",
+      "F4, R1",
+      "L1–L3"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H079",
+    "section": "4. FAIR-specific tooling extensions",
+    "line": 137,
+    "cells": [
+      "Proposed FAIR Tool",
+      "Direct FAIR Principles",
+      "Indirect FAIR Principles",
+      "FAIR-MM Level"
+    ],
+    "disposition": "header"
+  },
+  {
+    "id": "H080",
+    "section": "4. FAIR-specific tooling extensions",
+    "line": 139,
+    "cells": [
+      "Persistent Identifier Service",
+      "F1",
+      "F3, F4, A1",
+      "L1–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H081",
+    "section": "4. FAIR-specific tooling extensions",
+    "line": 140,
+    "cells": [
+      "Identifier Resolution Service",
+      "A1, A1.1",
+      "F1, F3",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H082",
+    "section": "4. FAIR-specific tooling extensions",
+    "line": 141,
+    "cells": [
+      "Metadata Catalogue and Registry",
+      "F4",
+      "F1, F2, F3, R1",
+      "L1–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H083",
+    "section": "4. FAIR-specific tooling extensions",
+    "line": 142,
+    "cells": [
+      "FAIR Data Point",
+      "F2, F3, F4, A1*",
+      "A2, I1, I2, I3, R1",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H084",
+    "section": "4. FAIR-specific tooling extensions",
+    "line": 143,
+    "cells": [
+      "FAIR Data Service",
+      "A1, A1.1, A1.2*",
+      "F1, I1, I3, R1",
+      "L3–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H085",
+    "section": "4. FAIR-specific tooling extensions",
+    "line": 144,
+    "cells": [
+      "Metadata Preservation Service",
+      "A2",
+      "F1, F3, A1",
+      "L3–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H086",
+    "section": "4. FAIR-specific tooling extensions",
+    "line": 145,
+    "cells": [
+      "Ontology Engineering Tool",
+      "I1*",
+      "I2, I3, R1.3",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H087",
+    "section": "4. FAIR-specific tooling extensions",
+    "line": 146,
+    "cells": [
+      "FAIR Vocabulary Registry",
+      "I2, F4*",
+      "F1, F2, I1, R1.3",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H088",
+    "section": "4. FAIR-specific tooling extensions",
+    "line": 147,
+    "cells": [
+      "Semantic Mapping Tool",
+      "I1, I3*",
+      "I2, R1.3",
+      "L3–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H089",
+    "section": "4. FAIR-specific tooling extensions",
+    "line": 148,
+    "cells": [
+      "Data Licensing Service",
+      "R1.1",
+      "A1.2, R1",
+      "L3–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H090",
+    "section": "4. FAIR-specific tooling extensions",
+    "line": 149,
+    "cells": [
+      "Provenance Management Service",
+      "R1.2",
+      "F2, I3, R1",
+      "L3–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H091",
+    "section": "4. FAIR-specific tooling extensions",
+    "line": 150,
+    "cells": [
+      "Community Standards Registry",
+      "F4",
+      "I1, I2, R1.3",
+      "L3–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H092",
+    "section": "4. FAIR-specific tooling extensions",
+    "line": 151,
+    "cells": [
+      "FAIR Implementation Profile Registry",
+      "F4",
+      "All 15 principles",
+      "L4–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H093",
+    "section": "4. FAIR-specific tooling extensions",
+    "line": 152,
+    "cells": [
+      "SHACL Validation Tool",
+      "—",
+      "All applicable, testable principles",
+      "L3–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H094",
+    "section": "4. FAIR-specific tooling extensions",
+    "line": 153,
+    "cells": [
+      "FAIR Assessment Tool",
+      "—",
+      "All 15 principles",
+      "L2–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H095",
+    "section": "4. FAIR-specific tooling extensions",
+    "line": 154,
+    "cells": [
+      "Automated FAIRification Platform",
+      "All implemented principles*",
+      "All assessed or enabled principles",
+      "L4–L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H096",
+    "section": "4. FAIR-specific tooling extensions",
+    "line": 155,
+    "cells": [
+      "FAIR Federation Infrastructure",
+      "F4, A1, A1.1*",
+      "F1, A1.2, I1, I2, I3, R1.3",
+      "L5"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H097",
+    "section": "5. FAIR-MM capability evolution",
+    "line": 161,
+    "cells": [
+      "Capability",
+      "L0",
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L5"
+    ],
+    "disposition": "header"
+  },
+  {
+    "id": "H098",
+    "section": "5. FAIR-MM capability evolution",
+    "line": 163,
+    "cells": [
+      "Office productivity",
+      "P",
+      "E",
+      "E",
+      "P",
+      "P",
+      "P"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H099",
+    "section": "5. FAIR-MM capability evolution",
+    "line": 164,
+    "cells": [
+      "Metadata management",
+      "—",
+      "P",
+      "E",
+      "E",
+      "M",
+      "M"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H100",
+    "section": "5. FAIR-MM capability evolution",
+    "line": 165,
+    "cells": [
+      "Persistent identifiers",
+      "—",
+      "P",
+      "E",
+      "E",
+      "M",
+      "M"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H101",
+    "section": "5. FAIR-MM capability evolution",
+    "line": 166,
+    "cells": [
+      "Controlled vocabularies",
+      "—",
+      "P",
+      "E",
+      "E",
+      "M",
+      "M"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H102",
+    "section": "5. FAIR-MM capability evolution",
+    "line": 167,
+    "cells": [
+      "Authentication & authorisation",
+      "—",
+      "—",
+      "P",
+      "E",
+      "M",
+      "M"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H103",
+    "section": "5. FAIR-MM capability evolution",
+    "line": 168,
+    "cells": [
+      "FAIR Data Points",
+      "—",
+      "—",
+      "P",
+      "E",
+      "M",
+      "M"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H104",
+    "section": "5. FAIR-MM capability evolution",
+    "line": 169,
+    "cells": [
+      "Semantic modelling",
+      "—",
+      "—",
+      "P",
+      "E",
+      "M",
+      "M"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H105",
+    "section": "5. FAIR-MM capability evolution",
+    "line": 170,
+    "cells": [
+      "Metadata preservation",
+      "—",
+      "—",
+      "—",
+      "E",
+      "M",
+      "M"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H106",
+    "section": "5. FAIR-MM capability evolution",
+    "line": 171,
+    "cells": [
+      "Licensing",
+      "—",
+      "—",
+      "—",
+      "E",
+      "M",
+      "M"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H107",
+    "section": "5. FAIR-MM capability evolution",
+    "line": 172,
+    "cells": [
+      "Provenance management",
+      "—",
+      "—",
+      "—",
+      "E",
+      "M",
+      "M"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H108",
+    "section": "5. FAIR-MM capability evolution",
+    "line": 173,
+    "cells": [
+      "FAIR assessment",
+      "—",
+      "—",
+      "E",
+      "E",
+      "M",
+      "M"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H109",
+    "section": "5. FAIR-MM capability evolution",
+    "line": 174,
+    "cells": [
+      "FAIR Implementation Profiles",
+      "—",
+      "—",
+      "—",
+      "—",
+      "E",
+      "M"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H110",
+    "section": "5. FAIR-MM capability evolution",
+    "line": 175,
+    "cells": [
+      "Automated FAIRification",
+      "—",
+      "—",
+      "—",
+      "P",
+      "E",
+      "M"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H111",
+    "section": "5. FAIR-MM capability evolution",
+    "line": 176,
+    "cells": [
+      "Lifecycle FAIR validation",
+      "—",
+      "—",
+      "—",
+      "P",
+      "E",
+      "M"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H112",
+    "section": "5. FAIR-MM capability evolution",
+    "line": 177,
+    "cells": [
+      "FAIR federation",
+      "—",
+      "—",
+      "—",
+      "—",
+      "P",
+      "M"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H113",
+    "section": "6. Example: Metadata Repository maturity progression",
+    "line": 181,
+    "cells": [
+      "FAIR-MM Level",
+      "Metadata Repository capability",
+      "FAIR Principles supported"
+    ],
+    "disposition": "header"
+  },
+  {
+    "id": "H114",
+    "section": "6. Example: Metadata Repository maturity progression",
+    "line": 183,
+    "cells": [
+      "L0",
+      "Fragmented, unstructured metadata",
+      "None assured"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H115",
+    "section": "6. Example: Metadata Repository maturity progression",
+    "line": 184,
+    "cells": [
+      "L1",
+      "Centralised metadata collection",
+      "F2"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H116",
+    "section": "6. Example: Metadata Repository maturity progression",
+    "line": 185,
+    "cells": [
+      "L2",
+      "Structured metadata, identifier association and searchable catalogues",
+      "F1, F2, F3, F4"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H117",
+    "section": "6. Example: Metadata Repository maturity progression",
+    "line": 186,
+    "cells": [
+      "L3",
+      "Governed templates, prospective metadata capture and provenance",
+      "F1–F4, I2, R1, R1.2"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H118",
+    "section": "6. Example: Metadata Repository maturity progression",
+    "line": 187,
+    "cells": [
+      "L4",
+      "Semantic metadata, standardised APIs and enterprise-wide publication",
+      "F1–F4, A1, A1.1, I1–I3, R1–R1.3"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H119",
+    "section": "6. Example: Metadata Repository maturity progression",
+    "line": 188,
+    "cells": [
+      "L5",
+      "Automated, federated, validated and persistently accessible metadata",
+      "Potentially all 15 principles"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H120",
+    "section": "7.1 Proposed ontology properties",
+    "line": 218,
+    "cells": [
+      "Property",
+      "Domain",
+      "Range"
+    ],
+    "disposition": "header"
+  },
+  {
+    "id": "H121",
+    "section": "7.1 Proposed ontology properties",
+    "line": 220,
+    "cells": [
+      "`hasMaturityContribution`",
+      "DAMA Tool",
+      "Tool Maturity Contribution"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H122",
+    "section": "7.1 Proposed ontology properties",
+    "line": 221,
+    "cells": [
+      "`forTool`",
+      "Tool Maturity Contribution",
+      "DAMA Tool"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H123",
+    "section": "7.1 Proposed ontology properties",
+    "line": 222,
+    "cells": [
+      "`forDimension`",
+      "Tool Maturity Contribution",
+      "FAIR-MM Dimension"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H124",
+    "section": "7.1 Proposed ontology properties",
+    "line": 223,
+    "cells": [
+      "`supportsMaturityLevel`",
+      "Tool Maturity Contribution",
+      "FAIR-MM Level"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H125",
+    "section": "7.1 Proposed ontology properties",
+    "line": 224,
+    "cells": [
+      "`directlySupportsFAIRPrinciple`",
+      "Tool Maturity Contribution",
+      "FAIR Data Principle"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H126",
+    "section": "7.1 Proposed ontology properties",
+    "line": 225,
+    "cells": [
+      "`indirectlySupportsFAIRPrinciple`",
+      "Tool Maturity Contribution",
+      "FAIR Data Principle"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H127",
+    "section": "7.1 Proposed ontology properties",
+    "line": 226,
+    "cells": [
+      "`requiresCapability`",
+      "Tool Maturity Contribution",
+      "Capability"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H128",
+    "section": "7.1 Proposed ontology properties",
+    "line": 227,
+    "cells": [
+      "`hasSupportingEvidence`",
+      "Tool Maturity Contribution",
+      "Evidence"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H129",
+    "section": "7.1 Proposed ontology properties",
+    "line": 228,
+    "cells": [
+      "`hasImplementationCondition`",
+      "Tool Maturity Contribution",
+      "Implementation Condition"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H130",
+    "section": "8. Authoritative source alignment",
+    "line": 272,
+    "cells": [
+      "Source",
+      "Purpose"
+    ],
+    "disposition": "header"
+  },
+  {
+    "id": "H131",
+    "section": "8. Authoritative source alignment",
+    "line": 274,
+    "cells": [
+      "[DAMA Segments v1.18.0](https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/DAMA_Segments_High_Level_v1.18.0.md)",
+      "DAMA Tool catalogue"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H132",
+    "section": "8. Authoritative source alignment",
+    "line": 275,
+    "cells": [
+      "[DAMA Ontology](https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl)",
+      "DAMA conceptual model"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H133",
+    "section": "8. Authoritative source alignment",
+    "line": 276,
+    "cells": [
+      "[DAMA–FAIR Mapping Ontology](https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl)",
+      "Existing mapping layer"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H134",
+    "section": "8. Authoritative source alignment",
+    "line": 277,
+    "cells": [
+      "[FAIR Ontology](https://peta-pico.github.io/FAIR-nanopubs/principles/ontology.ttl)",
+      "Canonical FAIR principles"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H135",
+    "section": "8. Authoritative source alignment",
+    "line": 278,
+    "cells": [
+      "[FAIR-MM Dimension D7](https://github.com/chris-day/FAIR-Maturity-Matrix/blob/main/docs/fmm-d7.md)",
+      "Tools & Infrastructure dimension"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H136",
+    "section": "8. Authoritative source alignment",
+    "line": 279,
+    "cells": [
+      "[FAIR-MM Level 0](https://github.com/chris-day/FAIR-Maturity-Matrix/blob/main/docs/level0.md#level-0-fair-tools-and-infrastructures)",
+      "Ad hoc tooling"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H137",
+    "section": "8. Authoritative source alignment",
+    "line": 280,
+    "cells": [
+      "[FAIR-MM Level 1](https://github.com/chris-day/FAIR-Maturity-Matrix/blob/main/docs/level1.md#level-1-fair-tools-and-infrastructures)",
+      "Initial tooling"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H138",
+    "section": "8. Authoritative source alignment",
+    "line": 281,
+    "cells": [
+      "[FAIR-MM Level 2](https://github.com/chris-day/FAIR-Maturity-Matrix/blob/main/docs/level2.md#level-2-fair-tools-and-infrastructures)",
+      "Working implementations"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H139",
+    "section": "8. Authoritative source alignment",
+    "line": 282,
+    "cells": [
+      "[FAIR-MM Level 3](https://github.com/chris-day/FAIR-Maturity-Matrix/blob/main/docs/level3.md#level-3-fair-tools-and-infrastructures)",
+      "Established tooling"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H140",
+    "section": "8. Authoritative source alignment",
+    "line": 283,
+    "cells": [
+      "[FAIR-MM Level 4](https://github.com/chris-day/FAIR-Maturity-Matrix/blob/main/docs/level4.md#level-4-fair-tools-and-infrastructures)",
+      "Enterprise integration"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H141",
+    "section": "8. Authoritative source alignment",
+    "line": 284,
+    "cells": [
+      "[FAIR-MM Level 5](https://github.com/chris-day/FAIR-Maturity-Matrix/blob/main/docs/level5.md#level-5-fair-tools-and-infrastructures)",
+      "Automation and federation"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H142",
+    "section": "8. Authoritative source alignment",
+    "line": 285,
+    "cells": [
+      "[Wilkinson et al., 2016](https://doi.org/10.1038/sdata.2016.18)",
+      "Original FAIR guiding principles"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H143",
+    "section": "10. Version history",
+    "line": 310,
+    "cells": [
+      "Version",
+      "Change"
+    ],
+    "disposition": "header"
+  },
+  {
+    "id": "H144",
+    "section": "10. Version history",
+    "line": 312,
+    "cells": [
+      "1.0.0",
+      "Initial DAMA tool mapping to direct and indirect FAIR principles"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  },
+  {
+    "id": "H145",
+    "section": "10. Version history",
+    "line": 313,
+    "cells": [
+      "1.1.0",
+      "Added FAIR-MM D7 level associations, capability progression, maturity-specific contribution model and examples"
+    ],
+    "disposition": "retained historical proposal; semantic reconciliation pending; no RDF assertion created"
+  }
+]

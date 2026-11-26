@@ -1,0 +1,620 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dcterms:creator a owl:AnnotationProperty .
+
+dcterms:description a owl:AnnotationProperty .
+
+dcterms:hasPart a owl:ObjectProperty .
+
+dcterms:identifier a owl:AnnotationProperty .
+
+dcterms:license a owl:AnnotationProperty .
+
+dcterms:modified a owl:AnnotationProperty .
+
+dcterms:partOf a owl:AnnotationProperty .
+
+dcterms:rights a owl:AnnotationProperty .
+
+dcterms:source a owl:AnnotationProperty .
+
+dcterms:title a owl:AnnotationProperty .
+
+vann:preferredNamespacePrefix a owl:AnnotationProperty .
+
+vann:preferredNamespaceUri a owl:AnnotationProperty .
+
+<http://semanticscience.org/resource/000090> a owl:Class .
+
+skos:definition a owl:AnnotationProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#AreaAlignmentAssessment> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#DirectContribution> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#FAIRContribution> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#IndirectContribution> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#Practice> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#SourceActivity> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#alignedPrinciple> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#alignmentBasis> a owl:AnnotationProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#alignmentType> a owl:AnnotationProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#applicabilityCondition> a owl:AnnotationProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#assessmentStatus> a owl:AnnotationProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#deliverables> a owl:AnnotationProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#derivedFromActivity> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#directSupportExplanation> a owl:AnnotationProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#evidenceForPrinciple> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#evidenceRequirement> a owl:AnnotationProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#fromPractice> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#fromTopic> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#inKnowledgeArea> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#inTopic> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#indirectSupportExplanation> a owl:AnnotationProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#lifecycleCode> a owl:AnnotationProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#proposedApprovingPersona> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#proposedContributingPersona> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#proposedResponsiblePersona> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#rationale> a owl:AnnotationProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#relevantDeliverables> a owl:AnnotationProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#sourceRow> a owl:AnnotationProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#sourceWorksheet> a owl:AnnotationProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#targetsPrinciple> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#viaPractice> a owl:ObjectProperty .
+
+ns1:CatalogueOccurrence a owl:Class .
+
+ns1:CatalogueSection a owl:Class .
+
+ns1:DMBOK2-2017 a owl:NamedIndividual,
+        ns1:FrameworkEdition ;
+    rdfs:label "DAMA-DMBOK2 (2017)"@en ;
+    dcterms:hasPart ns1:DataArchitecture,
+        ns1:DataGovernance,
+        ns1:DataIntegrationAndInteroperability,
+        ns1:DataModelingAndDesign,
+        ns1:DataQualityManagement,
+        ns1:DataSecurity,
+        ns1:DataStorageAndOperations,
+        ns1:DataWarehousingAndBusinessIntelligence,
+        ns1:DocumentsAndContentManagement,
+        ns1:MetadataManagement,
+        ns1:ReferenceAndMasterDataManagement ;
+    rdfs:isDefinedBy <https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl> ;
+    ns1:hasAdditionalTopic ns1:BigDataAndDataScience,
+        ns1:DataHandlingEthics,
+        ns1:DataManagementMaturityAssessment .
+
+ns1:ToolCategory a owl:Class .
+
+ns1:catalogueCategory a owl:ObjectProperty .
+
+ns1:hasAdditionalTopic a owl:ObjectProperty ;
+    rdfs:label "has additional topic"@en ;
+    rdfs:domain ns1:FrameworkEdition ;
+    rdfs:range ns1:AdditionalTopic .
+
+ns1:inCatalogueSection a owl:ObjectProperty .
+
+ns1:sourceLabel a owl:DatatypeProperty .
+
+ns1:sourceLine a owl:DatatypeProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#Goal> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#Persona> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#Responsibility> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#Role> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#SourceTopic> a owl:Class .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#concernsPractice> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#consumerIn> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#correspondsToKnowledgeArea> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#correspondsToTopic> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#hasGoal> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#hasResponsibility> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#partiallyCorrespondsToKnowledgeArea> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#participantIn> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#reportedDirectFAIRPrinciple> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#reportedIndirectFAIRPrinciple> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#representsRole> a owl:ObjectProperty .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#supplierIn> a owl:ObjectProperty .
+
+<https://w3id.org/fair/principles/terms/FAIR> a owl:Class .
+
+<https://w3id.org/fair/principles/terms/FAIR-Principle> a owl:Class .
+
+<https://w3id.org/fair/principles/terms/FAIR-Principle-or-SubPrinciple> a owl:Class .
+
+<https://w3id.org/fair/principles/terms/FAIR-SubPrinciple> a owl:Class .
+
+<urn:capability-ontology:Capability> a owl:Class .
+
+<urn:capability-ontology:Evidence> a owl:Class .
+
+<urn:capability-ontology:Implementation> a owl:Class .
+
+<urn:capability-ontology:ImplementationCondition> a owl:Class .
+
+<urn:capability-ontology:Profile> a owl:Class .
+
+<urn:capability-ontology:Realisation> a owl:Class .
+
+<urn:capability-ontology:Requirement> a owl:Class .
+
+<urn:capability-ontology:Scope> a owl:Class .
+
+<urn:capability-ontology:VerificationState> a owl:Class .
+
+<urn:capability-ontology:forImplementation> a owl:ObjectProperty .
+
+<urn:capability-ontology:hasEvidence> a owl:ObjectProperty .
+
+<urn:capability-ontology:hasRequirement> a owl:ObjectProperty .
+
+<urn:capability-ontology:inScope> a owl:ObjectProperty .
+
+<urn:capability-ontology:rationale> a owl:AnnotationProperty .
+
+<urn:capability-ontology:realisesCapability> a owl:ObjectProperty .
+
+<urn:capability-ontology:requiresCapability> a owl:ObjectProperty .
+
+<urn:capability-ontology:requiresCondition> a owl:ObjectProperty .
+
+<urn:capability-ontology:verificationState> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:ActivityRoleOccurrence> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:Alignment> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:AreaRoleOccurrence> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:CapabilityInterpretation> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:CapabilityProgressionProposal> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:CapabilityProposal> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:CounterpartCandidate> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:CumulativeAssociation> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:DataRole> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:Deliverable> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:DerivationRule> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:Descriptor> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:DescriptorEvidence> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:DiagnosticReview> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:Dimension> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:DimensionAlignment> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:DirectAlignment> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:EvidenceRequirement> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:FrameworkVersion> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:HistoricalRow> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:IndirectAlignment> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:LevelAlignment> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:LevelReview> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:LifecycleReview> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:MaturityLevel> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:MaturityRangeProposal> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:OnsetAlignment> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:Persona> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:PersonaCorrespondence> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:Practice> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:PracticeBundle> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:RoleAssignmentCandidate> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:RoleCategory> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:SourceAssertion> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:SourceField> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:SourceKnowledgeArea> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:SourceSnapshot> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:SourceTopic> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:ToolPrincipleProposal> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:UnresolvedAlignmentCandidate> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:Version125Dimension> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:Version125MaturityLevel> a owl:Class .
+
+<urn:fair-dama-fairmm:alignment:aggregate> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:applicabilityCondition> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:areaRoleCategory> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:atLevel> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:candidateDimension> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:candidatePersona> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:concernsPractice> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:conditionalMarker> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:confidence> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:contributionType> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:damaCounterpart> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:dataRole> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:deploymentScope> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:deploymentVerificationStatus> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:derivationRule> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:derivedFromOnset> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:derivedFromSourceNode> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:disposition> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:evidenceStatus> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:existingContributionType> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:fairmmPersona> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:fieldHeading> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:firstSupportedLevel> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:forTool> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:frameworkPart> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:fromPractice> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:fullSourceBlock> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:hasCounterpart> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:hasDeliverable> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:hasDescriptor> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:hasDescriptorEvidence> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:hasInterpretation> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:hasPractice> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:hasRoleAssignmentCandidate> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:hasRoleOccurrence> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:hasSourceField> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:historicalRow> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:inDimension> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:inFrameworkVersion> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:inKnowledgeArea> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:inPractice> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:inSourceTopic> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:inherited> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:levelLabel> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:levelOrdinal> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:matchLimitation> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:matchStatus> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:matchingPhrase> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:nextLevel> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:normalizedMappingStatus> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:numericValue> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:onsetStatus> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:originalContributionType> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:originalSupportCell> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:precedes> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:primarySource> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:progressionCode> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:proposedCapability> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:qualification> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:rangeSummary> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:rationale> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:relationshipKind> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:reportedDirectFAIRPrinciple> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:reportedIndirectFAIRPrinciple> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:requiresActivityContext> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:requiresEvidence> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:reviewOfOnset> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:reviewStatus> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:roleSuggestion> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:ruleText> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:scope> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:sha256> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceAssertion> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceBranch> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceColumn> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceCoordinate> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceIdentifier> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceIntermediatePractice> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceLabel> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceLayer> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceLine> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:sourcePersona> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:sourcePosition> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceRevision> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceRoleCategory> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceSection> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceSnapshot> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceText> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:sourceTopic> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:supportedByDescriptor> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:supportsInterpretation> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:targetsDimension> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:targetsLevel> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:targetsPrinciple> a owl:ObjectProperty .
+
+<urn:fair-dama-fairmm:alignment:topicNumber> a owl:DatatypeProperty .
+
+<urn:fair-dama-fairmm:alignment:viaPractice> a owl:ObjectProperty .
+
+<https://orcid.org/0000-0001-5095-7052> rdfs:label "Chris Day"@en .
+
+ns1:BigDataAndDataScience a owl:NamedIndividual,
+        ns1:AdditionalTopic ;
+    rdfs:label "Big Data & Data Science"@en ;
+    dcterms:source <https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/DAMA_Segments_High_Level_v1.18.0.md#13-big-data--data-science>,
+        <https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/assets/13_BigDataDataScience.webp> ;
+    rdfs:isDefinedBy <https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl> ;
+    skos:definition "Develop and operate data-driven analytical capabilities to investigate business questions, communicate insights and improve analytical models."@en .
+
+ns1:DataHandlingEthics a owl:NamedIndividual,
+        ns1:AdditionalTopic ;
+    rdfs:label "Data Handling Ethics"@en ;
+    dcterms:source <https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/DAMA_Segments_High_Level_v1.18.0.md#14-data-handling-ethics>,
+        <https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/assets/01_DataHandlingEthics.webp> ;
+    rdfs:isDefinedBy <https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl> ;
+    skos:definition "Establish, communicate and monitor acceptable data-handling practices to manage ethical risk and sustain responsible organizational behavior."@en .
+
+ns1:DataManagementMaturityAssessment a owl:NamedIndividual,
+        ns1:AdditionalTopic ;
+    rdfs:label "Data Management Maturity Assessment"@en ;
+    dcterms:source <https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/DAMA_Segments_High_Level_v1.18.0.md#12-data-management-maturity-assessment> ;
+    skos:definition "Assess data management capabilities against a maturity framework and prioritize, plan and monitor improvements."@en .
+
+ns1:FrameworkEdition a owl:Class ;
+    rdfs:label "Framework edition"@en ;
+    rdfs:isDefinedBy <https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl> .
+
+ns1:KnowledgeArea a owl:Class ;
+    rdfs:label "Knowledge area"@en ;
+    rdfs:isDefinedBy <https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl> ;
+    rdfs:subClassOf ns1:ManagementTopic .
+
+ns1:ManagementTopic a owl:Class ;
+    rdfs:label "Data management topic"@en .
+
+ns1:DataArchitecture a owl:NamedIndividual,
+        ns1:DMBOK2-2017-KnowledgeArea ;
+    rdfs:label "Data Architecture"@en ;
+    rdfs:isDefinedBy <https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl> ;
+    skos:definition "Focuses on designing and maintaining the data structures and frameworks that support business strategy. This includes defining data models, selecting technologies, and ensuring data flows align with enterprise goals."@en .
+
+ns1:DataGovernance a owl:NamedIndividual,
+        ns1:DMBOK2-2017-KnowledgeArea ;
+    rdfs:label "Data Governance"@en ;
+    rdfs:isDefinedBy <https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl> ;
+    skos:definition "Establishes policies, roles, and standards for managing data as a valuable business asset. It ensures compliance, accountability, and consistency across the organization."@en .
+
+ns1:DataIntegrationAndInteroperability a owl:NamedIndividual,
+        ns1:DMBOK2-2017-KnowledgeArea ;
+    rdfs:label "Data Integration & Interoperability"@en ;
+    rdfs:isDefinedBy <https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl> ;
+    skos:definition "Enables the seamless flow of data across systems and platforms. This includes Extract, Transform, Load (ETL) processes, API-based integrations, and ensuring consistent data formats for operational efficiency."@en .
+
+ns1:DataModelingAndDesign a owl:NamedIndividual,
+        ns1:DMBOK2-2017-KnowledgeArea ;
+    rdfs:label "Data Modeling & Design"@en ;
+    rdfs:isDefinedBy <https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl> ;
+    skos:definition "Develops structured representations of data to support business operations and analytics. It involves creating conceptual, logical, and physical data models that enable better data integration and usability."@en .
+
+ns1:DataQualityManagement a owl:NamedIndividual,
+        ns1:DMBOK2-2017-KnowledgeArea ;
+    rdfs:label "Data Quality Management"@en ;
+    rdfs:isDefinedBy <https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl> ;
+    skos:definition "Ensures that data is accurate, complete, consistent, timely, valid, and unique. This includes defining data quality metrics, detecting errors, and implementing cleansing and enrichment strategies."@en .
+
+ns1:DataSecurity a owl:NamedIndividual,
+        ns1:DMBOK2-2017-KnowledgeArea ;
+    rdfs:label "Data Security"@en ;
+    rdfs:isDefinedBy <https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl> ;
+    skos:definition "Protects data from unauthorized access, breaches, and loss. It encompasses access controls, encryption, regulatory compliance, and security policies to safeguard sensitive information."@en .
+
+ns1:DataStorageAndOperations a owl:NamedIndividual,
+        ns1:DMBOK2-2017-KnowledgeArea ;
+    rdfs:label "Data Storage & Operations"@en ;
+    rdfs:isDefinedBy <https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl> ;
+    skos:definition "Ensures data is efficiently stored, retrieved, and maintained. This includes managing databases, implementing backup and recovery solutions, and optimizing data performance."@en .
+
+ns1:DataWarehousingAndBusinessIntelligence a owl:NamedIndividual,
+        ns1:DMBOK2-2017-KnowledgeArea ;
+    rdfs:label "Data Warehousing & Business Intelligence"@en ;
+    rdfs:isDefinedBy <https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl> ;
+    skos:definition "Supports analytics, reporting, and decision-making by organizing data for easy access. It involves designing data warehouses, data lakes, and business intelligence (BI) tools to enable strategic insights."@en .
+
+ns1:DocumentsAndContentManagement a owl:NamedIndividual,
+        ns1:DMBOK2-2017-KnowledgeArea ;
+    rdfs:label "Documents & Content Management"@en ;
+    rdfs:isDefinedBy <https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl> ;
+    skos:definition "Manages unstructured data such as documents, images, videos, and other content. This area ensures that digital assets are properly stored, categorized, and accessed according to business needs."@en .
+
+ns1:MetadataManagement a owl:NamedIndividual,
+        ns1:DMBOK2-2017-KnowledgeArea ;
+    rdfs:label "Metadata Management"@en ;
+    rdfs:isDefinedBy <https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl> ;
+    skos:definition "Maintains “data about data” to improve understanding, governance, and accessibility. Metadata catalogs help organizations track data lineage, definitions, and usage across different systems."@en .
+
+ns1:ReferenceAndMasterDataManagement a owl:NamedIndividual,
+        ns1:DMBOK2-2017-KnowledgeArea ;
+    rdfs:label "Reference & Master Data Management"@en ;
+    rdfs:isDefinedBy <https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl> ;
+    skos:definition "Ensures consistency in core data entities like customers, products, and locations across business units. Master Data Management (MDM) and Reference Data Management provide a “single source of truth” for key business information."@en .
+
+ns1:AdditionalTopic a owl:Class ;
+    rdfs:label "Additional DMBOK topic"@en ;
+    rdfs:subClassOf ns1:ManagementTopic ;
+    owl:disjointWith ns1:KnowledgeArea .
+
+ns1:DMBOK2-2017-KnowledgeArea a owl:Class ;
+    rdfs:label "DAMA-DMBOK2 (2017) knowledge area"@en ;
+    rdfs:isDefinedBy <https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl> ;
+    rdfs:subClassOf ns1:KnowledgeArea ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:oneOf ( ns1:DataGovernance ns1:DataArchitecture ns1:DataModelingAndDesign ns1:DataStorageAndOperations ns1:DataSecurity ns1:DataIntegrationAndInteroperability ns1:DocumentsAndContentManagement ns1:ReferenceAndMasterDataManagement ns1:DataWarehousingAndBusinessIntelligence ns1:MetadataManagement ns1:DataQualityManagement ) ] .
+
+<https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl> a owl:Ontology ;
+    dcterms:creator <https://orcid.org/0000-0001-5095-7052> ;
+    dcterms:description "The eleven core DAMA-DMBOK2 knowledge areas and three explicitly separate supporting topics. The core enumeration remains unchanged."@en ;
+    dcterms:modified "2026-11-16"^^xsd:date ;
+    dcterms:source <https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/DAMA_Segments_High_Level_v1.18.0.md>,
+        <https://w3id.org/fair/principles/terms/FAIR-Vocabulary> ;
+    dcterms:title "DAMA Knowledge Areas Vocabulary"@en ;
+    owl:versionInfo "1.1.0" .
+
+[] a owl:AllDifferent ;
+    owl:distinctMembers ( ns1:BigDataAndDataScience ns1:DataHandlingEthics ns1:DataManagementMaturityAssessment ) .
+
+[] a owl:AllDifferent ;
+    owl:distinctMembers ( ns1:DataGovernance ns1:DataArchitecture ns1:DataModelingAndDesign ns1:DataStorageAndOperations ns1:DataSecurity ns1:DataIntegrationAndInteroperability ns1:DocumentsAndContentManagement ns1:ReferenceAndMasterDataManagement ns1:DataWarehousingAndBusinessIntelligence ns1:MetadataManagement ns1:DataQualityManagement ) .
+

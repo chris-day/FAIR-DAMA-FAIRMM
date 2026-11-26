@@ -1,0 +1,12 @@
+# Explicit asserted union view; CQ09/CQ17 also read the named provenance graph.
+PREFIX a: <urn:fair-dama-fairmm:alignment:>
+PREFIX cap: <urn:capability-ontology:>
+PREFIX dama: <https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#>
+PREFIX persona: <https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-persona-ontology.ttl#>
+PREFIX map: <https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-fair-mapping.ttl#>
+PREFIX fair: <https://w3id.org/fair/principles/terms/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX i: <urn:fair-dama-fairmm:integrated:>
+PREFIX ex: <urn:g4-fixture:>
+SELECT DISTINCT ?tool ?scope WHERE { ?m a:forTool ?tool ; a:supportedByDescriptor ?cell ; cap:inScope ?scope . ?cell a:inDimension a:D7 ; a:atLevel a:L3 }

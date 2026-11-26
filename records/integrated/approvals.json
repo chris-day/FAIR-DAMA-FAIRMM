@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-26",
+  "G5": {
+    "status": "approved",
+    "authority": "User: G5 Approved. List the steps in G6 ... rdf store agnostic ... validate locally using rdflib etc."
+  },
+  "G6_revision": {
+    "status": "authorised",
+    "authority": "User: Update G6 with the revised steps and then execute"
+  },
+  "G6_acceptance": "accepted",
+  "hosted_CI_executed": false,
+  "new_content_licence": "not selected; no grant inferred from gate approval",
+  "public_promotion_or_vendor_deployment_authorised": false,
+  "G6_acceptance_record": {
+    "date": "2026-11-26",
+    "authority": "User: G6 accepted",
+    "scope": "Revised store-independent G6 operational acceptance and implementation-pack closure"
+  }
+}

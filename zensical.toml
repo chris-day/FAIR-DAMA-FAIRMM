@@ -26,6 +26,9 @@ nav = [
   { "FAIR Tools and infrastructures" = "fairmm/d7.md" },
   { "Documentary review" = "fairmm/review.md" },
   { "Ontology extension" = "ontology.md" },
+  { "Integrated ontology" = "integrated/index.md" },
+  { "Integrated build and recovery" = "integrated/operations.md" },
+  { "Integrated licences" = "integrated/licences.md" },
   { "Privacy choices" = "privacy.md" },
 ]
 

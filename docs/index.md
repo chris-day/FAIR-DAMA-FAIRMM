@@ -15,3 +15,5 @@ Explore [Tools and Infrastructure alignment to DAMA personas](tools-personas/ind
 The [maturity level Sankey](levels/index.md) shows cumulative knowledge-area association from the earliest supported level through L5. The [level analysis](levels/analysis.md) records the proposed onsets and their source evidence.
 
 The sibling FAIR–DAMA repository is a read-only source. These are conditional documentary alignments; the operational pilot is excluded and no maturity levels are assigned.
+
+The [integrated ontology](integrated/index.md) adds a source-pinned asserted distribution, semantic validation and local recovery checks alongside these documentary views.

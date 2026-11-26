@@ -1,0 +1,8 @@
+{
+  "branch": "ref: refs/heads/codex/integration-v1",
+  "commit": "0fef814f2e2c13729dc45be12612927f2b584878",
+  "baseline_commit": "2ee82415ca886655b580f3562cd7d30950900376",
+  "G4_acceptance": "pending",
+  "date": "2026-11-26",
+  "parent_commit": "00688c669a008ef907a8dc6d40794979aa623e42"
+}

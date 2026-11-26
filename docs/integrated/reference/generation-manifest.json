@@ -1,0 +1,26 @@
+{
+  "counts": {
+    "tools": 112,
+    "personas": 123,
+    "principle_proposals": 189,
+    "indicative_ranges": 42,
+    "historical_data_rows": 131,
+    "capability_proposals": 15,
+    "asserted_triples": 95008,
+    "source_graphs": 16
+  },
+  "import_diagram_edges": 14,
+  "input_graph": "dist/merged-asserted.ttl",
+  "documentation_version": "1.2.0",
+  "files": [
+    "architecture.mmd",
+    "capability-proposals.md",
+    "generation-manifest.json",
+    "historical-dispositions.md",
+    "index.md",
+    "mapping-proposals.md",
+    "query-results.md",
+    "sources.md",
+    "tools.md"
+  ]
+}

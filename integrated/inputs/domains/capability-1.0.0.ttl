@@ -1,0 +1,35 @@
+@prefix cap: <urn:capability-ontology:> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+dct:title a owl:AnnotationProperty .
+dct:description a owl:AnnotationProperty .
+cap:ontology a owl:Ontology ; owl:versionInfo "1.0.0" ;
+ owl:versionIRI <urn:capability-ontology:ontology:version:1.0.0> ;
+ dct:title "Capability ontology"@en ;
+ dct:description "Domain-neutral functional abilities, requirements, profiles and contextual realisations. A potential capability is not evidence of implementation."@en .
+cap:Capability a owl:Class ; rdfs:label "Capability"@en ; rdfs:comment "An ability to perform a function; distinct from an implementation realising it."@en ; owl:disjointWith cap:Implementation, cap:Realisation .
+cap:Implementation a owl:Class ; rdfs:label "Implementation"@en .
+cap:Requirement a owl:Class ; rdfs:label "Requirement"@en ; rdfs:comment "A requirement for a capability, potentially subject to conditions."@en .
+cap:Profile a owl:Class ; rdfs:label "Profile"@en ; rdfs:comment "A scoped collection of requirements; no realisation is entailed by membership."@en .
+cap:Realisation a owl:Class ; rdfs:label "Realisation"@en ; rdfs:comment "A contextual claim relating an implementation to a capability, with separate verification state."@en .
+cap:ImplementationCondition a owl:Class ; rdfs:label "Implementation condition"@en .
+cap:Evidence a owl:Class ; rdfs:label "Evidence"@en .
+cap:Scope a owl:Class ; rdfs:label "Scope"@en .
+cap:VerificationState a owl:Class ; owl:oneOf (cap:Unknown cap:Unverified cap:Verified cap:NotApplicable) .
+cap:Unknown a owl:NamedIndividual, cap:VerificationState .
+cap:Unverified a owl:NamedIndividual, cap:VerificationState .
+cap:Verified a owl:NamedIndividual, cap:VerificationState .
+cap:NotApplicable a owl:NamedIndividual, cap:VerificationState .
+[] a owl:AllDifferent ; owl:distinctMembers (cap:Unknown cap:Unverified cap:Verified cap:NotApplicable) .
+cap:hasRequirement a owl:ObjectProperty ; rdfs:domain cap:Profile ; rdfs:range cap:Requirement .
+cap:requiresCapability a owl:ObjectProperty ; rdfs:domain cap:Requirement ; rdfs:range cap:Capability .
+cap:requiresCondition a owl:ObjectProperty ; rdfs:range cap:ImplementationCondition .
+cap:forImplementation a owl:ObjectProperty ; rdfs:domain cap:Realisation ; rdfs:range cap:Implementation .
+cap:realisesCapability a owl:ObjectProperty ; rdfs:domain cap:Realisation ; rdfs:range cap:Capability .
+cap:inScope a owl:ObjectProperty ; rdfs:range cap:Scope .
+cap:hasEvidence a owl:ObjectProperty ; rdfs:range cap:Evidence .
+cap:verificationState a owl:ObjectProperty ; rdfs:domain cap:Realisation ; rdfs:range cap:VerificationState .
+cap:rationale a owl:AnnotationProperty ; rdfs:range xsd:string .

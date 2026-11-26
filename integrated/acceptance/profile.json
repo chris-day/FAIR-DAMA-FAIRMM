@@ -1,0 +1,16 @@
+{
+  "release_archive": "../../releases/integrated/1.0.0-rc.1/FAIR-DAMA-Integrated-1.0.0-rc.1.zip",
+  "release_sha256": "c193f63f21823324f77b5c5ccb8a68246f9250d2f33f3752e4c5c3cee0e52e4c",
+  "source_revision": "7e3b862c958e8e4c313d611769724772b600bf84",
+  "selected_FAIRMM_release": "1.2.5",
+  "supported_profiles": [
+    "flat",
+    "trig",
+    "imports"
+  ],
+  "expected_asserted_triples": 95008,
+  "expected_source_graphs": 16,
+  "expected_personas": 123,
+  "persistent_backend": "none; RDFLib Memory reference implementation",
+  "publication_or_deployment_authorised": false
+}

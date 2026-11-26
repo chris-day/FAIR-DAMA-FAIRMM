@@ -1,0 +1,27 @@
+@prefix a: <urn:fair-dama-fairmm:alignment:> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dama: <https://github.com/chris-day/FAIR-DAMA/blob/main/artefacts/dama-ontology.ttl#> .
+@prefix fair: <https://w3id.org/fair/principles/terms/> .
+a:ToolProposalShape a sh:NodeShape ; sh:targetClass a:ToolPrincipleProposal ;
+ sh:property [ sh:path a:forTool ; sh:minCount 1 ; sh:maxCount 1 ; sh:class dama:ToolCategory ] ;
+ sh:property [ sh:path a:targetsPrinciple ; sh:minCount 1 ; sh:maxCount 1 ; sh:class fair:FAIR-SubPrinciple ] ;
+ sh:property [ sh:path a:contributionType ; sh:minCount 1 ; sh:maxCount 1 ; sh:in ("Direct" "Indirect") ] ;
+ sh:property [ sh:path a:applicabilityCondition ; sh:minCount 1 ] ;
+ sh:property [ sh:path a:rationale ; sh:minCount 1 ] ;
+ sh:property [ sh:path a:requiresEvidence ; sh:minCount 1 ; sh:class a:EvidenceRequirement ] ;
+ sh:property [ sh:path a:historicalRow ; sh:minCount 1 ; sh:maxCount 1 ] ;
+ sh:property [ sh:path a:normalizedMappingStatus ; sh:minCount 1 ; sh:maxCount 1 ; sh:in ("proposed" "approved" "deprecated") ] ;
+ sh:property [ sh:path a:deploymentVerificationStatus ; sh:minCount 1 ; sh:maxCount 1 ; sh:in ("unknown" "unverified" "verified" "not applicable") ] ;
+ sh:property [ sh:path dct:source ; sh:minCount 1 ] ;
+ sh:sparql [ sh:message "Verified status needs deployment identity, scope and actual evidence, not an evidence requirement." ;
+ sh:select """PREFIX a: <urn:fair-dama-fairmm:alignment:>
+ PREFIX cap: <urn:capability-ontology:>
+ SELECT $this WHERE { $this a:deploymentVerificationStatus "verified" .
+ FILTER (NOT EXISTS { $this cap:forImplementation ?i . ?i a cap:Implementation } || NOT EXISTS { $this cap:inScope ?s . ?s a cap:Scope }
+ || NOT EXISTS { $this cap:hasEvidence ?e . ?e a cap:Evidence }) }""" ] .
+a:RangeShape a sh:NodeShape ; sh:targetClass a:MaturityRangeProposal ;
+ sh:property [ sh:path a:rangeSummary ; sh:minCount 1 ; sh:maxCount 1 ] ;
+ sh:property [ sh:path a:targetsDimension ; sh:hasValue a:D7 ] ;
+ sh:property [ sh:path a:targetsLevel ; sh:maxCount 0 ] ;
+ sh:property [ sh:path a:reviewStatus ; sh:minCount 1 ] .

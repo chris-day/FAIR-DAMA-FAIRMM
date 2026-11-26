@@ -1,0 +1,23 @@
+flowchart TD
+  integrated["Integrated ontology 1.0.0"]
+  n0["dama-1.2.0.ttl"]
+  n1["fair-ontology.ttl"]
+  n2["capability-1.0.0.ttl"]
+  n3["semantic-alignment-1.0.0.ttl"]
+  n4["fairmm-core.ttl"]
+  n5["fairmm-personas.ttl"]
+  n6["fairmm-v1.2.5.ttl"]
+  integrated -->|imports| n0
+  integrated -->|imports| n1
+  integrated -->|imports| n2
+  integrated -->|imports| n3
+  integrated -->|imports| n6
+  n3 -->|imports| n0
+  n3 -->|imports| n1
+  n3 -->|imports| n2
+  n3 -->|imports| n4
+  n3 -->|imports| n5
+  n3 -->|imports| n6
+  n5 -->|imports| n4
+  n5 -->|imports| n6
+  n6 -->|imports| n4

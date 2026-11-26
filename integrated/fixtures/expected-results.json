@@ -1,0 +1,471 @@
+{
+  "CQ01": {
+    "cases": {
+      "positive": {
+        "file": "CQ01-positive.ttl",
+        "expected": [
+          [
+            "urn:g4-fixture:tool",
+            "proposed",
+            "condition"
+          ]
+        ]
+      },
+      "negative": {
+        "file": "CQ01-negative.ttl",
+        "expected": []
+      },
+      "empty": {
+        "file": "CQ01-empty.ttl",
+        "expected": []
+      }
+    }
+  },
+  "CQ02": {
+    "cases": {
+      "positive": {
+        "file": "CQ02-positive.ttl",
+        "expected": [
+          [
+            "urn:g4-fixture:tool",
+            "proposed",
+            "condition",
+            null
+          ]
+        ]
+      },
+      "negative": {
+        "file": "CQ02-negative.ttl",
+        "expected": []
+      },
+      "empty": {
+        "file": "CQ02-empty.ttl",
+        "expected": []
+      },
+      "known-intermediate": {
+        "file": "CQ02-known-intermediate.ttl",
+        "expected": [
+          [
+            "urn:g4-fixture:tool",
+            "proposed",
+            "condition",
+            "urn:g4-fixture:pathway"
+          ]
+        ]
+      }
+    }
+  },
+  "CQ03": {
+    "cases": {
+      "positive": {
+        "file": "CQ03-positive.ttl",
+        "expected": [
+          [
+            "urn:g4-fixture:tool",
+            "urn:g4-fixture:scope"
+          ]
+        ]
+      },
+      "negative": {
+        "file": "CQ03-negative.ttl",
+        "expected": []
+      },
+      "empty": {
+        "file": "CQ03-empty.ttl",
+        "expected": []
+      }
+    }
+  },
+  "CQ04": {
+    "cases": {
+      "positive": {
+        "file": "CQ04-positive.ttl",
+        "expected": [
+          [
+            "urn:g4-fixture:capability",
+            "urn:g4-fixture:scope"
+          ]
+        ]
+      },
+      "negative": {
+        "file": "CQ04-negative.ttl",
+        "expected": []
+      },
+      "empty": {
+        "file": "CQ04-empty.ttl",
+        "expected": []
+      }
+    }
+  },
+  "CQ05": {
+    "cases": {
+      "positive": {
+        "file": "CQ05-positive.ttl",
+        "expected": [
+          [
+            "urn:g4-fixture:capability",
+            "unknown"
+          ]
+        ]
+      },
+      "negative": {
+        "file": "CQ05-negative.ttl",
+        "expected": []
+      },
+      "empty": {
+        "file": "CQ05-empty.ttl",
+        "expected": []
+      }
+    }
+  },
+  "CQ06": {
+    "cases": {
+      "positive": {
+        "file": "CQ06-positive.ttl",
+        "expected": [
+          [
+            "urn:g4-fixture:activity",
+            "urn:g4-fixture:tool"
+          ]
+        ]
+      },
+      "negative": {
+        "file": "CQ06-negative.ttl",
+        "expected": []
+      },
+      "empty": {
+        "file": "CQ06-empty.ttl",
+        "expected": []
+      }
+    }
+  },
+  "CQ07": {
+    "cases": {
+      "positive": {
+        "file": "CQ07-positive.ttl",
+        "expected": [
+          [
+            "https://w3id.org/fair/principles/terms/F4"
+          ]
+        ]
+      },
+      "negative": {
+        "file": "CQ07-negative.ttl",
+        "expected": []
+      },
+      "empty": {
+        "file": "CQ07-empty.ttl",
+        "expected": []
+      }
+    }
+  },
+  "CQ08": {
+    "cases": {
+      "positive": {
+        "file": "CQ08-positive.ttl",
+        "expected": [
+          [
+            "urn:g4-fixture:tool",
+            "2"
+          ]
+        ]
+      },
+      "negative": {
+        "file": "CQ08-negative.ttl",
+        "expected": []
+      },
+      "empty": {
+        "file": "CQ08-empty.ttl",
+        "expected": []
+      }
+    }
+  },
+  "CQ09": {
+    "cases": {
+      "positive": {
+        "file": "CQ09-positive.ttl",
+        "expected": [
+          [
+            "urn:g4-fixture:m",
+            "urn:g4-fixture:source",
+            "reason",
+            "fixture-hash"
+          ]
+        ]
+      },
+      "negative": {
+        "file": "CQ09-negative.ttl",
+        "expected": []
+      },
+      "empty": {
+        "file": "CQ09-empty.ttl",
+        "expected": []
+      }
+    },
+    "fixture_named_source": true
+  },
+  "CQ10": {
+    "cases": {
+      "positive": {
+        "file": "CQ10-positive.ttl",
+        "expected": [
+          [
+            "urn:g4-fixture:m",
+            "proposed",
+            "unknown"
+          ]
+        ]
+      },
+      "negative": {
+        "file": "CQ10-negative.ttl",
+        "expected": []
+      },
+      "empty": {
+        "file": "CQ10-empty.ttl",
+        "expected": []
+      }
+    }
+  },
+  "CQ11": {
+    "cases": {
+      "positive": {
+        "file": "CQ11-positive.ttl",
+        "expected": [
+          [
+            "urn:g4-fixture:implementation",
+            "urn:g4-fixture:capability",
+            "urn:g4-fixture:scope"
+          ]
+        ]
+      },
+      "negative": {
+        "file": "CQ11-negative.ttl",
+        "expected": []
+      },
+      "empty": {
+        "file": "CQ11-empty.ttl",
+        "expected": []
+      }
+    }
+  },
+  "CQ12": {
+    "cases": {
+      "positive": {
+        "file": "CQ12-positive.ttl",
+        "expected": [
+          [
+            "urn:g4-fixture:capability",
+            "missing"
+          ]
+        ]
+      },
+      "negative": {
+        "file": "CQ12-negative.ttl",
+        "expected": []
+      },
+      "empty": {
+        "file": "CQ12-empty.ttl",
+        "expected": []
+      },
+      "unknown": {
+        "file": "CQ12-unknown.ttl",
+        "expected": [
+          [
+            "urn:g4-fixture:capability",
+            "unknown"
+          ]
+        ]
+      },
+      "different-scope-absence": {
+        "file": "CQ12-different-scope-absence.ttl",
+        "expected": [
+          [
+            "urn:g4-fixture:capability",
+            "unknown"
+          ]
+        ]
+      },
+      "unverified-not-absent": {
+        "file": "CQ12-unverified-not-absent.ttl",
+        "expected": [
+          [
+            "urn:g4-fixture:capability",
+            "unknown"
+          ]
+        ]
+      },
+      "incomplete-verified-is-not-present": {
+        "file": "CQ12-incomplete-verified-is-not-present.ttl",
+        "expected": [
+          [
+            "urn:g4-fixture:capability",
+            "unknown"
+          ]
+        ]
+      },
+      "not-applicable": {
+        "file": "CQ12-not-applicable.ttl",
+        "expected": []
+      }
+    }
+  },
+  "CQ13": {
+    "cases": {
+      "positive": {
+        "file": "CQ13-positive.ttl",
+        "expected": [
+          [
+            "urn:g4-fixture:area",
+            "1"
+          ]
+        ]
+      },
+      "negative": {
+        "file": "CQ13-negative.ttl",
+        "expected": []
+      },
+      "empty": {
+        "file": "CQ13-empty.ttl",
+        "expected": []
+      }
+    }
+  },
+  "CQ14": {
+    "cases": {
+      "positive": {
+        "file": "CQ14-positive.ttl",
+        "expected": [
+          [
+            "urn:g4-fixture:tool",
+            "urn:g4-fixture:capability",
+            "condition",
+            "proposed"
+          ]
+        ]
+      },
+      "negative": {
+        "file": "CQ14-negative.ttl",
+        "expected": []
+      },
+      "empty": {
+        "file": "CQ14-empty.ttl",
+        "expected": []
+      }
+    }
+  },
+  "CQ15": {
+    "cases": {
+      "positive": {
+        "file": "CQ15-positive.ttl",
+        "expected": [
+          [
+            "urn:g4-fixture:m",
+            "proposed"
+          ],
+          [
+            "urn:g4-fixture:old",
+            "deprecated"
+          ]
+        ]
+      },
+      "negative": {
+        "file": "CQ15-negative.ttl",
+        "expected": []
+      },
+      "empty": {
+        "file": "CQ15-empty.ttl",
+        "expected": []
+      }
+    }
+  },
+  "CQ16": {
+    "cases": {
+      "positive": {
+        "file": "CQ16-positive.ttl",
+        "expected": [
+          [
+            "urn:g4-fixture:p1"
+          ],
+          [
+            "urn:g4-fixture:p2"
+          ]
+        ]
+      },
+      "negative": {
+        "file": "CQ16-negative.ttl",
+        "expected": [
+          [
+            "urn:g4-fixture:p1"
+          ]
+        ]
+      },
+      "empty": {
+        "file": "CQ16-empty.ttl",
+        "expected": []
+      }
+    },
+    "baseline_identity_check": true
+  },
+  "CQ17": {
+    "cases": {
+      "positive": {
+        "file": "CQ17-positive.ttl",
+        "expected": [
+          [
+            "urn:g4-fixture:source-graph",
+            "urn:g4-fixture:source",
+            "fixture-hash",
+            "fixture.ttl"
+          ]
+        ]
+      },
+      "negative": {
+        "file": "CQ17-negative.ttl",
+        "expected": []
+      },
+      "empty": {
+        "file": "CQ17-empty.ttl",
+        "expected": []
+      }
+    },
+    "fixture_provenance": true
+  },
+  "CQ18": {
+    "cases": {
+      "positive": {
+        "file": "CQ18-positive.ttl",
+        "expected": [
+          [
+            "urn:g4-fixture:tool",
+            "https://w3id.org/fair/principles/terms/F4",
+            "urn:fair-dama-fairmm:alignment:L3"
+          ]
+        ]
+      },
+      "negative": {
+        "file": "CQ18-negative.ttl",
+        "expected": []
+      },
+      "empty": {
+        "file": "CQ18-empty.ttl",
+        "expected": []
+      },
+      "incompatible-implementation": {
+        "file": "CQ18-incompatible-implementation.ttl",
+        "expected": []
+      },
+      "incompatible-version": {
+        "file": "CQ18-incompatible-version.ttl",
+        "expected": []
+      },
+      "incompatible-condition": {
+        "file": "CQ18-incompatible-condition.ttl",
+        "expected": []
+      },
+      "overlapping-but-different-conditions": {
+        "file": "CQ18-overlapping-but-different-conditions.ttl",
+        "expected": []
+      }
+    }
+  }
+}

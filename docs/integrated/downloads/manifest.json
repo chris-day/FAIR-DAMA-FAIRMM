@@ -1,0 +1,20 @@
+{
+  "policy": "Copied from the successful hosted candidate; archive and all RDF graphs verified against accepted baseline",
+  "files": [
+    {
+      "path": "merged-asserted.ttl",
+      "sha256": "c0b1abbf7449ed38aa842561a29e236e6758942d85a7aa401983f1d3556ba14e",
+      "bytes": 17164219
+    },
+    {
+      "path": "merged.trig",
+      "sha256": "80fb9e9bbfd5866a02a2e4373a424225cff2629c6b8a85c54c385c16edbc2c38",
+      "bytes": 33189601
+    },
+    {
+      "path": "FAIR-DAMA-Integrated-1.0.0-rc.1-repository.1.zip",
+      "sha256": "a759f9aa8c0a3fd1d074b48ed490aca5abf01ae25ef6a58aefb2d30ba1443103",
+      "bytes": 4195193
+    }
+  ]
+}

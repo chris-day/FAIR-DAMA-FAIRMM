@@ -49,3 +49,13 @@ The supplied inputs, extracted package and workbook snapshot are under `sources/
 Original 45-dimension / 22-onset / 107-cumulative baselines and the previous corpus remain under `results/history/pre-2026-11-16-refresh/`. The historical corpus was pinned to FAIR-DAMA revision 438ad2d0c6be3c336254fe3ce6a5d93f111db8a0. The supplied release is not misattributed to the current source checkout. FAIRMM remains on FAIR-MM-V1.2.5, revision 8ff4676eb340b0da5034ffb3d0e901c594c3cfc4.
 
 The original proposal is historical planning material; its proposed incorporation into FAIR-DAMA has not been executed. This project remains separate. No SHACL or operational pilot is included. Documentation deployment is configured in `.github/workflows/docs.yml`. Preserve component attribution and licensing notices, including DAMA International source-image copyright and the scoped FAIRMM notices.
+
+## Integrated ontology component
+
+The accepted FAIR-DAMA-Integrated baseline is maintained under `integrated/`, alongside the existing documentary alignment. Read [the integrated overview](docs/integrated/index.md) for graph policies, downloads and versions, and [local operations](docs/integrated/operations.md) for build and recovery commands.
+
+The documentary nine-module union remains the basis for existing diagrams, including cumulative derived associations. The integrated asserted graph contains 95,008 triples and excludes those derived associations. `integrated/scripts/graph_views.py` exposes `documentary`, `integrated-asserted` and `source-provenance` views explicitly.
+
+Use a separate Python 3.11.9 environment with `integrated/requirements-validation.txt`; the existing RDFLib 7.5.0 environment stays unchanged. `scripts/build_integrated.ps1` orchestrates the component pipeline and optional G6 acceptance. Changes to canonical source files require a reviewed integrated pin update.
+
+The unchanged accepted archive is under `releases/integrated/1.0.0-rc.1/`. Gate approvals and upstream revision records are under `records/integrated/`. Newly rebuilt repository adaptation archives use `1.0.0-rc.1-repository.1`; the integrated ontology version stays 1.0.0 and FAIR-MM framework edition stays 1.2.5. No public publication, deployment or new licence grant is included.

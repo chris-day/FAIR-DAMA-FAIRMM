@@ -405,7 +405,17 @@ def main():
     pg=personas(data);ag=alignment_data(data,levels)
     modules=[core(data),version_data(data),pg,ag,derive(data,ag)]
     for filename,g in zip(MODULES,modules):
-        text=g.serialize(format='turtle');write(ART/filename,text);write(ROOT/'docs/ontology-data'/filename,text)
+        # Retain pinned source bytes when regeneration changes only Turtle ordering.
+        from rdflib.compare import isomorphic
+        canonical=ART/filename
+        if canonical.exists() and isomorphic(g,Graph().parse(canonical,format='turtle')):
+            payload=canonical.read_bytes()
+        else:
+            payload=g.serialize(format='turtle').encode('utf-8')
+            canonical.write_bytes(payload)
+        download=ROOT/'docs/ontology-data'/filename
+        download.parent.mkdir(parents=True,exist_ok=True)
+        download.write_bytes(payload)
     manifest=dict(modules={name:len(g) for name,g in zip(MODULES,modules)},namespace=str(A),source_revisions=data['sources'],source_files_sha256=before,baseline_inputs={str(path.relative_to(ROOT)).replace('\\','/'):hashlib.sha256(path.read_bytes()).hexdigest() for path in [CORPUS,LEVEL_DATA,OUT/'baselines/dimensions-approved.json']},source_checkouts_unchanged=before==source_files_snapshot(),validation_method='Python/RDFLib and SPARQL only; no SHACL')
     manifest['verified_git_revisions']=actual_revisions
     comment_script=ROOT/'scripts/descriptor_comments.py'

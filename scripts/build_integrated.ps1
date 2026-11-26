@@ -23,5 +23,7 @@ try {
     if($SyncSite){
         & $Python scripts/sync_site.py
         if($LASTEXITCODE -ne 0){throw 'Site asset sync failed'}
+        & $Python scripts/validate_repository_integration.py
+        if($LASTEXITCODE -ne 0){throw 'Repository graph policy or download validation failed'}
     }
 } finally {Pop-Location}

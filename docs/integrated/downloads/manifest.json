@@ -1,0 +1,20 @@
+{
+  "policy": "Copied from validated component outputs; no publication performed",
+  "files": [
+    {
+      "path": "merged-asserted.ttl",
+      "sha256": "3cd31fc895615ac00bb3138ce929f52767fbb43662b370259f1486852ae522a4",
+      "bytes": 6526417
+    },
+    {
+      "path": "merged.trig",
+      "sha256": "1759ea792bcf2faa919e93abca2133c2949c825d9819816ec7436f7b116a214c",
+      "bytes": 13018019
+    },
+    {
+      "path": "FAIR-DAMA-Integrated-1.0.0-rc.1-repository.1.zip",
+      "sha256": "473a2a8d906d1bc11418fdd0021e6022a51d00cea64e433804ab62d0dbb476e7",
+      "bytes": 4194763
+    }
+  ]
+}
